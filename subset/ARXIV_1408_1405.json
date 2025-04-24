@@ -1,0 +1,66 @@
+{
+  "main": {
+    "paperId": "e5a38c7ea76e971a313fce77e3fda96b81637581",
+    "title": "Dynamic criticality far from equilibrium: One-loop flow of Burgers-Kardar-Parisi-Zhang systems with broken Galilean invariance.",
+    "abstract": "Burgers-Kardar-Parisi-Zhang (KPZ) scaling has recently (re-) surfaced in a variety of physical contexts, ranging from anharmonic chains to quantum systems such as open superfluids, in which a variety of random forces may be encountered and/or engineered. Motivated by these developments, we here provide a generalization of the KPZ universality class to situations with long-ranged temporal correlations in the noise, which purposefully break the Galilean invariance that is central to the conventional KPZ solution. We compute the phase diagram and critical exponents of the KPZ equation with 1/f noise (KPZ1/f) in spatial dimensions 1≤d<4 using the dynamic renormalization group with a frequency cutoff technique in a one-loop truncation. Distinct features of KPZ1/f are (i) a generically scale-invariant, rough phase at high noise levels that violates fluctuation-dissipation relations and exhibits hyperthermal statistics even in d=1, (ii) a fine-tuned roughening transition at which the flow fulfills an emergent thermal-like fluctuation-dissipation relation, that separates the rough phase from (iii) a massive phase in 1<d<4 (in d=1 the interface is always rough). We point out potential connections to nonlinear hydrodynamics with a reduced set of conservation laws and noisy quantum liquids.",
+    "year": 2014,
+    "authors": [
+      "P. Strack"
+    ],
+    "referenceCount": 55,
+    "citationCount": 14
+  },
+  "references": [
+    {
+      "paperId": "706481d81d6fe1d19e93168d45f83554e8c4842a",
+      "title": "Two-loop renormalization-group analysis of the Burgers-Kardar-Parisi-Zhang equation.",
+      "abstract": "A systematic analysis of the Burgers--Kardar-Parisi-Zhang equation in d+1 dimensions by dynamic renormalization-group theory is described. The fixed points and exponents are calculated to two-loop order. We use the dimensional regularization scheme, carefully keeping the full d dependence originating from the angular parts of the loop integrals. For dimensions less than ${\\mathit{d}}_{\\mathit{c}}$=2 we find a strong-coupling fixed point, which diverges at d=2, indicating that there is nonperturbative strong-coupling behavior for all d\\ensuremath{\\ge}2. At d=1 our method yields the identical fixed point as in the one-loop approximation, and the two-loop contributions to the scaling functions are nonsingular. For dg2 dimensions, there is no finite strong-coupling fixed point. In the framework of a 2+\\ensuremath{\\epsilon} expansion, we find the dynamic exponent corresponding to the unstable fixed point, which described the nonequilibrium roughening transition, to be z=2+O(${\\mathrm{\\ensuremath{\\epsilon}}}^{3}$), in agreement with a recent scaling argument by Doty and Kosterlitz [Phys. Rev. Lett. 69, 1979 (1992)]. Similarly, our result for the correlation length exponent at the transition is 1/\\ensuremath{\\nu}=\\ensuremath{\\epsilon}+O(${\\mathrm{\\ensuremath{\\epsilon}}}^{3}$). For the smooth phase, some aspects of the crossover from Gaussian to critical behavior are discussed.",
+      "year": 1994,
+      "authors": [
+        "Erwin Frey",
+        "U. Tauber"
+      ],
+      "referenceCount": 21,
+      "citationCount": 107
+    },
+    {
+      "paperId": "703fb9fb36e3dcb6721005ac5feb2813fbeb14f8",
+      "title": "Dissipative transport in open systems: An investigation of self-organized criticality.",
+      "abstract": "Motivated by recent models of Bak, Tang, and Wiesenfeld we study dissipative transport in open systems. A simple continuum equation is constructed to describe fluctuations around a steady state in a flowing «sandpile». The principle of scale invariance and self-similarity is understood in terms of a conservation law in dynamics. A dynamic renormalization-group calculation allows us to determine various critical exponents exactly in all dimensions",
+      "year": 1989,
+      "authors": [
+        "T. Hwa",
+        "M. Kardar"
+      ],
+      "referenceCount": 0,
+      "citationCount": 175
+    },
+    {
+      "paperId": "69059e8bcbf6ee49647d7998073ba43d181cfda0",
+      "title": "Burgers equation with correlated noise: Renormalization-group analysis and applications to directed polymers and interface growth.",
+      "abstract": "The Burgers equation is the simplest nonlinear generalization of the diffusion equation. We present a detailed dynamical renormalization-group analysis of this equation subject to random noise. The noise itself can be the product of another stochastic process and is hence allowed to have correlations in space and/or time. In dimensions higher than a critical ${d}_{c}$ weak and strong noise lead to different scaling exponents, while for d${d}_{c}$ any amount of noise is relevant resulting in strong-coupling behavior. In the absence of temporal correlations we find two regimes for d${d}_{c}$: either the hydrodynamic behavior is determined by white noise and correlations are unimportant, or correlations dominate and the resulting scaling exponents can be obtained exactly. With temporal correlations present, the hydrodynamic behavior is much more complex, as renormalization predicts a complicated dependence of the effective noise spectrum on frequency in certain regimes. The relevance of these results to two interesting problems is discussed. One is the anomalous transverse fluctuations of a directed polymer in a random medium, and the other is a description of a growing interface. Various recent numerical simulations are reviewed in the light of these results. For example, we show that an exponent identity observed in all simulations so far follows simply from the Galilean invariance of the equation in the absence of temporal correlations.",
+      "year": 1989,
+      "authors": [
+        "Ernesto Antonio Medina Dagger",
+        "Hwa",
+        "Kardar",
+        "Zhang"
+      ],
+      "referenceCount": 0,
+      "citationCount": 368
+    },
+    {
+      "paperId": "afd6a3bb3c4f3fe0d5c4f7e9dec9825a6d9575e5",
+      "title": "Dynamic scaling of growing interfaces.",
+      "abstract": "A model is proposed for the evolution of the profile of a growing interface. The deterministic growth is solved exactly, and exhibits nontrivial relaxation patterns. The stochastic version is studied by dynamic renormalization-group techniques and by mappings to Burgers's equation and to a random directed-polymer problem. The exact dynamic scaling form obtained for a one-dimensional interface is in excellent agreement with previous numerical simulations. Predictions are made for more dimensions.",
+      "year": 1986,
+      "authors": [
+        "M. Kardar",
+        "G. Parisi",
+        "Yi-cheng Zhang"
+      ],
+      "referenceCount": 0,
+      "citationCount": 3887
+    }
+  ]
+}

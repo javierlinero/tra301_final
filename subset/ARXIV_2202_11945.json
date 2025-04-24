@@ -1,0 +1,89 @@
+{
+  "main": {
+    "paperId": "bea50c9e5880deec3875ffc383d7b7c4bde72553",
+    "title": "Performance of an iterative wavelet reconstructor for the Multi-conjugate Adaptive Optics RelaY of ESO's ELT",
+    "abstract": "The Multi-conjugate Adaptive Optics RelaY (MAORY) is one of the key Adaptive Optics (AO) systems on the European Southern Observatory's Extremely Large Telescope. MAORY aims to achieve a good wavefront correction over a large field of view, which involves a tomographic estimation of the 3D atmospheric wavefront disturbance. Mathematically, the reconstruction of turbulent layers in the atmosphere is severely ill-posed, hence, limits the achievable reconstruction accuracy. Moreover, the reconstruction has to be performed in real-time at a few hundred to one thousand Hertz frame rates. Huge amounts of data have to be processed and thousands of actuators of the deformable mirrors have to be controlled by elaborated algorithms. Even with extensive parallelization and pipelining, direct solvers, such as the Matrix Vector Multiplication (MVM) method, are extremely demanding. Thus, research in the last years shifted into the direction of iterative methods. In this paper we focus on the iterative Finite Element Wavelet Hybrid Algorithm (FEWHA). The key feature of FEWHA is a matrix-free representation of all operators involved, which makes the algorithm fast and enables on the fly system updates whenever parameters at the telescope or in the atmosphere change. We provide a performance analysis of the method regarding quality and run-time for the MAORY instrument using the AO software package COMPASS.",
+    "year": 2022,
+    "authors": [
+      "B. Stadler",
+      "R. Ramlau"
+    ],
+    "referenceCount": 52,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "96c013dba375b5e1f67373df0f74050b29a753ef",
+      "title": "An augmented wavelet reconstructor for atmospheric tomography",
+      "abstract": "Atmospheric tomography, i.e. the reconstruction of the turbulence profile in the atmosphere, is a challenging task for adaptive optics (AO) systems of the next generation of extremely large telescopes. Within the community of AO the first choice solver is the so called Matrix Vector Multiplication (MVM), which directly applies the (regularized) generalized inverse of the system operator to the data. For small telescopes this approach is feasible, however, for larger systems such as the European Extremely Large Telescope (ELT), the atmospheric tomography problem is considerably more complex and the computational efficiency becomes an issue. Iterative methods, such as the Finite Element Wavelet Hybrid Algorithm (FEWHA), are a promising alternative. FEWHA is a wavelet based reconstructor that uses the well-known iterative preconditioned conjugate gradient (PCG) method as a solver. The number of floating point operations and memory usage are decreased significantly by using a matrix-free representation of the forward operator. A crucial indicator for the real-time performance are the number of PCG iterations. In this paper, we propose an augmented version of FEWHA, where the number of iterations is decreased by $50\\%$ using a Krylov subspace recycling technique. We demonstrate that a parallel implementation of augmented FEWHA allows the fulfilment of the real-time requirements of the ELT.",
+      "year": 2020,
+      "authors": [
+        "R. Ramlau",
+        "B. Stadler"
+      ],
+      "referenceCount": 48,
+      "citationCount": 11
+    },
+    {
+      "paperId": "7d1d234286713d073ccafff9a1ed7e922c159da7",
+      "title": "Real-time implementation of an iterative solver for atmospheric tomography",
+      "abstract": "The image quality of the new generation of earthbound Extremely Large Telescopes (ELTs) is heavily influenced by atmospheric turbulences. To compensate these optical distortions a technique called adaptive optics (AO) is used. Many AO systems require the reconstruction of the refractive index fluctuations in the atmosphere, called atmospheric tomography. The standard way of solving this problem is the Matrix Vector Multiplication, i.e., the direct application of a (regularized) generalized inverse of the system operator. However, over the last years the telescope sizes have increased significantly and the computational efficiency become an issue. Promising alternatives are iterative methods such as the Finite Element Wavelet Hybrid Algorithm (FEWHA), which is based on wavelets. Due to its efficient matrix-free representation of the underlying operators, the number of floating point operations and memory usage decreases significantly. In this paper, we focus on performance optimization techniques, such as parallel programming models, for the implementation of this iterative method on CPUs and GPUs. We evaluate the computational performance of our optimized, parallel version of FEWHA for ELT-sized test configurations.",
+      "year": 2020,
+      "authors": [
+        "B. Stadler",
+        "R. Biasi",
+        "M. Manetti",
+        "R. Ramlau"
+      ],
+      "referenceCount": 51,
+      "citationCount": 3
+    },
+    {
+      "paperId": "0e1865b43ce9fc3ff714f5a9c30797ee23f663e8",
+      "title": "Dimensioning the MAORY real time computer",
+      "abstract": "The MAORY system is the Multi-Adaptive Optics module for the European Extremely Large Telescope first light. MAORY should provide high and homogeneous image quality over the MICADO Field of View (about 1 arcmin diameter) and still an acceptable correction up to the 3 arcmin technical Field of View. The baseline of MAORY is therefore to rely upon the use of multiple Laser Guide Stars (6), multiple Natural Guide Stars (3) and multiple Deformable Mirrors correction. The Real-Time Computer is a key sub-system of MAORY. It must collect the measurements from various sensing devices and drive thousands of actuators. Many correction loops are foreseen with different update rates. The main requirements concerning the system dimensioning and Real-Rime performance depend on the sensors and on the actuators interface and on the Real-Time Data Processing. In this paper we give a preliminary description of the MAORY Real-Time Control system functional requirements derived from the system baseline at the beginning of the instrument Phase B.",
+      "year": 2016,
+      "authors": [
+        "L. Schreiber",
+        "E. Diolaiti",
+        "C. Arcidiacono",
+        "A. Baruffolo",
+        "G. Bregoli",
+        "E. Cascone",
+        "G. Cosentino",
+        "S. Esposito",
+        "C. Felini",
+        "I. Foppiani",
+        "P. Ciliegi",
+        "P. Feautrier",
+        "Paolo Torroni"
+      ],
+      "referenceCount": 18,
+      "citationCount": 11
+    },
+    {
+      "paperId": "b3aeb61ff82b5932bf1181c081ea95ef2a71ef32",
+      "title": "Finite element-wavelet hybrid algorithm for atmospheric tomography.",
+      "abstract": "Reconstruction of the refractive index fluctuations in the atmosphere, or atmospheric tomography, is an underlying problem of many next generation adaptive optics (AO) systems, such as the multiconjugate adaptive optics or multiobject adaptive optics (MOAO). The dimension of the problem for the extremely large telescopes, such as the European Extremely Large Telescope (E-ELT), suggests the use of iterative schemes as an alternative to the matrix-vector multiply (MVM) methods. Recently, an algorithm based on the wavelet representation of the turbulence has been introduced in [Inverse Probl.29, 085003 (2013)] by the authors to solve the atmospheric tomography using the conjugate gradient iteration. The authors also developed an efficient frequency-dependent preconditioner for the wavelet method in a later work. In this paper we study the computational aspects of the wavelet algorithm. We introduce three new techniques, the dual domain discretization strategy, a scale-dependent preconditioner, and a ground layer multiscale method, to derive a method that is globally O(n), parallelizable, and compact with respect to memory. We present the computational cost estimates and compare the theoretical numerical performance of the resulting finite element-wavelet hybrid algorithm with the MVM. The quality of the method is evaluated in terms of an MOAO simulation for the E-ELT on the European Southern Observatory (ESO) end-to-end simulation system OCTOPUS. The method is compared to the ESO version of the Fractal Iterative Method [Proc. SPIE7736, 77360X (2010)] in terms of quality.",
+      "year": 2014,
+      "authors": [
+        "M. Yudytskiy",
+        "T. Helin",
+        "R. Ramlau"
+      ],
+      "referenceCount": 35,
+      "citationCount": 28
+    },
+    {
+      "paperId": "4e21df87cdd0d7dcab3dd414d867fc46dba39f32",
+      "title": "E-ELT optomechanics: overview",
+      "abstract": "The E-ELT is a project led by the European Southern Observatory (ESO) for a 40-m class optical, near- and midinfrared, ground-based telescope. When it will enter into operation, the E-ELT will be the largest and most powerful optical telescope ever built. It will not only offer unrivalled light collecting power, but also exceedingly sharp images, thanks to its ability to compensate for the adverse effect of atmospheric turbulence on image sharpness. The basic optical solution for the EELT is a folded three-mirror anastigmat, using a 39-m segmented primary mirror (M1), a 4-m convex secondary mirror (M2), and a 4-m concave tertiary mirror (M3), all active. Folding is provided by two additional flat mirrors sending the beams to either Nasmyth foci along the elevation axis of the telescope. The folding arrangement (flat M4 and M5 mirrors) is conceived to provide conveniently located flat surfaces for an adaptive shell (M4) and field stabilization (M5). That paper provides an overview of the specifications, design, and expected performance of the E-ELT optical systems.",
+      "year": 2012,
+      "authors": [
+        "M. Cayrel"
+      ],
+      "referenceCount": 17,
+      "citationCount": 40
+    }
+  ]
+}

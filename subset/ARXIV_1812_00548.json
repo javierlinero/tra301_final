@@ -1,0 +1,46 @@
+{
+  "main": {
+    "paperId": "c57bdea0b66dc94f4b164ad72e22184952ef241a",
+    "title": "XNet: a convolutional neural network (CNN) implementation for medical x-ray image segmentation suitable for small datasets",
+    "abstract": "X-Ray image enhancement, along with many other medical image processing applications, requires the segmentation of images into bone, soft tissue, and open beam regions. We apply a machine learning approach to this problem, presenting an end-to-end solution which results in robust and efficient inference. Since medical institutions often do not have the resources to process and label the large quantity of X-Ray images usually needed for neural network training, we design an end-to-end solution for small datasets, while achieving state-of-the-art results. Our implementation produces an overall accuracy of 92%, F1 score of 0.92, and an AUC of 0.98, surpassing classical image processing techniques, such as clustering and entropy based methods, while improving upon the output of existing neural networks used for segmentation in non-medical contexts. The code used for this project is available online.1",
+    "year": 2018,
+    "authors": [
+      "Joseph Aylett-Bullock",
+      "C. Cuesta-Lázaro",
+      "A. Quera-Bofarull"
+    ],
+    "referenceCount": 40,
+    "citationCount": 100
+  },
+  "references": [
+    {
+      "paperId": "e5c5e022d7b14f3690992d48514fdb4cb19825ad",
+      "title": "Learning to diagnose from scratch by exploiting dependencies among labels",
+      "abstract": "The field of medical diagnostics contains a wealth of challenges which closely resemble classical machine learning problems; practical constraints, however, complicate the translation of these endpoints naively into classical architectures. Many tasks in radiology, for example, are largely problems of multi-label classification wherein medical images are interpreted to indicate multiple present or suspected pathologies. Clinical settings drive the necessity for high accuracy simultaneously across a multitude of pathological outcomes and greatly limit the utility of tools which consider only a subset. This issue is exacerbated by a general scarcity of training data and maximizes the need to extract clinically relevant features from available samples -- ideally without the use of pre-trained models which may carry forward undesirable biases from tangentially related tasks. We present and evaluate a partial solution to these constraints in using LSTMs to leverage interdependencies among target labels in predicting 14 pathologic patterns from chest x-rays and establish state of the art results on the largest publicly available chest x-ray dataset from the NIH without pre-training. Furthermore, we propose and discuss alternative evaluation metrics and their relevance in clinical practice.",
+      "year": 2017,
+      "authors": [
+        "L. Yao",
+        "Eric Poblenz",
+        "Dmitry Dagunts",
+        "Ben Covington",
+        "D. Bernard",
+        "Kevin Lyman"
+      ],
+      "referenceCount": 34,
+      "citationCount": 329
+    },
+    {
+      "paperId": "b0c065cd43aa7280e766b5dcbcc7e26abce59330",
+      "title": "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation",
+      "abstract": "We present a novel and practical deep fully convolutional neural network architecture for semantic pixel-wise segmentation termed SegNet. This core trainable segmentation engine consists of an encoder network, a corresponding decoder network followed by a pixel-wise classification layer. The architecture of the encoder network is topologically identical to the 13 convolutional layers in the VGG16 network [1] . The role of the decoder network is to map the low resolution encoder feature maps to full input resolution feature maps for pixel-wise classification. The novelty of SegNet lies is in the manner in which the decoder upsamples its lower resolution input feature map(s). Specifically, the decoder uses pooling indices computed in the max-pooling step of the corresponding encoder to perform non-linear upsampling. This eliminates the need for learning to upsample. The upsampled maps are sparse and are then convolved with trainable filters to produce dense feature maps. We compare our proposed architecture with the widely adopted FCN [2] and also with the well known DeepLab-LargeFOV [3] , DeconvNet [4] architectures. This comparison reveals the memory versus accuracy trade-off involved in achieving good segmentation performance. SegNet was primarily motivated by scene understanding applications. Hence, it is designed to be efficient both in terms of memory and computational time during inference. It is also significantly smaller in the number of trainable parameters than other competing architectures and can be trained end-to-end using stochastic gradient descent. We also performed a controlled benchmark of SegNet and other architectures on both road scenes and SUN RGB-D indoor scene segmentation tasks. These quantitative assessments show that SegNet provides good performance with competitive inference time and most efficient inference memory-wise as compared to other architectures. We also provide a Caffe implementation of SegNet and a web demo at http://mi.eng.cam.ac.uk/projects/segnet/.",
+      "year": 2015,
+      "authors": [
+        "Vijay Badrinarayanan",
+        "Alex Kendall",
+        "R. Cipolla"
+      ],
+      "referenceCount": 73,
+      "citationCount": 15356
+    }
+  ]
+}

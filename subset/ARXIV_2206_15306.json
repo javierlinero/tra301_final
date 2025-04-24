@@ -1,0 +1,110 @@
+{
+  "main": {
+    "paperId": "96e22af70f9ca575ebfe648677aced03c6c8803d",
+    "title": "Transfer Learning with Deep Tabular Models",
+    "abstract": "Recent work on deep learning for tabular data demonstrates the strong performance of deep tabular models, often bridging the gap between gradient boosted decision trees and neural networks. Accuracy aside, a major advantage of neural models is that they learn reusable features and are easily fine-tuned in new domains. This property is often exploited in computer vision and natural language applications, where transfer learning is indispensable when task-specific training data is scarce. In this work, we demonstrate that upstream data gives tabular neural networks a decisive advantage over widely used GBDT models. We propose a realistic medical diagnosis benchmark for tabular transfer learning, and we present a how-to guide for using upstream data to boost performance with a variety of tabular neural network architectures. Finally, we propose a pseudo-feature method for cases where the upstream and downstream feature sets differ, a tabular-specific problem widespread in real-world applications. Our code is available at https://github.com/LevinRoman/tabular-transfer-learning .",
+    "year": 2022,
+    "authors": [
+      "Roman Levin",
+      "Valeriia Cherepanova",
+      "Avi Schwarzschild",
+      "Arpit Bansal",
+      "C. B. Bruss",
+      "T. Goldstein",
+      "A. Wilson",
+      "Micah Goldblum"
+    ],
+    "referenceCount": 103,
+    "citationCount": 58
+  },
+  "references": [
+    {
+      "paperId": "b3bc1a42f7368dd8684ece6537484cb07f7ef4be",
+      "title": "Consolidated learning - a domain-specific model-free optimization strategy with examples for XGBoost and MIMIC-IV",
+      "abstract": "For many machine learning models, a choice of hyperparameters is a crucial step towards achieving high performance. Prevalent meta-learning approaches focus on obtaining good hyperparameters configurations with a limited computational budget for a completely new task based on the results obtained from the prior tasks. This paper proposes a new formulation of the tuning problem, called consolidated learning, more suited to practical challenges faced by model developers, in which a large number of predictive models are created on similar data sets. In such settings, we are interested in the total optimization time rather than tuning for a single task. We show that a carefully selected static portfolio of hyperparameters yields good results for anytime optimization, maintaining ease of use and implementation. Moreover, we point out how to construct such a portfolio for specific domains. The improvement in the optimization is possible due to more efficient transfer of hyperparameter configurations between similar tasks. We demonstrate the effectiveness of this approach through an empirical study for XGBoost algorithm and the collection of predictive tasks extracted from the MIMIC-IV medical database; however, consolidated learning is applicable in many others fields.",
+      "year": 2022,
+      "authors": [
+        "Katarzyna Wo'znica",
+        "Mateusz Grzyb",
+        "Zuzanna Trafas",
+        "P. Biecek"
+      ],
+      "referenceCount": 50,
+      "citationCount": 2
+    },
+    {
+      "paperId": "5fa06d856ba6ae9cd1366888f8134d7fd0db75b9",
+      "title": "Revisiting Deep Learning Models for Tabular Data",
+      "abstract": "The existing literature on deep learning for tabular data proposes a wide range of novel architectures and reports competitive results on various datasets. However, the proposed models are usually not properly compared to each other and existing works often use different benchmarks and experiment protocols. As a result, it is unclear for both researchers and practitioners what models perform best. Additionally, the field still lacks effective baselines, that is, the easy-to-use models that provide competitive performance across different problems. In this work, we perform an overview of the main families of DL architectures for tabular data and raise the bar of baselines in tabular DL by identifying two simple and powerful deep architectures. The first one is a ResNet-like architecture which turns out to be a strong baseline that is often missing in prior works. The second model is our simple adaptation of the Transformer architecture for tabular data, which outperforms other solutions on most tasks. Both models are compared to many existing architectures on a diverse set of tasks under the same training and tuning protocols. We also compare the best DL models with Gradient Boosted Decision Trees and conclude that there is still no universally superior solution.",
+      "year": 2021,
+      "authors": [
+        "Yu. V. Gorishniy",
+        "Ivan Rubachev",
+        "Valentin Khrulkov",
+        "Artem Babenko"
+      ],
+      "referenceCount": 63,
+      "citationCount": 666
+    },
+    {
+      "paperId": "5fa2103e36b3e76e49edb8433a1206a6b25e3ead",
+      "title": "SAINT: Improved Neural Networks for Tabular Data via Row Attention and Contrastive Pre-Training",
+      "abstract": "Tabular data underpins numerous high-impact applications of machine learning from fraud detection to genomics and healthcare. Classical approaches to solving tabular problems, such as gradient boosting and random forests, are widely used by practitioners. However, recent deep learning methods have achieved a degree of performance competitive with popular techniques. We devise a hybrid deep learning approach to solving tabular data problems. Our method, SAINT, performs attention over both rows and columns, and it includes an enhanced embedding method. We also study a new contrastive self-supervised pre-training method for use when labels are scarce. SAINT consistently improves performance over previous deep learning methods, and it even outperforms gradient boosting methods, including XGBoost, CatBoost, and LightGBM, on average over a variety of benchmark tasks.",
+      "year": 2021,
+      "authors": [
+        "Gowthami Somepalli",
+        "Micah Goldblum",
+        "Avi Schwarzschild",
+        "C. B. Bruss",
+        "T. Goldstein"
+      ],
+      "referenceCount": 59,
+      "citationCount": 294
+    },
+    {
+      "paperId": "a2ec47b9bcc95d2456a8a42199233e5d9129ef18",
+      "title": "TabTransformer: Tabular Data Modeling Using Contextual Embeddings",
+      "abstract": "We propose TabTransformer, a novel deep tabular data modeling architecture for supervised and semi-supervised learning. The TabTransformer is built upon self-attention based Transformers. The Transformer layers transform the embeddings of categorical features into robust contextual embeddings to achieve higher prediction accuracy. Through extensive experiments on fifteen publicly available datasets, we show that the TabTransformer outperforms the state-of-the-art deep learning methods for tabular data by at least 1.0% on mean AUC, and matches the performance of tree-based ensemble models. Furthermore, we demonstrate that the contextual embeddings learned from TabTransformer are highly robust against both missing and noisy data features, and provide better interpretability. Lastly, for the semi-supervised setting we develop an unsupervised pre-training procedure to learn data-driven contextual embeddings, resulting in an average 2.1% AUC lift over the state-of-the-art methods.",
+      "year": 2020,
+      "authors": [
+        "Xin Huang",
+        "A. Khetan",
+        "Milan Cvitkovic",
+        "Zohar S. Karnin"
+      ],
+      "referenceCount": 56,
+      "citationCount": 393
+    },
+    {
+      "paperId": "add2f205338d70e10ce5e686df4a690e2851bdfc",
+      "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+      "abstract": "We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks.",
+      "year": 2019,
+      "authors": [
+        "Kaiming He",
+        "Haoqi Fan",
+        "Yuxin Wu",
+        "Saining Xie",
+        "Ross B. Girshick"
+      ],
+      "referenceCount": 66,
+      "citationCount": 11634
+    },
+    {
+      "paperId": "ed17929e66da7f8fbc3666bf5eb613d302ddde0c",
+      "title": "CutMix: Regularization Strategy to Train Strong Classifiers With Localizable Features",
+      "abstract": "Regional dropout strategies have been proposed to enhance performance of convolutional neural network classifiers. They have proved to be effective for guiding the model to attend on less discriminative parts of objects (e.g. leg as opposed to head of a person), thereby letting the network generalize better and have better object localization capabilities. On the other hand, current methods for regional dropout removes informative pixels on training images by overlaying a patch of either black pixels or random noise. Such removal is not desirable because it suffers from information loss causing inefficiency in training. We therefore propose the CutMix augmentation strategy: patches are cut and pasted among training images where the ground truth labels are also mixed proportionally to the area of the patches. By making efficient use of training pixels and retaining the regularization effect of regional dropout, CutMix consistently outperforms state-of-the-art augmentation strategies on CIFAR and ImageNet classification tasks, as well as on ImageNet weakly-supervised localization task. Moreover, unlike previous augmentation methods, our CutMix-trained ImageNet classifier, when used as a pretrained model, results in consistent performance gain in Pascal detection and MS-COCO image captioning benchmarks. We also show that CutMix can improve the model robustness against input corruptions and its out-of distribution detection performance.",
+      "year": 2019,
+      "authors": [
+        "Sangdoo Yun",
+        "Dongyoon Han",
+        "Seong Joon Oh",
+        "Sanghyuk Chun",
+        "Junsuk Choe",
+        "Y. Yoo"
+      ],
+      "referenceCount": 54,
+      "citationCount": 4587
+    }
+  ]
+}

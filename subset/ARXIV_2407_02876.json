@@ -1,0 +1,47 @@
+{
+  "main": {
+    "paperId": "fc7bc2ce2037b16920d40ceb61f8017c54c5c3e4",
+    "title": "Prävention und Beseitigung von Fehlerursachen im Kontext von unbemannten Fahrzeugen",
+    "abstract": "Mobile robots, becoming increasingly autonomous, are capable of operating in diverse and unknown environments. This flexibility allows them to fulfill goals independently and adapting their actions dynamically without rigidly predefined control codes. However, their autonomous behavior complicates guaranteeing safety and reliability due to the limited influence of a human operator to accurately supervise and verify each robot's actions. To ensure autonomous mobile robot's safety and reliability, which are aspects of dependability, methods are needed both in the planning and execution of missions for autonomous mobile robots. In this article, a twofold approach is presented that ensures fault removal in the context of mission planning and fault prevention during mission execution for autonomous mobile robots. First, the approach consists of a concept based on formal verification applied during the planning phase of missions. Second, the approach consists of a rule-based concept applied during mission execution. A use case applying the approach is presented, discussing how the two concepts complement each other and what contribution they make to certain aspects of dependability.",
+    "year": 2024,
+    "authors": [
+      "A. Schnakenbeck",
+      "Christoph Sieber",
+      "Luis Miguel Villegas Silva",
+      "Felix Gehlhoff",
+      "A. Fay"
+    ],
+    "referenceCount": 21,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "7bf066fca572d525cd3524dbe99ad40aefe14978",
+      "title": "Rule-Based Verification of Autonomous Unmanned Aerial Vehicles",
+      "abstract": "Automation enhances the capabilities of unmanned aerial vehicles (UAVs) by enabling self-determined behavior, while reducing the need for extensive human involvement. Future concepts envision a single human operator commanding multiple autonomous UAVs with minimal supervision. Despite advances in automation, there remains a demand for a “human in command” to assume overall responsibility, driven by concerns about UAV safety and regulatory compliance. In response to these challenges, a method for runtime verification of UAVs using a knowledge-based system is introduced. This method empowers human operators to identify unsafe behavior without assuming full control of the UAV. Aspects of automated formalization, updating and processing of knowledge elements at runtime, coupled with an automatic reasoning process, are considered. The result is an ontology-based approach for runtime verification, addressing the growing complexity of UAVs and the need to ensure safety in the context of evolving aviation regulations.",
+      "year": 2024,
+      "authors": [
+        "Christoph Sieber",
+        "Luis Miguel Vieira da Silva",
+        "Kilian Grünhagen",
+        "Alexander Fay"
+      ],
+      "referenceCount": 25,
+      "citationCount": 3
+    },
+    {
+      "paperId": "a09665ecffabfa97b51afa2315c24485c2ff717c",
+      "title": "Basic concepts and taxonomy of dependable and secure computing",
+      "abstract": "This paper gives the main definitions relating to dependability, a generic concept including a special case of such attributes as reliability, availability, safety, integrity, maintainability, etc. Security brings in concerns for confidentiality, in addition to availability and integrity. Basic definitions are given first. They are then commented upon, and supplemented by additional definitions, which address the threats to dependability and security (faults, errors, failures), their attributes, and the means for their achievement (fault prevention, fault tolerance, fault removal, fault forecasting). The aim is to explicate a set of general concepts, of relevance across a wide range of situations and, therefore, helping communication and cooperation among a number of scientific and technical communities, including ones that are concentrating on particular types of system, of system failures, or of causes of system failures.",
+      "year": 2004,
+      "authors": [
+        "A. Avizienis",
+        "J. Laprie",
+        "B. Randell",
+        "C. Landwehr"
+      ],
+      "referenceCount": 83,
+      "citationCount": 5505
+    }
+  ]
+}

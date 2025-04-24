@@ -1,0 +1,90 @@
+{
+  "main": {
+    "paperId": "1630ec8588eadd6f5af3a2fc7bd2f8902bddbac1",
+    "title": "Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation",
+    "abstract": "We study the mean estimation problem under communication and local differential privacy constraints. While previous work has proposed \\emph{order}-optimal algorithms for the same problem (i.e., asymptotically optimal as we spend more bits), \\emph{exact} optimality (in the non-asymptotic setting) still has not been achieved. In this work, we take a step towards characterizing the \\emph{exact}-optimal approach in the presence of shared randomness (a random variable shared between the server and the user) and identify several conditions for \\emph{exact} optimality. We prove that one of the conditions is to utilize a rotationally symmetric shared random codebook. Based on this, we propose a randomization mechanism where the codebook is a randomly rotated simplex -- satisfying the properties of the \\emph{exact}-optimal codebook. The proposed mechanism is based on a $k$-closest encoding which we prove to be \\emph{exact}-optimal for the randomly rotated simplex codebook.",
+    "year": 2023,
+    "authors": [
+      "Berivan Isik",
+      "Wei-Ning Chen",
+      "Ayfer Ozgur",
+      "T. Weissman",
+      "Albert No"
+    ],
+    "referenceCount": 41,
+    "citationCount": 18
+  },
+  "references": [
+    {
+      "paperId": "828853d876c8c19ec3f299605c90459d0ff42d27",
+      "title": "Optimal Algorithms for Mean Estimation under Local Differential Privacy",
+      "abstract": "We study the problem of mean estimation of $\\ell_2$-bounded vectors under the constraint of local differential privacy. While the literature has a variety of algorithms that achieve the asymptotically optimal rates for this problem, the performance of these algorithms in practice can vary significantly due to varying (and often large) hidden constants. In this work, we investigate the question of designing the protocol with the smallest variance. We show that PrivUnit (Bhowmick et al. 2018) with optimized parameters achieves the optimal variance among a large family of locally private randomizers. To prove this result, we establish some properties of local randomizers, and use symmetrization arguments that allow us to write the optimal randomizer as the optimizer of a certain linear program. These structural results, which should extend to other problems, then allow us to show that the optimal randomizer belongs to the PrivUnit family. We also develop a new variant of PrivUnit based on the Gaussian distribution which is more amenable to mathematical analysis and enjoys the same optimality guarantees. This allows us to establish several useful properties on the exact constants of the optimal error as well as to numerically estimate these constants.",
+      "year": 2022,
+      "authors": [
+        "Hilal Asi",
+        "V. Feldman",
+        "Kunal Talwar"
+      ],
+      "referenceCount": 32,
+      "citationCount": 41
+    },
+    {
+      "paperId": "c095ffdbb8ce3c4f8938990cd51403e501d3c487",
+      "title": "Optimal Compression of Locally Differentially Private Mechanisms",
+      "abstract": "Compressing the output of \\epsilon-locally differentially private (LDP) randomizers naively leads to suboptimal utility. In this work, we demonstrate the benefits of using schemes that jointly compress and privatize the data using shared randomness. In particular, we investigate a family of schemes based on Minimal Random Coding (Havasi et al., 2019) and prove that they offer optimal privacy-accuracy-communication tradeoffs. Our theoretical and empirical findings show that our approach can compress PrivUnit (Bhowmick et al., 2018) and Subset Selection (Ye et al., 2018), the best known LDP algorithms for mean and frequency estimation, to to the order of \\epsilon-bits of communication while preserving their privacy and accuracy guarantees.",
+      "year": 2021,
+      "authors": [
+        "Abhin Shah",
+        "Wei-Ning Chen",
+        "J. Ballé",
+        "P. Kairouz",
+        "Lucas Theis"
+      ],
+      "referenceCount": 48,
+      "citationCount": 38
+    },
+    {
+      "paperId": "8235709a810497beda5e01991ba4a92ab5a63ca1",
+      "title": "Breaking the Communication-Privacy-Accuracy Trilemma",
+      "abstract": "Two major challenges in distributed learning and estimation are 1) preserving the privacy of the local samples; and 2) communicating them efficiently to a central server, while achieving high accuracy for the end-to-end task. While there has been significant interest in addressing each of these challenges separately in the recent literature, treatments that simultaneously address both challenges are still largely missing. In this paper, we develop novel encoding and decoding mechanisms that simultaneously achieve optimal privacy and communication efficiency in various canonical settings. In particular, we consider the problems of mean estimation and frequency estimation under <inline-formula> <tex-math notation=\"LaTeX\">$\\varepsilon $ </tex-math></inline-formula>-local differential privacy and <inline-formula> <tex-math notation=\"LaTeX\">$b$ </tex-math></inline-formula>-bit communication constraints. For mean estimation, we propose the SQKR mechanism, a scheme based on Kashin’s representation and random sampling, with order-optimal estimation error under both constraints. We further apply SQKR to distributed SGD and obtain a communication efficient and (locally) differentially private distributed SGD protocol. For frequency estimation, we present the RHR mechanism, a scheme that leverages the recursive structure of Walsh-Hadamard matrices and achieves order-optimal estimation error for all privacy levels and communication budgets. As a by-product, we also construct a distribution estimation mechanism that is rate-optimal for all privacy regimes and communication constraints, extending recent work that is limited to <inline-formula> <tex-math notation=\"LaTeX\">$b=1$ </tex-math></inline-formula> and <inline-formula> <tex-math notation=\"LaTeX\">$\\varepsilon =O(1)$ </tex-math></inline-formula>. Our results demonstrate that intelligent encoding under joint privacy and communication constraints can yield a performance that matches the optimal accuracy achievable under either constraint alone. In other words, the optimal performance is determined by the more stringent of the two constraints, and the less stringent constraint can be satisfied for free.",
+      "year": 2020,
+      "authors": [
+        "Wei-Ning Chen",
+        "P. Kairouz",
+        "Ayfer Özgür"
+      ],
+      "referenceCount": 72,
+      "citationCount": 113
+    },
+    {
+      "paperId": "6d06c15481a422515728aeff27c36f17c67b2f38",
+      "title": "Protection Against Reconstruction and Its Applications in Private Federated Learning",
+      "abstract": "In large-scale statistical learning, data collection and model fitting are moving increasingly toward peripheral devices---phones, watches, fitness trackers---away from centralized data collection. Concomitant with this rise in decentralized data are increasing challenges of maintaining privacy while allowing enough information to fit accurate, useful statistical models. This motivates local notions of privacy---most significantly, local differential privacy, which provides strong protections against sensitive data disclosures---where data is obfuscated before a statistician or learner can even observe it, providing strong protections to individuals' data. Yet local privacy as traditionally employed may prove too stringent for practical use, especially in modern high-dimensional statistical and machine learning problems. Consequently, we revisit the types of disclosures and adversaries against which we provide protections, considering adversaries with limited prior information and ensuring that with high probability, ensuring they cannot reconstruct an individual's data within useful tolerances. By reconceptualizing these protections, we allow more useful data release---large privacy parameters in local differential privacy---and we design new (minimax) optimal locally differentially private mechanisms for statistical learning problems for \\emph{all} privacy levels. We thus present practicable approaches to large-scale locally private model training that were previously impossible, showing theoretically and empirically that we can fit large-scale image classification and language models with little degradation in utility.",
+      "year": 2018,
+      "authors": [
+        "Abhishek Bhowmick",
+        "John C. Duchi",
+        "Julien Freudiger",
+        "Gaurav Kapoor",
+        "Ryan M. Rogers"
+      ],
+      "referenceCount": 76,
+      "citationCount": 348
+    },
+    {
+      "paperId": "92495abbac86394cb759bec15a763dbf49a8e590",
+      "title": "Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training",
+      "abstract": "Large-scale distributed training requires significant communication bandwidth for gradient exchange that limits the scalability of multi-node training, and requires expensive high-bandwidth network infrastructure. The situation gets even worse with distributed training on mobile devices (federated learning), which suffers from higher latency, lower throughput, and intermittent poor connections. In this paper, we find 99.9% of the gradient exchange in distributed SGD is redundant, and propose Deep Gradient Compression (DGC) to greatly reduce the communication bandwidth. To preserve accuracy during compression, DGC employs four methods: momentum correction, local gradient clipping, momentum factor masking, and warm-up training. We have applied Deep Gradient Compression to image classification, speech recognition, and language modeling with multiple datasets including Cifar10, ImageNet, Penn Treebank, and Librispeech Corpus. On these scenarios, Deep Gradient Compression achieves a gradient compression ratio from 270x to 600x without losing accuracy, cutting the gradient size of ResNet-50 from 97MB to 0.35MB, and for DeepSpeech from 488MB to 0.74MB. Deep gradient compression enables large-scale distributed training on inexpensive commodity 1Gbps Ethernet and facilitates distributed training on mobile.",
+      "year": 2017,
+      "authors": [
+        "Yujun Lin",
+        "Song Han",
+        "Huizi Mao",
+        "Yu Wang",
+        "W. Dally"
+      ],
+      "referenceCount": 41,
+      "citationCount": 1371
+    }
+  ]
+}

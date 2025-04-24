@@ -1,0 +1,67 @@
+{
+  "main": {
+    "paperId": "1b05ce76a190dcf698eb6e65b88b1873e13967a8",
+    "title": "Counting Independent Sets and Kernels of Regular Graphs",
+    "abstract": "Chandrasekaran, Chertkov, Gamarnik, Shah, and Shin recently proved that the average number of independent sets of random regular graphs of size n and degree 3 approaches w^n for large n, where w is approximately 1.54563, consistent with the Bethe approximation. They also made the surprising conjecture that the fluctuations of the logarithm of the number of independent sets were only O(1) as n grew large, which would mean that the Bethe approximation is amazingly accurate for all 3-regular graphs. Here, I provide numerical evidence supporting this conjecture obtained from exact counts of independent sets using binary decision diagrams. I also provide numerical evidence that supports the novel conjectures that the number of kernels of 3-regular graphs of size n is given by y^n, where y is approximately 1.299, and that the fluctuations in the logarithm of the number of kernels is also only O(1).",
+    "year": 2009,
+    "authors": [
+      "Adam B. Yedidia"
+    ],
+    "referenceCount": 7,
+    "citationCount": 4
+  },
+  "references": [
+    {
+      "paperId": "932d14fc55befd32bf50d284b3fb7dee95ed0a79",
+      "title": "Counting Independent Sets Using the Bethe Approximation",
+      "abstract": "We consider the #P-complete problem of counting the number of independent sets in a given graph. Our interest is in understanding the effectiveness of the popular belief propagation (BP) heuristic. BP is a simple iterative algorithm that is known to have at least one fixed point, where each fixed point corresponds to a stationary point of the Bethe free energy (introduced by Yedidia, Freeman, and Weiss [IEEE Trans. Inform. Theory, 51 (2004), pp. 2282–2312] in recognition of Bethe’s earlier work in 1935). The evaluation of the Bethe free energy at such a stationary point (or BP fixed point) leads to the Bethe approximation for the number of independent sets of the given graph. BP is not known to converge in general, nor is an efficient, convergent procedure for finding stationary points of the Bethe free energy known. Furthermore, the effectiveness of the Bethe approximation is not well understood. As the first result of this paper we propose a BP-like algorithm that always converges to a stationary point of the Bethe free energy for any graph for the independent set problem. This procedure finds an e-approximate stationary point in O(n^2d^42^de^(-4)log^3(ne^(-1))) iterations for a graph of n nodes with max-degree d. We study the quality of the resulting Bethe approximation using the recently developed “loop series” framework of Chertkov and Chernyak [J. Stat. Mech. Theory Exp., 6 (2006), P06009]. As this characterization is applicable only for exact stationary points of the Bethe free energy, we provide a slightly modified characterization that holds for e-approximate stationary points. We establish that for any graph on n nodes with max-degree d and girth larger than 8d log^2 n, the multiplicative error between the number of independent sets and the Bethe approximation decays as 1+O(n^(−γ)) for some γ>0. This provides a deterministic counting algorithm that leads to strictly different results compared to a recent result of Weitz [in Proceedings of the Thirty-Eighth Annual ACM Symposium on Theory of Computing, ACM Press, New York, 2006, pp. 140–149]. Finally, as a consequence of our analysis we prove that the Bethe approximation is exceedingly good for a random 3-regular graph conditioned on the shortest cycle cover conjecture of Alon and Tarsi [SIAM J. Algebr. Discrete Methods, 6 (1985), pp. 345–350] being true.",
+      "year": 2010,
+      "authors": [
+        "V. Chandrasekaran",
+        "M. Chertkov",
+        "D. Gamarnik",
+        "Devavrat Shah",
+        "Jinwoo Shin"
+      ],
+      "referenceCount": 23,
+      "citationCount": 32
+    },
+    {
+      "paperId": "5dd3406787fbeef9c8bd72fe78bfbee1411d186b",
+      "title": "Counting without sampling: new algorithms for enumeration problems using statistical physics",
+      "abstract": "We propose a new type of approximate counting algorithms for the problems of enumerating the number of independent sets and proper colorings in low degree graphs with large girth. Our algorithms are not based on a commonly used Markov chain technique, but rather are inspired by recent developments in statistical physics in connection with correlation decay properties of Gibbs measures and its implications to uniqueness of Gibbs measures on infinite trees, reconstruction problems and local weak convergence methods. On a negative side, our algorithms provide ∈-approximations only to the logarithms of the size of a feasible set (also known as free energy in statistical physics). But on the positive side, unlike Markov chain based algorithms, our approach provides deterministic as opposed to probabilistic guarantee on approximations. Moreover, for some regular graphs we obtain explicit values for the counting problem. For example, we show that every 4-regular n-node graph with large girth has asymptotically (1.494 ...)n independent sets, and in every r-regular graph with n nodes and large girth the number of q ≥ r + 1-proper colorings is asymptotically (q(1-1/q)r/2)n for large n. In statistical physics terminology, we compute explicitly the partition function (free energy) in these cases. We extend our results to random regular graphs graphs also. The explicit results obtained in this paper would be hard to derive via Markov chain sampling technique.",
+      "year": 2006,
+      "authors": [
+        "Antar Bandyopadhyay",
+        "D. Gamarnik"
+      ],
+      "referenceCount": 34,
+      "citationCount": 61
+    },
+    {
+      "paperId": "1c8003c27d0022f241b42a1d5ca12b85e44726e6",
+      "title": "Constructing free-energy approximations and generalized belief propagation algorithms",
+      "abstract": "Important inference problems in statistical physics, computer vision, error-correcting coding theory, and artificial intelligence can all be reformulated as the computation of marginal probabilities on factor graphs. The belief propagation (BP) algorithm is an efficient way to solve these problems that is exact when the factor graph is a tree, but only approximate when the factor graph has cycles. We show that BP fixed points correspond to the stationary points of the Bethe approximation of the free energy for a factor graph. We explain how to obtain region-based free energy approximations that improve the Bethe approximation, and corresponding generalized belief propagation (GBP) algorithms. We emphasize the conditions a free energy approximation must satisfy in order to be a \"valid\" or \"maxent-normal\" approximation. We describe the relationship between four different methods that can be used to generate valid approximations: the \"Bethe method\", the \"junction graph method\", the \"cluster variation method\", and the \"region graph method\". Finally, we explain how to tell whether a region-based approximation, and its corresponding GBP algorithm, is likely to be accurate, and describe empirical results showing that GBP can significantly outperform BP.",
+      "year": 2005,
+      "authors": [
+        "J. Yedidia",
+        "W. Freeman",
+        "Yair Weiss"
+      ],
+      "referenceCount": 69,
+      "citationCount": 1691
+    },
+    {
+      "paperId": "60174e85de59f201341e1cd575678b6644d68e46",
+      "title": "Covering Multigraphs by Simple Circuits",
+      "abstract": "Answering a question raised in [SIAM J. Comput., 10 (1981), pp. 746–750], we show that every bridgeless multigraph with v vertices and e edges can be covered by simple circuits whose total length is at most $\\min ( \\tfrac{5}{3} e, e + \\tfrac{7}{3} v - \\tfrac{7}{3} )$. Our proof supplies an efficient algorithm for finding such a cover.",
+      "year": 1985,
+      "authors": [
+        "N. Alon",
+        "M. Tarsi"
+      ],
+      "referenceCount": 0,
+      "citationCount": 77
+    }
+  ]
+}

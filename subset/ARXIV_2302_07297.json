@@ -1,0 +1,87 @@
+{
+  "main": {
+    "paperId": "98721e2c0f9aa20e33f6b1d0ec2a0c58da008eaa",
+    "title": "Optimization of acquisition parameters for cortical inhomogeneous magnetization transfer (ihMT) imaging using a rapid gradient echo readout",
+    "abstract": "Imaging biomarkers with increased myelin specificity are needed to better understand the complex progression of neurological disorders. Inhomogeneous magnetization transfer (ihMT) imaging is an emergent technique that has a high degree of specificity for myelin content but suffers from low signal to‐noise ratio (SNR). This study used simulations to determine optimal sequence parameters for ihMT imaging for use in high‐resolution cortical mapping.",
+    "year": 2023,
+    "authors": [
+      "Christopher D. Rowley",
+      "Jennifer S. W. Campbell",
+      "I. Leppert",
+      "Mark C. Nelson",
+      "G. Pike",
+      "Christine L. Tardif"
+    ],
+    "referenceCount": 48,
+    "citationCount": 3
+  },
+  "references": [
+    {
+      "paperId": "dd095392c44b75f26228608eea5a23ce7d4342f2",
+      "title": "T1D‐weighted ihMT imaging – Part II. Investigating the long‐ and short‐T1D components correlation with myelin content. Comparison with R1 and the macromolecular proton fraction",
+      "abstract": "To investigate the long‐ and short‐T1D components correlation with myelin content using inhomogeneous magnetization transfer (ihMT) high‐pass and band‐pass T1D‐filters and to compare ihMT, R1, and the macromolecular proton fraction (MPF) for myelin specific imaging.",
+      "year": 2022,
+      "authors": [
+        "Andreea Hertanu",
+        "L. Soustelle",
+        "J. Buron",
+        "Julie Le Priellec",
+        "M. Cayre",
+        "A. Le Troter",
+        "G. Varma",
+        "D. Alsop",
+        "P. Durbec",
+        "O. Girard",
+        "G. Duhamel"
+      ],
+      "referenceCount": 77,
+      "citationCount": 16
+    },
+    {
+      "paperId": "c74e5d7b65b6d715112f64996ede0e4c4b8b2d78",
+      "title": "A strategy to reduce the sensitivity of inhomogeneous magnetization transfer (ihMT) imaging to radiofrequency transmit field variations at 3 T",
+      "abstract": "To minimize the sensitivity of inhomogeneous magnetization transfer gradient‐echo (ihMT‐GRE) imaging to radiofrequency (RF) transmit field ( B1+ ) inhomogeneities at 3 T.",
+      "year": 2021,
+      "authors": [
+        "L. Soustelle",
+        "T. Troalen",
+        "Andreea Hertanu",
+        "S. Mchinda",
+        "J. Ranjeva",
+        "M. Guye",
+        "G. Varma",
+        "D. Alsop",
+        "G. Duhamel",
+        "O. Girard"
+      ],
+      "referenceCount": 32,
+      "citationCount": 9
+    },
+    {
+      "paperId": "2299c55d521ca2e5824de1fd81899b8e892ea0e2",
+      "title": "Magnetization transfer from inhomogeneously broadened lines: A potential marker for myelin",
+      "abstract": "To characterize a new approach to magnetization transfer (MT) imaging with improved specificity for myelinated tissues relative to conventional MT.",
+      "year": 2015,
+      "authors": [
+        "G. Varma",
+        "G. Duhamel",
+        "C. De Bazelaire",
+        "D. Alsop"
+      ],
+      "referenceCount": 39,
+      "citationCount": 127
+    },
+    {
+      "paperId": "5bcbc2282ecc211a0f24652aadcfbcb2b39df349",
+      "title": "Magnetization transfer contrast (MTC) and tissue water proton relaxation in vivo",
+      "abstract": "In this study the exchange between 1H magnetization in “free” water (1Hf) and that in a pool with restricted motion (1Hr) was observed in tissues in vivo using NMR saturation transfer methods. Exchange between these two pools was demonstrated by a decrease in the steady‐state magnetization and relaxation times of 1Hf with radiofrequency irradiation of 1Hr. The pseudo‐first‐order rate constant for the movement of magnetization from 1Hfto 1Hr was ∼ Is−1 in kidney and ∼3s−1 in skeletal muscle in vivo. Proton NMR imaging demonstrated that this exchange was tissue specific and generated a novel form of NMR image contrast. The extent of exchange between 1Hf and 1Hr as well as the topological correlation ofthe exchange with relaxation weighted images suggests that this pathway is a major determinant of the observed relaxation properties of water 1H in vivo. © 1989 Academic Press. Inc.",
+      "year": 1989,
+      "authors": [
+        "S. Wolff",
+        "R. Balaban"
+      ],
+      "referenceCount": 15,
+      "citationCount": 1498
+    }
+  ]
+}

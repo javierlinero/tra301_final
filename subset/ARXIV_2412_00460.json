@@ -1,0 +1,118 @@
+{
+  "main": {
+    "paperId": "771fedc04a72ce08d548a5376fbf60dbe2795ca5",
+    "title": "BGM: Background Mixup for X-ray Prohibited Items Detection",
+    "abstract": "Prohibited item detection is crucial for ensuring public safety, yet current X-ray image-based detection methods often lack comprehensive data-driven exploration. This paper introduces a novel data augmentation approach tailored for prohibited item detection, leveraging unique characteristics inherent to X-ray imagery. Our method is motivated by observations of physical properties including: 1) X-ray Transmission Imagery: Unlike reflected light images, transmitted X-ray pixels represent composite information from multiple materials along the imaging path. 2) Material-based Pseudo-coloring: Pseudo-color rendering in X-ray images correlates directly with material properties, aiding in material distinction. Building on a novel perspective from physical properties, we propose a simple yet effective X-ray image augmentation technique, Background Mixup (BGM), for prohibited item detection in security screening contexts. The essence is the rich background simulation of X-ray images to induce the model to increase its attention to the foreground. The approach introduces 1) contour information of baggage and 2) variation of material information into the original image by Mixup at patch level. Background Mixup is plug-and-play, parameter-free, highly generalizable and provides an effective solution to the limitations of classical visual augmentations in non-reflected light imagery. When implemented with different high-performance detectors, our augmentation method consistently boosts performance across diverse X-ray datasets from various devices and environments. Extensive experimental results demonstrate that our approach surpasses strong baselines while maintaining similar training resources.",
+    "year": 2024,
+    "authors": [
+      "Weizhe Liu",
+      "Renshuai Tao",
+      "Hongguang Zhu",
+      "Yunda Sun",
+      "Yao Zhao",
+      "Yunchao Wei"
+    ],
+    "referenceCount": 52,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "401910c5c2abe1a65e1efe9ff2271c7363c1d733",
+      "title": "Recent Advances in Baggage Threat Detection: A Comprehensive and Systematic Survey",
+      "abstract": "X-ray imagery systems have enabled security personnel to identify potential threats contained within the baggage and cargo since the early 1970s. However, the manual process of screening the threatening items is time-consuming and vulnerable to human error. Hence, researchers have utilized recent advancements in computer vision techniques, revolutionized by machine learning models, to aid in baggage security threat identification via 2D X-ray and 3D CT imagery. However, the performance of these approaches is severely affected by heavy occlusion, class imbalance, and limited labeled data, further complicated by ingeniously concealed emerging threats. Hence, the research community must devise suitable approaches by leveraging the findings from existing literature to move in new directions. Towards that goal, we present a structured survey providing systematic insight into state-of-the-art advances in baggage threat detection. Furthermore, we also present a comprehensible understanding of X-ray-based imaging systems and the challenges faced within the threat identification domain. We include a taxonomy to classify the approaches proposed within the context of 2D and 3D CT X-ray-based baggage security threat screening and provide a comparative analysis of the performance of the methods evaluated on four benchmarks. Besides, we also discuss current open challenges and potential future research avenues.",
+      "year": 2022,
+      "authors": [
+        "Divya Velayudhan",
+        "Taimur Hassan",
+        "E. Damiani",
+        "N. Werghi"
+      ],
+      "referenceCount": 246,
+      "citationCount": 32
+    },
+    {
+      "paperId": "9dc481ec44178e797466bbad968071917842156b",
+      "title": "DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection",
+      "abstract": "We present DINO (\\textbf{D}ETR with \\textbf{I}mproved de\\textbf{N}oising anch\\textbf{O}r boxes), a state-of-the-art end-to-end object detector. % in this paper. DINO improves over previous DETR-like models in performance and efficiency by using a contrastive way for denoising training, a mixed query selection method for anchor initialization, and a look forward twice scheme for box prediction. DINO achieves $49.4$AP in $12$ epochs and $51.3$AP in $24$ epochs on COCO with a ResNet-50 backbone and multi-scale features, yielding a significant improvement of $\\textbf{+6.0}$\\textbf{AP} and $\\textbf{+2.7}$\\textbf{AP}, respectively, compared to DN-DETR, the previous best DETR-like model. DINO scales well in both model size and data size. Without bells and whistles, after pre-training on the Objects365 dataset with a SwinL backbone, DINO obtains the best results on both COCO \\texttt{val2017} ($\\textbf{63.2}$\\textbf{AP}) and \\texttt{test-dev} (\\textbf{$\\textbf{63.3}$AP}). Compared to other models on the leaderboard, DINO significantly reduces its model size and pre-training data size while achieving better results. Our code will be available at \\url{https://github.com/IDEACVR/DINO}.",
+      "year": 2022,
+      "authors": [
+        "Hao Zhang",
+        "Feng Li",
+        "Shilong Liu",
+        "Lei Zhang",
+        "Hang Su",
+        "Jun-Juan Zhu",
+        "L. Ni",
+        "H. Shum"
+      ],
+      "referenceCount": 43,
+      "citationCount": 1279
+    },
+    {
+      "paperId": "c0c47582bcf05f120ddfb800b7d069fbff48b429",
+      "title": "Towards Real-World Prohibited Item Detection: A Large-Scale X-ray Benchmark",
+      "abstract": "Automatic security inspection using computer vision technology is a challenging task in real-world scenarios due to various factors, including intra-class variance, class imbalance, and occlusion. Most of the previous methods rarely solve the cases that the prohibited items are deliberately hidden in messy objects due to the lack of large-scale datasets, restricted their applications in real-world scenarios. Towards real-world prohibited item detection, we collect a large-scale dataset, named as PIDray, which covers various cases in real-world scenarios for prohibited item detection, especially for deliberately hidden items. With an intensive amount of effort, our dataset contains 12 categories of prohibited items in 47, 677 X-ray images with high-quality annotated segmentation masks and bounding boxes. To the best of our knowledge, it is the largest prohibited items detection dataset to date. Meanwhile, we design the selective dense attention network (SDANet) to construct a strong baseline, which consists of the dense attention module and the dependency refinement module. The dense attention module formed by the spatial and channel-wise dense attentions, is designed to learn the discriminative features to boost the performance. The dependency refinement module is used to exploit the dependencies of multi-scale features. Extensive experiments conducted on the collected PIDray dataset demonstrate that the proposed method performs favorably against the state-of-the-art methods, especially for detecting the deliberately hidden items.",
+      "year": 2021,
+      "authors": [
+        "Boying Wang",
+        "Libo Zhang",
+        "Longyin Wen",
+        "Xianglong Liu",
+        "Yanjun Wu"
+      ],
+      "referenceCount": 37,
+      "citationCount": 77
+    },
+    {
+      "paperId": "c1359444d4d545e908ca466d20564ac2fe5143de",
+      "title": "The Good, the Bad and the Ugly: Evaluating Convolutional Neural Networks for Prohibited Item Detection Using Real and Synthetically Composited X-ray Imagery",
+      "abstract": "Detecting prohibited items in X-ray security imagery is pivotal in maintaining border and transport security against a wide range of threat profiles. Convolutional Neural Networks (CNN) with the support of a significant volume of data have brought advancement in such automated prohibited object detection and classification. However, collating such large volumes of X-ray security imagery remains a significant challenge. This work opens up the possibility of using synthetically composed imagery, avoiding the need to collate such large volumes of hand-annotated real-world imagery. Here we investigate the difference in detection performance achieved using real and synthetic X-ray training imagery for CNN architecture detecting three exemplar prohibited items, {Firearm, Firearm Parts, Knives}, within cluttered and complex X-ray security baggage imagery. We achieve 0.88 of mean average precision (mAP) with a Faster R-CNN and ResNet-101 CNN architecture for this 3-class object detection using real X-ray imagery. While the performance is comparable with synthetically composited X-ray imagery (0.78 mAP), our extended evaluation demonstrates both challenge and promise of using synthetically composed images to diversify the X-ray security training imagery for automated detection algorithm training.",
+      "year": 2019,
+      "authors": [
+        "Neelanjan Bhowmik",
+        "Qian Wang",
+        "Y. F. Gaus",
+        "Marcin Szarek",
+        "T. Breckon"
+      ],
+      "referenceCount": 30,
+      "citationCount": 33
+    },
+    {
+      "paperId": "c2c083df88e88223e1a411e61040b94c233b1b63",
+      "title": "MMDetection: Open MMLab Detection Toolbox and Benchmark",
+      "abstract": "We present MMDetection, an object detection toolbox that contains a rich set of object detection and instance segmentation methods as well as related components and modules. The toolbox started from a codebase of MMDet team who won the detection track of COCO Challenge 2018. It gradually evolves into a unified platform that covers many popular detection methods and contemporary modules. It not only includes training and inference codes, but also provides weights for more than 200 network models. We believe this toolbox is by far the most complete detection toolbox. In this paper, we introduce the various features of this toolbox. In addition, we also conduct a benchmarking study on different methods, components, and their hyper-parameters. We wish that the toolbox and benchmark could serve the growing research community by providing a flexible toolkit to reimplement existing methods and develop their own new detectors. Code and models are available at this https URL. The project is under active development and we will keep this document updated.",
+      "year": 2019,
+      "authors": [
+        "Kai Chen",
+        "Jiaqi Wang",
+        "Jiangmiao Pang",
+        "Yuhang Cao",
+        "Yu Xiong",
+        "Xiaoxiao Li",
+        "Shuyang Sun",
+        "Wansen Feng",
+        "Ziwei Liu",
+        "Jiarui Xu",
+        "Zheng Zhang",
+        "Dazhi Cheng",
+        "Chenchen Zhu",
+        "Tianheng Cheng",
+        "Qijie Zhao",
+        "Buyu Li",
+        "Xin Lu",
+        "Rui Zhu",
+        "Yue Wu",
+        "Kangcheng Liu",
+        "Jifeng Dai",
+        "Jingdong Wang",
+        "Jianping Shi",
+        "Wanli Ouyang",
+        "Chen Change Loy",
+        "Dahua Lin"
+      ],
+      "referenceCount": 43,
+      "citationCount": 2751
+    }
+  ]
+}

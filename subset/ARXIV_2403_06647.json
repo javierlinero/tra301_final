@@ -1,0 +1,67 @@
+{
+  "main": {
+    "paperId": "9a2b7f28cdfd46fc6bf58848e4d1b7d5234b4b5a",
+    "title": "Positivity and asymptotic behaviour of solutions to a generalized nonlocal fast diffusion equation",
+    "abstract": "We study the positivity and asymptotic behaviour of nonnegative solutions of a general nonlocal fast diffusion equation, \\[\\partial_t u + \\mathcal{L}\\varphi(u) = 0,\\] and the interplay between these two properties. Here $\\mathcal{L}$ is a stable-like operator and $\\varphi$ is a singular nonlinearity. We start by analysing positivity by means of a weak Harnack inequality satisfied by a related elliptic (nonlocal) equation. Then we use this positivity to establish the asymptotic behaviour: under certain hypotheses on the nonlocal operator and nonlinearity, our solutions behave asymptotically as the Barenblatt solution of the standard fractional fast diffusion equation. The main difficulty stems from the generality of the operator, which does not allow the use of the methods that were available for the fractional Laplacian. Our results are new even in the case where $\\varphi$ is a power.",
+    "year": 2024,
+    "authors": [
+      "A. Pablo",
+      "Fernando Quir'os",
+      "Jorge Ruiz-Cases"
+    ],
+    "referenceCount": 24,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "de08c766751ff24d0ea533f2a966754b4a0283aa",
+      "title": "Regularity theory for singular nonlocal diffusion equations",
+      "abstract": "We prove continuity for bounded weak solutions of a nonlinear nonlocal parabolic type equation associated to a Dirichlet form with a rough kernel. The equation is allowed to be singular at the level zero, and solutions may change sign. If the nonlinearity in the equation does not oscillate too much at the origin, the solution is proved to be moreover Hölder continuous. The results are new even when the Dirichlet form is the one corresponding to the fractional Laplacian.",
+      "year": 2017,
+      "authors": [
+        "A. de Pablo",
+        "F. Quirós",
+        "Ana Rodríguez"
+      ],
+      "referenceCount": 22,
+      "citationCount": 6
+    },
+    {
+      "paperId": "50a2c8e85f7ea5712e810bb3274091cc4c71b3fc",
+      "title": "Barenblatt solutions and asymptotic behaviour for a nonlinear fractional heat equation of porous medium type",
+      "abstract": "We establish the existence and uniqueness of fundamental solutions for the fractional porous medium equation introduced in \\cite{PQRV1}. They are self-similar functions of the form $u(x,t)= t^{-\\alpha} f(|x|\\,t^{-\\beta})$ with suitable $\\alpha$ and $\\beta$. As a main application of this construction, we prove that the asymptotic behaviour of general solutions is represented by such special solutions. Among other interesting qualitative properties of the equation we prove an Aleksandrov reflection principle.",
+      "year": 2012,
+      "authors": [
+        "J. Vázquez"
+      ],
+      "referenceCount": 76,
+      "citationCount": 111
+    },
+    {
+      "paperId": "5d150db054b3c1c0ab68f2efd9481e35a5d5b2b1",
+      "title": "Local Regularity for Parabolic Nonlocal Operators",
+      "abstract": "Weak solutions to parabolic integro-differential operators of order α ∈ (α0, 2) are studied. Local a priori estimates of Hölder norms and a weak Harnack inequality are proved. These results are robust with respect to α↗2. In this sense, the presentation is an extension of Moser's result from [20].",
+      "year": 2012,
+      "authors": [
+        "Matthieu Felsinger",
+        "M. Kassmann"
+      ],
+      "referenceCount": 29,
+      "citationCount": 144
+    },
+    {
+      "paperId": "90ad8bbf99181aa32a116095afe646b5a9ec1094",
+      "title": "A General Fractional Porous Medium Equation",
+      "abstract": "We develop a theory of existence and uniqueness for the following porous medium equation with fractional diffusion: \\input amssym $$\\left\\{ {\\matrix{ {{{\\partial u} \\over {\\partial t}} + \\left( { ‐ \\Delta } \\right)^{\\sigma /2} \\left( {\\left| u \\right|^{m ‐ 1} u} \\right) = 0,} \\hfill & {x \\in {\\Bbb R} ^N ,\\,\\,t > 0,} \\hfill \\cr {u\\left( {x,0} \\right) = f\\left( x \\right),} \\hfill & {x \\in {\\Bbb R} ^N .} \\hfill \\cr } } \\right.$$ We consider data \\input amssym $f\\in L^1(\\Bbb{R}^N)$ and all exponents $0<\\sigma<2\\;and\\;m>0$. Existence and uniqueness of a strong solution is established for $ m > {m_\\ast}={(N-\\sigma)_+}/N$, giving rise to an L1‐contraction semigroup. In addition, we obtain the main qualitative properties of these solutions. In the lower range ${0 < m} \\le {m_\\ast}$ existence and uniqueness happen under some restrictions, and the properties of the solutions are different from the ones for the case above m*. We also study the dependence of solutions on f, m, and σ. Moreover, we consider the above questions for the problem posed in a bounded domain. © 2012 Wiley Periodicals, Inc.",
+      "year": 2011,
+      "authors": [
+        "A. de Pablo",
+        "F. Quir'os",
+        "A. Rodr'iguez",
+        "J. Vázquez"
+      ],
+      "referenceCount": 56,
+      "citationCount": 227
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "main": {
+    "paperId": "0f615cc52b08254d477eda020550a66f916bcb3d",
+    "title": "Is it Fake? News Disinformation Detection on South African News Websites",
+    "abstract": "Disinformation through fake news is an ongoing problem in our society and has become easily spread through social media. The most cost- and time-effective way to filter these large amounts of data is to use a combination of human and technical interventions to identify it. From a technical perspective, Natural Language Processing (NLP) is widely used in detecting fake news. Social media companies use NLP techniques to identify the fake news and warn their users, but fake news may still slip through undetected. It is especially a problem in more localised contexts (outside the United States of America). How do we adjust fake news detection systems to work better for local contexts such as in South Africa. In this work we investigate fake news detection on South African websites. We curate a dataset of South African fake news and then train detection models. We contrast this with using widely available fake news datasets (from mostly USA website). We also explore making the datasets more diverse by combining them and observe the differences in behaviour in writing between nations’ fake news using interpretable machine learning.",
+    "year": 2021,
+    "authors": [
+      "Harm de Wet",
+      "V. Marivate"
+    ],
+    "referenceCount": 28,
+    "citationCount": 3
+  },
+  "references": [
+    {
+      "paperId": "c0883f5930a232a9c1ad601c978caede29155979",
+      "title": "“Why Should I Trust You?”: Explaining the Predictions of Any Classifier",
+      "abstract": "Despite widespread adoption, machine learning models remain mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one. In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally varound the prediction. We also propose a method to explain models by presenting representative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem. We demonstrate the flexibility of these methods by explaining different models for text (e.g. random forests) and image classification (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classifier, and identifying why a classifier should not be trusted.",
+      "year": 2016,
+      "authors": [
+        "Marco Tulio Ribeiro",
+        "Sameer Singh",
+        "Carlos Guestrin"
+      ],
+      "referenceCount": 41,
+      "citationCount": 16173
+    }
+  ]
+}

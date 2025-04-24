@@ -1,0 +1,28 @@
+{
+  "main": {
+    "paperId": "19666a52327df1bc55f6dff785dbbb9fefbcd316",
+    "title": "Simulation of the Hydrogen Ground State in Stochastic Electrodynamics-2: Inclusion of Relativistic Corrections",
+    "abstract": "In a recent paper the authors studied numerically the hydrogen ground state in stochastic electrodynamics (SED) within the the non-relativistic approximation. In quantum theory the leading non-relativistic corrections to the ground state energy dominate the Lamb shift related to the photon cloud that should cause the quantum-like behaviour of SED. The present work takes these corrections into account in the numerical modelling. It is found that they have little effect; the self-ionisation that occurs without them remains present. It is speculated that the point-charge approximation for the electron is the cause of the failure.",
+    "year": 2015,
+    "authors": [
+      "T. Nieuwenhuizen",
+      "M. Liska"
+    ],
+    "referenceCount": 16,
+    "citationCount": 16
+  },
+  "references": [
+    {
+      "paperId": "768f7608f514686e8261d0ac2b035a4886e9a5ce",
+      "title": "Simulation of the hydrogen ground state in stochastic electrodynamics",
+      "abstract": "Stochastic electrodynamics is a classical theory which assumes that the physical vacuum consists of classical stochastic fields with average energy 1 2 ℏ &ohgr; ?> in each mode, i.e., the zero-point Planck spectrum. While this classical theory explains many quantum phenomena related to harmonic oscillator problems, hard results on nonlinear systems are still lacking. In this work the hydrogen ground state is studied by numerically solving the Abraham–Lorentz equation in the dipole approximation. First the stochastic Gaussian field is represented by a sum over Gaussian frequency components, next the dynamics is solved numerically using OpenCL. The approach improves on work by Cole and Zou 2003 by treating the full 3 d ?> problem and reaching longer simulation times. The results are compared with a conjecture for the ground state phase space density. Though short time results suggest a trend towards confirmation, in all attempted modellings the atom ionises at longer times.",
+      "year": 2015,
+      "authors": [
+        "T. Nieuwenhuizen",
+        "M. Liska"
+      ],
+      "referenceCount": 18,
+      "citationCount": 21
+    }
+  ]
+}

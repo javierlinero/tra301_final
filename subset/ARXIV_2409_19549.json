@@ -1,0 +1,77 @@
+{
+  "main": {
+    "paperId": "d0d04d2e6b7b08708d5d87f0ec2a5f51fd415839",
+    "title": "The arithmetic of Calabi-Yau motives and mobile higher regulators",
+    "abstract": "We construct elements in the motivic cohomology of certain rank 4 weight 3 Calabi--Yau motives, and write down explicit expressions for the regulators of these elements in the context of conjectures on $L$-values such as those of Beilinson or Bloch-Kato. We apply a combination of three ideas: (i) that a motive can be made to vary in a family in such a way that a desired motivic cohomology class is realized by relative cohomology; (ii)~that there are ways to construct higher-rank (such as $2\\times 2$) regulators from a single family; and (iii) that one can arrange elements in $H^4_{\\text{Mot}}(X,\\mathbb{Z}(p))$ with different $p$'s by choosing hypergeometric families with different local exponents. Following background material on Hodge theory, algebraic cycles, differential equations, and hypergeometric variations, we work out two cases in detail where $p=3,4$. Regarding our Calabi-Yau motives $X_t$ as fibers in a suitable total space $\\mathcal{X}_U\\to U\\subset \\mathbb{P}^1$, each Hodge class in $\\mathrm{Hom}_{\\mathrm{MHS}}(\\mathbb{Q}(0),H^4(\\mathcal{X}_U,\\mathbb{Q}(p)))$ produces a family of extension classes in $\\mathrm{Ext}^1_{\\mathrm{MHS}}(\\mathbb{Q}(0),H^3(X_t,\\mathbb{Q}(p)))$ called a normal function. Our main results for these cases, which are essentially independent, are the explicit computation of the normal functions, and the construction of motivic cohomology cycles realizing the Hodge classes, thereby proving Beilinson's Hodge-type conjecture and providing the first numerical checks of Beilinson's conjectures on special values of $L$-functions for such motives.",
+    "year": 2024,
+    "authors": [
+      "Vasily Golyshev",
+      "Matt Kerr"
+    ],
+    "referenceCount": 25,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "57e37716375c734197a71eb4f0ed066d5ea8ddd1",
+      "title": "D-brane Masses at Special Fibres of Hypergeometric Families of Calabi–Yau Threefolds, Modular Forms, and Periods",
+      "abstract": "We consider the fourteen families $W$ of Calabi-Yau threefolds with one complex structure parameter and Picard-Fuchs equation of hypergeometric type, like the mirror of the quintic in $\\mathbb{P}^4$. Mirror symmetry identifies the masses of even--dimensional D--branes of the mirror Calabi-Yau $M$ with four periods of the holomorphic $(3,0)$-form over a symplectic basis of $H_3(W,\\mathbb{Z})$. It was discovered by Chad Schoen that the singular fiber at the conifold of the quintic gives rise to a Hecke eigenform of weight four under $\\Gamma_0(25)$, whose Hecke eigenvalues are determined by the Hasse-Weil zeta function which can be obtained by counting points of that fiber over finite fields. Similar features are known for the thirteen other cases. In two cases we further find special regular points, so called rank two attractor points, where the Hasse-Weil zeta function gives rise to modular forms of weight four and two. We numerically identify entries of the period matrix at these special fibers as periods and quasiperiods of the associated modular forms. In one case we prove this by constructing a correspondence between the conifold fiber and a Kuga-Sato variety. We also comment on simpler applications to local Calabi-Yau threefolds.",
+      "year": 2022,
+      "authors": [
+        "Kilian Bönisch",
+        "A. Klemm",
+        "E. Scheidegger",
+        "D. Zagier"
+      ],
+      "referenceCount": 108,
+      "citationCount": 17
+    },
+    {
+      "paperId": "be1e3e58c1c40d758d7e83f19a8bbc34ccc421b6",
+      "title": "Apéry extensions",
+      "abstract": "The Apéry numbers of Fano varieties are asymptotic invariants of their quantum differential equations. In this paper, we initiate a program to exhibit these invariants as (mirror to) limiting extension classes of higher cycles on the associated Landau–Ginzburg (LG) models — and thus, in particular, as periods. We also construct an Apéry motive, whose mixed Hodge structure is shown, as an application of the decomposition theorem, to contain the limiting extension classes in question. Using a new technical result on the inhomogeneous Picard–Fuchs equations satisfied by higher normal functions, we illustrate this proposal with detailed calculations for LG‐models mirror to several Fano threefolds. By describing the “elementary” Apéry numbers in terms of regulators of higher cycles (i.e., algebraic K$K$ ‐theory/motivic cohomology classes), we obtain a satisfying explanation of their arithmetic properties. Indeed, in each case, the LG‐models are modular families of K3$K3$ surfaces, and the distinction between multiples of ζ(2)$\\zeta (2)$ and ζ(3)$\\zeta (3)$ (or (2πi)3$(2\\pi \\mathbf {i})^3$ ) translates ultimately into one between algebraic K1$K_1$ and K3$K_3$ of the family.",
+      "year": 2020,
+      "authors": [
+        "V. Golyshev",
+        "M. Kerr",
+        "Tokio Sasaki"
+      ],
+      "referenceCount": 50,
+      "citationCount": 3
+    },
+    {
+      "paperId": "670cb892b816621be8ee4152c982eeb82d992e14",
+      "title": "Unipotent extensions and differential equations (after Bloch–Vlasenko)",
+      "abstract": "S. Bloch and M. Vlasenko recently introduced a theory of \\emph{motivic Gamma functions}, given by periods of the Mellin transform of a geometric variation of Hodge structure, which they tie to the monodromy and asymptotic behavior of certain unipotent extensions of the variation. Here we further examine these Gamma functions and the related \\emph{Apery and Frobenius invariants} of a VHS, and establish a relationship to motivic cohomology and solutions to inhomogeneous Picard-Fuchs equations.",
+      "year": 2020,
+      "authors": [
+        "M. Kerr"
+      ],
+      "referenceCount": 27,
+      "citationCount": 8
+    },
+    {
+      "paperId": "a119736acbccf61d7fd2392363b29337f5e68be9",
+      "title": "Algebraic K-theory of toric hypersurfaces",
+      "abstract": "We construct classes in the motivic cohomology of certain 1-parameter families of Calabi-Yau hypersurfaces in toric Fano n-folds, with applications to local mirror symmetry (growth of genus 0 instanton numbers) and inhomogeneous Picard-Fuchs equations. In the case where the family is classically modular the classes are related to Belinson's Eisenstein symbol; the Abel-Jacobi map (or rational regulator) is computed in this paper for both kinds of cycles. For the \"modular toric\" families where the cycles essentially coincide, we obtain a motivic (and computationally effective) explanation of a phenomenon observed by Villegas, Stienstra, and Bertin.",
+      "year": 2008,
+      "authors": [
+        "M. Kerr",
+        "C. Doran"
+      ],
+      "referenceCount": 87,
+      "citationCount": 46
+    },
+    {
+      "paperId": "7ffc25786eb930b32965c15bec94fc38e6edfe54",
+      "title": "Opening Mirror Symmetry on the Quintic",
+      "abstract": "Aided by mirror symmetry, we determine the number of holomorphic disks ending on the real Lagrangian in the quintic threefold. We hypothesize that the tension of the domainwall between the two vacua on the brane, which is the generating function for the open Gromov-Witten invariants, satisfies a certain extension of the Picard-Fuchs differential equation governing periods of the mirror quintic. We verify consistency of the monodromies under analytic continuation of the superpotential over the entire moduli space. We further check the conjecture by reproducing the first few instanton numbers by a localization computation directly in the A-model, and verifying Ooguri-Vafa integrality. This is the first exact result on open string mirror symmetry for a compact Calabi-Yau manifold.",
+      "year": 2006,
+      "authors": [
+        "J. Walcher"
+      ],
+      "referenceCount": 48,
+      "citationCount": 133
+    }
+  ]
+}

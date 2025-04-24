@@ -1,0 +1,57 @@
+{
+  "main": {
+    "paperId": "15ff98ee9102b26aec07d54d821f6d38b420f0ba",
+    "title": "Chiral Quantum Optics: Recent Developments and Future Directions",
+    "abstract": "Chiral quantum optics is a growing field of research in which light-matter interactions become asymmetrically dependent on momentum and spin, offering novel control over photonic and electronic degrees of freedom. Recently, the platforms for investigating chiral light-matter interactions have expanded from laser-cooled atoms and quantum dots to various solid-state systems, such as microcavity polaritons and two-dimensional layered materials, integrated into photonic structures such as waveguides, cavities, and ring resonators. In this Perspective, we begin by establishing the foundation for understanding and engineering these chiral light-matter regimes. We review the cutting-edge platforms that have enabled their successful realization in recent years, focusing on solid-state platforms, and discuss the most relevant experimental challenges to fully harness their potential. Finally, we explore the vast opportunities that these chiral light-matter interfaces present, particularly their ability to reveal exotic quantum many-body phenomena, such as chiral many-body superradiance and fractional quantum Hall physics.\n \n \n \n \n Published by the American Physical Society\n 2025\n \n \n",
+    "year": 2024,
+    "authors": [
+      "D. G. Suarez-Forero",
+      "M. Jalali Mehrabad",
+      "C. Vega",
+      "A. Gonz'alez-Tudela",
+      "M. Hafezi"
+    ],
+    "referenceCount": 168,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "a0efc9222692786f931948651b3250aeb3fa5144",
+      "title": "Topological and conventional nanophotonic waveguides for directional integrated quantum optics",
+      "abstract": "Directionality in integrated quantum photonics has emerged as a promising route towards achieving scalable quantum technologies with nonlinearities at the single-photon level. Topological photonic waveguides have been proposed as a novel approach to harnessing such directional light-matter interactions on-chip. However, uncertainties remain regarding the strength of the directional coupling of embedded quantum emitters to topological waveguides in comparison to conventional line defect waveguides. In this work we present an investigation of directional coupling in a range of waveguides using a combination of experimental, theoretical, and numerical analyses. We quantitatively characterize the position dependence of the light-matter coupling on several topological photonic waveguides and benchmark their directional coupling performance against conventional line defect waveguides. We conclude that topological waveguides underperform in comparison to conventional line defect waveguides, casting their directional optics credentials into doubt. To demonstrate this is not a question of the maturity of the field; we show that state-of-the-art inverse design methods, while capable of improving the directional emission of these topological waveguides, still place them significantly behind the operation of a conventional (glide-plane) photonic crystal waveguide. Our results and conclusions pave the way towards improving the implementation of quantitatively predicted quantum nonlinear effects on-chip.\n \n \n \n \n Published by the American Physical Society\n 2024\n \n \n",
+      "year": 2024,
+      "authors": [
+        "N. Martin",
+        "M. Jalali Mehrabad",
+        "X. Chen",
+        "R. Dost",
+        "E. Nussbaum",
+        "D. Hallett",
+        "L. Hallacy",
+        "A. Foster",
+        "E. Clarke",
+        "P. K. Patil",
+        "S. Hughes",
+        "M. Hafezi",
+        "A. M. Fox",
+        "M. S. Skolnick",
+        "L. Wilson"
+      ],
+      "referenceCount": 24,
+      "citationCount": 1
+    },
+    {
+      "paperId": "d65ddd6a2fb195478baa77718e6148286ed439c3",
+      "title": "Topological multimode waveguide QED",
+      "abstract": "Topological insulators feature a number of topologically protected boundary modes linked to the value of their bulk invariant. While in one-dimensional systems the boundary modes are zero dimensional and localized, in two-dimensional topological insulators the boundary modes are chiral, one-dimensional propagating modes along the edges of the system. Thus, topological photonic insulators with large Chern numbers naturally display a topologically protected multimode waveguide at their edges. Here, we show how to take advantage of these topologically protected propagating modes by interfacing them with quantum emitters. In particular, using a Harper-Hofstadter lattice, we find situations in which the emitters feature quasiquantized decay rates due to the increasing number of edge modes, and where their spontaneous emission spatially separates in different modes. We also show how using a single $\\pi$-pulse the combination of such spatial separation and the interacting character of the emitters leads to the formation of a single-photon time-bin entangled state with no classical analog, which we characterize computing its entanglement entropy. Finally, we also show how the emitters can selectively interact with the different channels using nonlocal light-matter couplings such as the ones that can be obtained with giant atoms. Such capabilities pave the way for generating quantum gates among topologically protected photons as well as generating more complex entangled states of light in topological channels.",
+      "year": 2022,
+      "authors": [
+        "C. Vega",
+        "D. Porras",
+        "A. Gonz'alez-Tudela"
+      ],
+      "referenceCount": 109,
+      "citationCount": 21
+    }
+  ]
+}

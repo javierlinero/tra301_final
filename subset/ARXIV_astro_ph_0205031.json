@@ -1,0 +1,133 @@
+{
+  "main": {
+    "paperId": "9c8a97807bda34c98f4f07c3b24ecbdf9241de8b",
+    "title": "Westphal-MMD 11: An Interacting, Submillimeter Luminous Lyman Break Galaxy",
+    "abstract": "We present new Hubble Space Telescope, high-resolution optical imaging of the submillimeter luminous Lyman break galaxy (LBG), Westphal-MMD 11, an interacting starburst at z = 2.979. The new imaging data, in conjunction with reanalysis of Keck optical and near-IR spectra, demonstrate MMD 11 to be an interacting system of at least three components: a luminous blue source, a fainter blue source, and an extremely red object (ERO) with R-K ≳ 6. The separations between components are ~8 kpc (Λ = 0.7, ΩM = 0.3, h = 0.65), similar to some of the local ultraluminous infrared galaxies (ULIGs). The lack of obvious active galactic nucleus in MMD 11, along with the fragmented, early-stage merger morphology, suggest a young forming environment. While we cannot unambiguously identify the location of the far-IR emission within the system, analogy to similar ULIGs suggests the ERO as the likely far-IR source. The greater than 1012 L☉ bolometric luminosity of MMD 11 can be predicted reasonably from its rest-frame UV properties once all components are taken into account; however, this is not typically the case for local galaxies of similar luminosities. While LBGs as red in g-R and R-K as MMD 11 are rare, they can only be found over the restricted 2.7 < z < 3.0 range. Therefore, a substantial number of MMD 11-like galaxies (≃0.62 arcmin-2) may exist when integrated over the likely redshift range of Submillimeter Common-User Bolometric Array (SCUBA) sources (z = 1-5), suggesting that SCUBA sources should not necessarily be seen as completely orthogonal to optically selected galaxies.",
+    "year": 2002,
+    "authors": [
+      "Scott C. Chapman",
+      "A. Shapley",
+      "C. Steidel",
+      "R. Windhorst"
+    ],
+    "referenceCount": 29,
+    "citationCount": 23
+  },
+  "references": [
+    {
+      "paperId": "b0cff9be73a223fc65603a3e29e4b69875d62f74",
+      "title": "Locating the Starburst in the SCUBA Galaxy SMM J14011+0252",
+      "abstract": "We present new, multiwavelength, high-resolution imaging of the luminous, submillimeter galaxy SMM J14011+0252, an interacting starburst at z = 2.56. Our observations comprise optical imaging from the Hubble Space Telescope, sensitive radio mapping from the Very Large Array, and CO observations from the Owens Valley Radio Observatory and Berkeley-Illinois-Maryland Association array. Aided by well-constrained gravitational amplification, we use these new data to map the distribution of gas and both obscured and unobscured starlight. The maps show that the gas and star formation are extended on scales of ≳10 kpc, much larger than starbursts seen in local ultraluminous galaxies and larger than the rest-frame UV-bright components of SMM J14011+0252, J1/J2. The most vigorous star formation is marked by peaks in both the molecular gas and radio emission, ~1'' north of J1/J2, in the vicinity of J1n, an apparent faint extension of J1. Using new sub-0.″5 K-band imaging from the United Kingdom Infrared Telescope, we identify J1n as an extremely red object. We suggest that while J1 and J2 are clearly associated with the submillimeter source, they are merely windows through the dust, or unobscured companions to a large and otherwise opaque star-forming system. Hence, their rest-frame UV properties are unlikely to be relevant for understanding the detailed internal physics of the starburst.",
+      "year": 2001,
+      "authors": [
+        "R. Ivison",
+        "I. Smail",
+        "D. Frayer",
+        "J. Kneib",
+        "A. Blain"
+      ],
+      "referenceCount": 20,
+      "citationCount": 67
+    },
+    {
+      "paperId": "cf509cf2795c782a76eb88df8d0fdec96df2c3ce",
+      "title": "The Rest-Frame Optical Properties of z ≃ 3 Galaxies",
+      "abstract": "We present the results of a near-infrared imaging survey of z ~ 3 Lyman break galaxies (LBGs). The survey covers a total of 30 arcmin2 and includes 118 photometrically selected LBGs with Ks-band measurements, 63 of which also have J-band measurements, and 81 of which have spectroscopic redshifts. Using the distribution of optical ℛ magnitudes from previous work and ℛ-Ks colors for this subsample, we compute the rest-frame optical luminosity function of LBGs. This luminosity function is described by an analytic Schechter fit with a very steep faint-end slope of α = -1.85 ± 0.15, and it strikingly exceeds locally determined optical luminosity functions at brighter magnitudes, where it is fairly well constrained. The V-band luminosity density of only the observed bright end of the z ~ 3 LBG luminosity function already approaches that of all stars in the local universe. For the 81 galaxies with measured redshifts, we investigate the range of LBG stellar populations implied by the photometry that generally spans the range 900-5500 Å in the rest frame. The parameters under consideration are the star formation rate as a function of time, the time since the onset of star formation, and the degree of reddening and extinction by dust. While there are only weak constraints on the parameters for most of the individual galaxies, there are strong trends in the sample as a whole. With a wider wavelength baseline than most previous studies at similar redshifts, we confirm the trend that intrinsically more luminous galaxies are dustier. We also find that there is a strong correlation between extinction and the age of the star formation episode, in the sense that younger galaxies are dustier and have much higher star formation rates. The strong correlation between extinction and age, which we show is unlikely to be an artifact of the modeling procedure, has important implications for an evolutionary sequence among LBGs. A unified scenario that accounts for the observed trends in bright LBGs is one in which a relatively short period of very rapid star formation (hundreds of M☉ yr-1) lasts for roughly 50-100 Myr, after which both the extinction and star formation rate are considerably reduced and stars are formed at a more quiescent, but still rapid, rate for at least a few hundred megayears. In our sample, a considerable fraction (~20%) of the LBGs have best-fit star formation ages ≳1 Gyr, implied stellar masses of ≳1010 M☉, and are still forming stars at ~30 M☉ yr-1.",
+      "year": 2001,
+      "authors": [
+        "A. Shapley",
+        "C. Steidel",
+        "K. Adelberger",
+        "M. Dickinson",
+        "M. Giavalisco",
+        "M. Pettini"
+      ],
+      "referenceCount": 55,
+      "citationCount": 436
+    },
+    {
+      "paperId": "2da7f23f05b2e42f3951a94c53eac0147244c8b7",
+      "title": "A submillimetre survey of the star formation history of radio galaxies",
+      "abstract": "We present the results of the first major systematic submillimetre survey of radio galaxies spanning the redshift range 1 2.5, and the average submillimetre luminosity rises at a rate ∝(1+z)3 out to z≃4. Moreover, our extensive sample allows us to argue that this behaviour is not driven by underlying correlations with other radio galaxy properties such as radio power, radio spectral index, or radio source size/age. Although radio selection may introduce other more subtle biases, the redshift distribution of our detected objects is in fact consistent with the most recent estimates of the redshift distribution of comparably bright submillimetre sources discovered in blank field surveys. The evolution of submillimetre luminosity found here for radio galaxies may thus be representative of massive ellipticals in general.",
+      "year": 2000,
+      "authors": [
+        "E. Archibald",
+        "J. Dunlop",
+        "D. Hughes",
+        "S. Rawlings",
+        "S. Eales",
+        "R. Ivison"
+      ],
+      "referenceCount": 114,
+      "citationCount": 175
+    },
+    {
+      "paperId": "aa06fa7fbdc359e4b3d110a410ec83ea33e185e3",
+      "title": "The diversity of SCUBA-selected galaxies",
+      "abstract": "We present extensive observations of a sample of distant, submillimetre (submm) galaxies detected in the field of the massive cluster lens, Abell1835, using the Submm Common-User Bolometer Array (SCUBA). Taken in conjunction with earlier observations of other submm-selected sources (Ivison et al. 1998; Smail et al. 1999; Soucail et al. 1999) we now have detailed, multi-wavelength observations of seven examples of the submm population, having exploited the combination of achromatic amplification by cluster lenses and lavish archival datasets. These sources, all clearly at z > 1, illustrate the wide range in the radio and optical properties of distant submm-selected galaxies. We include detailed observations of the first candidate ‘pure’ starburst submm galaxy at high redshift, a z = 2.56 interacting galaxy which shows no obvious sign of hosting an AGN. The remaining sources have varying degrees of inferred AGN activity (three from seven of the most luminous show some evidence of the presence of an AGN) although even when an AGN is obviously present it is still not apparent if reprocessed radiation from this source dominates the submm emission. In contrast with the variation in the spectral properties, we see relatively homogeneous morphologies for the population, with a large fraction of merging or interacting systems. Our study shows that virtually identical spectral energy distributions are seen for galaxies which exhibit strikingly different optical/UV spectral-line characteristics. We conclude that standard optical/UV spectral classifications are misleading when applied to distant, highly obscured galaxies and that we must seek other means of determining the various contributions to the overall energy budget of submm galaxies and hence to the far-infrared extragalactic background.",
+      "year": 1999,
+      "authors": [
+        "R. Ivison",
+        "I. Smail",
+        "A. Barger",
+        "J. Kneib",
+        "A. Blain",
+        "F. Owen",
+        "T. Kerr",
+        "L. Cowie"
+      ],
+      "referenceCount": 64,
+      "citationCount": 218
+    },
+    {
+      "paperId": "3f91d40f9168cb336c5af9cd09c03d8d20d4cbaf",
+      "title": "Hubble Space Telescope imaging of the CFRS and LDSS redshift surveys—IV. Influence of mergers in the evolution of faint field galaxies from z∼1",
+      "abstract": "ABSTRA C T Hubble Space Telescope images of a sample of 285 galaxies with measured redshifts from the Canada‐France Redshift Survey (CFRS) and Autofib‐Low Dispersion Spectrograph Survey (LDSS) redshift surveys are analysed to derive the evolution of the merger fraction out to redshifts z , 1. We have performed visual and machine-based merger identifications, as well as counts of bright pairs of galaxies with magnitude differences dm # 1:5 mag. We find that the pair fraction increases with redshift, with up to ,20 per cent of the galaxies being in physical pairs at z , 0:75‐1. We derive a merger fraction varying with redshift as /O1a zU 3:2^0:6 , after correction for line-of-sight contamination, in excellent agreement with the merger fraction derived from the visual classification of mergers for which ma 3:4 ^ 0:6. After correcting for seeing effects on the ground-based selection of survey galaxies, we conclude that the pair fraction evolves as/O1a zU 2:7^0:6 . This implies that an average L* galaxy will have undergone 0.8‐1.8 merger events from za 1t oza 0, with 0.5 to 1.2 merger events occuring in a 2-Gyr time-span at around z , 0:9. This result is consistent with predictions from semi-analytical models of galaxy formation. From the simple coaddition of the observed luminosities of the galaxies in pairs, physical mergers are computed to lead to a brightening of 0.5 mag for each pair on average, and a boost in star formation rate of a factor of 2, as derived from the average [O ii] equivalent widths. Mergers of galaxies are therefore contributing significantly to the evolution of both the luminosity function and luminosity density of the Universe out to z , 1.",
+      "year": 1999,
+      "authors": [
+        "O. Fèvre",
+        "Roberto G. Abraham",
+        "S. Lilly",
+        "R. Ellis",
+        "J. Brinchmann",
+        "D. Schade",
+        "L. Tresse",
+        "M. Colless",
+        "D. Crampton",
+        "K. Glazebrook",
+        "F. Hammer",
+        "T. Broadhurst"
+      ],
+      "referenceCount": 36,
+      "citationCount": 288
+    },
+    {
+      "paperId": "be4d7031d4a58551b868715d333732a0560d8a45",
+      "title": "Radio Constraints on the Identifications and Redshifts of Submillimeter Galaxies",
+      "abstract": "We present radio maps from the Very Large Array (VLA) for 16 sources detected in a submillimeter (submm) survey of the distant universe. Our deep VLA 1.4 GHz maps allow us to identify radio counterparts or place stringent limits (≲20 μJy in the source plane) on the radio flux of the submm sources. We compare the spectral indices of our sources between 850 μm and 1.4 GHz to empirical and theoretical models for distant starburst galaxies and active galactic nuclei (AGNs) as a function of redshift. In this way we can derive redshift limits for the submm sources, even in the absence of an optical or near-infrared counterpart. We conclude that the submm population brighter than ~1 mJy has a median redshift of at least ~ 2, more probably ~ 2.5-3, with almost all galaxies at z ≫ 1. This estimate is a strong lower limit as both misidentification of the radio counterparts and nonthermal emission from an AGN will bias our redshift estimates to lower values. The high median redshift means that the submm population, if predominately powered by starbursts, contributes a substantial fraction of the total star formation density at high redshifts. A comparison of the spectral index limits with spectroscopic redshifts for proposed optical counterparts to individual submm galaxies suggests that half of the submm sources remain unidentified and thus their counterparts must be fainter than I ≳ 24.",
+      "year": 1999,
+      "authors": [
+        "I. Smail",
+        "R. Ivison",
+        "F. Owen",
+        "A. Kneib"
+      ],
+      "referenceCount": 19,
+      "citationCount": 152
+    },
+    {
+      "paperId": "98ddc7b8bfd8c1e20440edde9f8d0934c57198d4",
+      "title": "The radio properties of radio-quiet quasars",
+      "abstract": "Although radio-quiet quasars (RQQs), which constitute the majority of optically-identified quasar samples, are by no means radio silent the properties of their radio emission are only poorly understood. We present the results of a multi-frequency VLA study of 27 low-redshift RQQs. In general, we find that the properties of the radio sources in RQQs are consistent with them being weak, small-scale (~ 1 kpc) jets similar to those observed in nearby Seyfert galaxies. We conclude that a significant fraction of the radio emission in RQQs is directly associated with the central engine and is not a result of stellar processes in the surrounding galaxy. There appears to be no difference between the radio properties of RQQs in elliptical and disc galaxies, implying that the relationship between the host galaxy and the ‘radio loudness’ of the active nucleus is not straightforward.",
+      "year": 1997,
+      "authors": [
+        "M. Kukula",
+        "J. Dunlop",
+        "D. Hughes",
+        "S. Rawlings"
+      ],
+      "referenceCount": 7,
+      "citationCount": 98
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "main": {
+    "paperId": "a1748c9f293ceef9f6ccd9053dc4cdb96f7c839a",
+    "title": "Mobile social media usage and academic performance",
+    "abstract": null,
+    "year": 2018,
+    "authors": [
+      "Fausto Giunchiglia",
+      "M. Zeni",
+      "Elisa Gobbi",
+      "Enrico Bignotti",
+      "Ivano Bison"
+    ],
+    "referenceCount": 29,
+    "citationCount": 214
+  },
+  "references": [
+    {
+      "paperId": "20200e087c4cdd06cd1e8c2d776d7cda30b5a390",
+      "title": "Personal context modelling and annotation",
+      "abstract": "Context is a fundamental tool humans use for understanding their environment, and it must be modelled in a way that accounts for the complexity faced in the real world. Current context modelling approaches mostly focus on a priori defined environments, while the majority of human life is in open, and hence complex and unpredictable, environments. We propose a context model where the context is organized according to the different dimensions of the user environment. In addition, we propose the notions of endurants and perdurants as a way to describe how humans aggregate their context depending either on space or time, respectively. To ground our modelling approach in the reality of users, we collaborate with sociology experts in an internal university project aiming at understanding how behavioral patterns of university students in their everyday life affect their academic performance. Our contribution is a methodology for developing annotations general enough to account for human life in open domains and to be consistent with both sensor data and sociological approaches.",
+      "year": 2017,
+      "authors": [
+        "Fausto Giunchiglia",
+        "Enrico Bignotti",
+        "M. Zeni"
+      ],
+      "referenceCount": 21,
+      "citationCount": 39
+    },
+    {
+      "paperId": "d875a6df25473a4470a5d4c2d81ec4f451f16503",
+      "title": "Comparing the Self-Report and Measured Smartphone Usage of College Students: A Pilot Study",
+      "abstract": "Objective Nowadays smartphone overuse has become a social and medical concern. For the diagnosis and treatment, clinicians use the self-report information, but the report data often does not match actual usage pattern. The paper examines the similarity and variance in smartphone usage patterns between the measured data and self-reported data. Methods Together with the self-reported data, the real usage log data is collected from 35 college students in a metropolitan region of Northeast Asia, using Android smartphone monitoring application developed by the authors. Results The unconscious users underestimate their usage time by 40%, in spite of 15% more use in the actual usage. Messengers are most-used application regardless of their self-report, and significant preference to SNS applications was observed in addict group. The actual hourly pattern is consistent with the reported one. College students use more in the afternoon, when they have more free time and cannot use PCs. No significant difference in hourly pattern is observed between the measured and self-report. Conclusion The result shows there are significant cognitive bias in actual usage patterns exists in self report of smartphone addictions. Clinicians are recommended to utilize measurement tools in diagnosis and treatment of smartphone overusing subjects.",
+      "year": 2017,
+      "authors": [
+        "Heyoung Lee",
+        "Hee-Su Ahn",
+        "T. G. Nguyen",
+        "S. Choi",
+        "Dae Jin Kim"
+      ],
+      "referenceCount": 20,
+      "citationCount": 93
+    },
+    {
+      "paperId": "353d93ea1b9aa8c67feddc28a5640b60d4718915",
+      "title": "SmartGPA: how smartphones can assess and predict academic performance of college students",
+      "abstract": "Many cognitive, behavioral, and environmental factors impact student learning during college. The SmartGPA study uses passive sensing data and self-reports from students' smartphones to understand individual behavioral differences between high and low performers during a single 10-week term. We propose new methods for better understanding study (e.g., study duration) and social (e.g., partying) behavior of a group of undergraduates. We show that there are a number of important behavioral factors automatically inferred from smartphones that significantly correlate with term and cumulative GPA, including time series analysis of activity, conversational interaction, mobility, class attendance, studying, and partying. We propose a simple model based on linear regression with lasso regularization that can accurately predict cumulative GPA. The predicted GPA strongly correlates with the ground truth from students' transcripts (r = 0:81 and p < 0:001) and predicts GPA within ±0:179 of the reported grades. Our results open the way for novel interventions to improve academic performance.",
+      "year": 2015,
+      "authors": [
+        "Rui Wang",
+        "Gabriella M. Harari",
+        "Peilin Hao",
+        "Xia Zhou",
+        "A. Campbell"
+      ],
+      "referenceCount": 48,
+      "citationCount": 202
+    },
+    {
+      "paperId": "5eeeab1d3fb94c8c6fe801bf53391732719a8110",
+      "title": "Smartphone Addiction among University Undergraduates: A Literature Review",
+      "abstract": "ABSTRACT Purpose : This paper reviews the growing literature on Smartphone addiction among university undergraduates to identify trends. Design/Methodological Approach: It is based on literature published during the period 1996-2013. Only original research papers have been included in this literature review. The thematic structure has been adopted. In the beginning, such concepts as the symptoms and levels of this addiction will be clarified. Afterwards, the underlying problems and methodological issues raised in the literature will be touched upon. The paper also reviews the relationship between Smartphone addiction among undergraduates and their academic achievement. Finally, significant differences in addiction among undergraduates according to their gender, field of study, parents educational level and family income level will be examined. Findings: While some studies have shown gender differences in Smartphone addictive use, others have proved that gender and Smartphone use are not significantly related. A few studies have examined the relationship between addiction and students' field of study. Some of these Review Article",
+      "year": 2015,
+      "authors": [
+        "Hafidha S. Al-Barashdi",
+        "Abdelmajid Bouazza",
+        "Naeema H. Jabur"
+      ],
+      "referenceCount": 76,
+      "citationCount": 115
+    },
+    {
+      "paperId": "6ce66b9941b766775e66229c013096bfb45d3339",
+      "title": "Hooked on smartphones: an exploratory study on smartphone overuse among college students",
+      "abstract": "The negative aspects of smartphone overuse on young adults, such as sleep deprivation and attention deficits, are being increasingly recognized recently. This emerging issue motivated us to analyze the usage patterns related to smartphone overuse. We investigate smartphone usage for 95 college students using surveys, logged data, and interviews. We first divide the participants into risk and non-risk groups based on self-reported rating scale for smartphone overuse. We then analyze the usage data to identify between-group usage differences, which ranged from the overall usage patterns to app-specific usage patterns. Compared with the non-risk group, our results show that the risk group has longer usage time per day and different diurnal usage patterns. Also, the risk group users are more susceptible to push notifications, and tend to consume more online content. We characterize the overall relationship between usage features and smartphone overuse using analytic modeling and provide detailed illustrations of problematic usage behaviors based on interview data.",
+      "year": 2014,
+      "authors": [
+        "Uichin Lee",
+        "Joonwon Lee",
+        "Minsam Ko",
+        "Changhun Lee",
+        "Yuhwan Kim",
+        "Subin Yang",
+        "K. Yatani",
+        "G. Gweon",
+        "Kyong-Mee Chung",
+        "Junehwa Song"
+      ],
+      "referenceCount": 34,
+      "citationCount": 205
+    }
+  ]
+}

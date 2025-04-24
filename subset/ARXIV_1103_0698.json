@@ -1,0 +1,39 @@
+{
+  "main": {
+    "paperId": "e9a44380e6b28d2ddf1347e55a6839b9f97ccacb",
+    "title": "Existence and regularity of positive solutions to elliptic equations of Schr\\\"{o}dinger type",
+    "abstract": "We prove the existence of positive solutions with optimal local regularity to homogeneous elliptic equations of Schr\\\"{o}dinger type, under only a form boundedness assumption on $\\sigma \\in D'(\\Omega)$ and ellipticity assumption on $\\mathcal{A}\\in L^\\infty(\\Omega)^{n\\times n}$, for an arbitrary open set $\\Omega\\subseteq \\mathbf{R}^n$. We demonstrate that there is a two way correspondence between the form boundedness and the existence of positive solutions to this equation, as well as weak solutions to certain elliptic equations with quadratic nonlinearity in the gradient. As a consequence, we obtain necessary and sufficient conditions for both the form-boundedness (with a sharp upper form bound) and the positivity of the quadratic form of the Schr\\\"{o}dinger type operator with arbitrary distributional potential $\\sigma \\in D'(\\Omega)$, and give examples clarifying the relationship between these two properties.",
+    "year": 2011,
+    "authors": [
+      "B. Jaye",
+      "V. Maz'ya",
+      "I. Verbitsky"
+    ],
+    "referenceCount": 52,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "8e299351d8c5d744e2acf24a4d3f188db6691e91",
+      "title": "Hardy's Inequality for Dirichlet Forms",
+      "abstract": "Abstract We prove an abstract form of Hardy's L2 inequality, in which the Dirichlet integral is replaced by the Dirichlet form of a general symmetric Markov process. A number of examples are provided.",
+      "year": 2000,
+      "authors": [
+        "P. Fitzsimmons"
+      ],
+      "referenceCount": 23,
+      "citationCount": 46
+    },
+    {
+      "paperId": "4d966fbf32d24f049a65f5e01286a84b8f5e16c5",
+      "title": "Non-oscillation theorems",
+      "abstract": "where F(x) is a real-valued function defined for x> 0 and belonging to L(E, 1/E) for each E>0. A solution of (1.1) is a real-valued function y(x), absolutely continuous together with its first derivative, which satisfies the equation for almost all x, in particular at all points of continuity of F(x). We shall say that the equation is non-oscillatory in (a, oo), a>O, if no solution can change its sign more than once in the interval. Since the zeros of linearly independent solutions separate each other, it is sufficient that there exists a solution without zeros in the interval in order that the equation be non-oscillatory there. It is well known that (1.1) is non-oscillatory in (0, oo) if F(x) _ 0, but it may also have this property when F(x) ?0 as is shown by the example",
+      "year": 1948,
+      "authors": [
+        "E. Hille"
+      ],
+      "referenceCount": 9,
+      "citationCount": 344
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "main": {
+    "paperId": "28601a2ffff7218c48184ae9682412ef9d749fd6",
+    "title": "Monodromy Solver: Sequential and Parallel",
+    "abstract": "We describe, study, and experiment with an algorithm for finding all solutions of systems of polynomial equations using homotopy continuation and monodromy. This algorithm follows the framework developed by Duff et al. (2018) and can operate in the presence of a large number of failures of the homotopy continuation subroutine. We give special attention to parallelization and probabilistic analysis of a model adapted to parallelization and failures. Apart from theoretical results, we developed a simulator that allows us to run a large number of experiments without recomputing the outcomes of the continuation subroutine.",
+    "year": 2018,
+    "authors": [
+      "N. Bliss",
+      "Timothy Duff",
+      "A. Leykin",
+      "J. Sommars"
+    ],
+    "referenceCount": 26,
+    "citationCount": 10
+  },
+  "references": [
+    {
+      "paperId": "4785035bc55ceacc24778b0a67d2948f10db2581",
+      "title": "Numerical algebraic geometry",
+      "abstract": "[1] T.Y. Li. Numerical solution of multivariate polynomial systems by homotopy continuation methods. Acta Numerica, 6:399–436, 1997. [2] J. Verschelde. Algorithm 795: PHCpack: A general-purpose solver for polynomial systems by homotopy continuation. ACM Trans. Math. Softw., 25(2):251– 276, 1999. http://www.math.uic.edu/ ̃jan/download.html. 3. Numerical Irreducible Decomposition Numerical representations of positive dimensional solution sets.",
+      "year": 2020,
+      "authors": [
+        "Jan Verschelde"
+      ],
+      "referenceCount": 0,
+      "citationCount": 38
+    }
+  ]
+}

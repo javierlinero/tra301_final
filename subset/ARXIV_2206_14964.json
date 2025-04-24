@@ -1,0 +1,35 @@
+{
+  "main": {
+    "paperId": "a6102cc9ccc0007bd0b33826cee00e3da60ec90d",
+    "title": "Improving Visual Speech Enhancement Network by Learning Audio-visual Affinity with Multi-head Attention",
+    "abstract": "Audio-visual speech enhancement system is regarded as one of promising solutions for isolating and enhancing speech of desired speaker. Typical methods focus on predicting clean speech spectrum via a naive convolution neural network based encoder-decoder architecture, and these methods a) are not adequate to use data fully, b) are unable to effectively balance audio-visual features. The proposed model alleviates these drawbacks by a) applying a model that fuses audio and visual features layer by layer in encoding phase, and that feeds fused audio-visual features to each corresponding decoder layer, and more importantly, b) introducing a 2-stage multi-head cross attention (MHCA) mechanism to infer audio-visual speech enhancement for balancing the fused audio-visual features and eliminating irrelevant features. This paper proposes attentional audio-visual multi-layer feature fusion model, in which MHCA units are applied to feature mapping at every layer of decoder. The proposed model demonstrates the superior performance of the network against the state-of-the-art models.",
+    "year": 2022,
+    "authors": [
+      "Xinmeng Xu",
+      "Yang Wang",
+      "Jie Jia",
+      "Binbin Chen",
+      "Dejun Li"
+    ],
+    "referenceCount": 30,
+    "citationCount": 9
+  },
+  "references": [
+    {
+      "paperId": "ddf1461979a5e39321b931cfe5b470999b5e4aab",
+      "title": "Audio-Visual Speech Enhancement Using Multimodal Deep Convolutional Neural Networks",
+      "abstract": "Speech enhancement (SE) aims to reduce noise in speech signals. Most SE techniques focus only on addressing audio information. In this paper, inspired by multimodal learning, which utilizes data from different modalities, and the recent success of convolutional neural networks (CNNs) in SE, we propose an audio–visual deep CNNs (AVDCNN) SE model, which incorporates audio and visual streams into a unified network model. We also propose a multitask learning framework for reconstructing audio and visual signals at the output layer. Precisely speaking, the proposed AVDCNN model is structured as an audio–visual encoder–decoder network, in which audio and visual data are first processed using individual CNNs, and then fused into a joint network to generate enhanced speech (the primary task) and reconstructed images (the secondary task) at the output layer. The model is trained in an end-to-end manner, and parameters are jointly learned through back propagation. We evaluate enhanced speech using five instrumental criteria. Results show that the AVDCNN model yields a notably superior performance compared with an audio-only CNN-based SE model and two conventional SE approaches, confirming the effectiveness of integrating visual information into the SE process. In addition, the AVDCNN model also outperforms an existing audio–visual SE model, confirming its capability of effectively combining audio and visual information in SE.",
+      "year": 2017,
+      "authors": [
+        "Jen-Cheng Hou",
+        "Syu-Siang Wang",
+        "Ying-Hui Lai",
+        "Yu Tsao",
+        "Hsiu-Wen Chang",
+        "H. Wang"
+      ],
+      "referenceCount": 88,
+      "citationCount": 194
+    }
+  ]
+}

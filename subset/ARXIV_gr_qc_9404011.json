@@ -1,0 +1,64 @@
+{
+  "main": {
+    "paperId": "261a83743e32db5972d2d01fbb7e990c889a829e",
+    "title": "The fate of black hole singularities and the parameters of the standard models of particle physics and cosmology",
+    "abstract": "A cosmological scenario which explains the values of the parameters of the standard models of elementary particle physics and cosmology is discussed. In this scenario these parameters are set by a process analogous to natural selection which follows naturally from the assumption that the singularities in black holes are removed by quantum effects leading to the creation of new expanding regions of the universe. The suggestion of J. A. Wheeler that the parameters change randomly at such events leads naturally to the conjecture that the parameters have been selected for values that extremize the production of black holes. This leads directly to a prediction, which is that small changes in any of the parameters should lead to a decrease in the number of black holes produced by the universe. On plausible astrophysical assumptions it is found that changes in many of the parameters do lead to a decrease in the number of black holes produced by spiral galaxies. These include the masses of the proton,neutron, electron and neutrino and the weak, strong and electromagnetic coupling constants. Finally,this scenario predicts a natural time scale for cosmology equal to the time over which spiral galaxies maintain appreciable rates of star formation, which is compatible with current observations that $\\Omega = .1-.2$.",
+    "year": 1994,
+    "authors": [
+      "L. Smolin"
+    ],
+    "referenceCount": 45,
+    "citationCount": 38
+  },
+  "references": [
+    {
+      "paperId": "a0708328cb88f62da3633535aedd8d215da50485",
+      "title": "Self-regulated star formation in the galaxy",
+      "abstract": "The stellar birthrate is obtained under the assumption that the regions of star formation are supported against gravity by winds from low-mass young objects. For winds interacting in the momentum conservation stage (i.e., the shell radius is proportional to t/sup 1/4/), it is found that the rate is correlated with the molecular gas density of the parent fragment as n/sup 13/8/ or n/sup 5/8/, for rates per unit volume or per unit mass, respectively. In particular, the birthrates derived from protostellar rotationally driven winds are in good agreement with the observed star production in the cloud B18. Also, with the aid of the observed properties on the Taurus-Auriga complex, the model is extrapolated to the Galaxy as a whole. The predicted average rate for the Milky Way is in good agreement with standard estimates based on observations of the solar neighborhood.",
+      "year": 1983,
+      "authors": [
+        "J. Franco",
+        "D. Cox"
+      ],
+      "referenceCount": 0,
+      "citationCount": 37
+    },
+    {
+      "paperId": "eaeea81fd010ec938f43d07da0d71b5d11b1a07a",
+      "title": "Stochastic star formation and the evolution of galaxies",
+      "abstract": "The mechanism of stochastic self-propagating star formation has previously been invoked to explain the origin of spiral arms in galaxies. In this paper we extend the application of this mechanism to account for the diversity of morphological types and the evolution of galaxies. The new property that arises from consideration of this mechanism is that the rate of star formation exhibits the critical behavior of a phase transition. This is a general property of the system and is not strongly dependent on the details of the star--interstellar gas interaction. Examination of the properties of this phase transition provides a general scenario for the evolution of galaxies and the origin of the various morphological types.",
+      "year": 1979,
+      "authors": [
+        "P. Seiden",
+        "L. Schulman",
+        "H. Gerola"
+      ],
+      "referenceCount": 0,
+      "citationCount": 23
+    },
+    {
+      "paperId": "893d526cacf9720f1fa33464e7b6e884f9f4cc1c",
+      "title": "Did the Universe evolve?",
+      "abstract": "A new type of explanatory mechanism is proposed to account for the fact that many of the dimensionless numbers which characterize particle physics and cosmology take unnatural values. It is proposed that all final singularities 'bounce' or tunnel to initial singularities of new universes at which point the dimensionless parameters of the standard models of particle physics and cosmology undergo small random changes. This speculative hypothesis, plus the conventional physics of gravitational collapse, together comprise a mechanism for natural selection, in which those choices of parameters that lead to universes that produce the most black holes during their lifetime are selected for. If our Universe is a typical member of the ensemble that results from many generations of such reproducing universes then it follows that the parameters of our present Universe are near a local maximum of the number of black holes produced per universe. Thus, modifications of the parameters of particle physics and cosmology from their present values should tend to decrease the number of black holes in the universe. Three possible examples of this mechanism are described.",
+      "year": 1992,
+      "authors": [
+        "Lee Smoiln"
+      ],
+      "referenceCount": 0,
+      "citationCount": 91
+    },
+    {
+      "paperId": "bd76715f7e9b3754eca740ef11a96bc9b437f77a",
+      "title": "Star Formation in Molecular Clouds: Observation and Theory",
+      "abstract": "Star-formation (SF) processes occurring on the scale of giant molecular clouds (10 to the 6th solar masses and 10 to the 20th cm) or smaller are discussed, reviewing the results of recent theoretical and observational investigations. Topics examined include the origin of stellar masses; bimodal SF; initial mass functions; binary stars, bound clusters, and hierarchical fragmentation; and the efficiency of SF. The properties of molecular clouds and the origin of substructures in molecular clumps are explored in detail, and consideration is given to gravitational collapse and protostars, bipolar outflows from young stellar objects, visible young stellar objects, and the implications for binary-star and planetary-system formation.",
+      "year": 1987,
+      "authors": [
+        "F. Shu",
+        "F. Adams",
+        "S. Lizano"
+      ],
+      "referenceCount": 0,
+      "citationCount": 1857
+    }
+  ]
+}

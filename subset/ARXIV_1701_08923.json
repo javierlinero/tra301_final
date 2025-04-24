@@ -1,0 +1,57 @@
+{
+  "main": {
+    "paperId": "b3b756773c63a173da8c79c855eccdedf42a603e",
+    "title": "One-step Estimation of Networked Population Size with Anonymity Using Respondent-Driven Capture-Recapture and Hashing",
+    "abstract": "Estimates of population size for hidden and hard-to-reach individuals are of particular interest to health officials when health problems are concentrated in such populations. Efforts to derive these estimates are often frustrated by a range of factors including social stigma or an association with illegal activities that ordinarily preclude conventional survey strategies. This paper builds on and extends prior work that proposed a method to meet these challenges. Here we describe a rigorous formalization of a one-step, network-based population estimation procedure that can be employed under conditions of anonymity. The estimation procedure is designed to be implemented alongside currently accepted strategies for research with hidden populations. Simulation experiments are described that test the efficacy of the method across a range of implementation conditions and hidden population sizes. The results of these experiments show that reliable population estimates can be derived for hidden, networked population as large as 12,500 and perhaps larger for one family of random graphs. As such, the method shows potential for cost-effective implementation health and disease surveillance officials concerned with hidden populations. Limitations and future work are discussed in the concluding section.",
+    "year": 2017,
+    "authors": [
+      "Bilal Khan",
+      "Hsuan-Wei Lee",
+      "K. Dombrowski"
+    ],
+    "referenceCount": 55,
+    "citationCount": 2
+  },
+  "references": [
+    {
+      "paperId": "3abd677c3609b2b332a5521cffea6b167fb96723",
+      "title": "Estimating the Size of the Methamphetamine-Using Population in New York City Using Network Sampling Techniques.",
+      "abstract": "As part of a recent study of the dynamics of the retail market for methamphetamine use in New York City, we used network sampling methods to estimate the size of the total networked population. This process involved sampling from respondents' list of co-use contacts, which in turn became the basis for capture-recapture estimation. Recapture sampling was based on links to other respondents derived from demographic and \"telefunken\" matching procedures-the latter being an anonymized version of telephone number matching. This paper describes the matching process used to discover the links between the solicited contacts and project respondents, the capture-recapture calculation, the estimation of \"false matches\", and the development of confidence intervals for the final population estimates. A final population of 12,229 was estimated, with a range of 8235 - 23,750. The techniques described here have the special virtue of deriving an estimate for a hidden population while retaining respondent anonymity and the anonymity of network alters, but likely require larger sample size than the 132 persons interviewed to attain acceptable confidence levels for the estimate.",
+      "year": 2012,
+      "authors": [
+        "K. Dombrowski",
+        "Bilal Khan",
+        "T. Wendel",
+        "Katherine McLean",
+        "Evan Misshula",
+        "R. Curtis"
+      ],
+      "referenceCount": 38,
+      "citationCount": 28
+    },
+    {
+      "paperId": "36d7fe64824f9c55a77979099b0ca94acf03e13b",
+      "title": "Counting hard-to-count populations: the network scale-up method for public health",
+      "abstract": "Estimating sizes of hidden or hard-to-reach populations is an important problem in public health. For example, estimates of the sizes of populations at highest risk for HIV and AIDS are needed for designing, evaluating and allocating funding for treatment and prevention programmes. A promising approach to size estimation, relatively new to public health, is the network scale-up method (NSUM), involving two steps: estimating the personal network size of the members of a random sample of a total population and, with this information, estimating the number of members of a hidden subpopulation of the total population. We describe the method, including two approaches to estimating personal network sizes (summation and known population). We discuss the strengths and weaknesses of each approach and provide examples of international applications of the NSUM in public health. We conclude with recommendations for future research and evaluation.",
+      "year": 2010,
+      "authors": [
+        "Russell Bernard",
+        "T. Hallett",
+        "A. Iovita",
+        "E. Johnsen",
+        "R. Lyerla",
+        "C. McCarty",
+        "M. Mahy",
+        "Matthew J. Salganik",
+        "T. Saliuk",
+        "O. Scutelniciuc",
+        "G. Shelley",
+        "P. Sirinirund",
+        "S. Weir",
+        "D. Stroup"
+      ],
+      "referenceCount": 37,
+      "citationCount": 143
+    }
+  ]
+}

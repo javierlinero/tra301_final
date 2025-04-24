@@ -1,0 +1,98 @@
+{
+  "main": {
+    "paperId": "1ae528d78c18d18cb294939e224cb566e6b0c1eb",
+    "title": "Algorithms and Computational Study on a Transportation System Integrating Public Transit and Ridesharing of Personal Vehicles",
+    "abstract": "The potential of integrating public transit with ridesharing includes shorter travel time for commuters and higher occupancy rate of personal vehicles and public transit ridership. In this paper, we describe a centralized transit system that integrates public transit and ridesharing to reduce travel time for commuters. In the system, a set of ridesharing providers (drivers) and a set of public transit riders are received. The optimization goal of the system is to assign riders to drivers by arranging public transit and ridesharing combined routes subject to shorter commuting time for as many riders as possible. We give an exact algorithm, which is an ILP formulation based on a hypergraph representation of the problem. By using the ILP and the hypergraph, we give approximation algorithms based on LP-rounding and hypergraph matching/weighted set packing, respectively. As a case study, we conduct an extensive computational study based on real-world public transit dataset and ridesharing dataset in Chicago city. To evaluate the effectiveness of the transit system and our algorithms, we generate data instances from the datasets. The experimental results show that more than 60% of riders are assigned to drivers on average, riders' commuting time is reduced by 23% and vehicle occupancy rate is improved to almost 3. Our proposed algorithms are efficient for practical scenarios.",
+    "year": 2023,
+    "authors": [
+      "Q. Gu",
+      "J. Liang"
+    ],
+    "referenceCount": 57,
+    "citationCount": 4
+  },
+  "references": [
+    {
+      "paperId": "deec37cb128346b6ae3301534fc21046f018cb92",
+      "title": "Intermodal Autonomous Mobility-on-Demand",
+      "abstract": "In this paper we study models and coordination policies for intermodal Autonomous Mobility-on-Demand (AMoD), wherein a fleet of self-driving vehicles provides on-demand mobility jointly with public transit. Specifically, we first present a network flow model for intermodal AMoD, where we capture the coupling between AMoD and public transit and the goal is to maximize social welfare. Second, leveraging such a model, we design a pricing and tolling scheme that allows the system to recover a social optimum under the assumption of a perfect market with selfish agents. Third, we present real-world case studies for the transportation networks of New York City and Berlin, which allow us to quantify the general benefits of intermodal AMoD, as well as the societal impact of different vehicles. In particular, we show that vehicle size and powertrain type heavily affect intermodal routing decisions and, thus, system efficiency. Our studies reveal that the cooperation between AMoD fleets and public transit can yield significant benefits compared to an AMoD system operating in isolation, whilst our proposed tolling policies appear to be in line with recent discussions for the case of New York City.",
+      "year": 2020,
+      "authors": [
+        "Mauro Salazar",
+        "Nicolas Lanzetti",
+        "Federico Rossi",
+        "Maximilian Schiffer",
+        "M. Pavone"
+      ],
+      "referenceCount": 68,
+      "citationCount": 69
+    },
+    {
+      "paperId": "56c776f4eabb3ff63d481c2af35543784ce101a9",
+      "title": "On-demand dynamic Bi-/multi-modal ride-sharing using optimal passenger-vehicle assignments",
+      "abstract": "Existing mobility-on-demand service has a major inefficiency for its operating policy design by disregarding the opportunity in cooperation with other transportation networks. In this work, a dynamic bi-/multi-modal vehicle dispatching and routing algorithm is proposed to address the real-time operating policy of ride-sharing (feeder) services in coordination with the presence of existing public transportation networks. We propose a solution algorithm based on the concept of shareability to group a bundle of requests and find optimal passengers-vehicles assignment with least cost to ensure seamless bi-/multi modal trips. The proposed method is tested on a realistic transportation network with stochastic demand. This study provides a useful tool for real-time mobility-on-demand service planning and design in a multimodal transportation network.",
+      "year": 2017,
+      "authors": [
+        "Tai-Yu Ma"
+      ],
+      "referenceCount": 21,
+      "citationCount": 24
+    },
+    {
+      "paperId": "eb4c651ceee3e47b8248069d116b1041f1e0def6",
+      "title": "Enhancing Urban Mobility: Integrating Ride-Sharing and Public Transit",
+      "abstract": "Seamless integration of ride-sharing and public transit may offer fast, reliable, and affordable transfer to and from transit stations in suburban areas thereby enhancing mobility of residents. We investigate the potential benefits of such a system, as well as the ride-matching technology required to support it, by means of an extensive computational study.",
+      "year": 2016,
+      "authors": [
+        "Mitja Stiglic",
+        "Niels A. H. Agatz",
+        "M. Savelsbergh",
+        "M. Gradisar"
+      ],
+      "referenceCount": 25,
+      "citationCount": 249
+    },
+    {
+      "paperId": "bd8ec6c74512d5e9f68cc1ecb71b770628afc756",
+      "title": "Quantifying the benefits of vehicle pooling with shareability networks",
+      "abstract": "Significance Recent advances in information technologies have increased our participation in “sharing economies,” where applications that allow networked, real-time data exchange facilitate the sharing of living spaces, equipment, or vehicles with others. However, the impact of large-scale sharing on sustainability is not clear, and a framework to assess its benefits quantitatively is missing. For this purpose, we propose the method of shareability networks, which translates spatio-temporal sharing problems into a graph-theoretic framework that provides efficient solutions. Applying this method to a dataset of 150 million taxi trips in New York City, our simulations reveal the vast potential of a new taxi system in which trips are routinely shareable while keeping passenger discomfort low in terms of prolonged travel time. Taxi services are a vital part of urban transportation, and a considerable contributor to traffic congestion and air pollution causing substantial adverse effects on human health. Sharing taxi trips is a possible way of reducing the negative impact of taxi services on cities, but this comes at the expense of passenger discomfort quantifiable in terms of a longer travel time. Due to computational challenges, taxi sharing has traditionally been approached on small scales, such as within airport perimeters, or with dynamical ad hoc heuristics. However, a mathematical framework for the systematic understanding of the tradeoff between collective benefits of sharing and individual passenger discomfort is lacking. Here we introduce the notion of shareability network, which allows us to model the collective benefits of sharing as a function of passenger inconvenience, and to efficiently compute optimal sharing strategies on massive datasets. We apply this framework to a dataset of millions of taxi trips taken in New York City, showing that with increasing but still relatively low passenger discomfort, cumulative trip length can be cut by 40% or more. This benefit comes with reductions in service cost, emissions, and with split fares, hinting toward a wide passenger acceptance of such a shared service. Simulation of a realistic online system demonstrates the feasibility of a shareable taxi service in New York City. Shareability as a function of trip density saturates fast, suggesting effectiveness of the taxi sharing system also in cities with much sparser taxi fleets or when willingness to share is low.",
+      "year": 2013,
+      "authors": [
+        "Paolo Santi",
+        "Giovanni Resta",
+        "Michael Szell",
+        "Stanislav Sobolevsky",
+        "S. Strogatz",
+        "Carlo Ratti"
+      ],
+      "referenceCount": 40,
+      "citationCount": 271
+    },
+    {
+      "paperId": "68feb145c4eb4421c7f334d0a992d7c2095b91e6",
+      "title": "Tight approximation algorithms for maximum general assignment problems",
+      "abstract": "A separable assignment problem (SAP) is defined by a set of bins and a set of items to pack in each bin; a value, fij, for assigning item j to bin i; and a separate packing constraint for each bin - i.e. for bin i, a family Li of subsets of items that fit in bin i. The goal is to pack items into bins to maximize the aggregate value. This class of problems includes the maximum generalized assignment problem (GAP)1) and a distributed caching problem (DCP) described in this paper.Given a β-approximation algorithm for finding the highest value packing of a single bin, we give1. A polynomial-time LP-rounding based ((1 − 1/e)β)-approximation algorithm.2. A simple polynomial-time local search (β/β+1 - ε) - approximation algorithm, for any ε > 0.Therefore, for all examples of SAP that admit an approximation scheme for the single-bin problem, we obtain an LP-based algorithm with (1 - 1/e - ε)-approximation and a local search algorithm with (1/2-ε)-approximation guarantee. Furthermore, for cases in which the subproblem admits a fully polynomial approximation scheme (such as for GAP), the LP-based algorithm analysis can be strengthened to give a guarantee of 1 - 1/e. The best previously known approximation algorithm for GAP is a 1/2-approximation by Shmoys and Tardos; and Chekuri and Khanna. Our LP algorithm is based on rounding a new linear programming relaxation, with a provably better integrality gap.To complement these results, we show that SAP and DCP cannot be approximated within a factor better than 1 -1/e unless NP⊆ DTIME(nO(log log n)), even if there exists a polynomial-time exact algorithm for the single-bin problem.We extend the (1 - 1/e)-approximation algorithm to a nonseparable assignment problem with applications in maximizing revenue for budget-constrained combinatorial auctions and the AdWords assignment problem. We generalize the local search algorithm to yield a 1/2-ε approximation algorithm for the k-median problem with hard capacities. Finally, we study naturally defined game-theoretic versions of these problems, and show that they have price of anarchy of 2. We also prove the existence of cycles of best response moves, and exponentially long best-response paths to (pure or sink) equilibria.",
+      "year": 2006,
+      "authors": [
+        "L. Fleischer",
+        "M. Goemans",
+        "V. Mirrokni",
+        "M. Sviridenko"
+      ],
+      "referenceCount": 41,
+      "citationCount": 291
+    },
+    {
+      "paperId": "5a035dab7fbdadf35221dcb72287e505ef7ac734",
+      "title": "Greedy local improvement and weighted set packing approximation",
+      "abstract": "Given a collection of weighted sets, each containing at most k elements drawn from a finite base set, the k-set packing problem is to find a maximum weight sub-collection of disjoint sets. A greedy algorithm for this problem approximates it to within a factor of k, and a natural local search has been shown to approximate it to within a factor of roughly k?1. However, neither paradigm can yield approximations that improve on this.We present an approximation algorithm for the weighted k-set packing problem that combines the two paradigms by starting with an initial greedy solution and then repeatedly choosing the best possible local improvement. The algorithm has a performance ratio of 2(k+1)/3, which we show is asymptotically tight. This is the first asymptotic improvement over the straightforward ratio of k.",
+      "year": 2001,
+      "authors": [
+        "B. Chandra",
+        "M. Halldórsson"
+      ],
+      "referenceCount": 11,
+      "citationCount": 169
+    }
+  ]
+}

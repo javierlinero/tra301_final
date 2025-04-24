@@ -1,0 +1,167 @@
+{
+  "main": {
+    "paperId": "4b3a2b60af63ee35e61665fb93b861a5dc907b8d",
+    "title": "Local and adaptive mirror descents in extensive-form games",
+    "abstract": "We study how to learn $\\epsilon$-optimal strategies in zero-sum imperfect information games (IIG) with trajectory feedback. In this setting, players update their policies sequentially based on their observations over a fixed number of episodes, denoted by $T$. Existing procedures suffer from high variance due to the use of importance sampling over sequences of actions (Steinberger et al., 2020; McAleer et al., 2022). To reduce this variance, we consider a fixed sampling approach, where players still update their policies over time, but with observations obtained through a given fixed sampling policy. Our approach is based on an adaptive Online Mirror Descent (OMD) algorithm that applies OMD locally to each information set, using individually decreasing learning rates and a regularized loss. We show that this approach guarantees a convergence rate of $\\tilde{\\mathcal{O}}(T^{-1/2})$ with high probability and has a near-optimal dependence on the game parameters when applied with the best theoretical choices of learning rates and sampling policies. To achieve these results, we generalize the notion of OMD stabilization, allowing for time-varying regularization with convex increments.",
+    "year": 2023,
+    "authors": [
+      "Côme Fiegel",
+      "Pierre M'enard",
+      "Tadashi Kozuno",
+      "Rémi Munos",
+      "Vianney Perchet",
+      "Michal Valko"
+    ],
+    "referenceCount": 69,
+    "citationCount": 2
+  },
+  "references": [
+    {
+      "paperId": "f2df422a39f2cebb4cc7f74af04ccf23bfaacc3b",
+      "title": "ESCHER: Eschewing Importance Sampling in Games by Computing a History Value Function to Estimate Regret",
+      "abstract": "Recent techniques for approximating Nash equilibria in very large games leverage neural networks to learn approximately optimal policies (strategies). One promising line of research uses neural networks to approximate counterfactual regret minimization (CFR) or its modern variants. DREAM, the only current CFR-based neural method that is model free and therefore scalable to very large games, trains a neural network on an estimated regret target that can have extremely high variance due to an importance sampling term inherited from Monte Carlo CFR (MCCFR). In this paper we propose an unbiased model-free method that does not require any importance sampling. Our method, ESCHER, is principled and is guaranteed to converge to an approximate Nash equilibrium with high probability. We show that the variance of the estimated regret of ESCHER is orders of magnitude lower than DREAM and other baselines. We then show that ESCHER outperforms the prior state of the art -- DREAM and neural fictitious self play (NFSP) -- on a number of games and the difference becomes dramatic as game size increases. In the very large game of dark chess, ESCHER is able to beat DREAM and NFSP in a head-to-head competition over $90\\%$ of the time.",
+      "year": 2022,
+      "authors": [
+        "S. McAleer",
+        "Gabriele Farina",
+        "Marc Lanctot",
+        "T. Sandholm"
+      ],
+      "referenceCount": 82,
+      "citationCount": 25
+    },
+    {
+      "paperId": "57ffba5ea5e602b5365752e19a6f85a716db1d8b",
+      "title": "Bandit Algorithms",
+      "abstract": "sets of environments and policies respectively and ` : E ×Π→ [0, 1] a bounded loss function. Given a policy π let `(π) = (`(ν1, π), . . . , `(νN , π)) be the loss vector resulting from policy π. Define S = {`(π) : π ∈ Π} and λ(S) = {x ∈ cl(S) : y 6< x for all y ∈ S} , where y 6< x is defined to mean it is not true that yi ≤ xi for all i with strict inequality for at least one i. Prove that if λ(S) ⊆ S and S is convex, then for each x ∈ λ(S) there exists a prior q ∈ P(E) and policy π∗ such that `(π) = x and ∑ ν∈E q(ν)`(ν, π∗) = min π∈Π ∑",
+      "year": 2020,
+      "authors": [
+        "Tor Lattimore",
+        "Csaba Szepesvari"
+      ],
+      "referenceCount": 545,
+      "citationCount": 2482
+    },
+    {
+      "paperId": "232bd009964a9bbf4757227aae94d1a139350e04",
+      "title": "OpenSpiel: A Framework for Reinforcement Learning in Games",
+      "abstract": "OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games. OpenSpiel supports n-player (single- and multi- agent) zero-sum, cooperative and general-sum, one-shot and sequential, strictly turn-taking and simultaneous-move, perfect and imperfect information games, as well as traditional multiagent environments such as (partially- and fully- observable) grid worlds and social dilemmas. OpenSpiel also includes tools to analyze learning dynamics and other common evaluation metrics. This document serves both as an overview of the code base and an introduction to the terminology, core concepts, and algorithms across the fields of reinforcement learning, computational game theory, and search.",
+      "year": 2019,
+      "authors": [
+        "Marc Lanctot",
+        "Edward Lockhart",
+        "Jean-Baptiste Lespiau",
+        "V. Zambaldi",
+        "Satyaki Upadhyay",
+        "J. Pérolat",
+        "S. Srinivasan",
+        "Finbarr Timbers",
+        "K. Tuyls",
+        "Shayegan Omidshafiei",
+        "Daniel Hennes",
+        "Dustin Morrill",
+        "Paul Muller",
+        "T. Ewalds",
+        "Ryan Faulkner",
+        "János Kramár",
+        "B. D. Vylder",
+        "Brennan Saeta",
+        "James Bradbury",
+        "David Ding",
+        "Sebastian Borgeaud",
+        "Matthew Lai",
+        "Julian Schrittwieser",
+        "Thomas W. Anthony",
+        "Edward Hughes",
+        "Ivo Danihelka",
+        "Jonah Ryan-Davis"
+      ],
+      "referenceCount": 89,
+      "citationCount": 244
+    },
+    {
+      "paperId": "a3663bab064aa5ae788534f5437b18e929896163",
+      "title": "A Modular Analysis of Adaptive (Non-)Convex Optimization: Optimism, Composite Objectives, and Variational Bounds",
+      "abstract": "Recently, much work has been done on extending the scope of online learning and incremental stochastic optimization algorithms. In this paper we contribute to this effort in two ways: First, based on a new regret decomposition and a generalization of Bregman divergences, we provide a self-contained, modular analysis of the two workhorses of online learning: (general) adaptive versions of Mirror Descent (MD) and the Follow-the-Regularized-Leader (FTRL) algorithms. The analysis is done with extra care so as not to introduce assumptions not needed in the proofs and allows to combine, in a straightforward way, different algorithmic ideas (e.g., adaptivity, optimism, implicit updates) and learning settings (e.g., strongly convex or composite objectives). This way we are able to reprove, extend and refine a large body of the literature, while keeping the proofs concise. The second contribution is a byproduct of this careful analysis: We present algorithms with improved variational bounds for smooth, composite objectives, including a new family of optimistic MD algorithms with only one projection step per round. Furthermore, we provide a simple extension of adaptive regret bounds to practically relevant non-convex problem settings with essentially no extra effort.",
+      "year": 2017,
+      "authors": [
+        "Pooria Joulani",
+        "A. György",
+        "Csaba Szepesvari"
+      ],
+      "referenceCount": 45,
+      "citationCount": 41
+    },
+    {
+      "paperId": "7fef428be01bd6840e12690839240de7781b28ff",
+      "title": "Faster First-Order Methods for Extensive-Form Game Solving",
+      "abstract": "We study the problem of computing a Nash equilibrium in large-scale two-player zero-sum extensive-form games. While this problem can be solved in polynomial time, first-order or regret-based methods are usually preferred for large games. Regret-based methods have largely been favored in practice, in spite of their theoretically inferior convergence rates. In this paper we investigate the acceleration of first-order methods both theoretically and experimentally. An important component of many first-order methods is a distance-generating function. Motivated by this, we investigate a specific distance-generating function, namely the dilated entropy function, over treeplexes, which are convex polytopes that encompass the strategy spaces of perfect-recall extensive-form games. We develop significantly stronger bounds on the associated strong convexity parameter. In terms of extensive-form game solving, this improves the convergence rate of several first-order methods by a factor of O((#information sets ⋅ depth ⋅ M)/(2depth)) where M is the maximum value of the l1 norm over the treeplex encoding the strategy spaces. Experimentally, we investigate the performance of three first-order methods (the excessive gap technique, mirror prox, and stochastic mirror prox) and compare their performance to the regret-based algorithms. In order to instantiate stochastic mirror prox, we develop a class of gradient sampling schemes for game trees. Equipped with our distance-generating function and sampling scheme, we find that mirror prox and the excessive gap technique outperform the prior regret-based methods for finding medium accuracy solutions",
+      "year": 2015,
+      "authors": [
+        "Christian Kroer",
+        "K. Waugh",
+        "F. Kılınç-Karzan",
+        "T. Sandholm"
+      ],
+      "referenceCount": 33,
+      "citationCount": 47
+    },
+    {
+      "paperId": "335805b062a465c88d42530203f636b24f6a5264",
+      "title": "Smoothing Techniques for Computing Nash Equilibria of Sequential Games",
+      "abstract": "We develop first-order smoothing techniques for saddle-point problems that arise in finding a Nash equilibrium of sequential games. The crux of our work is a construction of suitable prox-functions for a certain class of polytopes that encode the sequential nature of the game. We also introduce heuristics that significantly speed up the algorithm, and decomposed game representations that reduce the memory requirements, enabling the application of the techniques to drastically larger games. An implementation based on our smoothing techniques computes approximate Nash equilibria for games that are more than four orders of magnitude larger than what prior approaches can handle. Finally, we show near-linear further speedups from parallelization.",
+      "year": 2010,
+      "authors": [
+        "S. Hoda",
+        "Andrew Gilpin",
+        "Javier F. Pena",
+        "T. Sandholm"
+      ],
+      "referenceCount": 31,
+      "citationCount": 176
+    },
+    {
+      "paperId": "7b506eebe271b76bbf830508ab4daca4fbed6ef0",
+      "title": "Monte Carlo Sampling for Regret Minimization in Extensive Games",
+      "abstract": "Sequential decision-making with multiple agents and imperfect information is commonly modeled as an extensive game. One efficient method for computing Nash equilibria in large, zero-sum, imperfect information games is counterfactual regret minimization (CFR). In the domain of poker, CFR has proven effective, particularly when using a domain-specific augmentation involving chance outcome sampling. In this paper, we describe a general family of domain-independent CFR sample-based algorithms called Monte Carlo counterfactual regret minimization (MCCFR) of which the original and poker-specific versions are special cases. We start by showing that MCCFR performs the same regret updates as CFR on expectation. Then, we introduce two sampling schemes: outcome sampling and external sampling, showing that both have bounded overall regret with high probability. Thus, they can compute an approximate equilibrium using self-play. Finally, we prove a new tighter bound on the regret for the original CFR algorithm and relate this new bound to MCCFR's bounds. We show empirically that, although the sample-based algorithms require more iterations, their lower cost per iteration can lead to dramatically faster convergence in various games.",
+      "year": 2009,
+      "authors": [
+        "Marc Lanctot",
+        "K. Waugh",
+        "Martin A. Zinkevich",
+        "Michael Bowling"
+      ],
+      "referenceCount": 14,
+      "citationCount": 315
+    },
+    {
+      "paperId": "0538e399046c74d95124c715760aa51ab4716dce",
+      "title": "Prediction, learning, and games",
+      "abstract": "1. Introduction 2. Prediction with expert advice 3. Tight bounds for specific losses 4. Randomized prediction 5. Efficient forecasters for large classes of experts 6. Prediction with limited feedback 7. Prediction and playing games 8. Absolute loss 9. Logarithmic loss 10. Sequential investment 11. Linear pattern recognition 12. Linear classification 13. Appendix.",
+      "year": 2006,
+      "authors": [
+        "N. Cesa-Bianchi",
+        "G. Lugosi"
+      ],
+      "referenceCount": 302,
+      "citationCount": 4038
+    },
+    {
+      "paperId": "24bac83f244cbbff359a271b2fce7cab9ef3d34b",
+      "title": "Bayes' Bluff: Opponent Modelling in Poker",
+      "abstract": "Poker is a challenging problem for artificial intelligence, with non-deterministic dynamics, partial observability, and the added difficulty of unknown adversaries. Modelling all of the uncertainties in this domain is not an easy task. In this paper we present a Bayesian probabilistic model for a broad class of poker games, separating the uncertainty in the game dynamics from the uncertainty of the opponent's strategy. We then describe approaches to two key sub-problems: (i) inferring a posterior over opponent strategies given a prior distribution and observations of their play, and (ii) playing an appropriate response to that distribution. We demonstrate the overall approach on a reduced version of poker using Dirichlet priors and then on the full game of Texas hold'em using a more informed prior. We demonstrate methods for playing effective responses to the opponent, based on the posterior.",
+      "year": 2005,
+      "authors": [
+        "F. Southey",
+        "Michael Bowling",
+        "Bryce Larson",
+        "Carmelo Piccione",
+        "Neil Burch",
+        "Darse Billings",
+        "D. C. Rayner"
+      ],
+      "referenceCount": 11,
+      "citationCount": 258
+    }
+  ]
+}

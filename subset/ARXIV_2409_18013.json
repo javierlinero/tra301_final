@@ -1,0 +1,73 @@
+{
+  "main": {
+    "paperId": "e5ef7fb1281b5d734f5dd646833499aeb5d8ec65",
+    "title": "Spatiotemporal Learning on Cell-embedded Graphs",
+    "abstract": "Data-driven simulation of physical systems has recently kindled significant attention, where many neural models have been developed. In particular, mesh-based graph neural networks (GNNs) have demonstrated significant potential in predicting spatiotemporal dynamics across arbitrary geometric domains. However, the existing node-edge message passing mechanism in GNNs limits the model's representation learning ability. In this paper, we proposed a cell-embedded GNN model (aka CeGNN) to learn spatiotemporal dynamics with lifted performance. Specifically, we introduce a learnable cell attribution to the node-edge message passing process, which better captures the spatial dependency of regional features. Such a strategy essentially upgrades the local aggregation scheme from the first order (e.g., from edge to node) to a higher order (e.g., from volume to edge and then to node), which takes advantage of volumetric information in message passing. Meanwhile, a novel feature-enhanced block is designed to further improve the performance of CeGNN and relieve the over-smoothness problem, via treating the latent features as basis functions. The extensive experiments on various PDE systems and one real-world dataset demonstrate that CeGNN achieves superior performance compared with other baseline models, particularly reducing the prediction error with up to 1 orders of magnitude on several PDE systems.",
+    "year": 2024,
+    "authors": [
+      "Yuan Mi",
+      "Hao Sun"
+    ],
+    "referenceCount": 50,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "be8d39424a9010bfc0805385cc91edee383c2e24",
+      "title": "Message Passing Neural PDE Solvers",
+      "abstract": "The numerical solution of partial differential equations (PDEs) is difficult, having led to a century of research so far. Recently, there have been pushes to build neural--numerical hybrid solvers, which piggy-backs the modern trend towards fully end-to-end learned systems. Most works so far can only generalize over a subset of properties to which a generic solver would be faced, including: resolution, topology, geometry, boundary conditions, domain discretization regularity, dimensionality, etc. In this work, we build a solver, satisfying these properties, where all the components are based on neural message passing, replacing all heuristically designed components in the computation graph with backprop-optimized neural function approximators. We show that neural message passing solvers representationally contain some classical methods, such as finite differences, finite volumes, and WENO schemes. In order to encourage stability in training autoregressive models, we put forward a method that is based on the principle of zero-stability, posing stability as a domain adaptation problem. We validate our method on various fluid-like flow problems, demonstrating fast, stable, and accurate performance across different domain topologies, equation parameters, discretizations, etc., in 1D and 2D.",
+      "year": 2022,
+      "authors": [
+        "Johannes Brandstetter",
+        "Daniel E. Worrall",
+        "M. Welling"
+      ],
+      "referenceCount": 53,
+      "citationCount": 249
+    },
+    {
+      "paperId": "2f7dc1ee85e9f6a97810c66016e09ffeed684f03",
+      "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+      "abstract": "The classical development of neural networks has primarily focused on learning mappings between finite-dimensional Euclidean spaces. Recently, this has been generalized to neural operators that learn mappings between function spaces. For partial differential equations (PDEs), neural operators directly learn the mapping from any functional parametric dependence to the solution. Thus, they learn an entire family of PDEs, in contrast to classical methods which solve one instance of the equation. In this work, we formulate a new neural operator by parameterizing the integral kernel directly in Fourier space, allowing for an expressive and efficient architecture. We perform experiments on Burgers' equation, Darcy flow, and the Navier-Stokes equation (including the turbulent regime). Our Fourier neural operator shows state-of-the-art performance compared to existing neural network methodologies and it is up to three orders of magnitude faster compared to traditional PDE solvers.",
+      "year": 2020,
+      "authors": [
+        "Zong-Yi Li",
+        "Nikola B. Kovachki",
+        "K. Azizzadenesheli",
+        "Burigede Liu",
+        "K. Bhattacharya",
+        "Andrew M. Stuart",
+        "Anima Anandkumar"
+      ],
+      "referenceCount": 35,
+      "citationCount": 2200
+    },
+    {
+      "paperId": "9e20f6874feaaf7c9994f9875b1d9cab17a2fd59",
+      "title": "Learning Mesh-Based Simulation with Graph Networks",
+      "abstract": "Mesh-based simulations are central to modeling complex physical systems in many disciplines across science and engineering. Mesh representations support powerful numerical integration methods and their resolution can be adapted to strike favorable trade-offs between accuracy and efficiency. However, high-dimensional scientific simulations are very expensive to run, and solvers and parameters must often be tuned individually to each system studied. Here we introduce MeshGraphNets, a framework for learning mesh-based simulations using graph neural networks. Our model can be trained to pass messages on a mesh graph and to adapt the mesh discretization during forward simulation. Our results show it can accurately predict the dynamics of a wide range of physical systems, including aerodynamics, structural mechanics, and cloth. The model's adaptivity supports learning resolution-independent dynamics and can scale to more complex state spaces at test time. Our method is also highly efficient, running 1-2 orders of magnitude faster than the simulation on which it is trained. Our approach broadens the range of problems on which neural network simulators can operate and promises to improve the efficiency of complex, scientific modeling tasks.",
+      "year": 2020,
+      "authors": [
+        "T. Pfaff",
+        "Meire Fortunato",
+        "Alvaro Sanchez-Gonzalez",
+        "P. Battaglia"
+      ],
+      "referenceCount": 53,
+      "citationCount": 719
+    },
+    {
+      "paperId": "639206a9a32d91386924f1c94e9760dfb43df72e",
+      "title": "Towards Deeper Graph Neural Networks",
+      "abstract": "Graph neural networks have shown significant success in the field of graph representation learning. Graph convolutions perform neighborhood aggregation and represent one of the most important graph operations. Nevertheless, one layer of these neighborhood aggregation methods only consider immediate neighbors, and the performance decreases when going deeper to enable larger receptive fields. Several recent studies attribute this performance deterioration to the over-smoothing issue, which states that repeated propagation makes node representations of different classes indistinguishable. In this work, we study this observation systematically and develop new insights towards deeper graph neural networks. First, we provide a systematical analysis on this issue and argue that the key factor compromising the performance significantly is the entanglement of representation transformation and propagation in current graph convolution operations. After decoupling these two operations, deeper graph neural networks can be used to learn graph node representations from larger receptive fields. We further provide a theoretical analysis of the above observation when building very deep models, which can serve as a rigorous and gentle description of the over-smoothing issue. Based on our theoretical and empirical analysis, we propose Deep Adaptive Graph Neural Network (DAGNN) to adaptively incorporate information from large receptive fields. A set of experiments on citation, co-authorship, and co-purchase datasets have confirmed our analysis and insights and demonstrated the superiority of our proposed methods.",
+      "year": 2020,
+      "authors": [
+        "Meng Liu",
+        "Hongyang Gao",
+        "Shuiwang Ji"
+      ],
+      "referenceCount": 41,
+      "citationCount": 587
+    }
+  ]
+}

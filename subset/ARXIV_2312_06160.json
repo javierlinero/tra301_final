@@ -1,0 +1,63 @@
+{
+  "main": {
+    "paperId": "046f3b71fc0d91bfee0c1d8def2010c46022a796",
+    "title": "Open WDVV equations and Frobenius structures for toric Calabi-Yau 3-folds",
+    "abstract": "\n Let X be a toric Calabi-Yau 3-fold and let \n \n \n \n$L\\subset X$\n\n \n be an Aganagic-Vafa outer brane. We prove two versions of open WDVV equations for the open Gromov-Witten theory of \n \n \n \n$(X,L)$\n\n \n . The first version of the open WDVV equation leads to the construction of a semi-simple (formal) Frobenius manifold, and the second version leads to the construction of a flat (formal) F-manifold.",
+    "year": 2023,
+    "authors": [
+      "Song Yu",
+      "Zhengyu Zong"
+    ],
+    "referenceCount": 46,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "e93e61d9d4d485f38ee529c52b750517dd5519e8",
+      "title": "Orbifold Open/Closed Correspondence and Mirror Symmetry",
+      "abstract": "We continue the mathematical development of the open/closed correspondence proposed by Mayr and Lerche-Mayr. Given an open geometry on a toric Calabi-Yau 3orbifold X relative to a framed Aganagic-Vafa outer brane (L, f), we construct a toric Calabi-Yau 4-orbifold X̃ and identify its genus-zero Gromov-Witten invariants with the disk invariants of (X ,L, f), generalizing prior work of the authors in the smooth case. We then upgrade the correspondence to the level of generating functions, and prove that the disk function of (X ,L, f) can be recovered from the equivariant J-function of X̃ . We further establish a B-model correspondence that retrieves the B-model disk function of (X ,L, f) from the equivariant I-function of X̃ , and show that the correspondences are compatible with mirror symmetry in both the open and closed sectors.",
+      "year": 2022,
+      "authors": [
+        "Chiu-Chu Melissa Liu",
+        "Song Yu"
+      ],
+      "referenceCount": 47,
+      "citationCount": 5
+    },
+    {
+      "paperId": "967e165e974245020b153bcb1255dc85d991c8fa",
+      "title": "Relative quantum cohomology",
+      "abstract": "We establish a system of PDE, called open WDVV, that constrains the bulk-deformed superpotential and associated open Gromov-Witten invariants of a Lagrangian submanifold $L \\subset X$ with a bounding chain. Simultaneously, we define the quantum cohomology algebra of $X$ relative to $L$ and prove its associativity. We also define the relative quantum connection and prove it is flat. A wall-crossing formula is derived that allows the interchange of point-like boundary constraints and certain interior constraints in open Gromov-Witten invariants. Another result is a vanishing theorem for open Gromov-Witten invariants of homologically non-trivial Lagrangians with more than one point-like boundary constraint. In this case, the open Gromov-Witten invariants with one point-like boundary constraint are shown to recover certain closed invariants. From open WDVV and the wall-crossing formula, a system of recursive relations is derived that entirely determines the open Gromov-Witten invariants of $(X,L) = (\\mathbb{C} P^n, \\mathbb{R} P^n)$ with $n$ odd, defined in previous work of the authors. Thus, we obtain explicit formulas for enumerative invariants defined using the Fukaya-Oh-Ohta-Ono theory of bounding chains.",
+      "year": 2019,
+      "authors": [
+        "Jake Solomon",
+        "Sara B. Tukachinsky"
+      ],
+      "referenceCount": 41,
+      "citationCount": 19
+    },
+    {
+      "paperId": "ec5e052f79b3bea38ac8cc384e1adc6cc2c3c116",
+      "title": "LOCALIZATION IN GROMOV-WITTEN THEORY AND ORBIFOLD GROMOV-WITTEN THEORY",
+      "abstract": "In this expository article, we explain how to use localization to compute Gromov-Witten invariants of smooth toric varieties and orbifold Gromov- Witten invariants of smooth toric Deligne-Mumford stacks.",
+      "year": 2011,
+      "authors": [
+        "Chiu-Chu Melissa Liu"
+      ],
+      "referenceCount": 62,
+      "citationCount": 73
+    },
+    {
+      "paperId": "978c629fae6900d8669e01c628e76836fc6a1263",
+      "title": "Open Gromov-Witten Invariants of Toric Calabi-Yau 3-Folds",
+      "abstract": "We present a proof of the mirror conjecture of Aganagic and Vafa (Mirror Symmetry, D-Branes and Counting Holomorphic Discs. http://arxiv.org/abs/hep-th/0012041v1, 2000) and Aganagic et al. (Z Naturforsch A 57(1–2):128, 2002) on disk enumeration in toric Calabi-Yau 3-folds for all smooth semi-projective toric Calabi-Yau 3-folds. We consider both inner and outer branes, at arbitrary framing. In particular, we recover previous results on the conjecture for (i) an inner brane at zero framing in $${K_{\\mathbb{P}^2}}$$KP2 (Graber-Zaslow, Contemp Math 310:107–121, 2002), (ii) an outer brane at arbitrary framing in the resolved conifold $${\\mathcal{O}_{\\mathbb{P}^1}(-1)\\oplus \\mathcal{O}_{\\mathbb{P}^1}(-1)}$$OP1(-1)⊕OP1(-1) (Zhou, Open string invariants and mirror curve of the resolved conifold. http://arxiv.org/abs/1001.0447v1 [math.AG], 2010), and (iii) an outer brane at zero framing in $${K_{\\mathbb{P}^2}}$$KP2 (Brini, Open topological strings and integrable hierarchies: Remodeling the A-model. http://arxiv.org/abs/1102.0281 [hep-th], 2011).",
+      "year": 2011,
+      "authors": [
+        "Bohan Fang",
+        "Chiu-Chu Melissa Liu"
+      ],
+      "referenceCount": 45,
+      "citationCount": 49
+    }
+  ]
+}

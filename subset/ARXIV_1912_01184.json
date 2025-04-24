@@ -1,0 +1,42 @@
+{
+  "main": {
+    "paperId": "5256275cb16ba8b7b6dc3abc94bc20f519817646",
+    "title": "Tidal disruption near black holes and their mimickers",
+    "abstract": "Black holes and wormholes are solutions of Einstein's field equations, both of which, from afar, can look like a central mass. We show here that although at large distances both behave like Newtonian objects, close to the event horizon or to the throat, black holes and wormholes have different tidal effects on stars, due to their respective geometries. We quantify this difference by a numerical procedure in the Schwarzschild black hole and the exponential wormhole backgrounds, and compare the peak fallback rates of tidal debris in these geometries. The tidal disruption rates in these backgrounds are also computed. It is shown that these quantities are a few times higher for wormholes, compared to the black hole cases.",
+    "year": 2019,
+    "authors": [
+      "Pritam Banerjee",
+      "Suvankar Paul",
+      "R. Shaikh",
+      "T. Sarkar"
+    ],
+    "referenceCount": 68,
+    "citationCount": 5
+  },
+  "references": [
+    {
+      "paperId": "97c070d0789dbdc502090f9693f6256a586047f0",
+      "title": "Black-Hole Spin Dependence in the Light Curves of Tidal Disruption Events",
+      "abstract": "A star orbiting a supermassive black hole can be tidally disrupted if the black hole's gravitational tidal field exceeds the star's self gravity at pericenter. Some of this stellar tidal debris can become gravitationally bound to the black hole, leading to a bright electromagnetic flare with bolometric luminosity proportional to the rate at which material falls back to pericenter. In the Newtonian limit, this flare will have a light curve that scales as t^-5/3 if the tidal debris has a flat distribution in binding energy. We investigate the time dependence of the black-hole mass accretion rate when tidal disruption occurs close enough the black hole that relativistic effects are significant. We find that for orbits with pericenters comparable to the radius of the marginally bound circular orbit, relativistic effects can double the peak accretion rate and halve the time it takes to reach this peak accretion rate. The accretion rate depends on both the magnitude of the black-hole spin and its orientation with respect to the stellar orbit; for orbits with a given pericenter radius in Boyer-Lindquist coordinates, a maximal black-hole spin anti-aligned with the orbital angular momentum leads to the largest peak accretion rate.",
+      "year": 2012,
+      "authors": [
+        "M. Kesden"
+      ],
+      "referenceCount": 62,
+      "citationCount": 46
+    },
+    {
+      "paperId": "cab3183a68266a259620b69c77bbca6768f99cec",
+      "title": "The Disk Accretion of a Tidally Disrupted Star onto a Massive Black Hole",
+      "abstract": "We consider the tidal disruption of a star by a moderately massive black hole such as might be found in the nucleus of a galaxy like M31. The initial eccentric orbit of the stellar debris will circularize near the tidal radius after experiencing strong shocks. We study the evolution of the accretion disk produced by this torus using a time dependent α-disk model. We find that the light-to-mass ratio of the disk-plus-black-hole exceeds unity for several thousand years after disruption. Some fraction of galaxies should be extremely bright at far UV wavelengths if they contain black holes of mass 106–8 M ⊙.",
+      "year": 1990,
+      "authors": [
+        "J. Cannizzo",
+        "Hyung-Mok Lee",
+        "J. Goodman"
+      ],
+      "referenceCount": 5,
+      "citationCount": 272
+    }
+  ]
+}

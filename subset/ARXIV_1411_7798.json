@@ -1,0 +1,144 @@
+{
+  "main": {
+    "paperId": "bd7f187eb807dce5e8ac4e3ef55c19eb91eb6389",
+    "title": "Cross-Modal Subspace Learning via Pairwise Constraints",
+    "abstract": "In multimedia applications, the text and image components in a web document form a pairwise constraint that potentially indicates the same semantic concept. This paper studies cross-modal learning via the pairwise constraint and aims to find the common structure hidden in different modalities. We first propose a compound regularization framework to address the pairwise constraint, which can be used as a general platform for developing cross-modal algorithms. For unsupervised learning, we propose a multi-modal subspace clustering method to learn a common structure for different modalities. For supervised learning, to reduce the semantic gap and the outliers in pairwise constraints, we propose a cross-modal matching method based on compound ℓ21 regularization. Extensive experiments demonstrate the benefits of joint text and image modeling with semantically induced pairwise constraints, and they show that the proposed cross-modal methods can further reduce the semantic gap between different modalities and improve the clustering/matching accuracy.",
+    "year": 2014,
+    "authors": [
+      "R. He",
+      "Man Zhang",
+      "Liang Wang",
+      "Ye Ji",
+      "Qiyue Yin"
+    ],
+    "referenceCount": 76,
+    "citationCount": 60
+  },
+  "references": [
+    {
+      "paperId": "3be73fa0dbe180d555e5b99c827918ba2978098d",
+      "title": "Image Transformation Based on Learning Dictionaries across Image Spaces",
+      "abstract": "In this paper, we propose a framework of transforming images from a source image space to a target image space, based on learning coupled dictionaries from a training set of paired images. The framework can be used for applications such as image super-resolution and estimation of image intrinsic components (shading and albedo). It is based on a local parametric regression approach, using sparse feature representations over learned coupled dictionaries across the source and target image spaces. After coupled dictionary learning, sparse coefficient vectors of training image patch pairs are partitioned into easily retrievable local clusters. For any test image patch, we can fast index into its closest local cluster and perform a local parametric regression between the learned sparse feature spaces. The obtained sparse representation (together with the learned target space dictionary) provides multiple constraints for each pixel of the target image to be estimated. The final target image is reconstructed based on these constraints. The contributions of our proposed framework are three-fold. 1) We propose a concept of coupled dictionary learning based on coupled sparse coding which requires the sparse coefficient vectors of a pair of corresponding source and target image patches to have the same support, i.e., the same indices of nonzero elements. 2) We devise a space partitioning scheme to divide the high-dimensional but sparse feature space into local clusters. The partitioning facilitates extremely fast retrieval of closest local clusters for query patches. 3) Benefiting from sparse feature-based image transformation, our method is more robust to corrupted input data, and can be considered as a simultaneous image restoration and transformation process. Experiments on intrinsic image estimation and super-resolution demonstrate the effectiveness and efficiency of our proposed method.",
+      "year": 2013,
+      "authors": [
+        "K. Jia",
+        "Xiaogang Wang",
+        "Xiaoou Tang"
+      ],
+      "referenceCount": 60,
+      "citationCount": 126
+    },
+    {
+      "paperId": "29308c1bcccbdd5fd5d008b92d45bc04f0338a59",
+      "title": "Robust and Efficient Subspace Segmentation via Least Squares Regression",
+      "abstract": "This paper studies the subspace segmentation problem which aims to segment data drawn from a union of multiple linear subspaces. Recent works by using sparse representation, low rank representation and their extensions attract much attention. If the subspaces from which the data drawn are independent or orthogonal, they are able to obtain a block diagonal affinity matrix, which usually leads to a correct segmentation. The main differences among them are their objective functions. We theoretically show that if the objective function satisfies some conditions, and the data are sufficiently drawn from independent subspaces, the obtained affinity matrix is always block diagonal. Furthermore, the data sampling can be insufficient if the subspaces are orthogonal. Some existing methods are all special cases. Then we present the Least Squares Regression (LSR) method for subspace segmentation. It takes advantage of data correlation, which is common in real data. LSR encourages a grouping effect which tends to group highly correlated data together. Experimental results on the Hopkins 155 database and Extended Yale Database B show that our method significantly outperforms state-of-the-art methods. Beyond segmentation accuracy, all experiments demonstrate that LSR is much more efficient.",
+      "year": 2012,
+      "authors": [
+        "Canyi Lu",
+        "Hai Min",
+        "Zhongming Zhao",
+        "Ling Zhu",
+        "De-shuang Huang",
+        "Shuicheng Yan"
+      ],
+      "referenceCount": 30,
+      "citationCount": 657
+    },
+    {
+      "paperId": "70de7090f3fd41cb485ded6223f17f95ca8b7067",
+      "title": "Continuum regression for cross-modal multimedia retrieval",
+      "abstract": "Understanding the relationship among different modalities is a challenging task. The frequently used canonical correlation analysis (CCA) and its variants have proved effective for building a common space in which the correlation between different modalities is maximized. In this paper, we show that CCA and its variants may cause information dissipation when switching the modals, and thus propose to use the continuum regression (CR) model to handle this problem. In particular, the CR model with a fixed variance coefficient of 1/2 is adopted here. We also apply the multinomial logistic regression model for further classification task. To evaluate the CR model, we perform a series of cross-modal retrieval experiments in terms of two kinds of modals, namely image and text. Compared with previous methods, experimental results show that the CR model has achieved the best retrieval precision, which demonstrates the potential of our method for real internet search applications.",
+      "year": 2012,
+      "authors": [
+        "Yongming Chen",
+        "Liang Wang",
+        "Wei Wang",
+        "Z. Zhang"
+      ],
+      "referenceCount": 10,
+      "citationCount": 36
+    },
+    {
+      "paperId": "578e755e669caee147964f9412c23943cd0f0789",
+      "title": "l2, 1 Regularized correntropy for robust feature selection",
+      "abstract": "In this paper, we study the problem of robust feature extraction based on l2,1 regularized correntropy in both theoretical and algorithmic manner. In theoretical part, we point out that an l2,1-norm minimization can be justified from the viewpoint of half-quadratic (HQ) optimization, which facilitates convergence study and algorithmic development. In particular, a general formulation is accordingly proposed to unify l1-norm and l2,1-norm minimization within a common framework. In algorithmic part, we propose an l2,1 regularized correntropy algorithm to extract informative features meanwhile to remove outliers from training data. A new alternate minimization algorithm is also developed to optimize the non-convex correntropy objective. In terms of face recognition, we apply the proposed method to obtain an appearance-based model, called Sparse-Fisherfaces. Extensive experiments show that our method can select robust and sparse features, and outperforms several state-of-the-art subspace methods on largescale and open face recognition datasets.",
+      "year": 2012,
+      "authors": [
+        "R. He",
+        "T. Tan",
+        "Liang Wang",
+        "Weishi Zheng"
+      ],
+      "referenceCount": 22,
+      "citationCount": 170
+    },
+    {
+      "paperId": "591e53602b390746851040047dfd1e499144ef64",
+      "title": "Generalized Multiview Analysis: A discriminative latent space",
+      "abstract": "This paper presents a general multi-view feature extraction approach that we call Generalized Multiview Analysis or GMA. GMA has all the desirable properties required for cross-view classification and retrieval: it is supervised, it allows generalization to unseen classes, it is multi-view and kernelizable, it affords an efficient eigenvalue based solution and is applicable to any domain. GMA exploits the fact that most popular supervised and unsupervised feature extraction techniques are the solution of a special form of a quadratic constrained quadratic program (QCQP), which can be solved efficiently as a generalized eigenvalue problem. GMA solves a joint, relaxed QCQP over different feature spaces to obtain a single (non)linear subspace. Intuitively, GMA is a supervised extension of Canonical Correlational Analysis (CCA), which is useful for cross-view classification and retrieval. The proposed approach is general and has the potential to replace CCA whenever classification or retrieval is the purpose and label information is available. We outperform previous approaches for textimage retrieval on Pascal and Wiki text-image data. We report state-of-the-art results for pose and lighting invariant face recognition on the MultiPIE face dataset, significantly outperforming other approaches.",
+      "year": 2012,
+      "authors": [
+        "Abhishek Sharma",
+        "Abhishek Kumar",
+        "Hal Daumé",
+        "D. Jacobs"
+      ],
+      "referenceCount": 27,
+      "citationCount": 721
+    },
+    {
+      "paperId": "b19d27e1bda4d039f9eaf2b2eb9d47f75abe9d75",
+      "title": "Sparse Subspace Clustering: Algorithm, Theory, and Applications",
+      "abstract": "We propose and study an algorithm, called Sparse Subspace Clustering, to cluster high-dimensional data points that lie in a union of low-dimensional subspaces. The key idea is that, among infinitely many possible representations of a data point in terms of other points, a sparse representation corresponds to selecting a few points that come from the same subspace. This motivates solving a sparse optimization program whose solution is used in a spectral clustering framework to infer the clustering of the data. As solving the sparse optimization program is NP-hard, we consider its convex relaxation and show that, under appropriate conditions on the arrangement of the subspaces and the distribution of the data, the proposed minimization program succeeds in recovering the desired sparse representations. The proposed algorithm does not require initialization, can be solved efficiently, and can handle data points near the intersections of subspaces. In addition, our algorithm can deal with data nuisances, such as noise, sparse outlying entries, and missing entries, directly by modifying the optimization program to incorporate the model of the data. We verify the effectiveness of the proposed algorithm through experiments on synthetic data as well as two real-world problems of motion segmentation and face clustering.",
+      "year": 2012,
+      "authors": [
+        "Ehsan Elhamifar",
+        "R. Vidal"
+      ],
+      "referenceCount": 73,
+      "citationCount": 2315
+    },
+    {
+      "paperId": "85cb25e88d3b0548a26e7a70b6953e500d27eb9a",
+      "title": "Learning cross-modality similarity for multinomial data",
+      "abstract": "Many applications involve multiple-modalities such as text and images that describe the problem of interest. In order to leverage the information present in all the modalities, one must model the relationships between them. While some techniques have been proposed to tackle this problem, they either are restricted to words describing visual objects only, or require full correspondences between the different modalities. As a consequence, they are unable to tackle more realistic scenarios where a narrative text is only loosely related to an image, and where only a few image-text pairs are available. In this paper, we propose a model that addresses both these challenges. Our model can be seen as a Markov random field of topic models, which connects the documents based on their similarity. As a consequence, the topics learned with our model are shared across connected documents, thus encoding the relations between different modalities. We demonstrate the effectiveness of our model for image retrieval from a loosely related text.",
+      "year": 2011,
+      "authors": [
+        "Yangqing Jia",
+        "M. Salzmann",
+        "Trevor Darrell"
+      ],
+      "referenceCount": 23,
+      "citationCount": 197
+    },
+    {
+      "paperId": "a3d7613971e52165f1693a972c11c54bb0bc085b",
+      "title": "Bypassing synthesis: PLS for face recognition with pose, low-resolution and sketch",
+      "abstract": "This paper presents a novel way to perform multi-modal face recognition. We use Partial Least Squares (PLS) to linearly map images in different modalities to a common linear subspace in which they are highly correlated. PLS has been previously used effectively for feature selection in face recognition. We show both theoretically and experimentally that PLS can be used effectively across modalities. We also formulate a generic intermediate subspace comparison framework for multi-modal recognition. Surprisingly, we achieve high performance using only pixel intensities as features. We experimentally demonstrate the highest published recognition rates on the pose variations in the PIE data set, and also show that PLS can be used to compare sketches to photos, and to compare images taken at different resolutions.",
+      "year": 2011,
+      "authors": [
+        "Abhishek Sharma",
+        "D. Jacobs"
+      ],
+      "referenceCount": 26,
+      "citationCount": 385
+    },
+    {
+      "paperId": "6e8c107f5f852640daaf324111fc9cf35b5e4acc",
+      "title": "A new approach to cross-modal multimedia retrieval",
+      "abstract": "The problem of joint modeling the text and image components of multimedia documents is studied. The text component is represented as a sample from a hidden topic model, learned with latent Dirichlet allocation, and images are represented as bags of visual (SIFT) features. Two hypotheses are investigated: that 1) there is a benefit to explicitly modeling correlations between the two components, and 2) this modeling is more effective in feature spaces with higher levels of abstraction. Correlations between the two components are learned with canonical correlation analysis. Abstraction is achieved by representing text and images at a more general, semantic level. The two hypotheses are studied in the context of the task of cross-modal document retrieval. This includes retrieving the text that most closely matches a query image, or retrieving the images that most closely match a query text. It is shown that accounting for cross-modal correlations and semantic abstraction both improve retrieval accuracy. The cross-modal model is also shown to outperform state-of-the-art image retrieval systems on a unimodal retrieval task.",
+      "year": 2010,
+      "authors": [
+        "Nikhil Rasiwasia",
+        "José Costa Pereira",
+        "E. Coviello",
+        "Gabriel Doyle",
+        "Gert R. G. Lanckriet",
+        "R. Levy",
+        "N. Vasconcelos"
+      ],
+      "referenceCount": 34,
+      "citationCount": 1290
+    }
+  ]
+}

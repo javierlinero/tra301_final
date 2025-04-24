@@ -1,0 +1,183 @@
+{
+  "main": {
+    "paperId": "b57eff491416bc01908d2522ddbea95e6eb1e516",
+    "title": "The Ophiuchus DIsc Survey Employing ALMA (ODISEA) – II. The effect of stellar multiplicity on disc properties",
+    "abstract": "We present Adaptive Optics (AO) near infrared (NIR) observations using VLT/NACO and Keck/NIRC2 of ODISEA targets. ODISEA is an ALMA survey of the entire population of circumstellar discs in the Ophiuchus molecular cloud. From the whole sample of ODISEA we select all the discs that are not already observed in the NIR with AO and that are observable with NACO or NIRC2. The NIR-ODISEA survey consists of 147 stars observed in NIR AO imaging for the first time, as well as revisiting almost all the binary systems of Ophiuchus present in the literature (20 out of 21). In total, we detect 20 new binary systems and one triple system. For each of them we calculate the projected separation and position angle of the companion, as well as their NIR and millimeter flux ratios. From the NIR contrast we derived the masses of the secondaries, finding that 9 of them are in the sub-stellar regime (30-50 \\MJup). Discs in multiple systems reach a maximum total dust mass of $\\sim$ 50 M$_{\\oplus}$, while discs in single stars can reach a dust mass of 200 M$_{\\oplus}$. Discs with masses above 10 M$_{\\oplus}$ are found only around binaries with projected separations larger than $\\sim$ 110 au. The maximum disc size is also larger around single star than binaries. However, since most discs in Ophiuchus are very small and low-mass, the effect of visual binaries is relatively weak in the general disc population.",
+    "year": 2020,
+    "authors": [
+      "A. Zurlo",
+      "L. Cieza",
+      "S. P'erez",
+      "V. Christiaens",
+      "Jonathan P. Williams",
+      "G. Guidi",
+      "H. Cánovas",
+      "S. Casassus",
+      "A. Hales",
+      "D. Principe",
+      "D. Ru'iz-Rodr'iguez",
+      "A. Fernandez-Figueroa"
+    ],
+    "referenceCount": 42,
+    "citationCount": 25
+  },
+  "references": [
+    {
+      "paperId": "9bd7d56223c4facab80934ae54ef123959d22f57",
+      "title": "The Ophiuchus DIsk Survey Employing ALMA (ODISEA): Disk Dust Mass Distributions across Protostellar Evolutionary Classes",
+      "abstract": "As protostars evolve from optically faint/infrared-bright (Class I) sources to optically bright/infrared-faint (Class II) the solid material in their surrounding disks accumulates into planetesimals and protoplanets. The nearby, young Ophiuchus star-forming region contains hundreds of protostars in a range of evolutionary states. Using the Atacama Large Millimeter Array to observe their millimeter continuum emission, we have measured masses of, or placed strong upper limits on, the dust content of 279 disks. The masses follow a log-normal distribution with a clear trend of decreasing mass from less to more evolved protostellar infrared class. The (logarithmic) mean Class I disk mass, M = 3.8 M⊕, is about 5 times greater than the mean Class II disk mass, but the dispersion in each class is so high, σlogM ≃ 0.8–1, that there is a large overlap between the two distributions. The disk mass distribution of flat-spectrum protostars lies in between Classes I and II. In addition, three Class III sources with little to no infrared excess are detected with low disk masses, M ≃ 0.3 M⊕. Despite the clear trend of decreasing disk mass with protostellar evolutionary state in this region, a comparison with surveys of Class II disks in other regions shows that masses do not decrease monotonically with age. This suggests that the cloud-scale environment may determine the initial disk mass scale or that there is substantial dust regeneration after 1 Myr.",
+      "year": 2019,
+      "authors": [
+        "Jonathan P. Williams",
+        "L. Cieza",
+        "A. Hales",
+        "M. Ansdell",
+        "D. Ruíz-Rodríguez",
+        "S. Casassus",
+        "S. Pérez",
+        "A. Zurlo"
+      ],
+      "referenceCount": 25,
+      "citationCount": 60
+    },
+    {
+      "paperId": "8ae7e80dcb1dabe58be44e479fe8d153ffa672fd",
+      "title": "The Ophiuchus DIsc Survey Employing ALMA (ODISEA) – I: project description and continuum images at 28 au resolution",
+      "abstract": "We introduce the Ophiuchus DIsc Survey Employing ALMA (ODISEA), a project aiming to study the entire population of Spitzer-selected protoplanetary discs in the Ophiuchus Molecular Cloud (~300 objects) from both millimeter continuum and CO isotopologues data. Here we present 1.3 mm/230 GHz continuum images of 147 targets at 0.2\" (28 au) resolution and a typical rms of 0.15 mJy. We detect a total of 133 discs, including the individual components of 11 binary systems and 1 triple system. Fifty-three of these discs are spatially resolved. We find clear substructures (inner cavities, rings, gaps, and/or spiral arms) in 8 of the sources and hints of such structures in another 4 discs. We construct the disc luminosity function for our targets and perform comparisons to other regions. A simple conversion between flux and dust mass (adopting standard assumptions) indicates that all discs detected at 1.3 mm are massive enough to form one or more rocky planets. In contrast, only ~50 discs (~1/3 of the sample) have enough mass in the form of dust to form the canonical 10 M_Earth core needed to trigger runaway gas accretion and the formation of gas giant planets, although the total mass of solids already incorporated into bodies larger than cm scales is mostly unconstrained. The distribution in continuum disc sizes in our sample is heavily weighted towards compact discs: most detected discs have radii 30 au.",
+      "year": 2018,
+      "authors": [
+        "L. Cieza",
+        "D. Ru'iz-Rodr'iguez",
+        "A. Hales",
+        "S. Casassus",
+        "S. P'erez",
+        "C. González-Ruilova",
+        "H. C'anovas",
+        "Jonathan P. Williams",
+        "A. Zurlo",
+        "M. Ansdell",
+        "H. Avenhaus",
+        "A. Bayo",
+        "G. Bertrang",
+        "V. Christiaens",
+        "W. Dent",
+        "G. Ferrero",
+        "R. Gamen",
+        "J. Olofsson",
+        "Santiago Orcajo",
+        "K. Peña Ramírez",
+        "D. Principe",
+        "M. Schreiber",
+        "G. Van der Plas"
+      ],
+      "referenceCount": 95,
+      "citationCount": 119
+    },
+    {
+      "paperId": "db81486d7783bd3057aefdc2d1d87e15e207e668",
+      "title": "Protoplanetary Disks in ρ Ophiuchus as Seen from ALMA",
+      "abstract": "We present a high angular resolution ( ), high-sensitivity ( mJy) survey of the 870 μm continuum emission from the circumstellar material around 49 pre-main-sequence stars in the ρ Ophiuchus molecular cloud. Because most millimeter instruments have resided in the northern hemisphere, this represents the largest high-resolution, millimeter-wave survey of the circumstellar disk content of this cloud. Our survey of 49 systems comprises 63 stars; we detect disks associated with 29 single sources, 11 binaries, 3 triple systems, and 4 transition disks. We present flux and radius distributions for these systems; in particular, this is the first presentation of a reasonably complete probability distribution of disk radii at millimeter wavelengths. We also compare the flux distribution of these protoplanetary disks with that of the disk population of the Taurus–Auriga molecular cloud. We find that disks in binaries are both significantly smaller and have much less flux than their counterparts around isolated stars. We compute truncation calculations on our binary sources and find that these disks are too small to have been affected by tidal truncation and posit some explanations for this. Lastly, our survey found three candidate gapped disks, one of which is a newly identified transition disk with no signature of a dip in infrared excess in extant observations.",
+      "year": 2017,
+      "authors": [
+        "E. Cox",
+        "R. Harris",
+        "L. Looney",
+        "Hsin-Fang Chiang",
+        "C. Chandler",
+        "K. Kratter",
+        "Zhi-Yun Li",
+        "L. Pérez",
+        "J. Tobin"
+      ],
+      "referenceCount": 89,
+      "citationCount": 78
+    },
+    {
+      "paperId": "c4a7cbc396a6ecdec004a77cce9c43d90cd8d0a6",
+      "title": "They are small worlds after all: revised properties of Kepler M dwarf stars and their planets",
+      "abstract": "This research was supported by NASA grants \nNNX10AQ36G and NNX11AC33G to EG. EG was also supported \nby an International Visitor grant from the Swiss National Science \nFoundation.",
+      "year": 2015,
+      "authors": [
+        "E. Gaidos",
+        "A. Mann",
+        "A. Kraus",
+        "M. Ireland"
+      ],
+      "referenceCount": 120,
+      "citationCount": 118
+    },
+    {
+      "paperId": "53544a8b8cefe21acfb0ee75c0d4007af76471dd",
+      "title": "PRIMORDIAL CIRCUMSTELLAR DISKS IN BINARY SYSTEMS: EVIDENCE FOR REDUCED LIFETIMES",
+      "abstract": "We combine the results from several multiplicity surveys of pre-main-sequence stars located in four nearby star-forming regions with Spitzer data from three different Legacy Projects. This allows us to construct a sample of 349 targets, including 125 binaries, which we use to to investigate the effect of companions on the evolution of circumstellar disks. We find that the distribution of projected separations of systems with Spitzer excesses is significantly different (P∼ 2.4e-5, according to the K–S test for binaries with separations less than 400 AU) from that of systems lacking evidence for a disk. As expected, systems with projected separations less than 40 AU are half as likely to retain at least one disk than are systems with projected separations in the 40–400 AU range. These results represent the first statistically significant evidence for a correlation between binary separation and the presence of an inner disk (r∼ 1 AU). Several factors (e.g., the incompleteness of the census of close binaries, the use of unresolved disk indicators, and projection effects) have previously masked this correlation in smaller samples. We discuss the implications of our findings for circumstellar disk lifetimes and the formation of planets in multiple systems.",
+      "year": 2009,
+      "authors": [
+        "L. Cieza",
+        "D. Padgett",
+        "L. Allen",
+        "C. McCabe",
+        "T. Brooke",
+        "S. Carey",
+        "N. Chapman",
+        "M. Fukagawa",
+        "T. Huard",
+        "Alberto Noriga-Crespo",
+        "D. Peterson",
+        "L. Rebull"
+      ],
+      "referenceCount": 40,
+      "citationCount": 117
+    },
+    {
+      "paperId": "fe1e4610be75e76a9a97057f2603e33dffab2584",
+      "title": "Circumstellar Dust Disks in Taurus-Auriga: The Submillimeter Perspective",
+      "abstract": "We present a sensitive, multiwavelength submillimeter continuum survey of 153 young stellar objects in the Taurus-Auriga star formation region. The submillimeter detection rate is 61% to a completeness limit of ~10 mJy (3 σ) at 850 μm. The inferred circumstellar disk masses are lognormally distributed with a mean mass of ~5 × 10-3 M☉ and a large dispersion (0.5 dex). Roughly one-third of the submillimeter sources have disk masses larger than the minimal nebula from which the solar system formed. The median disk-to-star mass ratio is 0.5%. The empirical behavior of the submillimeter continuum is best described as Fν ∝ ν2.0±0.5 between 350 μm and 1.3 mm, which we argue is due to the combined effects of the fraction of optically thick emission and a flatter frequency behavior of the opacity compared to the interstellar medium. The latter effect could be due to a substantial population of large dust grains, which presumably would have grown through collisional agglomeration. In this sample, the only stellar property that is correlated with the outer disk is the presence of a companion. We find evidence for significant decreases in submillimeter flux densities, disk masses, and submillimeter continuum slopes along the canonical infrared spectral energy distribution evolution sequence for young stellar objects. The fraction of objects detected in the submillimeter is essentially identical to the fraction with excess near-infrared emission, suggesting that dust in the inner and outer disks is removed nearly simultaneously.",
+      "year": 2005,
+      "authors": [
+        "S. Andrews",
+        "Jonathan P. Williams"
+      ],
+      "referenceCount": 140,
+      "citationCount": 678
+    },
+    {
+      "paperId": "aa3ef7a91ee3ff0d39793c0f7f346ee4c284c099",
+      "title": "Submillimeter Array Observations of Disks in the SR 24 Multiple Star System",
+      "abstract": "We present high-resolution aperture synthesis images from the Submillimeter Array of the 225 GHz (1.3 mm) continuum and 12CO J = 2-1 line emission from the disks around components of the hierarchical triple system SR 24, located in the Ophiuchus star-forming region. The most widely separated component, SR 24 S (with a projected semimajor axis a = 832 AU), has a circumstellar disk with properties typical of those around single T Tauri stars. The binary SR 24 N (a = 32 AU) is undetected in the continuum but has strong, resolved CO emission that likely originates in a circumbinary disk with a central gap. The data constrain the total disk mass in the SR 24 N system to be ≲10-3 M☉ and indicate that the depletion of CO onto dust grains is not more than 100 times larger than the mean value in the interstellar medium. The SR 24 N disk is unusual in that it is only detected in line emission. It is possible that other low-mass disks around binaries and single stars may have been missed in single-dish continuum surveys.",
+      "year": 2004,
+      "authors": [
+        "S. Andrews",
+        "Jonathan P. Williams"
+      ],
+      "referenceCount": 32,
+      "citationCount": 33
+    },
+    {
+      "paperId": "c4a399f522b9cfa3aea5526dea1feb3b7c6614aa",
+      "title": "A Survey for Circumstellar Disks around Young Stellar Objects",
+      "abstract": "Results are presented from a survey for 1.3 mm radiation toward 86 stars in the Taurus-Auriga dark clouds, including classical T Tauri stars, stars in T associations, and a few weak emission-line stars or naked T Tauri stars. The results show that 42 percent of the stars have detectable emission from small particles. The aggregate particle masses are found to be between 0.00001 and 0.01 solar mass, suggesting total disk masses between 0.001 and 1 solar mass. For several source between 1.3 and 2.7 mm, the spectral indices indicate that the particle emissivities are weaker functions of frequency, compared to the usual case of interstellar grains. Particle growth via adhesion in the dense disks is proposed to explain this result. The results show that disks more massive than the minimum mass of the protosolar system commonly accompany the birth of solar-mass stars, indicating that planetary systems are probably common in the Galaxy. 59 refs.",
+      "year": 1990,
+      "authors": [
+        "S. Beckwith",
+        "A. Sargent",
+        "R. Chini",
+        "R. Guesten"
+      ],
+      "referenceCount": 0,
+      "citationCount": 1237
+    },
+    {
+      "paperId": "e3c8d0cb7c5038de381803545d441ccfb24069fe",
+      "title": "High-Resolution Imaging of Circumstellar Gas and Dust in UZ Tauri: Comparing Binary and Single-Star Disk Properties",
+      "abstract": "We present (Lamda)=1.3 and 3mm aperture sysnthesis imaging of the multiple T Tauri system UZ Tauri.",
+      "year": 1996,
+      "authors": [
+        "E. Jensen",
+        "D. Koerner",
+        "R. Mathieu"
+      ],
+      "referenceCount": 0,
+      "citationCount": 53
+    }
+  ]
+}

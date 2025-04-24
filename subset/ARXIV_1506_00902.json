@@ -1,0 +1,85 @@
+{
+  "main": {
+    "paperId": "6cd3d985b168a74781df78cd42241c8497b9d34a",
+    "title": "Constraining spatial extent and temperature of dust around galaxies from far-infrared image stacking analysis",
+    "abstract": "We propose a novel method to constrain the spatial extent of dust around galaxies through the measurement of dust temperature. Our method combines the dust emission of galaxies from far-infrared (FIR) image stacking analysis and the quasar reddening due to the dust absorption around galaxies. As a specific application of our method, we use the stacked FIR emission profiles of SDSS photometric galaxies over the IRAS 100$\\mu$m map, and the recent measurement of the SDSS galaxy-quasar cross-correlation. If we adopt a single-temperature dust model, the resulting temperature is around 18K, which is consistent with a typical dust temperature for a central part of galaxies. If we assume an additional dust component with much lower temperature, the current data imply the temperature of the galactic dust needs to be higher, 20K to 30K. Since the model of the density and temperature distribution of dust adopted in the current paper is very simple, we cannot draw any strong conclusion at this point. Nevertheless our novel method with the elaborated theoretical model and multi-band measurement of dust will offer an interesting constraint on the statistical nature of galactic dust.",
+    "year": 2015,
+    "authors": [
+      "Toshiya Kashiwagi",
+      "Y. Suto"
+    ],
+    "referenceCount": 43,
+    "citationCount": 4
+  },
+  "references": [
+    {
+      "paperId": "d0d6d72d6bc4de864003ac083ae1630994ad0893",
+      "title": "Herschel-ATLAS: rapid evolution of dust in galaxies over the last 5 billion years",
+      "abstract": "We present the first direct and unbiased measurement of the evolution of the dust mass function of galaxies over the past 5 billion years of cosmic history using data from the Science Demonstration Phase of the Herschel-Astrophysical Terahertz Large Area Survey (Herschel-ATLAS). The sample consists of galaxies selected at 250 m which have reliable counterparts from the Sloan Digital Sky Survey (SDSS) at z < 0.5, and contains 1867 sources. Dust masses are calculated using both a single-temperature grey-body model for the spectral energy distribution and also a model with multiple temperature components. The dust temperature for either model shows no trend with redshift. Splitting the sample into bins of redshift reveals a strong evolution in the dust properties of the most massive galaxies. At z= 0.4–0.5, massive galaxies had dust masses about five times larger than in the local Universe. At the same time, the dust-to-stellar mass ratio was about three to four times larger, and the optical depth derived from fitting the UV-sub-mm data with an energy balance model was also higher. This increase in the dust content of massive galaxies at high redshift is difficult to explain using standard dust evolution models and requires a rapid gas consumption time-scale together with either a more top-heavy initial mass function (IMF), efficient mantle growth, less dust destruction or combinations of all three. This evolution in dust mass is likely to be associated with a change in overall interstellar medium mass, and points to an enhanced supply of fuel for star formation at earlier cosmic epochs.",
+      "year": 2010,
+      "authors": [
+        "L. Dunne",
+        "H. Gomez",
+        "E. D. Cunha",
+        "E. D. Cunha",
+        "S. Charlot",
+        "S. Dye",
+        "S. Eales",
+        "S. Maddox",
+        "K. Rowlands",
+        "Daniel J. B. Smith",
+        "R. Auld",
+        "M. Baes",
+        "D. Bonfield",
+        "N. Bourne",
+        "S. Buttiglione",
+        "A. Cava",
+        "D. Clements",
+        "K. Coppin",
+        "K. Coppin",
+        "A. Cooray",
+        "A. Dariush",
+        "G. Zotti",
+        "G. Zotti",
+        "S. Driver",
+        "J. Fritz",
+        "J. Geach",
+        "J. Geach",
+        "R. Hopwood",
+        "E. Ibar",
+        "R. Ivison",
+        "R. Ivison",
+        "M. Jarvis",
+        "L. Kelvin",
+        "E. Pascale",
+        "M. Pohlen",
+        "C. Popescu",
+        "E. Rigby",
+        "A. Robotham",
+        "G. Rodighiero",
+        "A. Sansom",
+        "S. Serjeant",
+        "P. Temi",
+        "M. Thompson",
+        "R. Tuffs",
+        "P. V. D. Werf",
+        "P. V. D. Werf",
+        "C. Vlahakis"
+      ],
+      "referenceCount": 132,
+      "citationCount": 194
+    },
+    {
+      "paperId": "861fca2a8708aa5c82b6447e6883c0f66fb6cad5",
+      "title": "Dust Grain-Size Distributions and Extinction in the Milky Way, Large Magellanic Cloud, and Small Magellanic Cloud",
+      "abstract": "We construct size distributions for carbonaceous and silicate grain populations in different regions of the Milky Way, LMC, and SMC. The size distributions include sufficient very small carbonaceous grains (including polycyclic aromatic hydrocarbon molecules) to account for the observed infrared and microwave emission from the diffuse interstellar medium. Our distributions reproduce the observed extinction of starlight, which varies depending on the interstellar environment through which the light travels. As shown by Cardelli, Clayton, and Mathis in 1989, these variations can be roughly parameterized by the ratio of visual extinction to reddening, RV. We adopt a fairly simple functional form for the size distribution, characterized by several parameters. We tabulate these parameters for various combinations of values for RV and bC, the C abundance in very small grains. We also find size distributions for the line of sight to HD 210121 and for sight lines in the LMC and SMC. For several size distributions, we evaluate the albedo and scattering asymmetry parameter and present model extinction curves extending beyond the Lyman limit.",
+      "year": 2001,
+      "authors": [
+        "J. Weingartner",
+        "B. Draine"
+      ],
+      "referenceCount": 54,
+      "citationCount": 1742
+    }
+  ]
+}

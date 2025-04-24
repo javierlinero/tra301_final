@@ -1,0 +1,39 @@
+{
+  "main": {
+    "paperId": "888bb034004d0c8ee9d920c9345ffd5687174c10",
+    "title": "Cylinder transition amplitudes in pure AdS3 gravity",
+    "abstract": "A spacelike surface with cylinder topology can be described by various sets of canonical variables within pure AdS3 gravity. Each is made of one real coordinate and one real momentum. The Hamiltonian can be either H = 0 or it can be nonzero and we display the canonical transformations that map one into the other, in two relevant cases. In a choice of canonical coordinates, one of them is the cylinder aspect q, which evolves nontrivially in time. The time dependence of the aspect is an analytic function of time t and an “angular momentum” J . By analytic continuation in both t and J we obtain a Euclidean evolution that can be described geometrically as the motion of a cylinder inside the region of the 3D hyperbolic space bounded by two “domes” (i.e. half spheres), which is topologically a solid torus. We find that for a given J the Euclidean evolution cannot connect an initial aspect to an arbitrary final aspect; moreover, there are infinitely many Euclidean trajectories that connect any two allowed initial and final aspects. We compute the transition amplitude in two independent ways; first by solving exactly the time-dependent Schrödinger equation, then by summing in a sensible way all the saddle contributions, and we discuss why both approaches are mutually consistent.",
+    "year": 2020,
+    "authors": [
+      "A. Garbarz",
+      "Jayme Kim",
+      "M. Porrati"
+    ],
+    "referenceCount": 30,
+    "citationCount": 2
+  },
+  "references": [
+    {
+      "paperId": "38a7eab901863fef4223c427e1408bce87868da8",
+      "title": "Holography and Riemann surfaces",
+      "abstract": "We study holography for asymptotically AdS spaces with an arbitrary genus compact Riemann surface as the conformal boundary. Such spaces can be constructed from the Euclidean AdS_3 by discrete identifications: the discrete groups one uses are the so-called classical Schottky groups. As we show, the spaces so constructed have an appealing interpretation of ``analytic continuations'' of the known Lorentzian signature black hole solutions: it is one of the motivations for our generalization of the holography to this case. We use the semi-classical approximation to the gravity path integral, and calculate the gravitational action for each space, which is given by the (appropriately regularized) volume of the space. As we show, the regularized volume reproduces exactly the action of Liouville theory, as defined on arbitrary Riemann surfaces by Takhtajan and Zograf. Using the results as to the properties of this action, we discuss thermodynamics of the spaces and analyze the boundary CFT partition function. Some aspects of our construction, such as the thermodynamical interpretation of the Teichmuller (Schottky) spaces, may be of interest for mathematicians working on Teichmuller theory.",
+      "year": 2000,
+      "authors": [
+        "K. Krasnov"
+      ],
+      "referenceCount": 50,
+      "citationCount": 221
+    },
+    {
+      "paperId": "1f7c78b082450fef6266ed572166699c2872054c",
+      "title": "Reduction of the Einstein equations in 2+1 dimensions to a Hamiltonian system over Teichmüller space",
+      "abstract": "In this paper the ADM (Arnowitt, Deser, and Misner) reduction of Einstein’s equations for three‐dimensional ‘‘space‐times’’ defined on manifolds of the form Σ×R, where Σ is a compact orientable surface, is discussed. When the genus g of Σ is greater than unity it is shown how the Einstein constraint equations can be solved and certain coordinate conditions imposed so as to reduce the dynamics to that of a (time‐dependent) Hamiltonian system defined on the 12g−12‐dimensional cotangent bundle, T*T(Σ), of the Teichmuller space, T(Σ), of Σ. The Hamiltonian is only implicitly defined (in terms of the solution of an associated Lichnerowicz equation), but its existence, uniqueness, and smoothness are established by standard analytical methods. Similar results are obtained for the case of genus g=1, where, in fact, the Hamiltonian can be computed explicitly and Hamilton’s equations integrated exactly (as was found previously by Martinec). The results are relevant to the problem of the reduction of the 3+1‐dimensi...",
+      "year": 1989,
+      "authors": [
+        "V. Moncrief"
+      ],
+      "referenceCount": 10,
+      "citationCount": 190
+    }
+  ]
+}

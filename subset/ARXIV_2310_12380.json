@@ -1,0 +1,53 @@
+{
+  "main": {
+    "paperId": "4062b5e5988456ad98e1dc536fe695e5b7ed09dd",
+    "title": "Refutation of K2-256b and Rejection of 130 Unconfirmed Transiting Planet Candidates with Gaia DR3 NSS",
+    "abstract": "Much of the exoplanet discovery efforts over the next several years are largely tasked with finding candidates for the upcoming Ariel mission. This is a role that TESS is well-suited for. Radial velocity follow-up is needed to confirm the planetary nature of these systems, as many of its planet candidates turn out to be eclipsing binary systems with small stellar secondaries. Focused Doppler follow-up to obtain these radial velocities is expensive. The Gaia mission's radial velocity measurements on its target stars are not adequately precise for a general search for orbiting planetary companions. While the RV data has yielded thousands of spectroscopic binary systems, only an extreme minority of these reach into the planetary-mass regime. Nonetheless, they do detect eclipsing binary systems that can masquerade as transiting hot Jupiters. In this work, we compare the Gaia DR3 Non-Single Stars catalogue to the current planet candidate list from TESS and determine several of these candidate planetary systems are actually eclipsing binaries. We find $\\sim130$ eclipsing binaries among the TOI and EPIC lists that do not appear to be in the literature, including the previously statistically validated planet K2-256 b. This work illustrates the usefulness of \\textit{Gaia} to exoplanet validation efforts and will help guide follow-up efforts for discovering new transiting planets for the Ariel mission by avoiding misdirecting valuable telescope time.",
+    "year": 2023,
+    "authors": [
+      "Thomas Tarrants",
+      "Elvis Mendes"
+    ],
+    "referenceCount": 21,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "cb734d86d2d980c56b2ae99c43ee0bd58c5b7d67",
+      "title": "K2 Variable Catalogue: Variable Stars and Eclipsing Binaries in K2 Campaigns 1 and 0",
+      "abstract": "We have created a catalogue of variable stars found from a search of the publicly available K2 mission data from Campaigns 1 and 0. This catalogue provides the identifiers of 8395 variable stars, including 199 candidate eclipsing binaries with periods up to 60d and 3871 periodic or quasi-periodic objects, with periods up to 20d for Campaign 1 and 15d for Campaign 0. Lightcurves are extracted and detrended from the available data. These are searched using a combination of algorithmic and human classification, leading to a classifier for each object as an eclipsing binary, sinusoidal periodic, quasi periodic, or aperiodic variable. The source of the variability is not identified, but could arise in the non-eclipsing binary cases from pulsation or stellar activity. Each object is cross-matched against variable star related guest observer proposals to the K2 mission, which specifies the variable type in some cases. The detrended lightcurves are also compared to lightcurves currently publicly available. The resulting catalogue is made available online via the MAST archive at this https URL, and gives the ID, type, period, semi-amplitude and range of the variation seen. We also make available the detrended lightcurves for each object.",
+      "year": 2015,
+      "authors": [
+        "David J Armstrong",
+        "J. Kirk",
+        "K. Lam",
+        "J. McCormac",
+        "S. Walker",
+        "D. Brown",
+        "H. Osborn",
+        "D. Pollacco",
+        "J. Spake"
+      ],
+      "referenceCount": 31,
+      "citationCount": 75
+    },
+    {
+      "paperId": "73dd1a010bed9ba3a6a1dec7e2a8dc3f429e72d8",
+      "title": "A PHOTOMETRIC SURVEY FOR VARIABLES AND TRANSITS IN THE FIELD OF PRAESEPE WITH THE KILODEGREE EXTREMELY LITTLE TELESCOPE",
+      "abstract": "The Kilodegree Extremely Little Telescope (KELT) project is a small aperture, wide-angle search for planetary transits of solar-type stars. In this paper, we present the results of a commissioning campaign with the KELT telescope to observe the open cluster Praesepe for 34 nights in early 2005. Light curves were obtained for 69,337 stars, out of which we identify 58 long-period variables and 152 periodic variables. Sixteen of these are previously known as variable, yielding 194 newly discovered variable stars for which we provide properties and light curves. We also searched for planetary-like transits, finding four transit candidates. Follow-up observations indicate that two of the candidates are astrophysical false positives, with two candidates remaining as potential planetary transits.",
+      "year": 2008,
+      "authors": [
+        "J. Pepper",
+        "K. Stanek",
+        "R. Pogge",
+        "D. Latham",
+        "D. Depoy",
+        "R. Siverd",
+        "S. Poindexter",
+        "G. Sivakoff"
+      ],
+      "referenceCount": 36,
+      "citationCount": 34
+    }
+  ]
+}

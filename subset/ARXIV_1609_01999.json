@@ -1,0 +1,30 @@
+{
+  "main": {
+    "paperId": "c2843a047a818991fec00da1be342a841c83ff47",
+    "title": "Generalized Log-Majorization and Multivariate Trace Inequalities",
+    "abstract": "We show that recent multivariate generalizations of the Araki–Lieb–Thirring inequality and the Golden–Thompson inequality (Sutter et al. in Commun Math Phys, 2016. doi:10.1007/s00220-016-2778-5) for Schatten norms hold more generally for all unitarily invariant norms and certain variations thereof. The main technical contribution is a generalization of the concept of log-majorization which allows us to treat majorization with regard to logarithmic integral averages of vectors of singular values.",
+    "year": 2016,
+    "authors": [
+      "F. Hiai",
+      "R. König",
+      "M. Tomamichel"
+    ],
+    "referenceCount": 21,
+    "citationCount": 20
+  },
+  "references": [
+    {
+      "paperId": "e7249355d3677933cdc788f1aad4e5b0cbd5f730",
+      "title": "Multivariate Trace Inequalities",
+      "abstract": "We prove several trace inequalities that extend the Golden–Thompson and the Araki–Lieb–Thirring inequality to arbitrarily many matrices. In particular, we strengthen Lieb’s triple matrix inequality. As an example application of our four matrix extension of the Golden–Thompson inequality, we prove remainder terms for the monotonicity of the quantum relative entropy and strong sub-additivity of the von Neumann entropy in terms of recoverability. We find the first explicit remainder terms that are tight in the commutative case. Our proofs rely on complex interpolation theory as well as asymptotic spectral pinching, providing a transparent approach to treat generic multivariate trace inequalities.",
+      "year": 2016,
+      "authors": [
+        "David Sutter",
+        "M. Berta",
+        "M. Tomamichel"
+      ],
+      "referenceCount": 101,
+      "citationCount": 116
+    }
+  ]
+}

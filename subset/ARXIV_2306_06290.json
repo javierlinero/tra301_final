@@ -1,0 +1,63 @@
+{
+  "main": {
+    "paperId": "00bfe8dfa712487dc03ccf1de4a9ca6db5a4cd0a",
+    "title": "Dennis Sullivan's Work on Dynamics",
+    "abstract": "In this expository paper, we provide the readers with an overview of Dennis Sullivan's major contributions to the area of Dynamical Systems.",
+    "year": 2023,
+    "authors": [
+      "E. Faria",
+      "S. Strien"
+    ],
+    "referenceCount": 120,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "0b457475617dd8ea9f0e4dd4f2b968d56e4162be",
+      "title": "Conjugacy classes of real analytic one-dimensional maps are analytic connected manifolds",
+      "abstract": "An important question is to describe topological conjugacy classes of dynamical systems. Here we show that within the space of real analytic one-dimensional maps with critical points of prescribed order, the conjugacy class of a map is a real analytic manifold. This extends results of Avila-Lyubich-de Melo \\cite{ALM} for the quasi-quadratic unimodal case and of Clark \\cite{C} for the more general unimodal case. Their methods fail in the case where there are several critical points, and for this reason we introduce the new notions of {\\em pruned Julia set} of a real analytic map, and associate to a real analytic map an {\\em external map} of the circle {\\em with discontinuities} and {\\em a pruned polynomial-like} complex extension of the real analytic map. Using this we are also able to show that topological conjugacy classes are connected (something which was not even known in the general unimodal setting). Even more, this space is contractible. In a companion paper, further applications of this paper will be given. It will be shown that within any real analytic family of real analytic one-dimensional maps, hyperbolic parameters form an open and dense subset.",
+      "year": 2023,
+      "authors": [
+        "Trevor Clark",
+        "S. Strien"
+      ],
+      "referenceCount": 0,
+      "citationCount": 2
+    },
+    {
+      "paperId": "41e4e86c9df5fbd2fdf0b7b2d79af547a72444ae",
+      "title": "The full renormalization horseshoe for unimodal maps of higher degree: exponential contraction along hybrid classes",
+      "abstract": "We prove exponential contraction of renormalization along hybrid classes of infinitely renormalizable unimodal maps (with arbitrary combinatorics), in any even degree d. We then conclude that orbits of renormalization are asymptotic to the full renormalization horseshoe, which we construct. Our argument for exponential contraction is based on a precompactness property of the renormalization operator (“beau bounds”), which is leveraged in the abstract analysis of holomorphic iteration. Besides greater generality, it yields a unified approach to all combinatorics and degrees: there is no need to account for the varied geometric details of the dynamics, which were the typical source of contraction in previous restricted proofs.",
+      "year": 2010,
+      "authors": [
+        "A. Avila",
+        "M. Lyubich"
+      ],
+      "referenceCount": 40,
+      "citationCount": 45
+    },
+    {
+      "paperId": "32624019b5309ab9f68607d12a734fa96ff97e3d",
+      "title": "The Quasi-Additivity Law in Conformal Geometry",
+      "abstract": "A splash shield for an electric motor, particularly a squirrel cage motor with a die cast rotor. The rotor has a circular flange extending endwise from one or both end faces of the rotor. Each of these flanges is intergally die cast with the end ring of the rotor body so as to surround and to overlie an oil reservoir within the motor thereby to sling or otherwise deflect water which is splashed into the motor away from the oil reservoir.",
+      "year": 2005,
+      "authors": [
+        "Jeremy A. Kahn",
+        "M. Lyubich"
+      ],
+      "referenceCount": 6,
+      "citationCount": 54
+    },
+    {
+      "paperId": "2316a68a430d5d5d0e214e8ca22c32a5a3a5e218",
+      "title": "Feigenbaum-Coullet-Tresser universality and Milnor's hairiness conjecture.",
+      "abstract": "We prove the Feigenbaum-Coullet-Tresser conjecture on the hyperbolicity of the renormalization transformation of bounded type. This gives the first computer-free proof of the original Feigenbaum observation of the universal parameter scaling laws. We use the Hyperbolicity Theorem to prove Milnor's conjectures on self-similarity and \"hairiness\" of the Mandelbrot set near the corresponding parameter values. We also conclude that the set of real infinitely renormalizable quadratics of type bounded by some N > 1 has Hausdorff dimension strictly between 0 and 1. In the course of getting these results we supply the space of quadratic-like germs with a complex analytic structure and demonstrate that the hybrid classes form a complex codimension-one foliation of the connectedness locus.",
+      "year": 1999,
+      "authors": [
+        "M. Lyubich"
+      ],
+      "referenceCount": 56,
+      "citationCount": 225
+    }
+  ]
+}

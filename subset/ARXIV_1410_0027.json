@@ -1,0 +1,63 @@
+{
+  "main": {
+    "paperId": "7a11e2eb60eb9374dfaa238c109d797a5f9158f1",
+    "title": "K-Theoretic and Categorical Properties of Toric Deligne--Mumford Stacks",
+    "abstract": "We prove the following results for toric Deligne-Mumford stacks, under minimal compactness hypotheses: the Localization Theorem in equivariant K-theory; the equivariant Hirzebruch-Riemann-Roch theorem; the Fourier--Mukai transformation associated to a crepant toric wall-crossing gives an equivariant derived equivalence.",
+    "year": 2014,
+    "authors": [
+      "T. Coates",
+      "H. Iritani",
+      "Yunfeng Jiang",
+      "E. Segal"
+    ],
+    "referenceCount": 19,
+    "citationCount": 22
+  },
+  "references": [
+    {
+      "paperId": "b2013cefe0b1750f5a6f2e17b59d018f39c8f20f",
+      "title": "Algebraic cycles and completions of equivariant $K$-theory",
+      "abstract": "Let $G$ be a complex, linear algebraic group acting on an algebraic space $X$. The purpose of this paper is to prove a Riemann-Roch theorem (Theorem 5.3) which gives a description of the completion of the equivariant Grothendieck group $G_0(G,X)$ at any maximal ideal of the representation ring $R(G) \\otimes \\C$ in terms of equivariant cycles. The main new technique for proving this theorem is our non-abelian completion theorem (Theorem 4.3) for equivariant $K$-theory. Theorem 4.3 generalizes the classical localization theorems for diagonalizable group actions to arbitrary groups.",
+      "year": 2007,
+      "authors": [
+        "D. Edidin",
+        "W. Graham"
+      ],
+      "referenceCount": 41,
+      "citationCount": 16
+    },
+    {
+      "paperId": "256b5055365dbf18ed1e8e750901ffe6cdeadf32",
+      "title": "The orbifold cohomology ring of simplicial toric stack bundles",
+      "abstract": "We introduce extended toric Deligne-Mumford stacks. We use an extended toric Deligne-Mumford stack to get the toric stack bundle and compute its orbifold Chow ring. Finally we generalize one result of Borisov, Chen and Smith so that the orbifold Chow ring of the toric stack bundle and the Chow ring of its crepant resolution are fibres of a flat family.",
+      "year": 2005,
+      "authors": [
+        "Yunfeng Jiang"
+      ],
+      "referenceCount": 23,
+      "citationCount": 61
+    },
+    {
+      "paperId": "c8b0dd4fa8c8af6ba3f6755769bc1442ca39c33b",
+      "title": "Log Crepant Birational Maps and Derived Categories",
+      "abstract": "We extend the conjecture on the derived equivalence and K-equivalence to the logarithmic case and prove it in the toric case.",
+      "year": 2003,
+      "authors": [
+        "Y. Kawamata"
+      ],
+      "referenceCount": 11,
+      "citationCount": 88
+    },
+    {
+      "paperId": "9ae0a5d5e99c157c6bbfff52fcb6d7ac8eaf6f0d",
+      "title": "EQUIVARIANT INDEX FORMULAS FOR ORBIFOLDS",
+      "abstract": "Let P be a smooth manifold. Let H be a compact Lie group acting on P . We assume that the action of H is infinitesimally free, that is the stabilizer H(y) of any point y ∈ P is a finite subgroup of H. We write the action of H on the right. The quotient space P/H is an orbifold (if H acts freely, then P/H is a manifold). Reciprocally any orbifold M can be presented this way: for example, one might choose P to be the bundle of orthonormal frames for a choice of a metric on M and H = O(n) if n = dimM . We will assume that there is a compact Lie group G acting on P such that its action commutes with the action of H. We will write the action of G on the left. Then the space P/H is provided with a G-action. Such data (P,H,G) will be our definition of a presented G-orbifold. We will say shortly that P/H is a G-orbifold. Consider a compact G-orbifold P/H. A tangent vector on P tangent at y ∈ P to the orbit H · y will be called a vertical tangent vector. Let T ∗ HP be the subbundle of T P orthogonal to all vertical vectors. We will say that T ∗ HP is the horizontal cotangent space. We denote by (y, ξ) a point in T P . Consider two (G×H)-equivariant vector bundles E on P . Let Γ(P, E) be the spaces of smooth sections of E. Let",
+      "year": 1996,
+      "authors": [
+        "M. Vergne"
+      ],
+      "referenceCount": 23,
+      "citationCount": 43
+    }
+  ]
+}

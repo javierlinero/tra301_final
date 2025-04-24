@@ -1,0 +1,47 @@
+{
+  "main": {
+    "paperId": "f7ed8ca2e730da135ae725a2300bca5422d9676c",
+    "title": "REORDER: Securing Dynamic-Priority Real-Time Systems Using Schedule Obfuscation",
+    "abstract": "The deterministic (timing) behavior of real-time systems (RTS) can be used by adversaries - say, to launch side channel attacks or even destabilize the system by denying access to critical resources. We propose a protocol (named REORDER) to obfuscate this predictable timing behavior of RTS, especially ones designed using dynamic-priority scheduling algorithms (e.g., EDF). We also present a metric (named \"schedule entropy\") that measures the levels of obfuscation introduced into a given real-time system. The REORDER protocol was integrated into the standard Linux real-time scheduler and evaluated on a realistic embedded platform (Raspberry Pi) running the MiBench automotive benchmark workloads. We also demonstrate how designers of RTS can increase the security of their systems and also quantitatively measure the impact (both in terms of security and performance) of using this protocol.",
+    "year": 2018,
+    "authors": [
+      "Chien-Ying Chen",
+      "M. Hasan",
+      "AmirEmad Ghassami",
+      "Sibin Mohan",
+      "N. Kiyavash"
+    ],
+    "referenceCount": 54,
+    "citationCount": 11
+  },
+  "references": [
+    {
+      "paperId": "ce1a84385c9a38badbbd5aac90ccc47bb9b0d595",
+      "title": "TaskShuffler: A Schedule Randomization Protocol for Obfuscation against Timing Inference Attacks in Real-Time Systems",
+      "abstract": "The high degree of predictability in real-time systems makes it possible for adversaries to launch timing inference attacks such as those based on side-channels and covert-channels. We present TaskShuffler, a schedule obfuscation method aimed at randomizing the schedule for such systems while still providing the real-time guarantees that are necessary for their safe operation. This paper also analyzes the effect of these mechanisms by presenting schedule entropy - a metric to measure the uncertainty (as perceived by attackers) introduced by TaskShuffler. These mechanisms will increase the difficulty for would-be attackers thus improving the overall security guarantees for real-time systems.",
+      "year": 2016,
+      "authors": [
+        "Man-Ki Yoon",
+        "Sibin Mohan",
+        "Chien-Ying Chen",
+        "L. Sha"
+      ],
+      "referenceCount": 31,
+      "citationCount": 69
+    },
+    {
+      "paperId": "839bb320aedea67eed9821d9633ade60fd8be966",
+      "title": "Real-Time Systems Security through Scheduler Constraints",
+      "abstract": "Real-time systems (RTS) were typically considered to be invulnerable to external attacks, mainly due to their use of proprietary hardware and protocols, as well as physical isolation. As a result, RTS and security have traditionally been separate domains. These assumptions are being challenged by a series of recent events that highlight the vulnerabilities in RTS. In this paper we focus on integrating security as a first class principle in the design of RTS: we show that certain security requirements can be specified as real-time scheduling constraints. Using information leakage as a motivating problem, we illustrate our techniques with fixed-priority (FP) real-time schedulers. We evaluate our approach and discuss tradeoffs. Our evaluation shows that many real-time task sets can be scheduled under the proposed constraints without significant performance impact.",
+      "year": 2014,
+      "authors": [
+        "Sibin Mohan",
+        "Man-Ki Yoon",
+        "R. Pellizzoni",
+        "R. Bobba"
+      ],
+      "referenceCount": 40,
+      "citationCount": 62
+    }
+  ]
+}

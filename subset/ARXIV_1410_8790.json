@@ -1,0 +1,27 @@
+{
+  "main": {
+    "paperId": "46b8b2e900a65bb1c16bae640f143b88d746adde",
+    "title": "Regular norm and the operator semi-norm on a non-unital Banach Algebra",
+    "abstract": "We show that if $\\mathfrak{A}$ is a commutative complex non-unital Banach Algebra with norm $\\|\\cdot\\|$, then $\\|\\cdot\\|$ is regular on $\\mathfrak{A}$ if and only if $\\|\\cdot\\|_{op}$ is a norm on $\\mathfrak{A}\\oplus \\mathbb{C}$ and $\\mathfrak{A}\\oplus\\mathbb{C}$ is a commutative complex Banach Algebra with respect to $\\|\\cdot\\|_{op}$.",
+    "year": 2014,
+    "authors": [
+      "Adam Orenstein"
+    ],
+    "referenceCount": 8,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "815b52b1e923db10ef60d80d7b11185dc4abe000",
+      "title": "NORMS, STATES AND NUMERICAL RANGES ON DIRECT SUMS",
+      "abstract": "NORMS, STATES AND NUMERICAL RANGES ON DIRECT SUMS Abhay K. Gaur*) Zdislav V. Kováfik Received : A u g u s t 3 0 , 1990 ; r e v i s e d : M a y 2 8 , 1991 Abstract. In CQ type and type direct sums of Banach algebras, we study the behavior of regular (also called operator) norms and of state preserving operators, and how numerical ranges are built from those of the components. We also discuss the importance of regular norms in unitization of algebras. Finally, numerical ranges in εΘ(Χ) are described. AMS 1980 Classification: 46J99, J15",
+      "year": 1991,
+      "authors": [
+        "A. Gaur",
+        "Zdislav V. Kováfik"
+      ],
+      "referenceCount": 3,
+      "citationCount": 10
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "main": {
+    "paperId": "b83a17f7bd638e6b8b696624718f4371e0981025",
+    "title": "BITS: Bi-level Imitation for Traffic Simulation",
+    "abstract": "Simulation is the key to scaling up validation and verification for robotic systems such as autonomous vehicles. Despite advances in high-fidelity physics and sensor simulation, a critical gap remains in simulating realistic behaviors of road users. This is because devising first principle models for human-like behaviors is generally infeasible. In this work, we take a data-driven approach to generate traffic behaviors from real-world driving logs. The method achieves high sample efficiency and behavior diversity by exploiting the bi-level hierarchy of high-level intent inference and low-level driving behavior imitation. The method also incorporates a planning module to obtain stable long-horizon behaviors. We empirically validate our method with scenarios from two large-scale driving datasets and show our method achieves balanced traffic simulation performance in realism, diversity, and long-horizon stability. We also explore ways to evaluate behavior realism and introduce a suite of evaluation metrics for traffic simulation. Finally, as part of our core contributions, we develop and open source a software tool that unifies data formats across different driving datasets and converts scenes from existing datasets into interactive simulation environments. For video results and code release, see https://bit.ly/3L9uzj3.",
+    "year": 2022,
+    "authors": [
+      "Danfei Xu",
+      "Yuxiao Chen",
+      "B. Ivanovic",
+      "M. Pavone"
+    ],
+    "referenceCount": 65,
+    "citationCount": 77
+  },
+  "references": [
+    {
+      "paperId": "51a98c9cbf81f4e73966dc343e97f858e59310ab",
+      "title": "SimNet: Learning Reactive Self-driving Simulations from Real-world Observations",
+      "abstract": "In this work we present a simple end-to-end trainable machine learning system capable of realistically simulating driving experiences. This can be used for verification of self-driving system performance without relying on expensive and time-consuming road testing. In particular, we frame the simulation problem as a Markov Process, leveraging deep neural networks to model both state distribution and transition function. These are trainable directly from the existing raw observations without the need of any handcrafting in the form of plant or kinematic models. All that is needed is a dataset of historical traffic episodes. Our formulation allows the system to construct never seen scenes that unfold realistically reacting to the self-driving car’s behaviour. We train our system directly from 1,000 hours of driving logs and measure both realism, reactivity of the simulation as the two key properties of the simulation. At the same time we apply the method to evaluate performance of a recently proposed state-of-the-art ML planning system [1] trained from human driving logs. We discover this planning system is prone to previously unreported causal confusion issues that are difficult to test by non-reactive simulation. To the best of our knowledge, this is the first work that directly merges highly realistic data-driven simulations with a closed loop evaluation for self-driving vehicles. We make the data, code, and pre-trained models publicly available to further stimulate simulation development.",
+      "year": 2021,
+      "authors": [
+        "Luca Bergamini",
+        "Yawei Ye",
+        "Oliver Scheel",
+        "Long Chen",
+        "Chih Hu",
+        "Luca Del Pero",
+        "B. Osinski",
+        "Hugo Grimmett",
+        "Peter Ondruska"
+      ],
+      "referenceCount": 40,
+      "citationCount": 94
+    },
+    {
+      "paperId": "9868cbb66312c7790602d4e3fe44af1482d5ce54",
+      "title": "TrafficSim: Learning to Simulate Realistic Multi-Agent Behaviors",
+      "abstract": "Simulation has the potential to massively scale evaluation of self-driving systems, enabling rapid development as well as safe deployment. Bridging the gap between simulation and the real world requires realistic multi-agent behaviors. Existing simulation environments rely on heuristic-based models that directly encode traffic rules, which cannot capture irregular maneuvers (e.g., nudging, U-turns) and complex interactions (e.g., yielding, merging). In contrast, we leverage real-world data to learn directly from human demonstration, and thus capture more naturalistic driving behaviors. To this end, we propose TrafficSim, a multi-agent behavior model for realistic traffic simulation. In particular, we parameterize the policy with an implicit la-tent variable model that generates socially-consistent plans for all actors in the scene jointly. To learn a robust policy amenable for long horizon simulation, we unroll the policy in training and optimize through the fully differentiable simulation across time. Our learning objective incorporates both human demonstrations as well as common sense. We show TrafficSim generates significantly more realistic traffic scenarios as compared to a diverse set of baselines. Notably, we can exploit trajectories generated by TrafficSim as effective data augmentation for training better motion planner.",
+      "year": 2021,
+      "authors": [
+        "Simon Suo",
+        "S. Regalado",
+        "S. Casas",
+        "R. Urtasun"
+      ],
+      "referenceCount": 46,
+      "citationCount": 218
+    },
+    {
+      "paperId": "5ff9429efe7b6c4e7c039064920600e2b7664828",
+      "title": "One Thousand and One Hours: Self-driving Motion Prediction Dataset",
+      "abstract": "We present the largest self-driving dataset for motion prediction to date, with over 1,000 hours of data. This was collected by a fleet of 20 autonomous vehicles along a fixed route in Palo Alto, California over a four-month period. It consists of 170,000 scenes, where each scene is 25 seconds long and captures the perception output of the self-driving system, which encodes the precise positions and motions of nearby vehicles, cyclists, and pedestrians over time. On top of this, the dataset contains a high-definition semantic map with 15,242 labelled elements and a high-definition aerial view over the area. Together with the provided software kit, this collection forms the largest, most complete and detailed dataset to date for the development of self-driving, machine learning tasks such as motion forecasting, planning and simulation. The full dataset is available at this http URL.",
+      "year": 2020,
+      "authors": [
+        "J. Houston",
+        "G. Zuidhof",
+        "Luca Bergamini",
+        "Yawei Ye",
+        "Ashesh Jain",
+        "Sammy Omari",
+        "V. Iglovikov",
+        "Peter Ondruska"
+      ],
+      "referenceCount": 29,
+      "citationCount": 354
+    },
+    {
+      "paperId": "9e475a514f54665478aac6038c262e5a6bac5e64",
+      "title": "nuScenes: A Multimodal Dataset for Autonomous Driving",
+      "abstract": "Robust detection and tracking of objects is crucial for the deployment of autonomous vehicle technology. Image based benchmark datasets have driven development in computer vision tasks such as object detection, tracking and segmentation of agents in the environment. Most autonomous vehicles, however, carry a combination of cameras and range sensors such as lidar and radar. As machine learning based methods for detection and tracking become more prevalent, there is a need to train and evaluate such methods on datasets containing range sensor data along with images. In this work we present nuTonomy scenes (nuScenes), the first dataset to carry the full autonomous vehicle sensor suite: 6 cameras, 5 radars and 1 lidar, all with full 360 degree field of view. nuScenes comprises 1000 scenes, each 20s long and fully annotated with 3D bounding boxes for 23 classes and 8 attributes. It has 7x as many annotations and 100x as many images as the pioneering KITTI dataset. We define novel 3D detection and tracking metrics. We also provide careful dataset analysis as well as baselines for lidar and image based detection and tracking. Data, development kit and more information are available online.",
+      "year": 2019,
+      "authors": [
+        "Holger Caesar",
+        "Varun Bankiti",
+        "Alex H. Lang",
+        "Sourabh Vora",
+        "Venice Erin Liong",
+        "Qiang Xu",
+        "Anush Krishnan",
+        "Yuxin Pan",
+        "G. Baldan",
+        "Oscar Beijbom"
+      ],
+      "referenceCount": 102,
+      "citationCount": 5387
+    },
+    {
+      "paperId": "49c076bbc21ab76720b610ab3840c15ce3dc4e6c",
+      "title": "Social GAN: Socially Acceptable Trajectories with Generative Adversarial Networks",
+      "abstract": "Understanding human motion behavior is critical for autonomous moving platforms (like self-driving cars and social robots) if they are to navigate human-centric environments. This is challenging because human motion is inherently multimodal: given a history of human motion paths, there are many socially plausible ways that people could move in the future. We tackle this problem by combining tools from sequence prediction and generative adversarial networks: a recurrent sequence-to-sequence model observes motion histories and predicts future behavior, using a novel pooling mechanism to aggregate information across people. We predict socially plausible futures by training adversarially against a recurrent discriminator, and encourage diverse predictions with a novel variety loss. Through experiments on several datasets we demonstrate that our approach outperforms prior work in terms of accuracy, variety, collision avoidance, and computational complexity.",
+      "year": 2018,
+      "authors": [
+        "Agrim Gupta",
+        "Justin Johnson",
+        "Li Fei-Fei",
+        "S. Savarese",
+        "Alexandre Alahi"
+      ],
+      "referenceCount": 50,
+      "citationCount": 1849
+    },
+    {
+      "paperId": "864ad6b8f2778bf7238e8a983551edc2072f08a9",
+      "title": "DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents",
+      "abstract": "We introduce a Deep Stochastic IOC RNN Encoder-decoder framework, DESIRE, for the task of future predictions of multiple interacting agents in dynamic scenes. DESIRE effectively predicts future locations of objects in multiple scenes by 1) accounting for the multi-modal nature of the future prediction (i.e., given the same context, future may vary), 2) foreseeing the potential future outcomes and make a strategic prediction based on that, and 3) reasoning not only from the past motion history, but also from the scene context as well as the interactions among the agents. DESIRE achieves these in a single end-to-end trainable neural network model, while being computationally efficient. The model first obtains a diverse set of hypothetical future prediction samples employing a conditional variational auto-encoder, which are ranked and refined by the following RNN scoring-regression module. Samples are scored by accounting for accumulated future rewards, which enables better long-term strategic decisions similar to IOC frameworks. An RNN scene context fusion module jointly captures past motion histories, the semantic scene context and interactions among multiple agents. A feedback mechanism iterates over the ranking and refinement to further boost the prediction accuracy. We evaluate our model on two publicly available datasets: KITTI and Stanford Drone Dataset. Our experiments show that the proposed model significantly improves the prediction accuracy compared to other baseline methods.",
+      "year": 2017,
+      "authors": [
+        "Namhoon Lee",
+        "Wongun Choi",
+        "Paul Vernaza",
+        "C. Choy",
+        "Philip H. S. Torr",
+        "Manmohan Chandraker"
+      ],
+      "referenceCount": 53,
+      "citationCount": 971
+    }
+  ]
+}

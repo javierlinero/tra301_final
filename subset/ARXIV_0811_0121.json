@@ -1,0 +1,63 @@
+{
+  "main": {
+    "paperId": "525dd99d4de19a7aed283a66a09584d76af44566",
+    "title": "Spectral Connectivity Analysis",
+    "abstract": "Spectral kernel methods are techniques for mapping data into a coordinate system that efficiently reveals the geometric structure—in particular, the “connectivity”—of the data. These methods depend on tuning parameters. We analyze the dependence of the method on these tuning parameters. We focus on one particular technique—diffusion maps—but our analysis can be used for other spectral methods as well. We identify the key population quantities, we define an appropriate risk function for analyzing the estimators, and we explain how these methods relate to classical kernel smoothing. We also show that, in some cases, fast rates of convergence are possible even in high dimensions. The Appendix of the article is available online as supplementary materials.",
+    "year": 2008,
+    "authors": [
+      "Ann B. Lee",
+      "L. Wasserman"
+    ],
+    "referenceCount": 64,
+    "citationCount": 34
+  },
+  "references": [
+    {
+      "paperId": "eda90bd43f4256986688e525b45b833a3addab97",
+      "title": "A tutorial on spectral clustering",
+      "abstract": "Abstract\nIn recent years, spectral clustering has become one of the most popular modern clustering algorithms. It is simple to implement, can be solved efficiently by standard linear algebra software, and very often outperforms traditional clustering algorithms such as the k-means algorithm. On the first glance spectral clustering appears slightly mysterious, and it is not obvious to see why it works at all and what it really does. The goal of this tutorial is to give some intuition on those questions. We describe different graph Laplacians and their basic properties, present the most common spectral clustering algorithms, and derive those algorithms from scratch by several different approaches. Advantages and disadvantages of the different spectral clustering algorithms are discussed.\n",
+      "year": 2007,
+      "authors": [
+        "U. V. Luxburg"
+      ],
+      "referenceCount": 79,
+      "citationCount": 10394
+    },
+    {
+      "paperId": "e3b5acb6eaa58ea9234d02e3f6fe69159dc19de9",
+      "title": "Empirical graph Laplacian approximation of Laplace–Beltrami operators: Large sample results",
+      "abstract": "Let ${M}$ be a compact Riemannian submanifold of ${{\\bf R}^m}$ of dimension $\\scriptstyle{d}$ and let ${X_1,...,X_n}$ be a sample of i.i.d. points in ${M}$ with uniform distribution. We study the random operators $$ \\Delta_{h_n,n}f(p):=\\frac{1}{nh_n^{d+2}}\\sum_{i=1}^n K(\\frac{p-X_i}{h_n})(f(X_i)-f(p)), p\\in M $$ where ${K(u):={\\frac{1}{(4\\pi)^{d/2}}}e^{-\\|u\\|^2/4}}$ is the Gaussian kernel and ${h_n\\to 0}$ as ${n\\to\\infty.}$ Such operators can be viewed as graph laplacians (for a weighted graph with vertices at data points) and they have been used in the machine learning literature to approximate the Laplace-Beltrami operator of ${M,}$ ${\\Delta_Mf}$ (divided by the Riemannian volume of the manifold). We prove several results on a.s. and distributional convergence of the deviations ${\\Delta_{h_n,n}f(p)-{\\frac{1}{|\\mu|}}\\Delta_Mf(p)}$ for smooth functions ${f}$ both pointwise and uniformly in ${f}$ and ${p}$ (here ${|\\mu|=\\mu(M)}$ and ${\\mu}$ is the Riemannian volume measure). In particular, we show that for any class ${{\\cal F}}$ of three times differentiable functions on ${M}$ with uniformly bounded derivatives $$ \\sup_{p\\in M}\\sup_{f\\in F}\\Big|\\Delta_{h_n,p}f(p)-\\frac{1}{|\\mu|}\\Delta_Mf(p)\\Big|= O\\Big(\\sqrt{\\frac{\\log(1/h_n)}{nh_n^{d+2}}}\\Big) a.s. $$ as soon as $$ nh_n^{d+2}/\\log h_n^{-1}\\to \\infty and nh^{d+4}_n/\\log h_n^{-1}\\to 0, $$ and also prove asymptotic normality of ${\\Delta_{h_n,p}f(p)-{\\frac{1}{|\\mu|}}\\Delta_Mf(p)}$ (functional CLT) for a fixed ${p\\in M}$ and uniformly in ${f}.$",
+      "year": 2006,
+      "authors": [
+        "Evarist Gin'e",
+        "V. Koltchinskii"
+      ],
+      "referenceCount": 12,
+      "citationCount": 149
+    },
+    {
+      "paperId": "06eb6b4566cbb127ebf548f251e9b89bf34777f2",
+      "title": "Diffusion maps and coarse-graining: a unified framework for dimensionality reduction, graph partitioning, and data set parameterization",
+      "abstract": "We provide evidence that nonlinear dimensionality reduction, clustering, and data set parameterization can be solved within one and the same framework. The main idea is to define a system of coordinates with an explicit metric that reflects the connectivity of a given data set and that is robust to noise. Our construction, which is based on a Markov random walk on the data, offers a general scheme of simultaneously reorganizing and subsampling graphs and arbitrarily shaped data sets in high dimensions using intrinsic geometry. We show that clustering in embedding spaces is equivalent to compressing operators. The objective of data partitioning and clustering is to coarse-grain the random walk on the data while at the same time preserving a diffusion operator for the intrinsic geometry or connectivity of the data set up to some accuracy. We show that the quantization distortion in diffusion space bounds the error of compression of the operator, thus giving a rigorous justification for k-means clustering in diffusion space and a precise measure of the performance of general clustering algorithms",
+      "year": 2006,
+      "authors": [
+        "Stéphane Lafon",
+        "Ann B. Lee"
+      ],
+      "referenceCount": 31,
+      "citationCount": 674
+    },
+    {
+      "paperId": "fb4b0ff68d58d8ef8c1c2ee2b8bdc0a60cbeb4b4",
+      "title": "Dimension Reduction by Local Principal Component Analysis",
+      "abstract": "Reducing or eliminating statistical redundancy between the components of high-dimensional vector data enables a lower-dimensional representation without significant loss of information. Recognizing the limitations of principal component analysis (PCA), researchers in the statistics and neural network communities have developed nonlinear extensions of PCA. This article develops a local linear approach to dimension reduction that provides accurate representations and is fast to compute. We exercise the algorithms on speech and image data, and compare performance with PCA and with neural network implementations of nonlinear PCA. We find that both nonlinear techniques can provide more accurate representations than PCA and show that the local linear techniques outperform neural network implementations.",
+      "year": 1997,
+      "authors": [
+        "N. Kambhatla",
+        "T. Leen"
+      ],
+      "referenceCount": 43,
+      "citationCount": 766
+    }
+  ]
+}

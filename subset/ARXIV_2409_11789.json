@@ -1,0 +1,35 @@
+{
+  "main": {
+    "paperId": "e52b6a5f02eee8a2e9108018b67a5768612397c4",
+    "title": "Sparse Factor Analysis for Categorical Data with the Group-Sparse Generalized Singular Value Decomposition",
+    "abstract": null,
+    "year": 2024,
+    "authors": [
+      "Ju-Chi Yu",
+      "Julie Le Borgne",
+      "Anjali Krishnan",
+      "A. Gloaguen",
+      "Cheng-Ta Yang",
+      "Laura A Rabin",
+      "Hervé Abdi",
+      "Vincent Guillemot"
+    ],
+    "referenceCount": 50,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "7953ea921cbd3c62cac3004dafcd630e31eae81d",
+      "title": "A penalized matrix decomposition, with applications to sparse principal components and canonical correlation analysis.",
+      "abstract": "We present a penalized matrix decomposition (PMD), a new framework for computing a rank-K approximation for a matrix. We approximate the matrix X as circumflexX = sigma(k=1)(K) d(k)u(k)v(k)(T), where d(k), u(k), and v(k) minimize the squared Frobenius norm of X - circumflexX, subject to penalties on u(k) and v(k). This results in a regularized version of the singular value decomposition. Of particular interest is the use of L(1)-penalties on u(k) and v(k), which yields a decomposition of X using sparse vectors. We show that when the PMD is applied using an L(1)-penalty on v(k) but not on u(k), a method for sparse principal components results. In fact, this yields an efficient algorithm for the \"SCoTLASS\" proposal (Jolliffe and others 2003) for obtaining sparse principal components. This method is demonstrated on a publicly available gene expression data set. We also establish connections between the SCoTLASS method for sparse principal component analysis and the method of Zou and others (2006). In addition, we show that when the PMD is applied to a cross-products matrix, it results in a method for penalized canonical correlation analysis (CCA). We apply this penalized CCA method to simulated data and to a genomic data set consisting of gene expression and DNA copy number measurements on the same set of samples.",
+      "year": 2009,
+      "authors": [
+        "D. Witten",
+        "R. Tibshirani",
+        "T. Hastie"
+      ],
+      "referenceCount": 41,
+      "citationCount": 1528
+    }
+  ]
+}

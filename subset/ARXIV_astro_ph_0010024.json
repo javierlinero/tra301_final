@@ -1,0 +1,90 @@
+{
+  "main": {
+    "paperId": "73736dbdd33ebb1c16771dd56673759b9df2d3ee",
+    "title": "Cosmological origin of the lowest metallicity halo stars",
+    "abstract": "We explore the predictions of the standard hierarchical clustering scenario, regarding the numbers and metallicities of PopIII stars found within our Galaxy today. An analytic, extended Press-Schechter formalism is used to get the mass functions of halos which will host PopIII stars at a given redshift, and which will end up in the Milky Way (MW) today. Each of these is modeled as a mini galaxy, with a detailed treatment of the dark halo structure, angular momentum distribution, final gas temperature and disk instabilities, all of which determine the fraction of the baryons which are subject to star formation. Use of new primordial metallicity stellar evolutionary models allows us to trace the history of the stars formed and give accurate estimates of their expected numbers today. A first comparison with observational data suggests that the IMF of the first stars was increasingly high mass weighted towards high redshifts, leveling off at z ≈ 9 at a characteristic stellar mass scale m s = 10 - 15M ⊙. Details can be found in Hernandez & Ferrara (2001).",
+    "year": 2000,
+    "authors": [
+      "X. Hernández",
+      "A. F. Arcetri",
+      "Center for Computational Physics",
+      "U. Tsukuba"
+    ],
+    "referenceCount": 32,
+    "citationCount": 41
+  },
+  "references": [
+    {
+      "paperId": "fde9f3a3219d7c67b5f73b22f97a61f220ececb6",
+      "title": "Cosmological evolution and hierarchical galaxy formation",
+      "abstract": "We calculate the rate at which dark matter haloes merge to form higher mass systems. Two complementary derivations using Press–Schechter theory are given, both of which result in the same equation for the formation rate. First, a derivation using the properties of the Brownian random walks within the framework of Press–Schechter theory is presented. We then use Bayes’ theorem to obtain the same result from the standard Press–Schechter mass function. The rate obtained is shown to be in good agreement with results from Monte Carlo and N-body simulations. We illustrate the usefulness of this formula by calculating the expected cosmological evolution in the rate of star formation that is due to short-lived, merger-induced starbursts. The calculated evolution is well-matched to the observed evolution in ultraviolet luminosity density, in contrast to the lower rates of evolution that are derived from semi-analytic models that do not include a dominant contribution from starbursts. Hence we suggest that the bulk of the observed ultraviolet starlight at z>1 arises from merger-induced starbursts. Finally, we show that a simple merging-halo model can also account for the bulk of the observed evolution in the comoving quasar space density.",
+      "year": 1998,
+      "authors": [
+        "W. Percival",
+        "L. Miller"
+      ],
+      "referenceCount": 49,
+      "citationCount": 36
+    },
+    {
+      "paperId": "460c8363f94478ef08d2825d26365b50a2285bf4",
+      "title": "Early star formation and the evolution of the stellar initial mass function in galaxies",
+      "abstract": "It has frequently been suggested in the literature that the stellar IMF in galaxies was top-heavy at early times. This would be plausible physically if the IMF depended on a mass-scale such as the Jeans mass that was higher at earlier times because of the generally higher temperatures that were present then. In this paper it is suggested, on the basis of current evidence and theory, that the IMF has a universal Salpeter-like form at the upper end, but flattens below a characteristic stellar mass that may vary with time. Much of the evidence that has been attributed to a top-heavy early IMF, including the ubiquitous G-dwarf problem, the high abundance of heavy elements in clusters of galaxies, and the high rate of formation of massive stars in high-redshift galaxies, can be accounted for with such an IMF if the characteristic stellar mass was several times higher during the early stages of galaxy evolution. However, significant variations in the mass-to-light ratios of galaxies and large amounts of dark matter in stellar remnants are not as easily explained in this way, because they require more extreme and less plausible assumptions about the form and variability of the IMF. Metal-free ‘population III’ stars are predicted to have an IMF that consists exclusively of massive stars, and they could help to account for some of the evidence that has been attributed to a top-heavy early IMF, as well as contributing importantly to the energetics and chemical enrichment of the early Universe.",
+      "year": 1998,
+      "authors": [
+        "R. Larson"
+      ],
+      "referenceCount": 17,
+      "citationCount": 335
+    },
+    {
+      "paperId": "69716343e1749ca160b91e0a3d2514eda37375fa",
+      "title": "Reionization of the Universe and the Early Production of Metals",
+      "abstract": "We simulate a plausible cosmological model in considerable physical and numerical detail through the successive phases of reheating (at 10 ≲ z ≲ 20) and reionization at z ≈ 7. We assume an efficiency of high-mass star formation appropriate to leave the universe, after it becomes transparent, with an ionizing background J21 ≈ 0.4 (at z = 4), near (and perhaps slightly below) the observed value. Since the same stars produce the ionizing radiation and the first generation of heavy elements, a mean metallicity of ⟨Z/Z☉⟩ ~ 1/200 is produced in this early phase, but there is a large variation about this mean, with the high density regions having Z/Z☉ ≈ 1/30 and the low density regions (or the Lyα forest with NH I ≲ 1013.5 cm2) having essentially no metals. When it occurs, reionization is very rapid (phase change-like), which will leave a signature that may be detectable by very large area meter-wavelength radio instruments. Also, the background UV radiation field will show a sharp drop of ~10-3 from 1 to 4 ryd because of absorption edges. The simulated volume is too small to form L* galaxies, but the smaller objects that are found in the simulation obey the Faber-Jackson relation. In order to explore theoretically this domain of “the end of the dark ages” quantitatively, numerical simulations must have a mass resolution of the order of 104.5 M☉ in baryons, have high spatial resolution (≲1 kpc) to resolve strong clumping, and allow for detailed and accurate treatment of both the radiation field and atomic/molecular physics.",
+      "year": 1996,
+      "authors": [
+        "N. Gnedin",
+        "J. Ostriker"
+      ],
+      "referenceCount": 33,
+      "citationCount": 428
+    },
+    {
+      "paperId": "42a251209343f6904661a8387849cd18ec9e6d41",
+      "title": "The Formation of Disk Galaxies",
+      "abstract": "We present a scenario for the formation of disks that explains not only the properties of normal galaxies but also the properties of the population of low surface brightness galaxies (LSBs) as well. We use a gravitationally self-consistent model for disk collapse to calculate the observable properties of disk galaxies as a function of mass and angular momentum of the initial protogalaxy. The model naturally produces both smooth, asymptotically flat rotation curves and exponential surface brightness profiles over many disk scale lengths. In this scenario, low-mass and/or high angular momentum halos naturally form low baryonic surface density disks, which will tend to be low surface brightness. Theoretical and numerical calculations suggest galaxy halos should form with a wide range of mass and angular momenta, and thus, the disks that form within these halos should have a wide range of surface brightnesses and scale lengths. We use theoretical predictions for the distribution of halo masses and angular momenta to calculate explicitly the expected number density of disk galaxies as a function of central surface brightness and disk scale length. The resulting distribution is compared to the observed properties of galactic disks and is shown to explain the range of observed disk properties, including the cutoff in the maximum disk scale length as a function of surface brightness. We also show that disk instabilities explain the observed lack of high surface density disks. The calculated distribution of disk properties also suggests that there are large numbers of galaxies that remain undetected owing to biases against galaxies with either low surface brightness or small scale length. We quantify this by calculating the difference between the intrinsic luminosity function and the luminosity function that would be measured in a galaxy survey with a given limiting surface brightness. We show that current measurements of the galaxy luminosity function may be missing more than half of all L* galaxies, and an even larger fraction of faint galaxies, given the correlation between mass and surface brightness. The likely underestimate of the luminosity density is also expected to be large. We discuss how this affects observations of the “faint blue galaxy” population. We also investigate the dynamics of galaxies as a function of surface brightness. We show that, in the absence of any systematic change in the ratio of disk mass to disk luminosity, galaxies of all surface brightnesses should lie on the same Tully-Fisher relation. Our models also show systematic changes in the shape of the rotation curve as a function of angular momentum, which leads to LSBs having slowly rising rotation curves. Furthermore, because high angular momentum LSB disks have their baryonic mass spread over a larger area than normal galaxies of comparable mass, LSB disks contribute very little to the observed dynamics of the galaxy. Thus, LSBs provide a very effective tracer of the shape and mass profile of the dark matter halo, out to proportionally larger radii than is possible to observe with normal galaxy rotation curves.",
+      "year": 1996,
+      "authors": [
+        "J. Dalcanton",
+        "D. Spergel",
+        "F. Summers"
+      ],
+      "referenceCount": 101,
+      "citationCount": 407
+    },
+    {
+      "paperId": "c7ac25b0e5fe8d91c63ae02a9b723516662fce9d",
+      "title": "Merger rates in hierarchical models of galaxy formation – II. Comparison with N-body simulations",
+      "abstract": "We have made a detailed comparison of the results of N-body simulations with the analytical description of the merging histories of dark matter haloes presented in Lacey & Cole, which is based on an extension of the Press-Schechter method. We find the analytical predictions for the halo mass function, merger rates and formation times to be remarkably accurate. The N-body simulations used 1283 particles and were of self- similar clustering, with Ω=1 and initial power spectra P(k)∝kn with spectral indices n =−2, −1,0. The analytical model is, however, expected to apply for arbitrary Ω and more general power spectra. Dark matter haloes were identified in the simulations using two different methods and at a range of overdensities. For haloes selected at mean overdensities ∼100-200, the analytical mass function was found to provide a good fit to the simulations with a collapse threshold close to that predicted by the spherical collapse model, with a typical error of ≲30 per cent over a range of 103 in mass, which is the full dynamical range of our N-body simulation. This was insensitive to the type of filtering used. Over a range of 102- 103 in mass, there was also good agreement with the analytical predictions for merger rates including their dependence on the masses of the two haloes involved and the time interval being considered, and for formation times, including the dependence on halo mass and formation epoch. \n \nThe analytical Press-Schechter mass function and its extension to halo lifetimes and merger rates thus provide a very useful description of the growth of dark matter haloes through hierarchical clustering, and should provide a valuable tool in studies of the formation and evolution of galaxies and galaxy clusters.",
+      "year": 1994,
+      "authors": [
+        "C. Lacey",
+        "S. Cole"
+      ],
+      "referenceCount": 2,
+      "citationCount": 1908
+    },
+    {
+      "paperId": "fe5aeb40369bc71459385ec2aa7a5e785041046a",
+      "title": "Subdwarf studies. III, The halo metallicity distribution",
+      "abstract": "We have constructed the metallicity distribution of a sample of 372 kinematically selected halo stars, most having spectroscopically determined abundances, drawn from our southern subdwarf study and the northern program of Laird J.B. et al. [AJ, 95, 1843 (1988); 96, 1908 (1988)]. We find that the metallicity distribution of this sample is in very good agreement with the predictions of Hartwick's [Ap.J., 209, 418 (1976)] simple model over 2.5 decades of abundance. In particular, we find no significant deficit of metal weak stars, in contradistinction to the earlier investigation of Bond H.E. [Ap.J., 248, 606 (1981)].",
+      "year": 1991,
+      "authors": [
+        "S. Ryan",
+        "J. Norris"
+      ],
+      "referenceCount": 0,
+      "citationCount": 150
+    }
+  ]
+}

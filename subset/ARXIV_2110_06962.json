@@ -1,0 +1,30 @@
+{
+  "main": {
+    "paperId": "d79470265d4c9d678bb57285075a46c10093c136",
+    "title": "Open-Domain Question-Answering for COVID-19 and Other Emergent Domains",
+    "abstract": "Since late 2019, COVID-19 has quickly emerged as the newest biomedical domain, resulting in a surge of new information. As with other emergent domains, the discussion surrounding the topic has been rapidly changing, leading to the spread of misinformation. This has created the need for a public space for users to ask questions and receive credible, scientific answers. To fulfill this need, we turn to the task of open-domain question-answering, which we can use to efficiently find answers to free-text questions from a large set of documents. In this work, we present such a system for the emergent domain of COVID-19. Despite the small data size available, we are able to successfully train the system to retrieve answers from a large-scale corpus of published COVID-19 scientific papers. Furthermore, we incorporate effective re-ranking and question-answering techniques, such as document diversity and multiple answer spans. Our open-domain question-answering system can further act as a model for the quick development of similar systems that can be adapted and modified for other developing emergent domains.",
+    "year": 2021,
+    "authors": [
+      "Sharon Levy",
+      "Kevin Mo",
+      "Wenhan Xiong",
+      "W. Wang"
+    ],
+    "referenceCount": 28,
+    "citationCount": 11
+  },
+  "references": [
+    {
+      "paperId": "47ced790a563344efae66588b5fb7fe6cca29ed3",
+      "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+      "abstract": "The Probabilistic Relevance Framework (PRF) is a formal framework for document retrieval, grounded in work done in the 1970—1980s, which led to the development of one of the most successful text-retrieval algorithms, BM25. In recent years, research in the PRF has yielded new retrieval models capable of taking into account document meta-data (especially structure and link-graph information). Again, this has led to one of the most successful Web-search and corporate-search algorithms, BM25F. This work presents the PRF from a conceptual point of view, describing the probabilistic modelling assumptions behind the framework and the different ranking algorithms that result from its application: the binary independence model, relevance feedback models, BM25 and BM25F. It also discusses the relation between the PRF and other statistical models for IR, and covers some related topics, such as the use of non-textual features, and parameter optimisation for models with free parameters.",
+      "year": 2009,
+      "authors": [
+        "S. Robertson",
+        "H. Zaragoza"
+      ],
+      "referenceCount": 59,
+      "citationCount": 3489
+    }
+  ]
+}

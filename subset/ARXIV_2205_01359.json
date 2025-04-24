@@ -1,0 +1,27 @@
+{
+  "main": {
+    "paperId": "c4189c9c4bb481510b33ec8909f0f709e46ad764",
+    "title": "SOME CRITICAL POINT RESULTS FOR FRECHET MANIFOLDS",
+    "abstract": "We prove a so-called linking theorem and some of its corollaries, namely a mountain pass theorem and a three critical points theorem for Keller $ C^1$-functional on $ C^1 $- Frechet manifolds. Our approach relies on a deformation result which is not implemented by considering the negative pseudo-gradient flows. Furthermore, for mappings between Frechet manifolds we provide a set of sufficient conditions in terms of the Palais-Smale condition that indicates when a local diffeomorphism is a global one.",
+    "year": 2022,
+    "authors": [
+      "K. Eftekharinasab"
+    ],
+    "referenceCount": 8,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "81b7470c89f1292469874d5b9bc268b016572ed1",
+      "title": "A Lusternik-Schnirelmann Type Theorem for C1-Frechet Manifolds",
+      "abstract": "We prove a Lusternik-Schnirelmann type theorem for a <em>C</em><sup>1</sup>- function Ï† : M â†’ R, where M is a connected infinite dimensional Frechet manifold of class <em>C</em><sup>1</sup>. To this end, in this context we prove the so-called Deformation Lemma and by using it we derive the result generalizing the Minimax Principle.",
+      "year": 2021,
+      "authors": [
+        "K. Eftekharinasab",
+        "I. Lastivka"
+      ],
+      "referenceCount": 0,
+      "citationCount": 3
+    }
+  ]
+}

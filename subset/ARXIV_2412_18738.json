@@ -1,0 +1,291 @@
+{
+  "main": {
+    "paperId": "ec1a2b5ce9b373256da9eef40fab8472c582fdc7",
+    "title": "HELPNet: Hierarchical Perturbations Consistency and Entropy-guided Ensemble for Scribble Supervised Medical Image Segmentation",
+    "abstract": "Creating fully annotated labels for medical image segmentation is prohibitively time-intensive and costly, emphasizing the necessity for innovative approaches that minimize reliance on detailed annotations. Scribble annotations offer a more cost-effective alternative, significantly reducing the expenses associated with full annotations. However, scribble annotations offer limited and imprecise information, failing to capture the detailed structural and boundary characteristics necessary for accurate organ delineation. To address these challenges, we propose HELPNet, a novel scribble-based weakly supervised segmentation framework, designed to bridge the gap between annotation efficiency and segmentation performance. HELPNet integrates three modules. The Hierarchical perturbations consistency (HPC) module enhances feature learning by employing density-controlled jigsaw perturbations across global, local, and focal views, enabling robust modeling of multi-scale structural representations. Building on this, the Entropy-guided pseudo-label (EGPL) module evaluates the confidence of segmentation predictions using entropy, generating high-quality pseudo-labels. Finally, the structural prior refinement (SPR) module incorporates connectivity and bounded priors to enhance the precision and reliability and pseudo-labels. Experimental results on three public datasets ACDC, MSCMRseg, and CHAOS show that HELPNet significantly outperforms state-of-the-art methods for scribble-based weakly supervised segmentation and achieves performance comparable to fully supervised methods. The code is available at https://github.com/IPMI-NWU/HELPNet.",
+    "year": 2024,
+    "authors": [
+      "Xiao Zhang",
+      "Shaoxuan Wu",
+      "Peilin Zhang",
+      "Zhuo Jin",
+      "Xiaosong Xiong",
+      "Qirong Bu",
+      "Jingkun Chen",
+      "Jun Feng"
+    ],
+    "referenceCount": 43,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "02de3ecac131cf2ef61a672f007614aade70928e",
+      "title": "Scribble-based 3D Multiple Abdominal Organ Segmentation via Triple-branch Multi-dilated Network with Pixel- and Class-wise Consistency",
+      "abstract": "Multi-organ segmentation in abdominal Computed Tomography (CT) images is of great importance for diagnosis of abdominal lesions and subsequent treatment planning. Though deep learning based methods have attained high performance, they rely heavily on large-scale pixel-level annotations that are time-consuming and labor-intensive to obtain. Due to its low dependency on annotation, weakly supervised segmentation has attracted great attention. However, there is still a large performance gap between current weakly-supervised methods and fully supervised learning, leaving room for exploration. In this work, we propose a novel 3D framework with two consistency constraints for scribble-supervised multiple abdominal organ segmentation from CT. Specifically, we employ a Triple-branch multi-Dilated network (TDNet) with one encoder and three decoders using different dilation rates to capture features from different receptive fields that are complementary to each other to generate high-quality soft pseudo labels. For more stable unsupervised learning, we use voxel-wise uncertainty to rectify the soft pseudo labels and then supervise the outputs of each decoder. To further regularize the network, class relationship information is exploited by encouraging the generated class affinity matrices to be consistent across different decoders under multi-view projection. Experiments on the public WORD dataset show that our method outperforms five existing scribble-supervised methods.",
+      "year": 2023,
+      "authors": [
+        "Meng Han",
+        "Xiangde Luo",
+        "Wenjun Liao",
+        "Shichuan Zhang",
+        "Shaoting Zhang",
+        "Guotai Wang"
+      ],
+      "referenceCount": 26,
+      "citationCount": 7
+    },
+    {
+      "paperId": "4e16ca905a3b3f4e457ceb554cd524c6207d9f25",
+      "title": "ShapePU: A New PU Learning Framework Regularized by Global Consistency for Scribble Supervised Cardiac Segmentation",
+      "abstract": "Cardiac segmentation is an essential step for the diagnosis of cardiovascular diseases. However, pixel-wise dense labeling is both costly and time-consuming. Scribble, as a form of sparse annotation, is more accessible than full annotations. However, it's particularly challenging to train a segmentation network with weak supervision from scribbles. To tackle this problem, we propose a new scribble-guided method for cardiac segmentation, based on the Positive-Unlabeled (PU) learning framework and global consistency regularization, and termed as ShapePU. To leverage unlabeled pixels via PU learning, we first present an Expectation-Maximization (EM) algorithm to estimate the proportion of each class in the unlabeled pixels. Given the estimated ratios, we then introduce the marginal probability maximization to identify the classes of unlabeled pixels. To exploit shape knowledge, we apply cutout operations to training images, and penalize the inconsistent segmentation results. Evaluated on two open datasets, i.e, ACDC and MSCMRseg, our scribble-supervised ShapePU surpassed the fully supervised approach respectively by 1.4% and 9.8% in average Dice, and outperformed the state-of-the-art weakly supervised and PU learning methods by large margins. Our code is available at https://github.com/BWGZK/ShapePU.",
+      "year": 2022,
+      "authors": [
+        "Kecheng Zhang",
+        "X. Zhuang"
+      ],
+      "referenceCount": 29,
+      "citationCount": 28
+    },
+    {
+      "paperId": "abd8a22e8593864932ca1187efb6ca3a22e2b6c8",
+      "title": "Scribble-Supervised Medical Image Segmentation via Dual-Branch Network and Dynamically Mixed Pseudo Labels Supervision",
+      "abstract": "Medical image segmentation plays an irreplaceable role in computer-assisted diagnosis, treatment planning, and following-up. Collecting and annotating a large-scale dataset is crucial to training a powerful segmentation model, but producing high-quality segmentation masks is an expensive and time-consuming procedure. Recently, weakly-supervised learning that uses sparse annotations (points, scribbles, bounding boxes) for network training has achieved encouraging performance and shown the potential for annotation cost reduction. However, due to the limited supervision signal of sparse annotations, it is still challenging to employ them for networks training directly. In this work, we propose a simple yet efficient scribble-supervised image segmentation method and apply it to cardiac MRI segmentation. Specifically, we employ a dual-branch network with one encoder and two slightly different decoders for image segmentation and dynamically mix the two decoders' predictions to generate pseudo labels for auxiliary supervision. By combining the scribble supervision and auxiliary pseudo labels supervision, the dual-branch network can efficiently learn from scribble annotations end-to-end. Experiments on the public ACDC dataset show that our method performs better than current scribble-supervised segmentation methods and also outperforms several semi-supervised segmentation methods.",
+      "year": 2022,
+      "authors": [
+        "Xiangde Luo",
+        "Minhao Hu",
+        "Wenjun Liao",
+        "Shuwei Zhai",
+        "Tao Song",
+        "Guotai Wang",
+        "Shaoting Zhang"
+      ],
+      "referenceCount": 39,
+      "citationCount": 93
+    },
+    {
+      "paperId": "1156045c3e61e02183ddad6da1b98c0400773707",
+      "title": "CycleMix: A Holistic Strategy for Medical Image Segmentation from Scribble Supervision",
+      "abstract": "Curating a large set of fully annotated training data can be costly, especially for the tasks of medical image segmentation. Scribble, a weaker form of annotation, is more obtainable in practice, but training segmentation models from limited supervision of scribbles is still challenging. To address the difficulties, we propose a new framework for scribble learning-based medical image segmentation, which is composed of mix augmentation and cycle consistency and thus is referred to as CycleMix. For augmentation of supervision, CycleMix adopts the mixup strategy with a dedicated design of random occlusion, to perform increments and decrements of scribbles. For regularization of supervision, CycleMix intensifies the training objective with consistency losses to penalize inconsistent segmentation, which results in significant improvement of segmentation performance. Results on two open datasets, i.e., ACDC and MSCMRseg, showed that the proposed method achieved exhilarating performance, demonstrating comparable or even better accuracy than the fully-supervised methods. The code and expert-made scribble annotationsfor MSCMRseg are publicly available at https://github.com/BWGZK/CycleMix.",
+      "year": 2022,
+      "authors": [
+        "Kecheng Zhang",
+        "X. Zhuang"
+      ],
+      "referenceCount": 41,
+      "citationCount": 67
+    },
+    {
+      "paperId": "3165b1a9fc8208d4f64d140a3f5bab6748f093f4",
+      "title": "Learning to Segment From Scribbles Using Multi-Scale Adversarial Attention Gates",
+      "abstract": "Large, fine-grained image segmentation datasets, annotated at pixel-level, are difficult to obtain, particularly in medical imaging, where annotations also require expert knowledge. Weakly-supervised learning can train models by relying on weaker forms of annotation, such as scribbles. Here, we learn to segment using scribble annotations in an adversarial game. With unpaired segmentation masks, we train a multi-scale GAN to generate realistic segmentation masks at multiple resolutions, while we use scribbles to learn their correct position in the image. Central to the model’s success is a novel attention gating mechanism, which we condition with adversarial signals to act as a shape prior, resulting in better object localization at multiple scales. Subject to adversarial conditioning, the segmentor learns attention maps that are semantic, suppress the noisy activations outside the objects, and reduce the vanishing gradient problem in the deeper layers of the segmentor. We evaluated our model on several medical (ACDC, LVSC, CHAOS) and non-medical (PPSS) datasets, and we report performance levels matching those achieved by models trained with fully annotated segmentation masks. We also demonstrate extensions in a variety of settings: semi-supervised learning; combining multiple scribble sources (a crowdsourcing scenario) and multi-task learning (combining scribble and mask supervision). We release expert-made scribble annotations for the ACDC dataset, and the code used for the experiments, at https://vios-s.github.io/multiscale-adversarial-attention-gates.",
+      "year": 2021,
+      "authors": [
+        "Gabriele Valvano",
+        "Andrea Leo",
+        "S. Tsaftaris"
+      ],
+      "referenceCount": 0,
+      "citationCount": 90
+    },
+    {
+      "paperId": "39caa9091318480f3241117ecefba897548cc42a",
+      "title": "Co-Mixup: Saliency Guided Joint Mixup with Supermodular Diversity",
+      "abstract": "While deep neural networks show great performance on fitting to the training distribution, improving the networks' generalization performance to the test distribution and robustness to the sensitivity to input perturbations still remain as a challenge. Although a number of mixup based augmentation strategies have been proposed to partially address them, it remains unclear as to how to best utilize the supervisory signal within each input data for mixup from the optimization perspective. We propose a new perspective on batch mixup and formulate the optimal construction of a batch of mixup data maximizing the data saliency measure of each individual mixup data and encouraging the supermodular diversity among the constructed mixup data. This leads to a novel discrete optimization problem minimizing the difference between submodular functions. We also propose an efficient modular approximation based iterative submodular minimization algorithm for efficient mixup computation per each minibatch suitable for minibatch based neural network training. Our experiments show the proposed method achieves the state of the art generalization, calibration, and weakly supervised localization results compared to other mixup methods. The source code is available at https://github.com/snu-mllab/Co-Mixup.",
+      "year": 2021,
+      "authors": [
+        "Jang-Hyun Kim",
+        "Wonho Choo",
+        "Hosan Jeong",
+        "Hyun Oh Song"
+      ],
+      "referenceCount": 43,
+      "citationCount": 173
+    },
+    {
+      "paperId": "a65cff2a792cd2133d2db91d88327bdac6cbf108",
+      "title": "Puzzle Mix: Exploiting Saliency and Local Statistics for Optimal Mixup",
+      "abstract": "While deep neural networks achieve great performance on fitting the training distribution, the learned networks are prone to overfitting and are susceptible to adversarial attacks. In this regard, a number of mixup based augmentation methods have been recently proposed. However, these approaches mainly focus on creating previously unseen virtual examples and can sometimes provide misleading supervisory signal to the network. To this end, we propose Puzzle Mix, a mixup method for explicitly utilizing the saliency information and the underlying statistics of the natural examples. This leads to an interesting optimization problem alternating between the multi-label objective for optimal mixing mask and saliency discounted optimal transport objective. Our experiments show Puzzle Mix achieves the state of the art generalization and the adversarial robustness results compared to other mixup methods on CIFAR-100, Tiny-ImageNet, and ImageNet datasets. The source code is available at this https URL.",
+      "year": 2020,
+      "authors": [
+        "Jang-Hyun Kim",
+        "Wonho Choo",
+        "Hyun Oh Song"
+      ],
+      "referenceCount": 42,
+      "citationCount": 371
+    },
+    {
+      "paperId": "d548a5887fc293034cb0abb68a6697d196a78ccf",
+      "title": "Post-DAE: Anatomically Plausible Segmentation via Post-Processing With Denoising Autoencoders",
+      "abstract": "We introduce Post-DAE, a post-processing method based on denoising autoencoders (DAE) to improve the anatomical plausibility of arbitrary biomedical image segmentation algorithms. Some of the most popular segmentation methods (e.g. based on convolutional neural networks or random forest classifiers) incorporate additional post-processing steps to ensure that the resulting masks fulfill expected connectivity constraints. These methods operate under the hypothesis that contiguous pixels with similar aspect should belong to the same class. Even if valid in general, this assumption does not consider more complex priors like topological restrictions or convexity, which cannot be easily incorporated into these methods. Post-DAE leverages the latest developments in manifold learning via denoising autoencoders. First, we learn a compact and non-linear embedding that represents the space of anatomically plausible segmentations. Then, given a segmentation mask obtained with an arbitrary method, we reconstruct its anatomically plausible version by projecting it onto the learnt manifold. The proposed method is trained using unpaired segmentation mask, what makes it independent of intensity information and image modality. We performed experiments in binary and multi-label segmentation of chest X-ray and cardiac magnetic resonance images. We show how erroneous and noisy segmentation masks can be improved using Post-DAE. With almost no additional computation cost, our method brings erroneous segmentations back to a feasible space.",
+      "year": 2020,
+      "authors": [
+        "Agostina J. Larrazabal",
+        "C'esar Mart'inez",
+        "B. Glocker",
+        "Enzo Ferrante"
+      ],
+      "referenceCount": 36,
+      "citationCount": 63
+    },
+    {
+      "paperId": "2382503f64141988500de47a75104a2380d52526",
+      "title": "ACCL: Adversarial constrained-CNN loss for weakly supervised medical image segmentation",
+      "abstract": "We propose adversarial constrained-CNN loss, a new paradigm of constrained-CNN loss methods, for weakly supervised medical image segmentation. In the new paradigm, prior knowledge is encoded and depicted by reference masks, and is further employed to impose constraints on segmentation outputs through adversarial learning with reference masks. Unlike pseudo label methods for weakly supervised segmentation, such reference masks are used to train a discriminator rather than a segmentation network, and thus are not required to be paired with specific images. Our new paradigm not only greatly facilitates imposing prior knowledge on network's outputs, but also provides stronger and higher-order constraints, i.e., distribution approximation, through adversarial learning. Extensive experiments involving different medical modalities, different anatomical structures, different topologies of the object of interest, different levels of prior knowledge and weakly supervised annotations with different annotation ratios is conducted to evaluate our ACCL method. Consistently superior segmentation results over the size constrained-CNN loss method have been achieved, some of which are close to the results of full supervision, thus fully verifying the effectiveness and generalization of our method. Specifically, we report an average Dice score of 75.4% with an average annotation ratio of 0.65%, surpassing the prior art, i.e., the size constrained-CNN loss method, by a large margin of 11.4%. Our codes are made publicly available at this https URL.",
+      "year": 2020,
+      "authors": [
+        "Pengyi Zhang",
+        "Yunxin Zhong",
+        "Xiaoqiong Li"
+      ],
+      "referenceCount": 21,
+      "citationCount": 18
+    },
+    {
+      "paperId": "ed17929e66da7f8fbc3666bf5eb613d302ddde0c",
+      "title": "CutMix: Regularization Strategy to Train Strong Classifiers With Localizable Features",
+      "abstract": "Regional dropout strategies have been proposed to enhance performance of convolutional neural network classifiers. They have proved to be effective for guiding the model to attend on less discriminative parts of objects (e.g. leg as opposed to head of a person), thereby letting the network generalize better and have better object localization capabilities. On the other hand, current methods for regional dropout removes informative pixels on training images by overlaying a patch of either black pixels or random noise. Such removal is not desirable because it suffers from information loss causing inefficiency in training. We therefore propose the CutMix augmentation strategy: patches are cut and pasted among training images where the ground truth labels are also mixed proportionally to the area of the patches. By making efficient use of training pixels and retaining the regularization effect of regional dropout, CutMix consistently outperforms state-of-the-art augmentation strategies on CIFAR and ImageNet classification tasks, as well as on ImageNet weakly-supervised localization task. Moreover, unlike previous augmentation methods, our CutMix-trained ImageNet classifier, when used as a pretrained model, results in consistent performance gain in Pascal detection and MS-COCO image captioning benchmarks. We also show that CutMix can improve the model robustness against input corruptions and its out-of distribution detection performance.",
+      "year": 2019,
+      "authors": [
+        "Sangdoo Yun",
+        "Dongyoon Han",
+        "Seong Joon Oh",
+        "Sanghyuk Chun",
+        "Junsuk Choe",
+        "Y. Yoo"
+      ],
+      "referenceCount": 54,
+      "citationCount": 4583
+    },
+    {
+      "paperId": "a6876ea89e677a7cc42dd43f27165ff6fd414de5",
+      "title": "UNet++: A Nested U-Net Architecture for Medical Image Segmentation",
+      "abstract": "In this paper, we present UNet++, a new, more powerful architecture for medical image segmentation. Our architecture is essentially a deeply-supervised encoder-decoder network where the encoder and decoder sub-networks are connected through a series of nested, dense skip pathways. The re-designed skip pathways aim at reducing the semantic gap between the feature maps of the encoder and decoder sub-networks. We argue that the optimizer would deal with an easier learning task when the feature maps from the decoder and encoder networks are semantically similar. We have evaluated UNet++ in comparison with U-Net and wide U-Net architectures across multiple medical image segmentation tasks: nodule segmentation in the low-dose CT scans of chest, nuclei segmentation in the microscopy images, liver segmentation in abdominal CT scans, and polyp segmentation in colonoscopy videos. Our experiments demonstrate that UNet++ with deep supervision achieves an average IoU gain of 3.9 and 3.4 points over U-Net and wide U-Net, respectively.",
+      "year": 2018,
+      "authors": [
+        "Zongwei Zhou",
+        "M. R. Siddiquee",
+        "Nima Tajbakhsh",
+        "Jianming Liang"
+      ],
+      "referenceCount": 14,
+      "citationCount": 5734
+    },
+    {
+      "paperId": "9406246f6972c03e5bfaac4df4676648dc4ac935",
+      "title": "Deep Learning Techniques for Automatic MRI Cardiac Multi-Structures Segmentation and Diagnosis: Is the Problem Solved?",
+      "abstract": "Delineation of the left ventricular cavity, myocardium, and right ventricle from cardiac magnetic resonance images (multi-slice 2-D cine MRI) is a common clinical task to establish diagnosis. The automation of the corresponding tasks has thus been the subject of intense research over the past decades. In this paper, we introduce the “Automatic Cardiac Diagnosis Challenge” dataset (ACDC), the largest publicly available and fully annotated dataset for the purpose of cardiac MRI (CMR) assessment. The dataset contains data from 150 multi-equipments CMRI recordings with reference measurements and classification from two medical experts. The overarching objective of this paper is to measure how far state-of-the-art deep learning methods can go at assessing CMRI, i.e., segmenting the myocardium and the two ventricles as well as classifying pathologies. In the wake of the 2017 MICCAI-ACDC challenge, we report results from deep learning methods provided by nine research groups for the segmentation task and four groups for the classification task. Results show that the best methods faithfully reproduce the expert analysis, leading to a mean value of 0.97 correlation score for the automatic extraction of clinical indices and an accuracy of 0.96 for automatic diagnosis. These results clearly open the door to highly accurate and fully automatic analysis of cardiac CMRI. We also identify scenarios for which deep learning methods are still failing. Both the dataset and detailed results are publicly available online, while the platform will remain open for new submissions.",
+      "year": 2018,
+      "authors": [
+        "O. Bernard",
+        "A. Lalande",
+        "Clément Zotti",
+        "F. Cervenansky",
+        "Xin Yang",
+        "P. Heng",
+        "Irem Cetin",
+        "K. Lekadir",
+        "O. Camara",
+        "M. G. González Ballester",
+        "G. Sanromá",
+        "S. Napel",
+        "Steffen Erhard Petersen",
+        "G. Tziritas",
+        "E. Grinias",
+        "Mahendra Khened",
+        "V. Kollerathu",
+        "Ganapathy Krishnamurthi",
+        "Marc-Michel Rohé",
+        "X. Pennec",
+        "Maxime Sermesant",
+        "Fabian Isensee",
+        "Paul F. Jäger",
+        "Klaus Hermann Maier-Hein",
+        "Peter M. Full",
+        "I. Wolf",
+        "S. Engelhardt",
+        "Christian F. Baumgartner",
+        "Lisa M. Koch",
+        "J. Wolterink",
+        "I. Išgum",
+        "Yeonggul Jang",
+        "Yoonmi Hong",
+        "Jay Patravali",
+        "Shubham Jain",
+        "O. Humbert",
+        "Pierre-Marc Jodoin"
+      ],
+      "referenceCount": 57,
+      "citationCount": 1492
+    },
+    {
+      "paperId": "4feef0fd284feb1233399b400eb897f59ec92755",
+      "title": "mixup: Beyond Empirical Risk Minimization",
+      "abstract": "Large deep neural networks are powerful, but exhibit undesirable behaviors such as memorization and sensitivity to adversarial examples. In this work, we propose mixup, a simple learning principle to alleviate these issues. In essence, mixup trains a neural network on convex combinations of pairs of examples and their labels. By doing so, mixup regularizes the neural network to favor simple linear behavior in-between training examples. Our experiments on the ImageNet-2012, CIFAR-10, CIFAR-100, Google commands and UCI datasets show that mixup improves the generalization of state-of-the-art neural network architectures. We also find that mixup reduces the memorization of corrupt labels, increases the robustness to adversarial examples, and stabilizes the training of generative adversarial networks.",
+      "year": 2017,
+      "authors": [
+        "Hongyi Zhang",
+        "Moustapha Cissé",
+        "Yann Dauphin",
+        "David Lopez-Paz"
+      ],
+      "referenceCount": 39,
+      "citationCount": 9387
+    },
+    {
+      "paperId": "eb35fdc11a325f21a8ce0ca65058f7480a2fc91f",
+      "title": "Improved Regularization of Convolutional Neural Networks with Cutout",
+      "abstract": "Convolutional neural networks are capable of learning powerful representational spaces, which are necessary for tackling complex learning tasks. However, due to the model capacity required to capture such representations, they are often susceptible to overfitting and therefore require proper regularization in order to generalize well. In this paper, we show that the simple regularization technique of randomly masking out square regions of input during training, which we call cutout, can be used to improve the robustness and overall performance of convolutional neural networks. Not only is this method extremely easy to implement, but we also demonstrate that it can be used in conjunction with existing forms of data augmentation and other regularizers to further improve model performance. We evaluate this method by applying it to current state-of-the-art architectures on the CIFAR-10, CIFAR-100, and SVHN datasets, yielding new state-of-the-art results of 2.56%, 15.20%, and 1.30% test error respectively. Code is available at this https URL",
+      "year": 2017,
+      "authors": [
+        "Terrance Devries",
+        "Graham W. Taylor"
+      ],
+      "referenceCount": 23,
+      "citationCount": 3642
+    },
+    {
+      "paperId": "1c51ded06e24c4404dd5d364a3c4e7ec39092f9f",
+      "title": "Multivariate Mixture Model for Myocardial Segmentation Combining Multi-Source Images",
+      "abstract": "The author proposes a method for simultaneous registration and segmentation of multi-source images, using the multivariate mixture model (MvMM) and maximum of log-likelihood (LL) framework. Specifically, the method is applied to the problem of myocardial segmentation combining the complementary information from multi-sequence (MS) cardiac magnetic resonance (CMR) images. For the image misalignment and incongruent data, the MvMM is formulated with transformations and is further generalized for dealing with the hetero-coverage multi-modality images (HC-MMIs). The segmentation of MvMM is performed in a virtual common space, to which all the images and misaligned slices are simultaneously registered. Furthermore, this common space can be divided into a number of sub-regions, each of which contains congruent data, thus the HC-MMIs can be modeled using a set of conventional MvMMs. Results show that MvMM obtained significantly better performance compared to the conventional approaches and demonstrated good potential for scar quantification as well as myocardial segmentation. The generalized MvMM has also demonstrated better robustness in the incongruent data, where some images may not fully cover the region of interest, and the full coverage can only be reconstructed combining the images from multiple sources.",
+      "year": 2016,
+      "authors": [
+        "X. Zhuang"
+      ],
+      "referenceCount": 48,
+      "citationCount": 242
+    },
+    {
+      "paperId": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "abstract": "There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net .",
+      "year": 2015,
+      "authors": [
+        "O. Ronneberger",
+        "P. Fischer",
+        "T. Brox"
+      ],
+      "referenceCount": 18,
+      "citationCount": 73655
+    },
+    {
+      "paperId": "ca5c766b2d31a1f5ce8896a0a42b40a2bff9323a",
+      "title": "Conditional Random Fields as Recurrent Neural Networks",
+      "abstract": "Pixel-level labelling tasks, such as semantic segmentation, play a central role in image understanding. Recent approaches have attempted to harness the capabilities of deep learning techniques for image recognition to tackle pixel-level labelling tasks. One central issue in this methodology is the limited capacity of deep learning techniques to delineate visual objects. To solve this problem, we introduce a new form of convolutional neural network that combines the strengths of Convolutional Neural Networks (CNNs) and Conditional Random Fields (CRFs)-based probabilistic graphical modelling. To this end, we formulate Conditional Random Fields with Gaussian pairwise potentials and mean-field approximate inference as Recurrent Neural Networks. This network, called CRF-RNN, is then plugged in as a part of a CNN to obtain a deep network that has desirable properties of both CNNs and CRFs. Importantly, our system fully integrates CRF modelling with CNNs, making it possible to train the whole deep network end-to-end with the usual back-propagation algorithm, avoiding offline post-processing methods for object delineation. We apply the proposed method to the problem of semantic image segmentation, obtaining top results on the challenging Pascal VOC 2012 segmentation benchmark.",
+      "year": 2015,
+      "authors": [
+        "Shuai Zheng",
+        "Sadeep Jayasumana",
+        "Bernardino Romera-Paredes",
+        "Vibhav Vineet",
+        "Zhizhong Su",
+        "Dalong Du",
+        "Chang Huang",
+        "Philip H. S. Torr"
+      ],
+      "referenceCount": 71,
+      "citationCount": 2525
+    }
+  ]
+}

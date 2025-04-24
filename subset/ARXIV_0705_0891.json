@@ -1,0 +1,27 @@
+{
+  "main": {
+    "paperId": "f5c30ab565e9b85ed0e6703d725ac64c119f1303",
+    "title": "Opinion Dynamics and Sociophysics",
+    "abstract": "No abstract given. Contents: \nI. Definition and Introduction \nII. Schelling Model \nIII. Opinion Dynamics \nIV. Languages, Hierarchies and Football \nV. Future Directions",
+    "year": 2007,
+    "authors": [
+      "D. Stauffer"
+    ],
+    "referenceCount": 23,
+    "citationCount": 41
+  },
+  "references": [
+    {
+      "paperId": "ef2c37e0ab9bcdbba508b991a15e9b7fd1039e84",
+      "title": "Interacting Particle Systems",
+      "abstract": "2 The asymmetric simple exclusion process 20 2.1 Stationary measures and conserved quantities . . . . . . . . . . . . . . . . . . . 20 2.2 Currents and conservation laws . . . . . . . . . . . . . . . . . . . . . . . . . . . 25 2.3 Hydrodynamics and the dynamic phase transition . . . . . . . . . . . . . . . . . 28 2.4 Open boundaries and matrix product ansatz . . . . . . . . . . . . . . . . . . . . 32",
+      "year": 2016,
+      "authors": [
+        "Donald H. House",
+        "John Keyser"
+      ],
+      "referenceCount": 33,
+      "citationCount": 1812
+    }
+  ]
+}

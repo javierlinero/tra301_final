@@ -1,0 +1,118 @@
+{
+  "main": {
+    "paperId": "fb553b6bd331920cc792cc8a60297db4d2987e45",
+    "title": "Inflationary dynamics in modified gravity models",
+    "abstract": "Higher-order theories of gravity are a branch of modified gravity wherein the geometrodynamics of the four-dimensional Riemannian manifold is determined by field equations involving derivatives of the metric tensor of order higher than two. This paper considers a general action built with the Einstein-Hilbert term plus additional curvature-based invariants, viz. the Starobinsky $R^{2}$-type term, a term scaling with $R^{3}$, and a correction of the type $R\\square R$. The focus is on the background inflationary regime accommodated by these three models. For that, the higher-order field equations are built and specified for the FLRW line element. The dynanical analysis in the phase space is carried in each case. This analysis shows that the Starobinsky-plus-$R^{3}$ model keeps the good features exhibited by the pure Starobinsky inflationary model, although the set of initial conditions for the inflaton field $\\chi$ leading to a graceful exit scenario is more contrived; the coupling constant $\\alpha_{0}$ of the $R^{3}$ invariant is also constrained by the dynamical analysis. The Starobinsky-plus-$R\\square R$ model turns out being a double-field inflation model; it consistently enables an almost-exponential primordial acceleration followed by a radiation dominated universe if its coupling $\\beta_{0}$ takes values in the interval $0\\leq\\beta_{0}\\leq3/4$. The models introducing higher-order correction to Starobinsky inflation are interesting due to the possibility of a running spectral index $n_{s}$, something that is allowed by current CMB observations.",
+    "year": 2024,
+    "authors": [
+      "R. R. Cuzinatto",
+      "L. G. Medeiros"
+    ],
+    "referenceCount": 40,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "58fa8cbe464fa344d1c6c34fc294735a1596dcb0",
+      "title": "Second-order corrections to Starobinsky inflation",
+      "abstract": "Higher-order theories of gravity are extensions to general relativity (GR) motivated mainly by high-energy physics searching for GR ultraviolet completeness. They are characterized by the inclusion of correction terms in the Einstein–Hilbert action that leads to higher-order field equations. In this paper, we propose investigating inflation due to the GR extension built with all correction terms up to the second-order involving only the scalar curvature R , namely, $$R^{2}$$ R 2 , $$R^{3}$$ R 3 , $$R\\square R$$ R □ R . We investigate inflation within the Friedmann cosmological background, where we study the phase space of the model, as well as explore inflation in slow-roll leading-order. Furthermore, we describe the evolution of scalar perturbations and properly establish the curvature perturbation. Finally, we confront the proposed model with recent observations from Planck, BICEP3/Keck, and BAO data.",
+      "year": 2022,
+      "authors": [
+        "G. Rodrigues-da-silva",
+        "L. G. Medeiros"
+      ],
+      "referenceCount": 89,
+      "citationCount": 6
+    },
+    {
+      "paperId": "28da591156e68795959d90a5cdae661ba066b4c6",
+      "title": "Gravitational waves from inspiraling black holes in quadratic gravity",
+      "abstract": "We peform a study of gravitational waves emitted by inspiraling black holes in the context of quadratic gravity. By linearizing the field equations around a flat background, we demonstrate that all degrees of freedom satisfy wave-like equations. These degrees of freedom split into three modes: a massive spin-$2$ mode, a massive spin-$0$ mode, and the expected massless spin-$2$ mode. We construct the energy-momentum tensor of gravitational waves and show that, due to the massive spin-$2$ mode, it presents the Ostrogradski instability. We also show how to deal with this possible pathology and obtain consistent physical interpretations for the system. Using the energy-momentum tensor, we study the influence of each massive mode in the orbital dynamics and compare it with the standard result of General Relativity. Moreover, we present two methods to constrain the parameter $\\alpha$ associated with the massive spin-$2$ contribution. From the first method, using the combined waveform for the spin-$2$ modes, we obtain the constraint $ \\alpha \\lesssim 1.1 \\times 10^{21} m^{2}$. In the second method, using the coalescence time, we get the constraint $ \\alpha \\lesssim 1.1 \\times 10^{13} m^{2}$.",
+      "year": 2022,
+      "authors": [
+        "Matheus F. S. Alves",
+        "Lu'is F. M. A. M. Reis",
+        "L. G. Medeiros"
+      ],
+      "referenceCount": 73,
+      "citationCount": 5
+    },
+    {
+      "paperId": "6d6d31c4a4a26922ea22927ec921626ebf3c4e64",
+      "title": "Higher-order extension of Starobinsky inflation: Initial conditions, slow-roll regime, and reheating phase",
+      "abstract": "The most current observational data corroborate the Starobinsky model as one of the strongest candidates in the description of an inﬂationary regime. Motivated by such success, extensions of the Starobinsky model have been increasingly recurrent in the literature. The theoretical justiﬁcation for this is well grounded: higher-order gravities arise in high-energy physics in the search for the ultraviolet completeness of general relativity. In this paper, we propose to investigate the inﬂation due to the extension of the Starobinsky model characterized by the inclusion of the R 3 term. We make a complete analysis of the potential and phase space of the model, where we observe the existence of three regions with distinct dynamics for the scalar ﬁeld. We can establish restrictive limits for the number of e -folds through a study of the reheating and by considering the usual couplings of the standard matter ﬁelds and gravity. Thereby, we duly confront our model with the observational data from Planck, BICEP3/Keck, and BAO. Finally, we discuss how the inclusion of the cubic term restricts the initial conditions necessary for the occurrence of a physical inﬂation.",
+      "year": 2021,
+      "authors": [
+        "G. Rodrigues-da-silva",
+        "J. Bezerra-Sobrinho",
+        "L. G. Medeiros"
+      ],
+      "referenceCount": 66,
+      "citationCount": 18
+    },
+    {
+      "paperId": "368862d70f8e22ecb94f76387f7dfc1d96c8712c",
+      "title": "Gravitational waves in higher-order \nR2\n gravity",
+      "abstract": "We perform a comprehensive study of gravitational waves in the context of the higher-order quadratic scalar curvature gravity, which encompasses the ordinary Einstein-Hilbert term in the action plus an R2 contribution and a term of the type R R. The main focus is on gravitational waves emitted by binary systems such as binary black holes and binary pulsars in the approximation of circular orbits and nonrelativistic motion. The waveform of higher-order gravitational waves from binary black holes is constructed and compared with the waveform predicted by standard general relativity; we conclude that the merger occurs earlier in our model than what would be expected from GR. The decreasing rate of the orbital period in binary pulsars is used to constrain the coupling parameters of our higher-order R2 gravity; this is done with Hulse-Taylor binary pulsar data leading to κ−1 0 . 1.1× 1016 m2 , where κ −1 0 is the coupling constant for the R 2 contribution. ∗ silas.vilhena@ga.ita.br † leo.medeiros@ufrn.br ‡ rodrigo.cuzinatto@unifal-mg.edu.br 1 ar X iv :2 10 8. 06 87 4v 4 [ gr -q c] 3 D ec 2 02 2",
+      "year": 2021,
+      "authors": [
+        "S. G. Vilhena",
+        "L. G. Medeiros",
+        "R. R. Cuzinatto"
+      ],
+      "referenceCount": 91,
+      "citationCount": 7
+    },
+    {
+      "paperId": "07448510b88f39ff0e3cf7ff04fa52dfb9db6dfb",
+      "title": "Spherically symmetric solutions in higher-derivative theories of gravity",
+      "abstract": "Higher-order theories of gravity have received much attention from several areas including quantum gravity, string theory and cosmology. This paper proposes a higher-order gravity whose action includes all curvature scalar terms up to the second-order corrections of general relativity, namely, $R^{2}$, $R^{3}$ and $R\\square R$. Then, we explore spherically symmetric and static solutions in the weak-field regime and black holes context. All solutions in the weak-field regime due to a point mass are deduced, and by making a stability analysis of these solutions, we restrict them to Yukawa-type solutions. In regard to black hole solutions, we use the Lichnerovicz method to investigate the possibility of existence of non-Schwarzschild black holes. The results obtained show that non-Schwarzschild solutions might exist. However, for reasonable values of the parameters of the theory, its horizon radii are extremely small making macroscopic black holes different from Schwarzschild unfeasible.",
+      "year": 2020,
+      "authors": [
+        "G. Rodrigues-da-silva",
+        "L. G. Medeiros"
+      ],
+      "referenceCount": 49,
+      "citationCount": 9
+    },
+    {
+      "paperId": "bec27a23a71c3491889ef5ac8d264755ed3a9255",
+      "title": "Higher-order modified Starobinsky inflation",
+      "abstract": "An extension of the Starobinsky model is proposed. Besides the usual Starobinsky Lagrangian, a term proportional to the derivative of the scalar curvature, ∇μR∇μR, is considered. The analyzis is done in the Einstein frame with the introduction of a scalar field and a vector field. We show that inflation is attainable in our model, allowing for a graceful exit. We also build the cosmological perturbations and obtain the leading-order curvature power spectrum, scalar and tensor tilts and tensor-to-scalar ratio. The tensor and curvature power spectrums are compared to the most recent observations from BICEP2/Keck collaboration. We verify that the scalar-to-tensor rate r can be expected to be up to three times the values predicted by Starobinsky model.",
+      "year": 2018,
+      "authors": [
+        "R. R. Cuzinatto",
+        "L. G. Medeiros",
+        "P. J. Pompeia"
+      ],
+      "referenceCount": 82,
+      "citationCount": 23
+    },
+    {
+      "paperId": "f1675e893c7131763cf131c0000d82036bf39b88",
+      "title": "f(R,∇μ1R,…,∇μ1…∇μnR)\n theories of gravity in Einstein frame: A higher order modified Starobinsky inflation model in the Palatini approach",
+      "abstract": "In R. R. Cuzinatto, et.al, Phys. Rev. D 93, 124034 (2016), it has been demonstrated that theories of gravity in which the Lagrangian includes terms depending on the scalar curvature $R$ and its derivatives up to order $n$, i.e. $f\\left(R,\\nabla_{\\mu}R,\\nabla_{\\mu_{1}}\\nabla_{\\mu_{2}}R,...,\\nabla_{\\mu_{1}}...\\nabla_{\\mu_{n}}R\\right)$ theories of gravity, are equivalent to scalar-multi-tensorial theories in Jordan frame. In particular, in the metric and Palatini formalisms, this scalar-multi-tensorial equivalent scenario shows an structure that resembles that of Brans-Dicke theories with a kinetic term for the scalar field with $\\omega_{0}=0$ or $\\omega_{0}=-3/2$, respectively. In the present work, the aforementioned analyzis is extended to Einstein frame. The conformal transformation of the metric characterizing the transformation from Jordan's to Einstein frame is responsible for decoupling the scalar field from the scalar curvature and also for introducing a usual kinetic term for the scalar field in the metric formalism, while in the Palatini approach, this kinetic term is absent in the action. Concerning the other tensorial auxiliary fields, they appear in the theory through a generalized potential. As an example, the analyzis of an extension of Starobinsky model (with a extra term proportional to $\\nabla_{\\mu}R\\nabla^{\\mu}R$) is performed and the fluid representation for the energy-momentum tensor is considered. In the metric formalism, the presence of the extra term causes the fluid to be an imperfect fluid with a heat flux contribution; on the other hand, in the Palatini formalism the effective energy-momentum tensor for the extended Starobinsky gravity is that of a perfect fluid type.",
+      "year": 2018,
+      "authors": [
+        "R. R. Cuzinatto",
+        "C. de Melo",
+        "L. G. Medeiros",
+        "P. J. Pompeia"
+      ],
+      "referenceCount": 83,
+      "citationCount": 16
+    },
+    {
+      "paperId": "1df10ff095c89bc87afbd5bcfe188a1c1d621343",
+      "title": "Irreducible forms for the metric variations of the action terms of sixth-order gravity and approximated stress–energy tensor",
+      "abstract": "We provide irreducible expressions for the metric variations of the gravitational action terms constructed from the 17 curvature invariants of order six in the derivatives of the metric tensor, i.e., from the geometrical terms appearing in the diagonal heat-kernel or Gilkey–DeWitt coefficient a3. We then express, for a four-dimensional spacetime, the approximated stress–energy tensor constructed from the renormalized DeWitt–Schwinger effective action associated with a massive scalar field. We also construct, for higher dimensional spacetimes, the infinite counterterms of order six in the derivatives of the metric tensor appearing on the left-hand side of Einstein equations as well as the contribution associated with the cubic Lovelock gravitational action. In the appendix, we provide a list of geometrical relations we have used and which are more generally helpful for calculations in two-loop quantum gravity in a four-dimensional background or for calculations in one-loop quantum gravity in higher dimensional background. We also obtain the approximated stress–energy tensors associated with a massive spinor field and a massive vector field propagating in a four-dimensional background.",
+      "year": 2007,
+      "authors": [
+        "Yves D'ecanini",
+        "A. Folacci"
+      ],
+      "referenceCount": 30,
+      "citationCount": 46
+    }
+  ]
+}

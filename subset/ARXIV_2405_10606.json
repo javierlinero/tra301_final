@@ -1,0 +1,97 @@
+{
+  "main": {
+    "paperId": "00302cebbd425fd8e0b925e084e6ed133e9c4ffa",
+    "title": "Carrier Aggregation Enabled MIMO-OFDM Integrated Sensing and Communication",
+    "abstract": "In the evolution towards the forthcoming era of sixth-generation (6G) mobile communication systems characterized by ubiquitous intelligence, integrated sensing and communication (ISAC) is in a phase of burgeoning development. However, the capabilities of communication and sensing within single frequency band fall short of meeting the escalating demands. To this end, this paper introduces a carrier aggregation (CA)-enabled multi-input multi-output orthogonal frequency division multiplexing (MIMO-OFDM) ISAC system fusing the sensing data on high and low-frequency bands by symbol-level fusion for ultimate communication experience and high-accuracy sensing. The challenges in sensing signal processing introduced by CA include the initial phase misalignment of the echo signals on high and low-frequency bands due to attenuation and radar cross section, and the fusion of the sensing data on high and low-frequency bands with different physical-layer parameters. To this end, the sensing signal processing is decomposed into two stages. In the first stage, the problem of initial phase misalignment of the echo signals on high and low-frequency bands is solved by the angle compensation, spatial filtering and cyclic cross-correlation operations. In the second stage, this paper realizes symbol-level fusion of the sensing data on high and low-frequency bands through sensing vector rearrangement and cyclic prefix adjustment operations, thereby obtaining high-precision sensing performance. Then, the closed-form communication mutual information (MI) and sensing Cram\\'er-Rao lower bound (CRLB) for the proposed ISAC system are derived to explore the theoretical performance bound with CA. Simulation results validate the feasibility and superiority of the proposed ISAC system.",
+    "year": 2024,
+    "authors": [
+      "Haotian Liu",
+      "Zhiqing Wei",
+      "Jinghui Piao",
+      "Huici Wu",
+      "Xingwang Li",
+      "Zhiyong Feng"
+    ],
+    "referenceCount": 31,
+    "citationCount": 2
+  },
+  "references": [
+    {
+      "paperId": "d7ebdda79a016f62974e3bafe26aed49637b99f2",
+      "title": "Integrated Sensing and Communication Signal Processing Based on Compressed Sensing Over Unlicensed Spectrum Bands",
+      "abstract": "As a promising key technology of 6th generation (6G) mobile communication system, integrated sensing and communication (ISAC) technology aims to make full use of spectrum resources to enable the functional integration of communication and sensing. The ISAC-enabled mobile communication system regularly operate in non-continuous spectrum bands due to crowded licensed frequency bands. However, the conventional sensing algorithms over non-continuous spectrum bands have disadvantages such as reduced peak-to-sidelobe ratio (PSLR) and degraded anti-noise performance. Facing this challenge, we propose a high-precision ISAC signal processing algorithm based on compressed sensing (CS) in this paper. By integrating the resource block group (RBG) configuration information in 5th generation new radio (5G NR) and channel information matrices, we can dynamically and accurately obtain power estimation spectra. Moreover, we employ the fast iterative shrinkage-thresholding algorithm (FISTA) to address the reconstruction problem and utilize K-fold cross validation (KCV) to obtain optimal parameters. Simulation results show that the proposed algorithm has lower sidelobes or even zero sidelobes compared with conventional sensing algorithms. Meanwhile, compared with the improved 2D FFT algorithm and conventional 2D FFT algorithm, the proposed algorithms in this paper have a maximum improvement of 54.66% and 84.36% in range estimation accuracy, and 41.54% and 97.09% in velocity estimation accuracy, respectively.",
+      "year": 2023,
+      "authors": [
+        "Haotian Liu",
+        "Zhiqing Wei",
+        "Fengyun Li",
+        "Yuewei Lin",
+        "Hanyang Qu",
+        "Huici Wu",
+        "Zhiyong Feng"
+      ],
+      "referenceCount": 48,
+      "citationCount": 5
+    },
+    {
+      "paperId": "0ef5b6d29c15cc49d9e908330788c82c35bf101f",
+      "title": "Carrier Aggregation Enabled Integrated Sensing and Communication Signal Design and Processing",
+      "abstract": "The future mobile communication systems will support intelligent applications such as Internet of Vehicles (IoV) and Extended Reality (XR). Integrated Sensing and Communication (ISAC) is regarded as one of the key technologies satisfying the high data rate communication and highly accurate sensing for these intelligent applications in future mobile communication systems. With the explosive growth of wireless devices and services, the shortage of spectrum resources leads to the fragmentation of available frequency bands for ISAC systems, which degrades sensing performance. Facing the above challenges, this paper proposes a Carrier Aggregation (CA)-based ISAC signal aggregating high and low-frequency bands to improve the sensing performance, where the CA-based ISAC signal can use four different aggregated pilot structures for sensing. Then, an ISAC signal processing algorithm with Compressed Sensing (CS) is proposed and the Fast Iterative Shrinkage-Thresholding Algorithm (FISTA) is used to solve the reconfiguration convex optimization problem. Finally, the Cramér-Rao Lower Bounds (CRLBs) are derived for the CA-based ISAC signal. Simulation results show that CA efficiently improves the accuracy of range and velocity estimation.",
+      "year": 2023,
+      "authors": [
+        "Zhiqing Wei",
+        "Hao Liu",
+        "Xinyi Yang",
+        "Wangjun Jiang",
+        "Huici Wu",
+        "Xingwang Li",
+        "Zhiyong Feng"
+      ],
+      "referenceCount": 40,
+      "citationCount": 15
+    },
+    {
+      "paperId": "96eced70fe68bb0d9b1929ca2a0726e7785e0ab6",
+      "title": "Low-PAPR DFRC MIMO-OFDM Waveform Design for Integrated Sensing and Communications",
+      "abstract": "In this paper, we explore a multiple-input multiple- output (MIMO) system with orthogonal frequency division multiplexing (OFDM) transmissions and study the low peak- to-average power ratio (PAPR) MIMO-OFDM waveform design for integrated sensing and communications (ISAC). This is done by leveraging a weighted objective function on both communication and radar performance metrics under power and PAPR constraints. The formulated optimization problem can be equivalently transformed into several sub-problems which can be parallelly solved by the semi-definite relaxation (SDR) method and the optimal rank-1 solution can be obtained in general. The feasibility, effectiveness, and flexibility of the proposed low-PAPR MIMO-OFDM waveform design method are demonstrated by a range of simulations on communication sum rate, symbol error rate as well as radar beampattern and detection probability.",
+      "year": 2022,
+      "authors": [
+        "Xiaoyan Hu",
+        "C. Masouros",
+        "Fan Liu",
+        "Ronald Nissel"
+      ],
+      "referenceCount": 22,
+      "citationCount": 30
+    },
+    {
+      "paperId": "ea986c8ab2e9f5349c740ddcd32df4ca59b43651",
+      "title": "NC-OFDM RadCom system for electromagnetic spectrum interference",
+      "abstract": "A joint radar and wireless communication system is an important trend for future intelligent transportation networks. However, traditional orthogonal frequency division multiplexing (OFDM) radar and communication (RadCom) system is not feasible for complex electromagnetic. A new based on non-contiguous OFDM (NC-OFDM) RadCom system is proposed. Following the concept of cognitive radio (CR), NC-OFDM system is able to flexibly allocate spectrum resources, and NC-OFDM system can effectively adapt to dynamic spectrum environment. Simulation results demonstrate that, the NC-OFDM RadCom system is feasible for the purpose of target detection and wireless communication simultaneously.",
+      "year": 2017,
+      "authors": [
+        "Yixuan Huang",
+        "Dan Huang",
+        "Qu Luo",
+        "Shiyong Ma",
+        "Su Hu",
+        "Yuan Gao"
+      ],
+      "referenceCount": 16,
+      "citationCount": 8
+    },
+    {
+      "paperId": "8534c9b03ea00647e7bb3cb85133e1897d913d23",
+      "title": "A stepped-carrier 77-GHz OFDM MIMO radar system with 4 GHz bandwidth",
+      "abstract": "This paper presents a 77-GHz orthogonal frequency-division multiplexing (OFDM) multiple-input multiple-output (MIMO) radar system with 4 GHz bandwidth. Due to the limited bandwidth of the analog-to-digital and digital-to-analog converters a stepped-carrier approach is used. OFDM radar measurements with a bandwidth of 200MHz at 20 different carrier frequencies are combined in signal processing to achieve a high range resolution OFDM MIMO radar. Spectrally-interleaved OFDM signals are used to allow for simultaneous transmission and thus MIMO operation. The proposed approach is verified in practical measurements of a static target scenario and a slowly moving target scenario. Therefore a self-developed software defined radar evaluation platform with four transmitters and four receivers is used. The expected high range resolution could be achieved and range/angle/velocity measurements show the suitability for detecting slowly moving targets like pedestrians.",
+      "year": 2015,
+      "authors": [
+        "C. Pfeffer",
+        "R. Feger",
+        "A. Stelzer"
+      ],
+      "referenceCount": 13,
+      "citationCount": 37
+    }
+  ]
+}

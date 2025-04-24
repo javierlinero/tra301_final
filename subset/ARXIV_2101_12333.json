@@ -1,0 +1,71 @@
+{
+  "main": {
+    "paperId": "6ac4fb4af591e685238f5a4c97c334f9c4408e13",
+    "title": "Performance and Application of Estimators for the Value of an Optimal Dynamic Treatment Rule",
+    "abstract": "Given an (optimal) dynamic treatment rule, it may be of interest to evaluate that rule – that is, to ask the causal question: what is the expected outcome had every subject received treatment according to that rule? In this paper, we study the performance of estimators that approximate the true value of: 1) an a priori known dynamic treatment rule 2) the true, unknown optimal dynamic treatment rule (ODTR); 3) an estimated ODTR, a so-called “data-adaptive parameter,” whose true value depends on the sample. Using simulations of point-treatment data, we speciﬁcally investigate: 1) the impact of increasingly data-adaptive estimation of nuisance parameters and/or of the ODTR on performance; 2) the potential for improved efﬁciency and bias reduction through the use of semiparametric efﬁcient estimators; and, 3) the importance of sample splitting based on CV-TMLE for accurate inference. In the simulations considered, there was very little cost and many beneﬁts to using the cross-validated targeted maximum likelihood estimator (CV-TMLE) to estimate the value of the true and estimated ODTR; impor-tantly, and in contrast to non cross-validated estimators, the performance of CV-TMLE was maintained even when highly data-adaptive algorithms were used to estimate both nuisance parameters and the ODTR. In addition, we apply these estimators for the value of the rule to the “Interventions” Study, an ongoing randomized controlled trial, to identify whether assigning cognitive behavioral therapy (CBT) to criminal justice-involved adults with mental illness using an ODTR signiﬁcantly reduces the probability of recidivism, compared to assigning CBT in a non-individualized way.",
+    "year": 2021,
+    "authors": [
+      "L. Montoya",
+      "Jennifer L. Skeem",
+      "M. Laan",
+      "M. Petersen"
+    ],
+    "referenceCount": 56,
+    "citationCount": 2
+  },
+  "references": [
+    {
+      "paperId": "13157f989cc641f67bc946011211b5f2469c6c2c",
+      "title": "The optimal dynamic treatment rule superlearner: considerations, performance, and application to criminal justice interventions",
+      "abstract": "Abstract The optimal dynamic treatment rule (ODTR) framework offers an approach for understanding which kinds of patients respond best to specific treatments – in other words, treatment effect heterogeneity. Recently, there has been a proliferation of methods for estimating the ODTR. One such method is an extension of the SuperLearner algorithm – an ensemble method to optimally combine candidate algorithms extensively used in prediction problems – to ODTRs. Following the ``causal roadmap,” we causally and statistically define the ODTR and provide an introduction to estimating it using the ODTR SuperLearner. Additionally, we highlight practical choices when implementing the algorithm, including choice of candidate algorithms, metalearners to combine the candidates, and risk functions to select the best combination of algorithms. Using simulations, we illustrate how estimating the ODTR using this SuperLearner approach can uncover treatment effect heterogeneity more effectively than traditional approaches based on fitting a parametric regression of the outcome on the treatment, covariates and treatment-covariate interactions. We investigate the implications of choices in implementing an ODTR SuperLearner at various sample sizes. Our results show the advantages of: (1) including a combination of both flexible machine learning algorithms and simple parametric estimators in the library of candidate algorithms; (2) using an ensemble metalearner to combine candidates rather than selecting only the best-performing candidate; (3) using the mean outcome under the rule as a risk function. Finally, we apply the ODTR SuperLearner to the ``Interventions” study, an ongoing randomized controlled trial, to identify which justice-involved adults with mental illness benefit most from cognitive behavioral therapy to reduce criminal re-offending.",
+      "year": 2021,
+      "authors": [
+        "L. Montoya",
+        "M. J. van der Laan",
+        "Alexander Luedtke",
+        "Jennifer L. Skeem",
+        "J. Coyle",
+        "M. Petersen"
+      ],
+      "referenceCount": 72,
+      "citationCount": 15
+    },
+    {
+      "paperId": "8b7d772bb655c4e94f6c7426875c9b4f0cb4a5f0",
+      "title": "Super-Learning of an Optimal Dynamic Treatment Rule",
+      "abstract": "Abstract We consider the estimation of an optimal dynamic two time-point treatment rule defined as the rule that maximizes the mean outcome under the dynamic treatment, where the candidate rules are restricted to depend only on a user-supplied subset of the baseline and intermediate covariates. This estimation problem is addressed in a statistical model for the data distribution that is nonparametric, beyond possible knowledge about the treatment and censoring mechanisms. We propose data adaptive estimators of this optimal dynamic regime which are defined by sequential loss-based learning under both the blip function and weighted classification frameworks. Rather than a priori selecting an estimation framework and algorithm, we propose combining estimators from both frameworks using a super-learning based cross-validation selector that seeks to minimize an appropriate cross-validated risk. The resulting selector is guaranteed to asymptotically perform as well as the best convex combination of candidate algorithms in terms of loss-based dissimilarity under conditions. We offer simulation results to support our theoretical findings.",
+      "year": 2016,
+      "authors": [
+        "Alexander Luedtke",
+        "M. J. van der Laan"
+      ],
+      "referenceCount": 48,
+      "citationCount": 129
+    },
+    {
+      "paperId": "afd9cc8b618d998e92e9d5bb2b18db2aa9050ffa",
+      "title": "Targeted Learning of the Mean Outcome under an Optimal Dynamic Treatment Rule",
+      "abstract": "Abstract We consider estimation of and inference for the mean outcome under the optimal dynamic two time-point treatment rule defined as the rule that maximizes the mean outcome under the dynamic treatment, where the candidate rules are restricted to depend only on a user-supplied subset of the baseline and intermediate covariates. This estimation problem is addressed in a statistical model for the data distribution that is nonparametric beyond possible knowledge about the treatment and censoring mechanism. This contrasts from the current literature that relies on parametric assumptions. We establish that the mean of the counterfactual outcome under the optimal dynamic treatment is a pathwise differentiable parameter under conditions, and develop a targeted minimum loss-based estimator (TMLE) of this target parameter. We establish asymptotic linearity and statistical inference for this estimator under specified conditions. In a sequentially randomized trial the statistical inference relies upon a second-order difference between the estimator of the optimal dynamic treatment and the optimal dynamic treatment to be asymptotically negligible, which may be a problematic condition when the rule is based on multivariate time-dependent covariates. To avoid this condition, we also develop TMLEs and statistical inference for data adaptive target parameters that are defined in terms of the mean outcome under the estimate of the optimal dynamic treatment. In particular, we develop a novel cross-validated TMLE approach that provides asymptotic inference under minimal conditions, avoiding the need for any empirical process conditions. We offer simulation results to support our theoretical findings.",
+      "year": 2015,
+      "authors": [
+        "M. J. van der Laan",
+        "Alexander Luedtke"
+      ],
+      "referenceCount": 69,
+      "citationCount": 86
+    },
+    {
+      "paperId": "e841fa3834e787092e4266e9484158689405b7b0",
+      "title": "Adjusting for Nonignorable Drop-Out Using Semiparametric Nonresponse Models",
+      "abstract": "Abstract Consider a study whose design calls for the study subjects to be followed from enrollment (time t = 0) to time t = T, at which point a primary endpoint of interest Y is to be measured. The design of the study also calls for measurements on a vector V t) of covariates to be made at one or more times t during the interval [0, T). We are interested in making inferences about the marginal mean μ0 of Y when some subjects drop out of the study at random times Q prior to the common fixed end of follow-up time T. The purpose of this article is to show how to make inferences about μ0 when the continuous drop-out time Q is modeled semiparametrically and no restrictions are placed on the joint distribution of the outcome and other measured variables. In particular, we consider two models for the conditional hazard of drop-out given (V(T), Y), where V(t) denotes the history of the process V t) through time t, t ∈ [0, T). In the first model, we assume that λQ(t|V(T), Y) exp(α0 Y), where α0 is a scalar paramet...",
+      "year": 1999,
+      "authors": [
+        "D. Scharfstein",
+        "A. Rotnitzky",
+        "J. Robins"
+      ],
+      "referenceCount": 57,
+      "citationCount": 1109
+    }
+  ]
+}

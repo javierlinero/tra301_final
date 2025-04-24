@@ -1,0 +1,132 @@
+{
+  "main": {
+    "paperId": "4b491211f7f29c3e9cdea4e4cd7ea4cc6f055595",
+    "title": "T-Stochastic Graphs",
+    "abstract": "Previous statistical approaches to hierarchical clustering for social network analysis all construct an\"ultrametric\"hierarchy. While the assumption of ultrametricity has been discussed and studied in the phylogenetics literature, it has not yet been acknowledged in the social network literature. We show that\"non-ultrametric structure\"in the network introduces significant instabilities in the existing top-down recovery algorithms. To address this issue, we introduce an instability diagnostic plot and use it to examine a collection of empirical networks. These networks appear to violate the\"ultrametric\"assumption. We propose a deceptively simple and yet general class of probabilistic models called $\\mathbb{T}$-Stochastic Graphs which impose no topological restrictions on the latent hierarchy. To illustrate this model, we propose six alternative forms of hierarchical network models and then show that all six are equivalent to the $\\mathbb{T}$-Stochastic Graph model. These alternative models motivate a novel approach to hierarchical clustering that combines spectral techniques with the well-known Neighbor-Joining algorithm from phylogenetic reconstruction. We prove this spectral approach is statistically consistent.",
+    "year": 2023,
+    "authors": [
+      "Sijia Fang",
+      "K. Rohe"
+    ],
+    "referenceCount": 58,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "425eee604ae04ba475051f21d2f692e8bfba7729",
+      "title": "Consistency of Spectral Clustering on Hierarchical Stochastic Block Models",
+      "abstract": "We propose a generic network model, based on the Stochastic Block Model, to study the hierarchy of communities in real-world networks, under which the connection probabilities are structured in a binary tree. Under the network model, we show that the eigenstructure of the expected unnormalized graph Laplacian reveals the community structure of the network as well as the hierarchy of communities in a recursive fashion. Inspired by the nice property of the population eigenstructure, we develop a recursive bi-partitioning algorithm that divides the network into two communities based on the Fiedler vector of the unnormalized graph Laplacian and repeats the split until a stopping rule indicates no further community structures. We prove the weak and strong consistency of our algorithm for sparse networks with the expected node degree in $O(\\log n)$ order, based on newly developed theory on $\\ell_{2\\rightarrow\\infty}$ eigenspace perturbation, without knowing the total number of communities in advance. Unlike most of existing work, our theory covers multi-scale networks where the connection probabilities may differ in order of magnitude, which comprise an important class of models that are practically relevant but technically challenging to deal with. Finally we demonstrate the performance of our algorithm on synthetic data and real-world examples.",
+      "year": 2020,
+      "authors": [
+        "Lihua Lei",
+        "Xiaodong Li",
+        "Xingmei Lou"
+      ],
+      "referenceCount": 42,
+      "citationCount": 19
+    },
+    {
+      "paperId": "25493ff3b6349ac464c448a2dc232618972be6c0",
+      "title": "Hierarchical Community Detection by Recursive Partitioning",
+      "abstract": "Abstract The problem of community detection in networks is usually formulated as finding a single partition of the network into some “correct” number of communities. We argue that it is more interpretable and in some regimes more accurate to construct a hierarchical tree of communities instead. This can be done with a simple top-down recursive partitioning algorithm, starting with a single community and separating the nodes into two communities by spectral clustering repeatedly, until a stopping rule suggests there are no further communities. This class of algorithms is model-free, computationally efficient, and requires no tuning other than selecting a stopping rule. We show that there are regimes where this approach outperforms K-way spectral clustering, and propose a natural framework for analyzing the algorithm’s theoretical performance, the binary tree stochastic block model. Under this model, we prove that the algorithm correctly recovers the entire community tree under relatively mild assumptions. We apply the algorithm to a gene network based on gene co-occurrence in 1580 research papers on anemia, and identify six clusters of genes in a meaningful hierarchy. We also illustrate the algorithm on a dataset of statistics papers. Supplementary materials for this article are available online.",
+      "year": 2018,
+      "authors": [
+        "Tianxi Li",
+        "Lihua Lei",
+        "Sharmodeep Bhattacharyya",
+        "Koen Van den Berge",
+        "Purnamrita Sarkar",
+        "P. Bickel",
+        "E. Levina"
+      ],
+      "referenceCount": 112,
+      "citationCount": 78
+    },
+    {
+      "paperId": "649def34f8be52c8b66281af98ae884c09aef38b",
+      "title": "Construction of the Literature Graph in Semantic Scholar",
+      "abstract": "We describe a deployed scalable system for organizing published scientific literature into a heterogeneous graph to facilitate algorithmic manipulation and discovery. The resulting literature graph consists of more than 280M nodes, representing papers, authors, entities and various interactions between them (e.g., authorships, citations, entity mentions). We reduce literature graph construction into familiar NLP tasks (e.g., entity extraction and linking), point out research challenges due to differences from standard formulations of these tasks, and report empirical results for each task. The methods described in this paper are used to enable semantic features in www.semanticscholar.org.",
+      "year": 2018,
+      "authors": [
+        "Bridger Waleed Ammar",
+        "Dirk Groeneveld",
+        "Chandra Bhagavatula",
+        "Iz Beltagy",
+        "Miles Crawford",
+        "Doug Downey",
+        "Jason Dunkelberger",
+        "Ahmed Elgohary",
+        "Sergey Feldman",
+        "Vu A. Ha",
+        "Rodney Michael Kinney",
+        "Sebastian Kohlmeier",
+        "Kyle Lo",
+        "Tyler C. Murray",
+        "Hsu-Han Ooi",
+        "Matthew E. Peters",
+        "Joanna L. Power",
+        "Sam Skjonsberg",
+        "Lucy Lu Wang",
+        "Christopher Wilhelm",
+        "Zheng Yuan",
+        "Madeleine van Zuylen",
+        "Oren Etzioni"
+      ],
+      "referenceCount": 26,
+      "citationCount": 384
+    },
+    {
+      "paperId": "07536966609bcf43b505272679cc37150f1cb423",
+      "title": "The two-to-infinity norm and singular subspace geometry with applications to high-dimensional statistics",
+      "abstract": "The singular value matrix decomposition plays a ubiquitous role throughout statistics and related fields. Myriad applications including clustering, classification, and dimensionality reduction involve studying and exploiting the geometric structure of singular values and singular vectors. \nThis paper provides a novel collection of technical and theoretical tools for studying the geometry of singular subspaces using the two-to-infinity norm. Motivated by preliminary deterministic Procrustes analysis, we consider a general matrix perturbation setting in which we derive a new Procrustean matrix decomposition. Together with flexible machinery developed for the two-to-infinity norm, this allows us to conduct a refined analysis of the induced perturbation geometry with respect to the underlying singular vectors even in the presence of singular value multiplicity. Our analysis yields singular vector entrywise perturbation bounds for a range of popular matrix noise models, each of which has a meaningful associated statistical inference task. In addition, we demonstrate how the two-to-infinity norm is the preferred norm in certain statistical settings. Specific applications discussed in this paper include covariance estimation, singular subspace recovery, and multiple graph inference. \nBoth our Procrustean matrix decomposition and the technical machinery developed for the two-to-infinity norm may be of independent interest.",
+      "year": 2017,
+      "authors": [
+        "Joshua Cape",
+        "M. Tang",
+        "C. Priebe"
+      ],
+      "referenceCount": 64,
+      "citationCount": 128
+    },
+    {
+      "paperId": "70ee6cd69bcebf25b6dfd99b5d905768bb5d2e3f",
+      "title": "Community Detection and Classification in Hierarchical Stochastic Blockmodels",
+      "abstract": "In disciplines as diverse as social network analysis and neuroscience, many large graphs are believed to be composed of loosely connected smaller graph primitives, whose structure is more amenable to analysis We propose a robust, scalable, integrated methodology for community detection and community comparison in graphs. In our procedure, we first embed a graph into an appropriate Euclidean space to obtain a low-dimensional representation, and then cluster the vertices into communities. We next employ nonparametric graph inference techniques to identify structural similarity among these communities. These two steps are then applied recursively on the communities, allowing us to detect more fine-grained structure. We describe a hierarchical stochastic blockmodel—namely, a stochastic blockmodel with a natural hierarchical structure—and establish conditions under which our algorithm yields consistent estimates of model parameters and motifs, which we define to be stochastically similar groups of subgraphs. Finally, we demonstrate the effectiveness of our algorithm in both simulated and real data. Specifically, we address the problem of locating similar sub-communities in a partially reconstructed Drosophila connectome and in the social network Friendster.",
+      "year": 2015,
+      "authors": [
+        "V. Lyzinski",
+        "M. Tang",
+        "A. Athreya",
+        "Youngser Park",
+        "C. Priebe"
+      ],
+      "referenceCount": 57,
+      "citationCount": 147
+    },
+    {
+      "paperId": "5625bbaf7dfdf5b675c5213c917939870b5aa0a2",
+      "title": "Stochastic blockmodels and community structure in networks",
+      "abstract": "Stochastic blockmodels have been proposed as a tool for detecting community structure in networks as well as for generating synthetic networks for use as benchmarks. Most blockmodels, however, ignore variation in vertex degree, making them unsuitable for applications to real-world networks, which typically display broad degree distributions that can significantly affect the results. Here we demonstrate how the generalization of blockmodels to incorporate this missing element leads to an improved objective function for community detection in complex networks. We also propose a heuristic algorithm for community detection using this objective function or its non-degree-corrected counterpart and show that the degree-corrected version dramatically outperforms the uncorrected one in both real-world and synthetic networks.",
+      "year": 2010,
+      "authors": [
+        "B. Karrer",
+        "M. Newman"
+      ],
+      "referenceCount": 31,
+      "citationCount": 1927
+    },
+    {
+      "paperId": "61c68cc336394a9fc8ff0c044b6af6ad43b02ab8",
+      "title": "Overlapping stochastic block models with application to the French political blogosphere",
+      "abstract": "Complex systems in nature and in society are often represented as networks, describing the rich set of interactions between objects of interest. Many deterministic and probabilistic clustering methods have been developed to analyze such structures. Given a network, almost all of them partition the vertices into disjoint clusters, according to their connection profile. However, recent studies have shown that these techniques were too restrictive and that most of the existing networks contained overlapping clusters. To tackle this issue, we present in this paper the Overlapping Stochastic Block Model. Our approach allows the vertices to belong to multiple clusters, and, to some extent, generalizes the well-known Stochastic Block Model [Nowicki and Snijders (2001)]. We show that the model is generically identifiable within classes of equivalence and we propose an approximate inference procedure, based on global and local variational techniques. Using toy data sets as well as the French Political Blogosphere network and the transcriptional network of Saccharomyces cerevisiae, we compare our work with other approaches.",
+      "year": 2009,
+      "authors": [
+        "Pierre Latouche",
+        "E. Birmel'e",
+        "C. Ambroise"
+      ],
+      "referenceCount": 44,
+      "citationCount": 195
+    }
+  ]
+}

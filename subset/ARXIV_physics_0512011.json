@@ -1,0 +1,77 @@
+{
+  "main": {
+    "paperId": "f10909562cb7d5a2c797ea1810a596d42443975c",
+    "title": "A Review of Recent Studies of Geographical Scale-Free Networks",
+    "abstract": "The scale-free (SF) structures that commonly appear in many complex networks are a hot topic in social, biological, and information sciences. These self-organized generation mechanisms are expected to be useful for efficient communication or robust connectivity in socio-technological infrastructures. This paper is the first review of geographical SF network models. We discuss the essential generation mechanisms for inducing the structures with power-law behavior, and consider the properties of planarity and link length. Distributed design of geographical SF networks without the crossing and long-range links that cause interference and dissipation problems is very important for many applications such as communications, power grids, and sensor systems.",
+    "year": 2005,
+    "authors": [
+      "Y. Hayashi"
+    ],
+    "referenceCount": 54,
+    "citationCount": 52
+  },
+  "references": [
+    {
+      "paperId": "f7a02aef03b7855b94e18901729d5d9bc755938c",
+      "title": "Maximal planar networks with large clustering coefficient and power-law degree distribution.",
+      "abstract": "In this article, we propose a simple rule that generates scale-free networks with very large clustering coefficient and very small average distance. These networks are called random Apollonian networks (RANs) as they can be considered as a variation of Apollonian networks. We obtain the analytic results of power-law exponent gamma=3 and clustering coefficient C= (46/3)-36 ln 3/2 approximately 0.74, which agree with the simulation results very well. We prove that the increasing tendency of average distance of RANs is a little slower than the logarithm of the number of nodes in RANs. Since most real-life networks are both scale-free and small-world networks, RANs may perform well in mimicking the reality. The RANs possess hierarchical structure as C(k) approximately k(-1) that are in accord with the observations of many real-life networks. In addition, we prove that RANs are maximal planar networks, which are of particular practicability for layout of printed circuits and so on. The percolation and epidemic spreading process are also studied and the comparisons between RANs and Barabási-Albert (BA) as well as Newman-Watts (NW) networks are shown. We find that, when the network order N (the total number of nodes) is relatively small (as N approximately 10(4)), the performance of RANs under intentional attack is not sensitive to N , while that of BA networks is much affected by N. And the diseases spread slower in RANs than BA networks in the early stage of the susceptible-infected process, indicating that the large clustering coefficient may slow the spreading velocity, especially in the outbreaks.",
+      "year": 2004,
+      "authors": [
+        "Tao Zhou",
+        "G. Yan",
+        "B. Wang"
+      ],
+      "referenceCount": 161,
+      "citationCount": 228
+    },
+    {
+      "paperId": "5578449cd19cb7010c550ced76c906ca2b6e2c7d",
+      "title": "Self-similar disk packings as model spatial scale-free networks.",
+      "abstract": "The network of contacts in space-filling disk packings, such as the Apollonian packing, is examined. These networks provide an interesting example of spatial scale-free networks, where the topology reflects the broad distribution of disk areas. A wide variety of topological and spatial properties of these systems is characterized. Their potential as models for networks of connected minima on energy landscapes is discussed.",
+      "year": 2004,
+      "authors": [
+        "J. Doye",
+        "Claire P. Massen"
+      ],
+      "referenceCount": 70,
+      "citationCount": 126
+    },
+    {
+      "paperId": "58139e5ea7af2f6844ae8ee88cf73a6efd13f6c0",
+      "title": "Analysis of scale-free networks based on a threshold graph with intrinsic vertex weights.",
+      "abstract": "Many real networks are complex and have power-law vertex degree distribution, short diameter, and high clustering. We analyze the network model based on thresholding of the summed vertex weights, which belongs to the class of networks proposed by Phys. Rev. Lett. 89, 258702 (2002)]. Power-law degree distributions, particularly with the dynamically stable scaling exponent 2, realistic clustering, and short path lengths are produced for many types of weight distributions. Thresholding mechanisms can underlie a family of real complex networks that is characterized by cooperativeness and the baseline scaling exponent 2. It contrasts with the class of growth models with preferential attachment, which is marked by competitiveness and baseline scaling exponent 3.",
+      "year": 2004,
+      "authors": [
+        "N. Masuda",
+        "H. Miwa",
+        "N. Konno"
+      ],
+      "referenceCount": 56,
+      "citationCount": 40
+    },
+    {
+      "paperId": "058f0a1dca46bba14ee70e93ab2600a82909658e",
+      "title": "Modulated scale-free network in Euclidean space.",
+      "abstract": "A random network is grown by introducing at unit rate randomly selected nodes on the Euclidean space. A node is randomly connected to its ith predecessor of degree k(i) with a directed link of length l using a probability proportional to k(i)l(alpha). Our numerical study indicates that the network is scale free for all values of alpha>alpha(c) and the degree distribution decays stretched exponentially for the other values of alpha. The link length distribution follows a power law: D(l) approximately l(delta), where delta is calculated exactly for the whole range of values of alpha.",
+      "year": 2002,
+      "authors": [
+        "S. S. Manna",
+        "P. Sen"
+      ],
+      "referenceCount": 24,
+      "citationCount": 124
+    },
+    {
+      "paperId": "dce8146987557735a19771aefa1f027211a2c275",
+      "title": "Statistical mechanics of complex networks",
+      "abstract": "The emergence of order in natural systems is a constant source of inspiration for both physical and biological sciences. While the spatial order characterizing for example the crystals has been the basis of many advances in contemporary physics, most complex systems in nature do not offer such high degree of order. Many of these systems form complex networks whose nodes are the elements of the system and edges represent the interactions between them. \nTraditionally complex networks have been described by the random graph theory founded in 1959 by Paul Erdohs and Alfred Renyi. One of the defining features of random graphs is that they are statistically homogeneous, and their degree distribution (characterizing the spread in the number of edges starting from a node) is a Poisson distribution. In contrast, recent empirical studies, including the work of our group, indicate that the topology of real networks is much richer than that of random graphs. In particular, the degree distribution of real networks is a power-law, indicating a heterogeneous topology in which the majority of the nodes have a small degree, but there is a significant fraction of highly connected nodes that play an important role in the connectivity of the network. \nThe scale-free topology of real networks has very important consequences on their functioning. For example, we have discovered that scale-free networks are extremely resilient to the random disruption of their nodes. On the other hand, the selective removal of the nodes with highest degree induces a rapid breakdown of the network to isolated subparts that cannot communicate with each other. \nThe non-trivial scaling of the degree distribution of real networks is also an indication of their assembly and evolution. Indeed, our modeling studies have shown us that there are general principles governing the evolution of networks. Most networks start from a small seed and grow by the addition of new nodes which attach to the nodes already in the system. This process obeys preferential attachment: the new nodes are more likely to connect to nodes with already high degree. We have proposed a simple model based on these two principles wich was able to reproduce the power-law degree distribution of real networks. Perhaps even more importantly, this model paved the way to a new paradigm of network modeling, trying to capture the evolution of networks, not just their static topology.",
+      "year": 2001,
+      "authors": [
+        "R. Albert",
+        "A. Barabási"
+      ],
+      "referenceCount": 237,
+      "citationCount": 19340
+    }
+  ]
+}

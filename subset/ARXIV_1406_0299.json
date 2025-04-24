@@ -1,0 +1,53 @@
+{
+  "main": {
+    "paperId": "d6ed2a5099a5219192161393e81c2e70d4634252",
+    "title": "The Larson–Sweedler theorem for weak multiplier Hopf algebras",
+    "abstract": "ABSTRACT The Larson–Sweedler theorem says that a finite-dimensional bialgebra with a faithful integral is a Hopf algebra [15]. The result has been generalized to finite-dimensional weak Hopf algebras by Vecsernyés [44]. In this paper, we show that the result is still true for weak multiplier Hopf algebras. The notion of a weak multiplier bialgebra was introduced by Böhm et al. in [4]. In this note it is shown that a weak multiplier bialgebra with a regular and full coproduct is a regular weak multiplier Hopf algebra if there is a faithful set of integrals. Weak multiplier Hopf algebras are introduced and studied in [40]. Integrals on (regular) weak multiplier Hopf algebras are treated in [43]. This result is important for the development of the theory of locally compact quantum groupoids in the operator algebra setting, see [13] and [14]. Our treatment of this material is motivated by the prospect of such a theory.",
+    "year": 2014,
+    "authors": [
+      "B. Kahng",
+      "A. Van Daele"
+    ],
+    "referenceCount": 37,
+    "citationCount": 23
+  },
+  "references": [
+    {
+      "paperId": "80fd45a81a989c6515028d698e87d1f10e971f16",
+      "title": "Weak multiplier bialgebras",
+      "abstract": "A non-unital generalization of weak bialgebra is proposed with a multiplier-valued comultiplication. Certain canonical subalgebras of the multiplier algebra (named the `base algebras') are shown to carry coseparable co-Frobenius coalgebra structures. Appropriate modules over a weak multiplier bialgebra are shown to constitute a monoidal category via the (co)module tensor product over the base algebra. The relation to Van Daele and Wang's (regular and arbitrary) weak multiplier Hopf algebra is discussed.",
+      "year": 2013,
+      "authors": [
+        "G. Bòhm",
+        "J. G'omez-Torrecillas",
+        "Esperanza L'opez-Centella"
+      ],
+      "referenceCount": 16,
+      "citationCount": 27
+    },
+    {
+      "paperId": "a41c1be39476bd746aa2b6cb8b090b0b44817b20",
+      "title": "Weak Multiplier Hopf Algebras. Preliminaries, motivation and basic examples",
+      "abstract": "Let $G$ be a {\\it finite group}. Consider the algebra $A$ of all complex functions on G (with pointwise product). Define a coproduct $\\Delta$ on A by $\\Delta(f)(p,q)=f(pq)$ where $f\\in A$ and $p,q\\in G$. Then $(A,\\Delta)$ is a Hopf algebra. If $G$ is only a {\\it groupoid}, so that the product of two elements is not always defined, one still can consider $A$ and define $\\Delta(f)(p,q)$ as above when $pq$ is defined. If we let $\\Delta(f)(p,q)=0$ otherwise, we still get a coproduct on $A$, but $\\Delta(1)$ will no longer be the identity in $A\\ot A$. The pair $(A,\\Delta)$ is not a Hopf algebra but a weak Hopf algebra. If $G$ is a {\\it group}, but {\\it no longer finite}, one takes for $A$ the algebra of functions with finite support. Then $A$ has no identity and $(A,\\Delta)$ is not a Hopf algebra but a multiplier Hopf algebra. Finally, if $G$ is a {\\it groupoid}, but {\\it not necessarily finite}, the standard construction above, will give, what we call in this paper, a weak multiplier Hopf algebra. \nIndeed, this paper is devoted to the development of this 'missing link': {\\it weak multiplier Hopf algebras}. We spend a great part of this paper to the motivation of our notion and to explain where the various assumptions come from. The goal is to obtain a good definition of a weak multiplier Hopf algebra. Throughout the paper, we consider the basic examples and use them, as far as this is possible, to illustrate what we do. In particular, we think of the finite-dimensional weak Hopf algebras. On the other hand however, we are also inspired by the far more complicated existing analytical theory. \nIn forthcoming papers on the subject, we develop the theory further.",
+      "year": 2012,
+      "authors": [
+        "A. V. Daele",
+        "Shuanhong Wang"
+      ],
+      "referenceCount": 22,
+      "citationCount": 38
+    },
+    {
+      "paperId": "b6cb829781591c558d5ca2c885020c1726da592c",
+      "title": "Multiplier bi- and Hopf algebras",
+      "abstract": "We propose a categorical interpretation of multiplier Hopf algebras, in analogy to usual Hopf algebras and bialgebras. Since the introduction of multiplier Hopf algebras by Van Daele [Multiplier Hopf algebras, Trans. Amer. Math. Soc.342(2) (1994) 917–932] such a categorical interpretation has been missing. We show that a multiplier Hopf algebra can be understood as a coalgebra with antipode in a certain monoidal category of algebras. We show that a (possibly nonunital, idempotent, nondegenerate, k-projective) algebra over a commutative ring k is a multiplier bialgebra if and only if the category of its algebra extensions and both the categories of its left and right modules are monoidal and fit, together with the category of k-modules, into a diagram of strict monoidal forgetful functors.",
+      "year": 2010,
+      "authors": [
+        "K. Janssen",
+        "J. Vercruysse"
+      ],
+      "referenceCount": 15,
+      "citationCount": 19
+    }
+  ]
+}

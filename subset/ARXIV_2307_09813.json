@@ -1,0 +1,239 @@
+{
+  "main": {
+    "paperId": "e92f4ff44def2273d9fcb02921b257dcbe3c9626",
+    "title": "DAPrompt: Deterministic Assumption Prompt Learning for Event Causality Identification",
+    "abstract": "Event Causality Identification (ECI) aims at determining whether there is a causal relation between two event mentions. Conventional prompt learning designs a prompt template to first predict an answer word and then maps it to the final decision. Unlike conventional prompts, we argue that predicting an answer word may not be a necessary prerequisite for the ECI task. Instead, we can first make a deterministic assumption on the existence of causal relation between two events and then evaluate its rationality to either accept or reject the assumption. The design motivation is to try the most utilization of the encyclopedia-like knowledge embedded in a pre-trained language model. In light of such considerations, we propose a deterministic assumption prompt learning model, called DAPrompt, for the ECI task. In particular, we design a simple deterministic assumption template concatenating with the input event pair, which includes two masks as predicted events' tokens. We use the probabilities of predicted events to evaluate the assumption rationality for the final event causality decision. Experiments on the EventStoryLine corpus and Causal-TimeBank corpus validate our design objective in terms of significant performance improvements over the state-of-the-art algorithms.",
+    "year": 2023,
+    "authors": [
+      "Wei Xiang",
+      "Chuanhong Zhan",
+      "Bang Wang"
+    ],
+    "referenceCount": 32,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "871f5439b09b15ba9ed940189be5d65658e82ab8",
+      "title": "Towards Event-level Causal Relation Identification",
+      "abstract": "Existing methods usually identify causal relations between events at the mention-level, which takes each event mention pair as a separate input. As a result, they either suffer from conflicts among causal relations predicted separately or require a set of additional constraints to resolve such conflicts. We propose to study this task in a more realistic setting, where event-level causality identification can be made. The advantage is two folds: 1) with modeling different mentions of an event as a single unit, no more conflicts among predicted results, without any extra constraints; 2) with the use of diverse knowledge sources (e.g., co-occurrence and coreference relations), a rich graph-based event structure can be induced from the document for supporting event-level causal inference. Graph convolutional network is used to encode such structural information, which aims to capture the local and non-local dependencies among nodes. Results show that our model achieves the best performance under both mention- and event-level settings, outperforming a number of strong baselines by at least 2.8% on F1 score.",
+      "year": 2022,
+      "authors": [
+        "Chuang Fan",
+        "Daoxing Liu",
+        "Libo Qin",
+        "Yue Zhang",
+        "Ruifeng Xu"
+      ],
+      "referenceCount": 26,
+      "citationCount": 15
+    },
+    {
+      "paperId": "5f5adc7b50771979f5c8c5107ead099b8342c2f6",
+      "title": "ERGO: Event Relational Graph Transformer for Document-level Event Causality Identification",
+      "abstract": "Document-level Event Causality Identification (DECI) aims to identify event-event causal relations in a document. Existing works usually build an event graph for global reasoning across multiple sentences. However, the edges between events have to be carefully designed through heuristic rules or external tools. In this paper, we propose a novel Event Relational Graph TransfOrmer (ERGO) framework for DECI, to ease the graph construction and improve it over the noisy edge issue. Different from conventional event graphs, we define a pair of events as a node and build a complete event relational graph without any prior knowledge or tools. This naturally formulates DECI as a node classification problem, and thus we capture the causation transitivity among event pairs via a graph transformer. Furthermore, we design a criss-cross constraint and an adaptive focal loss for the imbalanced classification, to alleviate the issues of false positives and false negatives. Extensive experiments on two benchmark datasets show that ERGO greatly outperforms previous state-of-the-art (SOTA) methods (12.8% F1 gains on average).",
+      "year": 2022,
+      "authors": [
+        "Meiqi Chen",
+        "Yixin Cao",
+        "Kunquan Deng",
+        "Mukai Li",
+        "Kunpeng Wang",
+        "Jing Shao",
+        "Yan Zhang"
+      ],
+      "referenceCount": 42,
+      "citationCount": 33
+    },
+    {
+      "paperId": "47ea802a1fed0f735a9a61a7c9b63062f02a5f5d",
+      "title": "Improving Event Causality Identification via Self-Supervised Representation Learning on External Causal Statement",
+      "abstract": "Current models for event causality identification (ECI) mainly adopt a supervised framework, which heavily rely on labeled data for training. Unfortunately, the scale of current annotated datasets is relatively limited, which cannot provide sufficient support for models to capture useful indicators from causal statements, especially for handing those new, unseen cases. To alleviate this problem, we propose a novel approach, shortly named CauSeRL, which leverages external causal statements for event causality identification. First of all, we design a self-supervised framework to learn context-specific causal patterns from external causal statements. Then, we adopt a contrastive transfer strategy to incorporate the learned context-specific causal patterns into the target ECI model. Experimental results show that our method significantly outperforms previous methods on EventStoryLine and Causal-TimeBank (+2.0 and +3.4 points on F1 value respectively).",
+      "year": 2021,
+      "authors": [
+        "Xinyu Zuo",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao",
+        "Weihua Peng",
+        "Yuguang Chen"
+      ],
+      "referenceCount": 41,
+      "citationCount": 51
+    },
+    {
+      "paperId": "1351a827a5039586a3b3e27865ab8ceda342a235",
+      "title": "LearnDA: Learnable Knowledge-Guided Data Augmentation for Event Causality Identification",
+      "abstract": "Modern models for event causality identification (ECI) are mainly based on supervised learning, which are prone to the data lacking problem. Unfortunately, the existing NLP-related augmentation methods cannot directly produce available data required for this task. To solve the data lacking problem, we introduce a new approach to augment training data for event causality identification, by iteratively generating new examples and classifying event causality in a dual learning framework. On the one hand, our approach is knowledge guided, which can leverage existing knowledge bases to generate well-formed new sentences. On the other hand, our approach employs a dual mechanism, which is a learnable augmentation framework, and can interactively adjust the generation process to generate task-related sentences. Experimental results on two benchmarks EventStoryLine and Causal-TimeBank show that 1) our method can augment suitable task-related training data for ECI; 2) our method outperforms previous methods on EventStoryLine and Causal-TimeBank (+2.5 and +2.1 points on F1 value respectively).",
+      "year": 2021,
+      "authors": [
+        "Xinyu Zuo",
+        "Pengfei Cao",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao",
+        "Weihua Peng",
+        "Yuguang Chen"
+      ],
+      "referenceCount": 61,
+      "citationCount": 51
+    },
+    {
+      "paperId": "5649d1a202e523d0653fbba3cc9017cee539dc19",
+      "title": "Graph Convolutional Networks for Event Causality Identification with Rich Document-level Structures",
+      "abstract": "We study the problem of Event Causality Identification (ECI) to detect causal relation between event mention pairs in text. Although deep learning models have recently shown state-of-the-art performance for ECI, they are limited to the intra-sentence setting where event mention pairs are presented in the same sentences. This work addresses this issue by developing a novel deep learning model for document-level ECI (DECI) to accept inter-sentence event mention pairs. As such, we propose a graph-based model that constructs interaction graphs to capture relevant connections between important objects for DECI in input documents. Such interaction graphs are then consumed by graph convolutional networks to learn document context-augmented representations for causality prediction between events. Various information sources are introduced to enrich the interaction graphs for DECI, featuring discourse, syntax, and semantic information. Our extensive experiments show that the proposed model achieves state-of-the-art performance on two benchmark datasets.",
+      "year": 2021,
+      "authors": [
+        "Minh Tran Phu",
+        "Thien Huu Nguyen"
+      ],
+      "referenceCount": 36,
+      "citationCount": 53
+    },
+    {
+      "paperId": "140e4df3512eb1f8469a99f6e4f404d107856646",
+      "title": "KnowDis: Knowledge Enhanced Data Augmentation for Event Causality Detection via Distant Supervision",
+      "abstract": "Modern models of event causality detection (ECD) are mainly based on supervised learning from small hand-labeled corpora. However, hand-labeled training data is expensive to produce, low coverage of causal expressions, and limited in size, which makes supervised methods hard to detect causal relations between events. To solve this data lacking problem, we investigate a data augmentation framework for ECD, dubbed as Knowledge Enhanced Distant Data Augmentation (KnowDis). Experimental results on two benchmark datasets EventStoryLine corpus and Causal-TimeBank show that 1) KnowDis can augment available training data assisted with the lexical and causal commonsense knowledge for ECD via distant supervision, and 2) our method outperforms previous methods by a large margin assisted with automatically labeled training data.",
+      "year": 2020,
+      "authors": [
+        "Xinyu Zuo",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao"
+      ],
+      "referenceCount": 28,
+      "citationCount": 64
+    },
+    {
+      "paperId": "357e20c33d050c31445eaa603a8bc30a9c965805",
+      "title": "Knowledge Enhanced Event Causality Identification with Mention Masking Generalizations",
+      "abstract": "Identifying causal relations of events is a crucial language understanding task. Despite many efforts for this task, existing methods lack the ability to adopt background knowledge, and they typically generalize poorly to new, previously unseen data. In this paper, we present a new method for event causality identification, aiming to address limitations of previous methods. On the one hand, our model can leverage external knowledge for reasoning, which can greatly enrich the representation of events; On the other hand, our model can mine event-agnostic, context-specific patterns, via a mechanism called event mention masking generalization, which can greatly enhance the ability of our model to handle new, previously unseen cases. In experiments, we evaluate our model on three benchmark datasets and show our model outperforms previous methods by a significant margin. Moreover, we perform 1) cross-topic adaptation, 2) exploiting unseen predicates, and 3) cross-task adaptation to evaluate the generalization ability of our model. Experimental results show that our model demonstrates a definite advantage over previous methods.",
+      "year": 2020,
+      "authors": [
+        "Jian Liu",
+        "Yubo Chen",
+        "Jun Zhao"
+      ],
+      "referenceCount": 38,
+      "citationCount": 60
+    },
+    {
+      "paperId": "077f8329a7b6fa3b7c877a57b81eb6c18b5f87de",
+      "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+      "abstract": "Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.",
+      "year": 2019,
+      "authors": [
+        "Yinhan Liu",
+        "Myle Ott",
+        "Naman Goyal",
+        "Jingfei Du",
+        "Mandar Joshi",
+        "Danqi Chen",
+        "Omer Levy",
+        "M. Lewis",
+        "Luke Zettlemoyer",
+        "Veselin Stoyanov"
+      ],
+      "referenceCount": 68,
+      "citationCount": 23280
+    },
+    {
+      "paperId": "210998cf25778b5e07018a34c441e671e034fb1e",
+      "title": "The Event StoryLine Corpus: A New Benchmark for Causal and Temporal Relation Extraction",
+      "abstract": "This paper reports on the Event StoryLine Corpus (ESC) v1.0, a new benchmark dataset for the temporal and causal relation detection. By developing this dataset, we also introduce a new task, the StoryLine Extraction from news data, which aims at extracting and classifying events relevant for stories, from across news documents spread in time and clustered around a single seminal event or topic. In addition to describing the dataset, we also report on three baselines systems whose results show the complexity of the task and suggest directions for the development of more robust systems.",
+      "year": 2017,
+      "authors": [
+        "Tommaso Caselli",
+        "P. Vossen"
+      ],
+      "referenceCount": 32,
+      "citationCount": 136
+    },
+    {
+      "paperId": "26aa6fe2028b5eefbaa40ab54ef725bbbe7d9810",
+      "title": "ConceptNet 5.5: An Open Multilingual Graph of General Knowledge",
+      "abstract": "\n \n Machine learning about language can be improved by supplying it with specific knowledge and sources of external information. We present here a new version of the linked open data resource ConceptNet that is particularly well suited to be used with modern NLP techniques such as word embeddings. ConceptNet is a knowledge graph that connects words and phrases of natural language with labeled edges. Its knowledge is collected from many sources that include expert-created resources, crowd-sourcing, and games with a purpose. It is designed to represent the general knowledge involved in understanding language, improving natural language applications by allowing the application to better understand the meanings behind the words people use. When ConceptNet is combined with word embeddings acquired from distributional semantics (such as word2vec), it provides applications with understanding that they would not acquire from distributional semantics alone, nor from narrower resources such as WordNet or DBPedia. We demonstrate this with state-of-the-art results on intrinsic evaluations of word relatedness that translate into improvements on applications of word vectors, including solving SAT-style analogies.\n \n",
+      "year": 2016,
+      "authors": [
+        "R. Speer",
+        "Joshua Chin",
+        "Catherine Havasi"
+      ],
+      "referenceCount": 38,
+      "citationCount": 2801
+    },
+    {
+      "paperId": "434027811ff25dd4564ff6a16f5119db344368b1",
+      "title": "An Analysis of Causality between Events and its Relation to Temporal Information",
+      "abstract": "In this work we present an annotation framework to capture causality between events, inspired by TimeML, and a language resource covering both temporal and causal relations. This data set is then used to build an automatic extraction system for causal signals and causal links between given event pairs. The evaluation and analysis of the system’s performance provides an insight into explicit causality in text and the connection between temporal and causal relations.",
+      "year": 2014,
+      "authors": [
+        "Paramita Mirza",
+        "Sara Tonelli"
+      ],
+      "referenceCount": 36,
+      "citationCount": 93
+    },
+    {
+      "paperId": "6f3f5047f4a3b0f7af4092164485cd6e8704c171",
+      "title": "Event Causality Identification via Derivative Prompt Joint Learning",
+      "abstract": "This paper studies event causality identification, which aims at predicting the causality relation for a pair of events in a sentence. Regarding event causality identification as a supervised classification task, most existing methods suffer from the problem of insufficient annotated data. In this paper, we propose a new derivative prompt joint learning model for event causality identification, which leverages potential causal knowledge in the pre-trained language model to tackle the data scarcity problem. Specifically, rather than external data or knowledge augmentation, we derive two relevant prompt tasks from event causality identification to enhance the model’s ability to identify explicit and implicit causality. We evaluate our model on two benchmark datasets and the results show that our model has great advantages over previous methods.",
+      "year": 2022,
+      "authors": [
+        "Shirong Shen",
+        "Heng Zhou",
+        "Tongtong Wu",
+        "G. Qi"
+      ],
+      "referenceCount": 33,
+      "citationCount": 23
+    },
+    {
+      "paperId": "3bc0095232c098e737be3be5dd8110ab6b2936a9",
+      "title": "Knowledge-Enriched Event Causality Identification via Latent Structure Induction Networks",
+      "abstract": "Identifying causal relations of events is an important task in natural language processing area. However, the task is very challenging, because event causality is usually expressed in diverse forms that often lack explicit causal clues. Existing methods cannot handle well the problem, especially in the condition of lacking training data. Nonetheless, humans can make a correct judgement based on their background knowledge, including descriptive knowledge and relational knowledge. Inspired by it, we propose a novel Latent Structure Induction Network (LSIN) to incorporate the external structural knowledge into this task. Specifically, to make use of the descriptive knowledge, we devise a Descriptive Graph Induction module to obtain and encode the graph-structured descriptive knowledge. To leverage the relational knowledge, we propose a Relational Graph Induction module which is able to automatically learn a reasoning structure for event causality reasoning. Experimental results on two widely used datasets indicate that our approach significantly outperforms previous state-of-the-art methods.",
+      "year": 2021,
+      "authors": [
+        "Pengfei Cao",
+        "Xinyu Zuo",
+        "Yubo Chen",
+        "Kang Liu",
+        "Jun Zhao",
+        "Yuguang Chen",
+        "Weihua Peng"
+      ],
+      "referenceCount": 40,
+      "citationCount": 67
+    },
+    {
+      "paperId": "90df8ca8bb6dda68a7a7996b06bbfd9a742461e5",
+      "title": "TransPrompt: Towards an Automatic Transferable Prompting Framework for Few-shot Text Classification",
+      "abstract": "Recent studies have shown that prompts improve the performance of large pre-trained language models for few-shot text classification. Yet, it is unclear how the prompting knowledge can be transferred across similar NLP tasks for the purpose of mutual reinforcement. Based on continuous prompt embeddings, we propose TransPrompt, a transferable prompting framework for few-shot learning across similar tasks. In TransPrompt, we employ a multi-task meta-knowledge acquisition procedure to train a meta-learner that captures cross-task transferable knowledge. Two de-biasing techniques are further designed to make it more task-agnostic and unbiased towards any tasks. After that, the meta-learner can be adapted to target tasks with high accuracy. Extensive experiments show that TransPrompt outperforms single-task and cross-task strong baselines over multiple NLP tasks and datasets. We further show that the meta-learner can effectively improve the performance on previously unseen tasks; and TransPrompt also outperforms strong fine-tuning baselines when learning with full training sets.",
+      "year": 2021,
+      "authors": [
+        "Chengyu Wang",
+        "J. Wang",
+        "Minghui Qiu",
+        "Jun Huang",
+        "Ming Gao"
+      ],
+      "referenceCount": 40,
+      "citationCount": 55
+    },
+    {
+      "paperId": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+      "year": 2019,
+      "authors": [
+        "Jacob Devlin",
+        "Ming-Wei Chang",
+        "Kenton Lee",
+        "Kristina Toutanova"
+      ],
+      "referenceCount": 63,
+      "citationCount": 90350
+    }
+  ]
+}

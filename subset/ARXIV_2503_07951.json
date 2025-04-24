@@ -1,0 +1,34 @@
+{
+  "main": {
+    "paperId": "d568b93be954a5944228558530b9fdbe4088a6d0",
+    "title": "Symmetry and Minimal Hamiltonian of Nonsymmorphic Collinear Antiferromagnet MnTe",
+    "abstract": "$\\alpha$-MnTe, an $A$-type collinear antiferromagnet, has recently attracted significant attention due to its pronounced spin splitting despite having net zero magnetization, a phenomenon unique for a new class of magnetism dubbed altermagnetism. In this work, we develop a minimal effective Hamiltonian for $\\alpha$-MnTe based on realistic orbitals near the Fermi level at both the $\\Gamma$ and $A$ points. Our model is derived using group representation theory, first-principles calculations, and tight-binding modeling. The resulting effective Hamiltonian exhibits qualitatively distinct electron transport characteristics between these high-symmetry points and for different in-plane N\\'{e}el vector orientations along the $[11\\bar{2}0]$ and $[1\\bar{1}00]$ directions. Although relativistic correction of the spin-orbit coupling (SOC) is believed to be not important in altermagnets, we show the dominant role of SOC in the spin splitting and valence electrons of MnTe. These findings provide critical insights into altermagnetic electron transport in MnTe and establish a model playground for future theoretical and experimental studies.",
+    "year": 2025,
+    "authors": [
+      "Koichiro Takahashi",
+      "Hong‐Fei Huang",
+      "Jie-Xiang Yu",
+      "Jiadong Zang"
+    ],
+    "referenceCount": 64,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "5cc148f729f8c22571dc9d27fbdb3098383352c1",
+      "title": "Planar Hall Effect in Antiferromagnetic MnTe Thin Films.",
+      "abstract": "We show that the spin-orbit coupling (SOC) in α-MnTe impacts the transport behavior by generating an anisotropic valence-band splitting, resulting in four spin-polarized pockets near Γ. A minimal k·p model is constructed to capture this splitting by group theory analysis, a tight-binding model, and ab initio calculations. The model is shown to describe the rotation symmetry of the zero-field planer Hall effect (PHE). The PHE originates from the band anisotropy given by SOC, and is quantitatively estimated to be 25%-31% for an ideal thin film with a single antiferromagnetic domain.",
+      "year": 2018,
+      "authors": [
+        "G. Yin",
+        "Jie-Xiang Yu",
+        "Yizhou Liu",
+        "R. Lake",
+        "J. Zang",
+        "Kang L. Wang"
+      ],
+      "referenceCount": 53,
+      "citationCount": 23
+    }
+  ]
+}

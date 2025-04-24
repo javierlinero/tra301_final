@@ -1,0 +1,67 @@
+{
+  "main": {
+    "paperId": "504423036b2e845e679ed91c15d0edede68e12f7",
+    "title": "Relations between and Estimations of Fluctuation Integrals and Direct Correlation Function Integrals",
+    "abstract": "New relations among the mixture direct correlation function integrals (or fluctuation integrals) in terms of concentration variables are developed. These relations indicate that, for example, for a binary mixture only one of the three direct correlation function integrals (or one of the three fluctuation integrals is independent. Different closure expressions for mixture cross direct correlation function integrals are suggested and they are joined with the exact relations to calculate all the direct correlation function integrals and fluctuation integrals in a mixture. \nThe results indicate the possibility of introduction of simple closure expressions relating unlike- and like-interaction direct correlation integrals. It is demonstrated that the relation between the direct correlation integrals of hard-sphere mixtures can be satisfactorily represented by a simple geometric mean closure.",
+    "year": 2018,
+    "authors": [
+      "L. Lepori",
+      "E. Matteoli",
+      "E. Hamad",
+      "G. Mansoori"
+    ],
+    "referenceCount": 28,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "5c96465c7c5a291b16d134db6bd1dbaa79ad8d1b",
+      "title": "Statistical Mechanics",
+      "abstract": "Professor Chen Ning Yang has made seminal and influential contributions in many different areas in theoretical physics. This talk focuses on his contributions in statistical mechanics, a field in which Professor Yang has held a continual interest for over sixty years. His Master’s thesis was on a theory of binary alloys with multi-site interactions, some 30 years before others studied the problem. Likewise, his other works opened the door and led to subsequent developments in many areas of modern day statistical mechanics and mathematical physics. He made seminal contributions in a wide array of topics, ranging from the fundamental theory of phase transitions, the Ising model, Heisenberg spin chains, lattice models, and the Yang-Baxter equation, to the emergence of Yangian in quantum groups. These topics and their ramifications will be discussed in this talk. PACS numbers: 01.65.+g, 05.50.+q",
+      "year": 2021,
+      "authors": [
+        "Uwe-Jens Wiese",
+        "Albert Einstein"
+      ],
+      "referenceCount": 357,
+      "citationCount": 5810
+    },
+    {
+      "paperId": "ce196aba52446c64b1996c7861d3e0a013595d3a",
+      "title": "Solute–solute interactions in water. II. An analysis through the Kirkwood–Buff integrals for 14 organic solutes",
+      "abstract": "From accurate data of activities (a), partial molar volumes (V), and compressibility (K) of binary aqueous mixtures, the so‐called Kirkwood–Buff integrals Gij defined by Gij=∫∞0 [ gij(r) −1] 4πr2 dr=f(a,V,K), (i=1,2; j=1,2), have been calculated in the whole concentration range. Fourteen water(1)‐organic cosolvent(2) systems [methanol, ethanol, 1‐propanol, 1‐butanol, 2‐methyl‐2‐propanol, acetonitrile, acetone, dimethylsulfoxide, tetrahydrofuran, piperidine, pyridine, 1,4‐dioxane, 2‐aminoethanol, 2‐(dimethylamino)ethanol] have been studied at 25 °C, and two (methanol and ethanol) also at different temperatures. The Gij functions show these features in relation to the molecular structures of component 2: (1) when this component presents a large nonpolar moiety, extrema are exhibited by Gij’s at certain concentrations the more marked the larger the nonpolar portion; (2) when component two is bifunctional, Gij trend is monotonic with concentration; (3) in the temperature range 0–90 °C, G22 increases and G12...",
+      "year": 1984,
+      "authors": [
+        "E. Matteoli",
+        "L. Lepori"
+      ],
+      "referenceCount": 41,
+      "citationCount": 219
+    },
+    {
+      "paperId": "80c136c6c09062f161ae6ac52320d671ca817f65",
+      "title": "Exact Solution of Generalized Percus-Yevick Equation for a Mixture of Hard Spheres",
+      "abstract": "The Percus-Yevick approximate equation for the radial distribution function of a fluid is generalized to an $m$-component mixture. This approximation which can be formulated by the method of functional Taylor expansion, consists in setting $\\mathrm{exp}[\\ensuremath{-}\\ensuremath{\\beta}{\\ensuremath{\\phi}}_{\\mathrm{ij}}(r)]{C}_{\\mathrm{ij}}(r)$ equal to ${g}_{\\mathrm{ij}}(r)[{e}^{\\ensuremath{-}\\ensuremath{\\beta}{\\ensuremath{\\phi}}_{\\mathrm{ij}}(r)}\\ensuremath{-}1]$, where ${C}_{\\mathrm{ij}}$, ${g}_{\\mathrm{ij}}$, and ${\\ensuremath{\\phi}}_{\\mathrm{ij}}$ are the direct correlation function, the radial distribution function and the binary potential between a molecule of species $i$ and $a$ molecule of species $j$. The resulting equation for ${C}_{\\mathrm{ij}}$ and ${g}_{\\mathrm{ij}}$ is solved exactly for a mixture of hard spheres of diameters ${R}_{i}$. The equation of state obtained from ${C}_{\\mathrm{ij}}(r)$ via a generalized Ornstein-Zernike compressibility relation has the form $\\frac{p}{\\mathrm{kT}}={[\\ensuremath{\\Sigma}{\\ensuremath{\\rho}}_{i}][1+\\ensuremath{\\xi}+{\\ensuremath{\\xi}}^{2}]\\ensuremath{-}\\frac{18}{\\ensuremath{\\pi}}\\ensuremath{\\Sigma}{ilj}^{}{\\ensuremath{\\eta}}_{i}{\\ensuremath{\\eta}}_{j}{({R}_{i}\\ensuremath{-}{R}_{j})}^{2}\\ifmmode\\times\\else\\texttimes\\fi{}[{R}_{i}+{R}_{j}+{R}_{i}{R}_{j}(\\ensuremath{\\Sigma}{\\ensuremath{\\eta}}_{l}R_{l}^{}{}_{}{}^{2})]}{(1\\ensuremath{-}\\ensuremath{\\xi})}^{\\ensuremath{-}3}$, where ${\\ensuremath{\\eta}}_{i}=\\frac{\\ensuremath{\\pi}}{6}$ times the density of the $i\\mathrm{th}$ component and $\\ensuremath{\\xi}=\\ensuremath{\\Sigma}{\\ensuremath{\\eta}}_{l}R_{l}^{}{}_{}{}^{3}$. This equation yields correctly the virial expansion of the pressure up to and including the third power in the densities and is in very good agreement with the available machine computations for a binary mixture. For a one-component system our solution for $C(r)$ and $g(r)$ reduces to that found previously by Wertheim and Thiele and the equation of state becomes identical with that found on the basis of different approximations by Reiss, Frisch, and Lebowitz.",
+      "year": 1964,
+      "authors": [
+        "J. Lebowitz"
+      ],
+      "referenceCount": 0,
+      "citationCount": 857
+    },
+    {
+      "paperId": "e0ad715f23305727483be5af10dc2b4f96be125b",
+      "title": "Relations Among Concentration Fluctuation Integrals in Mixtures (Theory and Experiments)",
+      "abstract": "Based on a mathematical consistency condition, new relations among the concentration fluctuation integrals in mixtures are derived. These relations indicate that for a binary mixture only one of the fluctuation integrals is independent. A closure procedure is proposed to relate G11 and G22 to G 12 in order to obtain analytic expressions for fluctuation integrals and the related direct correlation integrals. New experimental fluctuation integral data for binary mixtures of tetra­ chloromethane with six organic fluids (methanol, ethanol, propanol, n-butanol, tetrahydrofuran, and 1,4-dioxane ), water + methanol at different temperatures and water + ethanol at different temperatures are reported. The new data and the binary data of water with ten organic fluids (acetone, acetonitri\\e, 2-aminoethanol, dimethylsulfoxide, methanol, ethanol, propanol, tert-butanol, tetrahydrofuran, and 1,4-dioxane) are used to test the validity of the proposed theory. Considering the limitations of the closure procedure and the accuracy of the experimental data it is shown that the theory is in agreement with the data.",
+      "year": 1989,
+      "authors": [
+        "E. Hamad",
+        "G. Mansoori",
+        "E. Matteoli",
+        "L. Lepori"
+      ],
+      "referenceCount": 14,
+      "citationCount": 14
+    }
+  ]
+}

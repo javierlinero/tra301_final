@@ -1,0 +1,29 @@
+{
+  "main": {
+    "paperId": "5841ae4c9079bc95e98c05d9b7b1380ff4ccaee6",
+    "title": "Some analogues of isoperimetric inequality",
+    "abstract": "The discrete isoperimetric inequality states that among all n -gons with a fixed area, the regular n -gon has the least perimeter. We prove analogues of the discrete isoperimetric inequality (involving circumradius or inradius) for cyclic and tangential polygons in hyperbolic geometry, considering both single and multiple polygons. Furthermore, we establish two versions of the isoperimetric inequality for multiple polygons in hyperbolic geometry with some restriction on their area or perimeter.",
+    "year": 2025,
+    "authors": [
+      "Subash Chandra Behera",
+      "Shiv Parsad"
+    ],
+    "referenceCount": 10,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "aa37ac307b16c6c24fa1cda268b808c9c6312323",
+      "title": "The minima of the geodesic length functions of uniform filling curves",
+      "abstract": "There is a natural link between (multi‐)curves that fill up a closed oriented surface and dessins d'enfants. We use this approach to exhibit explicitly the minima of the geodesic length function of filling curves that admit a self‐transverse homotopy equivalent representative such that all self‐intersection points, as well as all faces of the complement, have the same multiplicity. We show that these minima are attained at the Grothendieck–Belyi surfaces determined by the natural dessin d'enfants associated with these filling curves. In particular, they are all Riemann surfaces defined over number fields.",
+      "year": 2023,
+      "authors": [
+        "E. Girondo",
+        "G. Gonz'alez-Diez",
+        "R. Hidalgo"
+      ],
+      "referenceCount": 35,
+      "citationCount": 1
+    }
+  ]
+}

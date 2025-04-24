@@ -1,0 +1,26 @@
+{
+  "main": {
+    "paperId": "adec9884a02607e1d6ba88b9882d9c671e6138cb",
+    "title": "The Tjurina Number for Sebastiani–Thom Type Isolated Hypersurface Singularities",
+    "abstract": "In this note, we provide a formula for the Tjurina number of a join of isolated hypersurface singularities in separated variables. From this, we are able to provide a characterization of isolated hypersurface singularities whose difference between the Milnor and Tjurina numbers is less or equal than two arising as the join of isolated hypersurface singularities in separated variables. Also, we are able to provide new upper bounds for the quotient of Milnor and Tjurina numbers of certain join of isolated hypersurface singularities. Finally, we deduce an upper bound for the quotient of Milnor and Tjurina numbers in terms of the singularity index of any isolated hypersurface singularity, not necessarily a join of singularities.",
+    "year": 2022,
+    "authors": [
+      "Patricio Almir'on"
+    ],
+    "referenceCount": 28,
+    "citationCount": 2
+  },
+  "references": [
+    {
+      "paperId": "852db6e745c456aec4cb4dac608f0d6e2124f5ad",
+      "title": "On the structure of Brieskorn lattice",
+      "abstract": "© Annales de l’institut Fourier, 1989, tous droits réservés. L’accès aux archives de la revue « Annales de l’institut Fourier » (http://annalif.ujf-grenoble.fr/) implique l’accord avec les conditions générales d’utilisation (http://www.numdam.org/conditions). Toute utilisation commerciale ou impression systématique est constitutive d’une infraction pénale. Toute copie ou impression de ce fichier doit contenir la présente mention de copyright.",
+      "year": 1989,
+      "authors": [
+        "M. Saito"
+      ],
+      "referenceCount": 33,
+      "citationCount": 192
+    }
+  ]
+}

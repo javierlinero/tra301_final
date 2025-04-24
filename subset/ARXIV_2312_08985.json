@@ -1,0 +1,119 @@
+{
+  "main": {
+    "paperId": "5cba06e72c842b503f2de958d4457ffda88a675f",
+    "title": "OMG: Towards Open-vocabulary Motion Generation via Mixture of Controllers",
+    "abstract": "We have recently seen tremendous progress in realistic text-to-motion generation. Yet, the existing methods of-ten fail or produce implausible motions with unseen text inputs, which limits the applications. In this paper, we present OMG, a novel framework, which enables compelling motion generation from zero-shot open-vocabulary text prompts. Our key idea is to carefully tailor the pretrain-then-finetune paradigm into the text-to-motion generation. At the pre-training stage, our model improves the gener-ation ability by learning the rich out-of-domain inherent motion traits. To this end, we scale up a large unconditional diffusion model up to 1B parameters, so as to utilize the massive unlabeled motion data up to over 20M motion instances. At the subsequent fine-tuning stage, we intro-duce motion ControlNet, which incorporates text prompts as conditioning information, through a trainable copy of the pre-trained model and the proposed novel Mixture-of-Controllers (MoC) block. MoC block adaptively rec-ognizes various ranges of the sub-motions with a cross-attention mechanism and processes them separately with the text-token-specific experts. Such a design effectively aligns the CLIP token embeddings of text prompts to var-ious ranges of compact and expressive motion features. Ex-tensive experiments demonstrate that our OMG achieves significant improvements over the state-of-the-art meth-ods on zero-shot text-to-motion generation. Project page: https://tr3e.github.io/omg-page.",
+    "year": 2023,
+    "authors": [
+      "Hanming Liang",
+      "Jiacheng Bao",
+      "Ruichi Zhang",
+      "Sihan Ren",
+      "Yuecheng Xu",
+      "Sibei Yang",
+      "Xin Chen",
+      "Jingyi Yu",
+      "Lan Xu"
+    ],
+    "referenceCount": 98,
+    "citationCount": 14
+  },
+  "references": [
+    {
+      "paperId": "d212fa27f5868f0fd106e1a7bba908fd47da0816",
+      "title": "MotionGPT: Human Motion as a Foreign Language",
+      "abstract": "Though the advancement of pre-trained large language models unfolds, the exploration of building a unified model for language and other multi-modal data, such as motion, remains challenging and untouched so far. Fortunately, human motion displays a semantic coupling akin to human language, often perceived as a form of body language. By fusing language data with large-scale motion models, motion-language pre-training that can enhance the performance of motion-related tasks becomes feasible. Driven by this insight, we propose MotionGPT, a unified, versatile, and user-friendly motion-language model to handle multiple motion-relevant tasks. Specifically, we employ the discrete vector quantization for human motion and transfer 3D motion into motion tokens, similar to the generation process of word tokens. Building upon this\"motion vocabulary\", we perform language modeling on both motion and text in a unified manner, treating human motion as a specific language. Moreover, inspired by prompt learning, we pre-train MotionGPT with a mixture of motion-language data and fine-tune it on prompt-based question-and-answer tasks. Extensive experiments demonstrate that MotionGPT achieves state-of-the-art performances on multiple motion tasks including text-driven motion generation, motion captioning, motion prediction, and motion in-between.",
+      "year": 2023,
+      "authors": [
+        "Biao Jiang",
+        "Xin Chen",
+        "Wen Liu",
+        "Jingyi Yu",
+        "Gang Yu",
+        "Tao Chen"
+      ],
+      "referenceCount": 73,
+      "citationCount": 250
+    },
+    {
+      "paperId": "efbe97d20c4ffe356e8826c01dc550bacc405add",
+      "title": "Adding Conditional Control to Text-to-Image Diffusion Models",
+      "abstract": "We present ControlNet, a neural network architecture to add spatial conditioning controls to large, pretrained text-to-image diffusion models. ControlNet locks the production-ready large diffusion models, and reuses their deep and robust encoding layers pretrained with billions of images as a strong backbone to learn a diverse set of conditional controls. The neural architecture is connected with \"zero convolutions\" (zero-initialized convolution layers) that progressively grow the parameters from zero and ensure that no harmful noise could affect the finetuning. We test various conditioning controls, e.g., edges, depth, segmentation, human pose, etc., with Stable Diffusion, using single or multiple conditions, with or without prompts. We show that the training of ControlNets is robust with small (<50k) and large (>1m) datasets. Extensive results show that ControlNet may facilitate wider applications to control image diffusion models.",
+      "year": 2023,
+      "authors": [
+        "Lvmin Zhang",
+        "Anyi Rao",
+        "Maneesh Agrawala"
+      ],
+      "referenceCount": 119,
+      "citationCount": 3698
+    },
+    {
+      "paperId": "99bd96961a880adad88d087c9dc45f6cfbae1ea6",
+      "title": "Generating Human Motion from Textual Descriptions with Discrete Representations",
+      "abstract": "In this work, we investigate a simple and must-known conditional generative framework based on Vector Quantised-Variational AutoEncoder (VQ-VAE) and Generative Pre-trained Transformer (GPT) for human motion generation from textural descriptions. We show that a simple CNN-based VQ-VAE with commonly used training recipes (EMA and Code Reset) allows us to obtain high-quality discrete representations. For GPT, we incorporate a simple corruption strategy during the training to alleviate training-testing discrepancy. Despite its simplicity, our T2M-GPT shows better performance than competitive approaches, including recent diffusion-based approaches. For example, on HumanML3D, which is currently the largest dataset, we achieve comparable performance on the consistency between text and generated motion (R-Precision), but with FID 0.116 largely outperforming MotionDiffuse of 0.630. Additionally, we conduct analyses on HumanML3D and observe that the dataset size is a limitation of our approach. Our work suggests that VQ-VAE still remains a competitive approach for human motion generation. Our implementation is available on the project page: https://mael-zys.github.io/T2M-GPT/.",
+      "year": 2023,
+      "authors": [
+        "Jianrong Zhang",
+        "Yangsong Zhang",
+        "Xiaodong Cun",
+        "Shaoli Huang",
+        "Yong Zhang",
+        "Hongwei Zhao",
+        "Hongtao Lu",
+        "Xiaodong Shen"
+      ],
+      "referenceCount": 77,
+      "citationCount": 297
+    },
+    {
+      "paperId": "7694f004c67840d7f098b3612d4b3dabd915c116",
+      "title": "Executing your Commands via Motion Diffusion in Latent Space",
+      "abstract": "We study a challenging task, conditional human motion generation, which produces plausible human motion sequences according to various conditional inputs, such as action classes or textual descriptors. Since human motions are highly diverse and have a property of quite different distribution from conditional modalities, such as textual descriptors in natural languages, it is hard to learn a probabilistic mapping from the desired conditional modality to the human motion sequences. Besides, the raw motion data from the motion capture system might be redundant in sequences and contain noises; directly modeling the joint distribution over the raw motion sequences and conditional modalities would need a heavy computational over-head and might result in artifacts introduced by the captured noises. To learn a better representation of the various human motion sequences, we first design a powerful Variational AutoEncoder (VAE) and arrive at a representative and low-dimensional latent code for a human motion sequence. Then, instead of using a diffusion model to establish the connections between the raw motion sequences and the conditional inputs, we perform a diffusion process on the motion latent space. Our proposed Motion Latent-based Diffusion model (MLD) could produce vivid motion sequences conforming to the given conditional inputs and substantially reduce the computational overhead in both the training and inference stages. Extensive experiments on various human motion generation tasks demonstrate that our MLD achieves significant improvements over the state-of-the-art methods among extensive human motion generation tasks, with two orders of magnitude faster than previous diffusion models on raw motion sequences.",
+      "year": 2022,
+      "authors": [
+        "Xin Chen",
+        "Biao Jiang",
+        "Wen Liu",
+        "Zilong Huang",
+        "Bin Fu",
+        "Tao Chen",
+        "Jingyi Yu",
+        "Gang Yu"
+      ],
+      "referenceCount": 82,
+      "citationCount": 318
+    },
+    {
+      "paperId": "15736f7c205d961c00378a938daffaacb5a0718d",
+      "title": "Human Motion Diffusion Model",
+      "abstract": "Natural and expressive human motion generation is the holy grail of computer animation. It is a challenging task, due to the diversity of possible motion, human perceptual sensitivity to it, and the difficulty of accurately describing it. Therefore, current generative solutions are either low-quality or limited in expressiveness. Diffusion models, which have already shown remarkable generative capabilities in other domains, are promising candidates for human motion due to their many-to-many nature, but they tend to be resource hungry and hard to control. In this paper, we introduce Motion Diffusion Model (MDM), a carefully adapted classifier-free diffusion-based generative model for the human motion domain. MDM is transformer-based, combining insights from motion generation literature. A notable design-choice is the prediction of the sample, rather than the noise, in each diffusion step. This facilitates the use of established geometric losses on the locations and velocities of the motion, such as the foot contact loss. As we demonstrate, MDM is a generic approach, enabling different modes of conditioning, and different generation tasks. We show that our model is trained with lightweight resources and yet achieves state-of-the-art results on leading benchmarks for text-to-motion and action-to-motion. https://guytevet.github.io/mdm-page/ .",
+      "year": 2022,
+      "authors": [
+        "Guy Tevet",
+        "Sigal Raab",
+        "Brian Gordon",
+        "Yonatan Shafir",
+        "Daniel Cohen-Or",
+        "Amit H. Bermano"
+      ],
+      "referenceCount": 51,
+      "citationCount": 688
+    },
+    {
+      "paperId": "e82df4b6a3628501fce67835ad8316d6525ad133",
+      "title": "MotionCLIP: Exposing Human Motion Generation to CLIP Space",
+      "abstract": "We introduce MotionCLIP, a 3D human motion auto-encoder featuring a latent embedding that is disentangled, well behaved, and supports highly semantic textual descriptions. MotionCLIP gains its unique power by aligning its latent space with that of the Contrastive Language-Image Pre-training (CLIP) model. Aligning the human motion manifold to CLIP space implicitly infuses the extremely rich semantic knowledge of CLIP into the manifold. In particular, it helps continuity by placing semantically similar motions close to one another, and disentanglement, which is inherited from the CLIP-space structure. MotionCLIP comprises a transformer-based motion auto-encoder, trained to reconstruct motion while being aligned to its text label's position in CLIP-space. We further leverage CLIP's unique visual understanding and inject an even stronger signal through aligning motion to rendered frames in a self-supervised manner. We show that although CLIP has never seen the motion domain, MotionCLIP offers unprecedented text-to-motion abilities, allowing out-of-domain actions, disentangled editing, and abstract language specification. For example, the text prompt\"couch\"is decoded into a sitting down motion, due to lingual similarity, and the prompt\"Spiderman\"results in a web-swinging-like solution that is far from seen during training. In addition, we show how the introduced latent space can be leveraged for motion interpolation, editing and recognition.",
+      "year": 2022,
+      "authors": [
+        "Guy Tevet",
+        "Brian Gordon",
+        "Amir Hertz",
+        "Amit H. Bermano",
+        "D. Cohen-Or"
+      ],
+      "referenceCount": 50,
+      "citationCount": 311
+    }
+  ]
+}

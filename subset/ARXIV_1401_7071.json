@@ -1,0 +1,29 @@
+{
+  "main": {
+    "paperId": "4d19942227ba5aac8ac7926c520c7bb9e434c2a7",
+    "title": "Bifurcation of periodic solutions to the singular Yamabe problem on spheres",
+    "abstract": "We obtain uncountably many periodic solutions to the singular Yamabe problem on a round sphere, that blow up along a great circle. These are (complete) constant scalar curvature metrics on the complement of $S^1$ inside $S^m$, $m\\geq 5$, that are conformal to the round (incomplete) metric and \"periodic\" in the sense of being invariant under a discrete group of conformal transformations. These solutions come from bifurcating branches of constant scalar curvature metrics on compact quotients of $S^m \\setminus S^1\\cong S^{m-2}\\times H^2$.",
+    "year": 2014,
+    "authors": [
+      "R. G. Bettiol",
+      "P. Piccione",
+      "Bianca Santoro"
+    ],
+    "referenceCount": 34,
+    "citationCount": 23
+  },
+  "references": [
+    {
+      "paperId": "2d25f1fb89d4b2980600cec15d21a45a6765cab6",
+      "title": "Conformally flat metrics of constant positive scalar curvature on subdomains of the sphere",
+      "abstract": "A basic problem has been to construct complete conformally flat metrics of constant positive scalar curvature on the complement of arbitrary sets Λ c S n where S n is an ^-sphere. A necessary condition for the existence of such a metric is that the Hausdorff dimension of Λ must be less than or equal to (n - 2)/2 . Examples are known when Λ is any finite collection of points, a subsphere, and also when Λ is the limit set of certain Kleinian groups. Up until now no examples have been known where Λ is a smooth (nonspherical) submanifold of positive dimension. We prove here that there are many examples whenever Λ is a small perturbation of an equatorial subsphere. A local version of this result is also proved. These theorems rely on an analysis of certain degenerate linear elliptic operators, which is complicated by the fact that these operators have infinite dimensional null-spaces. A fairly general construction of pseudodifferential right-inverses for such operators is presented.",
+      "year": 1991,
+      "authors": [
+        "R. Mazzeo",
+        "N. Smale"
+      ],
+      "referenceCount": 31,
+      "citationCount": 76
+    }
+  ]
+}

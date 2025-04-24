@@ -1,0 +1,46 @@
+{
+  "main": {
+    "paperId": "ec7dd27ada4e28963ee4b1c1fac2df50e9ea8208",
+    "title": "Ready, set, verify! applying hs-to-coq to real-world Haskell code (experience report)",
+    "abstract": "Good tools can bring mechanical verification to programs written in mainstream functional languages. We use hs-to-coq to translate significant portions of Haskell’s containers library into Coq, and verify it against specifications that we derive from a variety of sources including type class laws, the library’s test suite, and interfaces from Coq’s standard library. Our work shows that it is feasible to verify mature, widely-used, highly optimized, and unmodified Haskell code. We also learn more about the theory of weight-balanced trees, extend hs-to-coq to handle partiality, and – since we found no bugs – attest to the superb quality of well-tested functional code.",
+    "year": 2018,
+    "authors": [
+      "Joachim Breitner",
+      "Antal Spector-Zabusky",
+      "Yao Li",
+      "C. Rizkallah",
+      "John Wiegley",
+      "Stephanie Weirich"
+    ],
+    "referenceCount": 64,
+    "citationCount": 30
+  },
+  "references": [
+    {
+      "paperId": "16611898aaa90faf7cc4d055ba7f372bfd6fcdce",
+      "title": "Total Haskell is reasonable Coq",
+      "abstract": "We would like to use the Coq proof assistant to mechanically verify properties of Haskell programs. To that end, we present a tool, named hs-to-coq, that translates total Haskell programs into Coq programs via a shallow embedding. We apply our tool in three case studies – a lawful Monad instance, “Hutton’s razor”, and an existing data structure library – and prove their correctness. These examples show that this approach is viable: both that hs-to-coq applies to existing Haskell code, and that the output it produces is amenable to verification.",
+      "year": 2017,
+      "authors": [
+        "Antal Spector-Zabusky",
+        "Joachim Breitner",
+        "C. Rizkallah",
+        "Stephanie Weirich"
+      ],
+      "referenceCount": 34,
+      "citationCount": 45
+    },
+    {
+      "paperId": "6b906f5a37e85762ccf9889b958088451f41c6f9",
+      "title": "Balancing weight-balanced trees",
+      "abstract": "A weight-balanced tree (WBT) is a binary search tree, whose balance is based on the sizes of the subtrees in each node. Although purely functional implementations on a variant WBT algorithm are widely used in functional programming languages, many existing implementations do not maintain balance after deletion in some cases. The difficulty lies in choosing a valid pair of rotation parameters: one for standard balance and the other for choosing single or double rotation. This paper identifies the exact valid range of the rotation parameters for insertion and deletion in the original WBT algorithm where one and only one integer solution exists. Soundness of the range is proved using a proof assistant Coq. Completeness is proved using effective algorithms generating counterexample trees. For two specific parameter pairs, we also proved in Coq that set operations also maintain balance. Since the difference between the original WBT and the variant WBT is small, it is easy to change the existing buggy implementations based on the variant WBT to the certified original WBT with a rational solution.",
+      "year": 2011,
+      "authors": [
+        "Yoichi Hirai",
+        "Kazuhiko Yamamoto"
+      ],
+      "referenceCount": 21,
+      "citationCount": 19
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "main": {
+    "paperId": "cb3f430ed6edf9270134f248bd382b62ad2c933b",
+    "title": "Physics of phonons in systems with approximate screw symmetry",
+    "abstract": "Properties of systems with exact n -fold screw symmetry ( n = 2 , 3 , 4 , 6) have been well studied because they can be understood in terms of space groups. On the other hand, existence of materials with approximate screw symmetries, such as 7-fold and 10-fold screw symmetries, has been predicted. In this paper, we study properties of phonons in crystals with approximate screw symmetries, which will lead to unique and new physical phenomena. In a crystal with an approximate screw symmetry, we propose a method to extract information of pseudoangular momentum of phonons, which is a quantum number characterizing the properties of phonon modes under screw symmetry, based on the fact that the information of the quantum numbers deﬁned under exact screw symmetry partially remains in the eigenvectors of approximate screw symmetric systems. As a preparation, we study a one-dimensional crystal with partially broken translation symmetry to have an enlarged unit cell, and we show how to extract information of a quantum number corresponding to the pseudoangular momentum, by studying a relative phase between neighboring atoms. We also extend this method to systems with an approximate screw symmetry, and discuss properties of the pseudoangular momentum. We apply this method to results of our ﬁrst-principle calculations on candidate materials with an approximate translational symmetry or with an approximate screw symmetry, and show how this approximate symmetry is reﬂected in the phonon wavefunctions.",
+    "year": 2022,
+    "authors": [
+      "Hisayoshi Komiyama",
+      "Tiantian Zhang",
+      "S. Murakami"
+    ],
+    "referenceCount": 41,
+    "citationCount": 2
+  },
+  "references": [
+    {
+      "paperId": "1c2e95bceb9bd85d8ed02d2c0fe831e2a0ca3c32",
+      "title": "Prediction of thermodynamically stable Li-B compounds at ambient pressure.",
+      "abstract": "To clarify controversial structures and phase stability in the Li-B system, we predicted energetically favorable compounds and crystal structures of the Li-B binary system at ambient pressure, mainly including Li6B5, LiB2, and LiB3, from ab initio evolutionary structure simulations and further investigated physical properties of stable Li-B compounds using first-principles methods. Metallic Li6B5, predicted in our simulations, has trigonal symmetry with space group R32 and contains linear B chains, but its superconducting Tc is low according to the electron-phonon coupling calculations. Orthorhombic LiB2 (Pnma) and tetragonal LiB3 (P4/mbm) are zero-gap semiconductors; LiB2 is a Dirac semimetal, and both LiB2 and LiB3 are promising thermoelectric materials.",
+      "year": 2017,
+      "authors": [
+        "Dianhui Wang",
+        "Huai-ying Zhou",
+        "Chaohao Hu",
+        "Y. Zhong",
+        "A. Oganov",
+        "G. Rao"
+      ],
+      "referenceCount": 39,
+      "citationCount": 8
+    },
+    {
+      "paperId": "1b33371848cebfe19c97d1eccee71c58f0c8b9b5",
+      "title": "Structure of Pressure‐Induced Fibrous Sulfur",
+      "abstract": "The arrangement of the sulfur helices in the pressure‐induced fibrous form of sulfur has been determined from three‐dimensional x‐ray diffractometer data. The crystals show orthorhombic diffraction symmetry, but analysis of their structure has shown that the most probable space group is P2 and that the orthorhombic symmetry results from multiple twinning. The pseudo‐orthorhombic unit cell contains 16 ten‐atom helix segments, half of which are right‐handed and half left‐handed, in an essentially close‐packed arrangement. The monoclinic unit cell, which contains 8 ten‐atom segments, has lattice constants a = 17.6, b = 9.25, c = 13.8 A and β = 113°. There is strong evidence that the pressure‐induced fibrous form and the ψ form have the same structure.The arrangement of the sulfur helices in the pressure‐induced fibrous form of sulfur has been determined from three‐dimensional x‐ray diffractometer data. The crystals show orthorhombic diffraction symmetry, but analysis of their structure has shown that the most probable space group is P2 and that the orthorhombic symmetry results from multiple twinning. The pseudo‐orthorhombic unit cell contains 16 ten‐atom helix segments, half of which are right‐handed and half left‐handed, in an essentially close‐packed arrangement. The monoclinic unit cell, which contains 8 ten‐atom segments, has lattice constants a = 17.6, b = 9.25, c = 13.8 A and β = 113°. There is strong evidence that the pressure‐induced fibrous form and the ψ form have the same structure.",
+      "year": 1969,
+      "authors": [
+        "M. Lind",
+        "S. Geller"
+      ],
+      "referenceCount": 11,
+      "citationCount": 35
+    }
+  ]
+}

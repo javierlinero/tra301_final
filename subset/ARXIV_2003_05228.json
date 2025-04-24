@@ -1,0 +1,27 @@
+{
+  "main": {
+    "paperId": "34b586ffe650016a7980197473c44c0eeeba0169",
+    "title": "A Faster and More Accurate Algorithm for Calculating Population Genetics Statistics Requiring Sums of Stirling Numbers of the First Kind",
+    "abstract": "Stirling numbers of the first kind are used in the derivation of several population genetics statistics, which in turn are useful for testing evolutionary hypotheses directly from DNA sequences. Here, we explore the cumulative distribution function of these Stirling numbers, which enables a single direct estimate of the sum, using representations in terms of the incomplete beta function. This estimator enables an improved method for calculating an asymptotic estimate for one useful statistic, Fu’s Fs. By reducing the calculation from a sum of terms involving Stirling numbers to a single estimate, we simultaneously improve accuracy and dramatically increase speed.",
+    "year": 2020,
+    "authors": [
+      "S. Chen",
+      "N. Temme"
+    ],
+    "referenceCount": 18,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "2619605b7dd3a09d5eab542687bdf502945e30d6",
+      "title": "Implementation of a Stirling number estimator enables direct calculation of population genetics tests for large sequence datasets",
+      "abstract": "Motivation\nStirling numbers enter into the calculation of several population genetics statistics, including Fu's Fs. However, as alignments become large (>∼50 sequences), the Stirling numbers required rapidly exceed the standard floating point range. Another recursive method for calculating Fu's Fs suffers from floating point underflow issues.\n\n\nResults\nI implemented an estimator for Stirling numbers that has the advantage of being uniformly applicable to the full parameter range for Stirling numbers. I used this to create a hybrid Fu's Fs calculator that accounts for floating point underflow. My new algorithm is hundreds of times faster than the recursive method. This algorithm now enables accurate calculation of statistics such as Fu's Fs for very large alignments.\n\n\nAvailability\nAn R implementation is available at http://github.com/swainechen/hfufs.\n\n\nSupplementary information\nSupplementary data are available at Bioinformatics online.",
+      "year": 2018,
+      "authors": [
+        "S. Chen"
+      ],
+      "referenceCount": 7,
+      "citationCount": 4
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "main": {
+    "paperId": "e15d8381538b559f8b06a32cc6cd0c261dd857db",
+    "title": "Pathwise performance of debt based policies for wireless networks with hard delay constraints",
+    "abstract": "Hou et al have introduced a framework to serve clients over wireless channels when there are hard deadline constraints along with a minimum delivery ratio for each client's flow. Policies based on “debt,” called maximum debt first policies (MDF), were introduced and shown to be timely-throughput optimal. By “timely-throughput optimality” it is meant that if there exists a policy that fulfils a set of clients with a given vector of delivery ratios and a vector of channel reliabilities, then the MDF policy will also fulfill them. The debt of a user is the difference between the number of packets that should have been delivered so as to meet the delivery ratio and the number of packets that have been delivered for that client. The MDF policy prioritizes the clients in decreasing order of debts at the beginning of every period. Note that a throughput optimal policy only guarantees that lim infT→∞ 1/T Σt=1T 1{client n's packet is delivered in frame t} ≥ qi, where the right hand side is the required delivery ratio for client i. Thus, it only guarantees that the debts of each user are o(T), and can be otherwise arbitrarily large. This raises the interesting question about what is the growth rate of the debts under the MDF policy. We show the optimality of MDF policy in the case when the channel reliabilities of all users are same, and obtain performance bounds for the general case. We characterize the performance by almost sure bounds on lim supt→∞ {di(t)}/{φ(t)} for all i, where φ(t)=√(2tloglogt).",
+    "year": 2013,
+    "authors": [
+      "Rahul Singh",
+      "I.-Hong Hou",
+      "P. Kumar"
+    ],
+    "referenceCount": 9,
+    "citationCount": 17
+  },
+  "references": [
+    {
+      "paperId": "2d491bd8cd52f2fd8bbfac40d11c242fa6666407",
+      "title": "A Theory of QoS for Wireless",
+      "abstract": "Wireless networks are increasingly used to carry applications with QoS constraints. Two problems arise when dealing with traffic with QoS constraints. One is admission control, which consists of determining whether it is possible to fulfill the demands of a set of clients. The other is finding an optimal scheduling policy to meet the demands of all clients. In this paper, we propose a framework for jointly addressing three QoS criteria: delay, delivery ratio, and channel reliability. We analytically prove the necessary and sufficient condition for a set of clients to be feasible with respect to the above three criteria. We then establish an efficient algorithm for admission control to decide whether a set of clients is feasible. We further propose two scheduling policies and prove that they are feasibility optimal in the sense that they can meet the demands of every feasible set of clients. In addition, we show that these policies are easily implementable on the IEEE 802.11 mechanisms. We also present the results of simulation studies that appear to confirm the theoretical studies and suggest that the proposed policies outperform others tested under a variety of settings.",
+      "year": 2009,
+      "authors": [
+        "I.-Hong Hou",
+        "V. Borkar",
+        "P. Kumar"
+      ],
+      "referenceCount": 18,
+      "citationCount": 293
+    }
+  ]
+}

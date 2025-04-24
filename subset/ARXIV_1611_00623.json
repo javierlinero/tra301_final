@@ -1,0 +1,157 @@
+{
+  "main": {
+    "paperId": "d97ffce3ed5c096c94ff84f4806c919c2364e34c",
+    "title": "Ultrafast outflows in ultraluminous X-ray sources",
+    "abstract": "Ultraluminous X-ray sources (ULXs) are bright extragalactic sources with X-ray luminosities above 10^39 erg/s powered by accretion onto compact objects. According to the first studies performed with XMM-Newton ULXs seemed to be excellent candidates to host intermediate-mass black holes (10^2-4 solar masses). However, in the last years the interpretation of super-Eddington accretion onto stellar-mass black holes or neutron stars for most ULXs has gained a strong consensus. One critical missing piece to confirm the super-Eddington scenario was the direct detection of the massive, radiatively-driven winds expected as atomic emission/absorption lines in ULX spectra. The first evidence for winds was found as residuals in the soft X-ray spectra of ULXs. Most recently we have been able to resolve these residuals into rest-frame emission and blueshifted (~0.2c) absorption lines arising from highly ionized gas in the deep high-resolution XMM-Newton spectra of two ultraluminous X-ray sources. The compact object is therefore surrounded by powerful ultrafast winds as predicted by models of hyper-Eddington accretion. Here we discuss the relevance of these discoveries and the importance of further, deep, XMM-Newton observations of powerful winds in many other ultraluminous X-ray sources to estimate the energetics of the wind, the geometry of the system, and the masses of the central accretors.",
+    "year": 2016,
+    "authors": [
+      "C. Pinto",
+      "A. Fabian",
+      "M. Middleton",
+      "D. Walton"
+    ],
+    "referenceCount": 38,
+    "citationCount": 9
+  },
+  "references": [
+    {
+      "paperId": "65f52a657168909a7dc8d946e0c8f199daea505b",
+      "title": "AN IRON K COMPONENT TO THE ULTRAFAST OUTFLOW IN NGC 1313 X-1",
+      "abstract": "We present the detection of an absorption feature at E = 8.77 − 0.06 + 0.05 keV in the combined X-ray spectrum of the ultraluminous X-ray source NGC 1313 X-1 observed with XMM-Newton and NuSTAR, significant at the 3σ level. If associated with blueshifted ionized iron, the implied outflow velocity is ∼0.2c for Fe xxvi, or ∼0.25c for Fe xxv. These velocities are similar to the ultrafast outflow seen in absorption recently discovered in this source at lower energies by XMM-Newton, and we therefore conclude that this is an iron component to the same outflow. Photoionization modeling marginally prefers the Fe xxv solution, but in either case the outflow properties appear to be extreme, potentially supporting a super-Eddington hypothesis for NGC 1313 X-1.",
+      "year": 2016,
+      "authors": [
+        "D. Walton",
+        "M. Middleton",
+        "C. Pinto",
+        "A. Fabian",
+        "M. Bachetti",
+        "D. Barret",
+        "D. Barret",
+        "M. Brightman",
+        "F. Fuerst",
+        "F. Harrison",
+        "Jon M. Miller",
+        "D. Stern"
+      ],
+      "referenceCount": 47,
+      "citationCount": 55
+    },
+    {
+      "paperId": "85e9db641b9453b2b67d222424543a5a590a6fa6",
+      "title": "Resolved atomic lines reveal outflows in two ultraluminous X-ray sources",
+      "abstract": "Ultraluminous X-ray sources are extragalactic, off-nucleus, point sources in galaxies, and have X-ray luminosities in excess of 3 × 1039 ergs per second. They are thought to be powered by accretion onto a compact object. Possible explanations include accretion onto neutron stars with strong magnetic fields, onto stellar-mass black holes (of up to 20 solar masses) at or in excess of the classical Eddington limit, or onto intermediate-mass black holes (103–105 solar masses). The lack of sufficient energy resolution in previous analyses has prevented an unambiguous identification of any emission or absorption lines in the X-ray band, thereby precluding a detailed analysis of the accretion flow. Here we report the presence of X-ray emission lines arising from highly ionized iron, oxygen and neon with a cumulative significance in excess of five standard deviations, together with blueshifted (about 0.2 times light velocity) absorption lines of similar significance, in the high-resolution X-ray spectra of the ultraluminous X-ray sources NGC 1313 X-1 and NGC 5408 X-1. The blueshifted absorption lines must occur in a fast-outflowing gas, whereas the emission lines originate in slow-moving gas around the source. We conclude that the compact object in each source is surrounded by powerful winds with an outflow velocity of about 0.2 times that of light, as predicted by models of accreting supermassive black holes and hyper-accreting stellar-mass black holes.",
+      "year": 2016,
+      "authors": [
+        "C. Pinto",
+        "M. Middleton",
+        "A. Fabian"
+      ],
+      "referenceCount": 35,
+      "citationCount": 165
+    },
+    {
+      "paperId": "fbd730e129b1e126af00edffa5ddb0a9d9e5572d",
+      "title": "Diagnosing the accretion flow in ultraluminous X-ray sources using soft X-ray atomic features",
+      "abstract": "The lack of unambiguous detections of atomic features in the X-ray spectra of ultraluminous X-ray sources (ULXs) has proven a hindrance in diagnosing the nature of the accretion flow. The possible association of spectral residuals at soft energies with atomic features seen in absorption and/or emission and potentially broadened by velocity dispersion could therefore hold the key to understanding much about these enigmatic sources. Here we show for the first time that such residuals are seen in several sources and appear extremely similar in shape, implying a common origin. Via simple arguments we assert that emission from extreme colliding winds, absorption in a shell of material associated with the ULX nebula and thermal plasma emission associated with star formation are all highly unlikely to provide an origin. Whilst CCD spectra lack the energy resolution necessary to directly determine the nature of the features (i.e. formed of a complex of narrow lines or intrinsically broad lines), studying the evolution of the residuals with underlying spectral shape allows for an important, indirect test for their origin. The ULX NGC 1313 X-1 provides the best opportunity to perform such a test due to the dynamic range in spectral hardness provided by archival observations. We show through highly simplified spectral modelling that the strength of the features (in either absorption or emission) appears to anticorrelate with spectral hardness, which would rule out an origin via reflection of a primary continuum and instead supports a picture of atomic transitions in a wind or nearby material associated with such an outflow.",
+      "year": 2015,
+      "authors": [
+        "M. Middleton",
+        "D. Walton",
+        "A. Fabian",
+        "T. Roberts",
+        "L. Heil",
+        "C. Pinto",
+        "G. Anderson",
+        "A. Sutton"
+      ],
+      "referenceCount": 59,
+      "citationCount": 65
+    },
+    {
+      "paperId": "596b31af938da62a4c7eff2538aa3c7dbb7e8c47",
+      "title": "AN EXTREME X-RAY DISK WIND IN THE BLACK HOLE CANDIDATE IGR J17091−3624",
+      "abstract": "Chandra spectroscopy of transient stellar-mass black holes in outburst has clearly revealed accretion disk winds in soft, disk-dominated states, in apparent anti-correlation with relativistic jets in low/hard states. These disk winds are observed to be highly ionized, dense, and to have typical velocities of ∼1000 km s−1 or less projected along our line of sight. Here, we present an analysis of two Chandra High Energy Transmission Grating spectra of the Galactic black hole candidate IGR J17091−3624 and contemporaneous Expanded Very Large Array (EVLA) radio observations, obtained in 2011. The second Chandra observation reveals an absorption line at 6.91 ± 0.01 keV; associating this line with He-like Fe xxv requires a blueshift of 9300+500−400 km s−1 (0.03c, or the escape velocity at 1000 RSchw). This projected outflow velocity is an order of magnitude higher than has previously been observed in stellar-mass black holes, and is broadly consistent with some of the fastest winds detected in active galactic nuclei. A potential feature at 7.32 keV, if due to Fe xxvi, would imply a velocity of ∼14, 600 km s−1 (0.05c), but this putative feature is marginal. Photoionization modeling suggests that the accretion disk wind in IGR J17091−3624 may originate within 43,300 Schwarzschild radii of the black hole and may be expelling more gas than it accretes. The contemporaneous EVLA observations strongly indicate that jet activity was indeed quenched at the time of our Chandra observations. We discuss the results in the context of disk winds, jets, and basic accretion disk physics in accreting black hole systems.",
+      "year": 2011,
+      "authors": [
+        "A. King",
+        "Jon M. Miller",
+        "John C. Raymond",
+        "A. Fabian",
+        "C. Reynolds",
+        "T. Kallman",
+        "D. Maitra",
+        "E. Cackett",
+        "M. Rupen"
+      ],
+      "referenceCount": 20,
+      "citationCount": 80
+    },
+    {
+      "paperId": "18f84611387191616318b20b3534eda203a883dc",
+      "title": "The Ultraluminous State",
+      "abstract": "Although a great deal of progress has been made towards understanding the nature of ultraluminous X‐ray sources (ULXs) over the past decade, many basic issues remain to be settled. Chief amongst these is the mass of the accretor in these systems: what proportion of ULXs are powered by accretion onto an intermediate‐mass black hole (IMBH), and how big are these objects? Or can we explain their extraordinary X‐ray luminosities by exotic, extreme accretion rate processes onto more prosaic stellar‐mass black holes? Here we report the results of two new studies using the best available XMM‐Newton observations to probe the astrophysics of ULXs. A systematic study of ULX power spectra shows a significant proportion of luminous objects with unusually suppressed variability compared to standard black hole binaries and AGN. Furthermore, detailed spectral studies confirm that ULX spectra appear unlike any standard accretion state in the XMM‐Newton band pass. Hence we infer that many ULXs contain small black holes op...",
+      "year": 2009,
+      "authors": [
+        "T. Roberts",
+        "J. Gladstone",
+        "L. M. Hetf",
+        "C. Done",
+        "S. Vaughan"
+      ],
+      "referenceCount": 97,
+      "citationCount": 361
+    },
+    {
+      "paperId": "ff881ea87a8e6598c046016290646efa47490d26",
+      "title": "Supercritically accreting stellar mass black holes as ultraluminous X-ray sources",
+      "abstract": "We derive the luminosity‐temperature relation for the supercritically accreting black holes (BHs) and compare it to the data on ultraluminous X-ray sources (ULXs). At super-Eddington accretion rates, an outflow forms within the spherization radius. We construct the accretion disc model accounting for the advection and the outflow, and compute characteristic disc temperatures. The bolometric luminosity exceeds the Eddington luminosity LEdd by a logarithmic factor 1 + 0. 6l n˙ m (where ˙ m is the accretion rate in Eddington units) and the wind kinetic luminosity is close to LEdd. The apparent luminosity for the face-on observer is 2‐7 times higher because of geometrical beaming. Such an observer has a direct view of the inner hot accretion disc, which has a peak temperature Tmax of a few keV in stellar mass BHs. The emitted spectrum extends as a power law FE ∝ E −1 down to the temperature at the spherization radius Tsp ≈ ˙ m −1/2 keV. We associate T max with a few keV spectral components and Tsp with the soft, 0.1‐0.2 keV components observed in ULXs. An edge-on observer sees only the soft emission from the extended envelope, with the photosphere radius exceeding the spherization radius by orders of magnitude. The dependence of the photosphere temperature on luminosity is consistent with that observed in the super-Eddington accreting BHs SS 433 and V4641 Sgr. Strong outflows combined with the large intrinsic X-ray luminosity of the central BH explain naturally the presence of the photoionized nebulae around ULXs. An excellent agreement between the model and the observational data strongly argues in favour of ULXs being supercritically accreting, stellar mass BHs similar to SS 433, but viewed close to the symmetric axis.",
+      "year": 2006,
+      "authors": [
+        "J. Poutanen",
+        "G. Lipunova",
+        "S. Fabrika",
+        "A. Butkevich",
+        "P. Abolmasov"
+      ],
+      "referenceCount": 53,
+      "citationCount": 370
+    },
+    {
+      "paperId": "5a2ac6108cb47513679cf7a160111979d53e4e1d",
+      "title": "XMM–Newton observations of the brightest ultraluminous X-ray sources",
+      "abstract": "We present an analysis of 13 of the best quality ultraluminous X-ray source (ULX) data sets available from XMM‐Newton European Photon Imaging Camera (EPIC) observations. We utilize the high signal-to-noise in these ULX spectra to investigate the best descriptions of their spectral shape in the 0.3‐10 keV range. Simple models of an absorbed power law or multicolour disc blackbody prove inadequate at describing the spectra. Better fits are found using a combination of these two components, with both variants of this model ‐ a cool (∼0.2 keV) disc blackbody plus hard power-law continuum, and a soft power-law continuum, dominant at low energies, plus a warm (∼1.7 keV) disc blackbody ‐ providing good fits to 8/13 ULX spectra. However, by examining the data above 2 keV, we find evidence for curvature in the majority of data sets (8/13 with at least marginal detections), inconsistent with the dominance of a power law in this regime. In fact, the most successful empirical description of the spectra proved to be a combination of a cool (∼0.2 keV) classic blackbody spectrum, plus a warm disc blackbody that fits acceptably to 10/13 ULXs. The best overall fits are provided by a physically self-consistent accretion disc plus Comptonized corona model (DISKPN + EQPAIR), which fits acceptably to 11/13 ULXs. This model provides a physical explanation for the spectral curvature, namely that it originates in an optically thick corona, though the accretion disc photons seeding this corona still originate in an apparently cool disc. We note similarities between this fit and models of Galactic black hole binaries at high accretion rates, most notably the model of Done & Kubota. In this scenario the inner disc and corona become energetically coupled at high accretion rates, resulting in a cooled accretion disc and optically thick corona. We conclude that this analysis of the best spectral data for ULXs shows it to be plausible that the majority of the population are high accretion rate stellar-mass (perhaps up to 80 M� ) black holes, though we cannot categorically rule out the presence of larger,",
+      "year": 2006,
+      "authors": [
+        "A. Stobbart",
+        "T. Roberts",
+        "J. Wilms"
+      ],
+      "referenceCount": 92,
+      "citationCount": 232
+    },
+    {
+      "paperId": "a6fc0f44539a7119c014a110f9ae8a3791156550",
+      "title": "The Chandra High‐Energy Transmission Grating: Design, Fabrication, Ground Calibration, and 5 Years in Flight",
+      "abstract": "Details of the design, fabrication, and ground and flight calibration of the High Energy Transmission Grating (HETG) on the Chandra X‐Ray Observatory are presented after 5 years of flight experience. Specifics include the theory of phased transmission gratings as applied to the HETG, the Rowland design of the spectrometer, details of the grating fabrication techniques, and the results of ground testing and calibration of the HETG. For nearly 6 years the HETG has operated essentially as designed, although it has presented some subtle flight calibration effects.",
+      "year": 2005,
+      "authors": [
+        "C. Canizares",
+        "Jon E Davis",
+        "D. Dewey",
+        "K. Flanagan",
+        "Eugene B. Galton",
+        "D. Huenemoerder",
+        "K. Ishibashi",
+        "T. Markert",
+        "H. Marshall",
+        "M. McGuirk",
+        "M. Schattenburg",
+        "N. Schulz",
+        "Henry I. Smith",
+        "M. Wise"
+      ],
+      "referenceCount": 65,
+      "citationCount": 297
+    }
+  ]
+}

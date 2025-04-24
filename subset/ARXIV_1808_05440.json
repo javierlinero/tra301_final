@@ -1,0 +1,31 @@
+{
+  "main": {
+    "paperId": "09b7a722ed8991a3bae6dbc0bf0c9729c0a105fe",
+    "title": "Splittings and calculational techniques for\nhigher THH",
+    "abstract": "Tensoring finite pointed simplicial sets with commutative ring spectra yields important homology theories such as (higher) topological Hochschild homology and torus homology. We prove several structural properties of these constructions relating $X \\otimes (-)$ to $\\Sigma X \\otimes (-)$ and we establish splitting results. This allows us, among other important examples, to determine $THH^{[n]}_*(\\mathbb{Z}/p^m; \\mathbb{Z}/p)$ for all $n \\geq 1$ and for all $m \\geq 2$.",
+    "year": 2018,
+    "authors": [
+      "I. Bobkova",
+      "E. Honing",
+      "A. Lindenstrauss",
+      "Kate Poirier",
+      "Birgit Richter",
+      "I. Zakharevich"
+    ],
+    "referenceCount": 48,
+    "citationCount": 3
+  },
+  "references": [
+    {
+      "paperId": "121d11b34d420e4b3cbb324ab3552a4fe28b750d",
+      "title": "Topological Hochschild homology of X(n)",
+      "abstract": "We show that Ravenel's spectrum $X(2)$ is the versal $E_1$-$S$-algebra of characteristic $\\eta$. This implies that every $E_1$-$S$-algebra $R$ of characteristic $\\eta$ admits an $E_1$-ring map $X(2)\\to R$, i.e. an $\\mathbb{A}_\\infty$ complex orientation of degree 2. This implies that $R^\\ast(\\mathbb{C}P^2)\\cong R_\\ast[x]/x^3$. Additionally, if $R$ is an $\\mathbb{E}_2$-ring Thom spectrum admitting a map (of homotopy ring spectra) from $X(2)$, e.g. $X(n)$, its topological Hochschild homology has a simple description.",
+      "year": 2017,
+      "authors": [
+        "Jonathan Beardsley"
+      ],
+      "referenceCount": 4,
+      "citationCount": 8
+    }
+  ]
+}

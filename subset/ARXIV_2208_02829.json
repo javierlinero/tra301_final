@@ -1,0 +1,60 @@
+{
+  "main": {
+    "paperId": "43377297ac1cbd19fc8a3133ce0843ccd102982e",
+    "title": "Uncorrelated compensated isocurvature perturbations from kinetic Sunyaev-Zeldovich tomography",
+    "abstract": "Compensated isocurvature perturbations (CIPs) are relative density perturbations in which a baryon-density fluctuation is accompanied by a dark matter density fluctuation such that the total-matter density is unperturbed. These fluctuations can be produced primordially if multiple fields are present during inflation, and therefore they can be used to differentiate between different models for the early Universe. Kinetic Sunyaev-Zeldovich (kSZ) tomography allows for the reconstruction of the radial-velocity field of matter as a function of redshift. This technique can be used to reconstruct the total-matter-overdensity field, independent of the galaxy-density field obtained from large-scale galaxy surveys. We leverage the ability to measure the galaxy- and matter-overdensity fields independently to construct a minimum-variance estimator for the primordial CIP amplitude, based on a mode-by-mode comparison of the two measurements. We forecast that a configuration corresponding to CMB-S4 and VRO will be able to detect (at $2\\sigma$) a CIP amplitude $A$ (for a scale-invariant power spectrum) as small as $A\\simeq 5\\times 10^{-9}$. Similarly, a configuration corresponding to SO and DESI will be sensitive to a CIP amplitude $A\\simeq 1\\times 10^{-7}$. These values are to be compared to current constraints $A \\leq {\\cal O}(0.01)$.",
+    "year": 2022,
+    "authors": [
+      "Neha Anil Kumar",
+      "S. Hotinli",
+      "M. Kamionkowski"
+    ],
+    "referenceCount": 70,
+    "citationCount": 6
+  },
+  "references": [
+    {
+      "paperId": "5f677f1766e946b669d3286d9790d8d02a221642",
+      "title": "Probing correlated compensated isocurvature perturbations using scale-dependent galaxy bias",
+      "abstract": "Compensated isocurvature perturbations (CIPs) are modulations of the relative baryon and dark matter density that leave the total matter density constant. The best current constraints from the primary cosmic microwave background (CMB) are consistent with CIPs some two orders of magnitude larger in amplitude than adiabatic perturbations, suggesting that there may be a huge gap in our knowledge of the early Universe. However, it was recently suggested by Barreira~et.~al. that CIPs which are correlated with the primordial curvature perturbation, as arises in some versions of the curvaton model, lead to a new observable: scale dependent galaxy bias. Combining a galaxy survey with an unbiased tracer of the density field facilitates a measurement of the amplitude of correlated CIPs that is free from cosmic variance, the main limitation on constraints from the primary CMB. Among the most promising tracers to use for this purpose is the remote dipole field, reconstructed using the technique of kinetic Sunyaev Zel'dovich (kSZ) tomography. In this paper, we evaluate the detection significance on the amplitude of correlated CIPs possible with next-generation CMB and galaxy surveys using kSZ tomography. Our analysis includes all relativistic contributions to the observed galaxy number counts and allows for both CIPs and primordial non-Gaussianity, which also gives rise to a scale dependent galaxy bias. We find that kSZ tomography can probe CIPs of comparable amplitude to the adiabatic fluctuations, representing an improvement of over two orders of magnitude upon current constraints, and an order of magnitude over what will be possible using future CMB or galaxy surveys alone.",
+      "year": 2019,
+      "authors": [
+        "S. Hotinli",
+        "J. Mertens",
+        "M. Johnson",
+        "M. Kamionkowski"
+      ],
+      "referenceCount": 59,
+      "citationCount": 19
+    },
+    {
+      "paperId": "eae30a62159cce79f49ef433d6be2591e8b584c7",
+      "title": "Baryon-CDM isocurvature galaxy bias with IllustrisTNG",
+      "abstract": "We study the impact that baryon-CDM relative density perturbations δbc have on galaxy formation using cosmological simulations with the IllustrisTNG model. These isocurvature (non-adiabatic) perturbations can be induced primordially, if multiple fields are present during inflation, and are generated before baryon-photon decoupling when baryons did not comove with CDM. The presence of long-wavelength δbc perturbations in our simulations is mimicked by modifying the ratios of the cosmic densities of baryons Ωb and CDM Ωc, at fixed total matter density Ωm. We measure the corresponding galaxy bias parameter bδbc as the response of galaxy abundances to δbc. When selecting by total host halo mass, bδbc is negative and it decreases with mass and redshift. Stellar-mass selected simulated galaxies show a weaker or even the opposite trend because of the competing effects of δbc on the halo mass function and stellar-to-halo-mass relations. We show that simple modeling of the latter two effects describes bδbc for stellar-mass-selected objects well. We find bδbc =0.6 for M* = 1011 M⊙/h and z=0.5, which is representative of BOSS DR12 galaxies. For δbc modes generated by baryon-photon interactions, we estimate the impact on the DR12 power spectrum to be below 1%, and shifts on inferred distance and growth rate parameters should not exceed 0.1%.",
+      "year": 2019,
+      "authors": [
+        "A. Barreira",
+        "G. Cabass",
+        "D. Nelson",
+        "F. Schmidt"
+      ],
+      "referenceCount": 96,
+      "citationCount": 21
+    },
+    {
+      "paperId": "f7639bcf54ed0fddee335e516ee1c3d646d52458",
+      "title": "A THEORETICAL FRAMEWORK FOR COMBINING TECHNIQUES THAT PROBE THE LINK BETWEEN GALAXIES AND DARK MATTER",
+      "abstract": "We develop a theoretical framework that combines measurements of galaxy–galaxy lensing, galaxy clustering, and the galaxy stellar mass function in a self-consistent manner. While considerable effort has been invested in exploring each of these probes individually, attempts to combine them are still in their infancy. These combinations have the potential to elucidate the galaxy–dark matter connection and the galaxy formation physics responsible for it, as well as to constrain cosmological parameters and to test the nature of gravity. In this paper, we focus on a theoretical model that describes the galaxy–dark matter connection based on standard halo occupation distribution techniques. Several key modifications enable us to extract additional parameters that determine the stellar-to-halo mass relation and to simultaneously fit data from multiple probes while allowing for independent binning schemes for each probe. We construct mock catalogs from numerical simulations to investigate the effects of sample variance and covariance for each probe. Finally, we analyze how trends in each of the three observables impact the derived parameters of the model. In particular, we investigate various features of the observed galaxy stellar mass function (low-mass slope, “plateau,” knee, and high-mass cutoff) and show how each feature is related to the underlying relationship between stellar and halo mass. We demonstrate that the observed “plateau” feature in the stellar mass function at M* ∼ 2 × 1010 M☉ is due to the transition that occurs in the stellar-to-halo mass relation at Mh ∼ 1012 M☉ from a low-mass power-law regime to a sub-exponential function at higher stellar mass.",
+      "year": 2011,
+      "authors": [
+        "A. Leauthaud",
+        "J. Tinker",
+        "P. Behroozi",
+        "M. Busha",
+        "Risa Wechsler"
+      ],
+      "referenceCount": 77,
+      "citationCount": 115
+    }
+  ]
+}

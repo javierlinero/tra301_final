@@ -1,0 +1,57 @@
+{
+  "main": {
+    "paperId": "28c39f14e55bd4407ce9f9ead38faf20a278ec9f",
+    "title": "Statistics of harmonic measure and winding of critical curves from conformal field theory",
+    "abstract": "Fractal geometry of random curves appearing in the scaling limit of critical two-dimensional statistical systems is characterized by their harmonic measure and winding angle. The former is the measure of the jaggedness of the curves while the latter quantifies their tendency to form logarithmic spirals. We show how these characteristics are related to local operators of conformal field theory and how they can be computed using conformal invariance of critical systems with central charge c ⩽ 1.",
+    "year": 2008,
+    "authors": [
+      "Alexander V. Belikov",
+      "I. Gruzberg",
+      "I. Rushkin"
+    ],
+    "referenceCount": 18,
+    "citationCount": 7
+  },
+  "references": [
+    {
+      "paperId": "84976c79f3c2e36cfdf44526ad18a83d4d228c7e",
+      "title": "Critical curves in conformally invariant statistical systems",
+      "abstract": "We consider critical curves—conformally invariant curves—that appear at critical points of two-dimensional statistical mechanical systems. We show how to describe these curves in terms of the Coulomb gas formalism of conformal field theory (CFT). We also provide links between this description and the stochastic (Schramm–) Loewner evolution (SLE). The connection appears in the long-time limit of stochastic evolution of various SLE observables related to CFT primary fields. We show how the multifractal spectrum of harmonic measure and other fractal characteristics of critical curves can be obtained.",
+      "year": 2006,
+      "authors": [
+        "I. Rushkin",
+        "E. Bettelheim",
+        "I. Gruzberg",
+        "P. Wiegmann"
+      ],
+      "referenceCount": 51,
+      "citationCount": 46
+    },
+    {
+      "paperId": "bfa511fc82e4bdfe0ff224a856b691de86116ac0",
+      "title": "Harmonic measure of critical curves.",
+      "abstract": "Fractal geometry of critical curves appearing in 2D critical systems is characterized by their harmonic measure. For systems described by conformal field theories with central charge c < or = 1, scaling exponents of the harmonic measure have been computed by Duplantier [Phys. Rev. Lett. 84, 1363 (2000)10.1103/PhysRevLett.84.1363] by relating the problem to boundary two-dimensional gravity. We present a simple argument connecting the harmonic measure of critical curves to operators obtained by fusion of primary fields and compute characteristics of the fractal geometry by means of regular methods of conformal field theory. The method is not limited to theories with c < or = 1.",
+      "year": 2005,
+      "authors": [
+        "I. Rushkin",
+        "E. Bettelheim",
+        "I. Gruzberg",
+        "P. Wiegmann"
+      ],
+      "referenceCount": 5,
+      "citationCount": 23
+    },
+    {
+      "paperId": "98d79a6a090217b3a61dbde60baa884dc1ab61d5",
+      "title": "Harmonic measure and winding of conformally invariant curves.",
+      "abstract": "The exact joint multifractal distribution for the scaling and winding of the electrostatic potential lines near any conformally invariant scaling curve is derived in two dimensions. Its spectrum f(alpha,lambda) gives the Hausdorff dimension of the points where the potential scales with distance r as H approximately r(alpha) while the curve logarithmically spirals with a rotation angle phi=lambdalnr. It obeys the scaling law f(alpha,lambda)=(1+lambda(2))f(alpha)-blambda(2) with alpha=alpha/(1+lambda(2)) and b=(25-c)/12, and where f(alpha) identical with f(alpha,0) is the pure harmonic measure spectrum, and c the conformal central charge. The results apply to O(N) and Potts models, as well as to stochastic Löwner evolution.",
+      "year": 2002,
+      "authors": [
+        "B. Duplantier",
+        "Ilia Binder"
+      ],
+      "referenceCount": 9,
+      "citationCount": 29
+    }
+  ]
+}

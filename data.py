@@ -19,7 +19,7 @@ SAMPLE_SIZE = 100000
 MAX_REFS = 50 
 BATCH_SIZE = 100 
 FIELDS_MAIN = "paperId,title,abstract,year,authors.name,referenceCount,citationCount"
-FIELDS_REF = "paperId,title,abstract,year,authors.name,referenceCount,citationCount,isInfluential"
+FIELDS_REF = "paperId,title,abstract,year,authors.name,referenceCount,citationCount"
 
 os.makedirs(RAW_DIR, exist_ok=True)
 HEADERS = {"x-api-key": API_KEY}
@@ -34,7 +34,7 @@ def safe_get(url, **kwargs):
             time.sleep(wait)
             continue
         r.raise_for_status()
-        time.sleep(2)
+        time.sleep(1.5)
         return r
 
 def safe_post(url, **kwargs):
@@ -47,7 +47,7 @@ def safe_post(url, **kwargs):
             time.sleep(wait)
             continue
         r.raise_for_status()
-        time.sleep(2)
+        time.sleep(1.5)
         return r
 
 def chunk_list(lst, chunk_size):
@@ -88,12 +88,16 @@ def fetch_paper_with_refs(arxiv_id: str) -> dict:
     }
 
     url_refs = f"https://api.semanticscholar.org/graph/v1/paper/{arxiv_id}/references"
-    resp = safe_get(url_refs, params={"fields": "citedPaper.paperId", "limit": MAX_REFS})
-    data = resp.json().get("data", [])
-    ref_ids = [r["citedPaper"]["paperId"] for r in data]
+    resp = safe_get(url_refs, params={"fields": "citedPaper.paperId,isInfluential", "limit": MAX_REFS})
+    refs = resp.json().get("data", [])
+    infl_ids = [
+        r["citedPaper"]["paperId"]
+        for r in refs
+        if r.get("isInfluential")
+    ]
 
     batch_url = "https://api.semanticscholar.org/graph/v1/paper/batch"
-    for chunk in chunk_list(ref_ids, BATCH_SIZE):
+    for chunk in chunk_list(infl_ids, BATCH_SIZE):
         resp = safe_post(
             batch_url,
             params={"fields": FIELDS_REF},
@@ -104,9 +108,9 @@ def fetch_paper_with_refs(arxiv_id: str) -> dict:
             if not isinstance(p, dict):
                 continue
 
-            infl = p.get("isInfluential")
-            if not infl:
+            if not p.get("abstract"):
                 continue
+
             result["references"].append({
                 "paperId":       p.get("paperId"),
                 "title":         p.get("title"),
@@ -115,8 +119,10 @@ def fetch_paper_with_refs(arxiv_id: str) -> dict:
                 "authors":       [a.get("name") for a in p.get("authors", [])],
                 "referenceCount": p.get("referenceCount"),
                 "citationCount":  p.get("citationCount"),
-                "isInfluential": infl,
             })
+
+    if len(result["references"]) == 0:
+        return None
 
     return result
 
@@ -126,19 +132,39 @@ if __name__ == "__main__":
     ids = df["id"].sample(SAMPLE_SIZE, random_state=132).tolist()
     s2_ids = [f"ARXIV:{i}" for i in ids]
 
-    existing = [f for f in os.listdir(RAW_DIR) if f.endswith(".json")]
-    num_existing = len(existing)
-    print(f"{num_existing} files already processed; resuming at index {num_existing}.")
 
-    for arxiv_id in tqdm(s2_ids[num_existing:], desc="Fetching papers"):
+    checkpoint_path = os.path.join("data_checkpoint.txt")
+    if os.path.exists(checkpoint_path):
+        with open(checkpoint_path, "r") as f:
+            start_idx = int(f.read().strip() or 0)
+    else:
+        start_idx = 0
+
+    total = len(s2_ids)
+    print(f"Resuming from iteration {start_idx} / {total}")
+
+    pbar = tqdm(total=total, desc="Fetching papers")
+    pbar.update(start_idx)
+
+    for idx in range(start_idx, total):
+        arxiv_id = s2_ids[idx]
         try:
             rec = fetch_paper_with_refs(arxiv_id)
-            out_file = os.path.join(RAW_DIR, f"{arxiv_id.replace(':', '_').replace('/', '_').replace('-','_').replace('.', '_')}.json")
-            with open(out_file, "w", encoding="utf-8") as fout:
-                json.dump(rec, fout, ensure_ascii=False, indent=2)
+            if rec is not None:
+                out_file = os.path.join(RAW_DIR, f"{arxiv_id.replace(':', '_').replace('/', '_').replace('-','_').replace('.', '_')}.json")
+                with open(out_file, "w", encoding="utf-8") as fout:
+                    json.dump(rec, fout, ensure_ascii=False, indent=2)
+            
+            with open(checkpoint_path, "w") as f:
+                f.write(str(idx + 1))
         except Exception as e:
             print(f"Error on {arxiv_id}: {e}")
-            continue
+            with open(checkpoint_path, "w") as f:
+                f.write(str(idx + 1))
+        finally:
+            pbar.update(1)
+
+    pbar.close()
 
 
 

@@ -1,0 +1,60 @@
+{
+  "main": {
+    "paperId": "cdbfeb720265aabe490e8c2722173b6ef4e81063",
+    "title": "Learning Optimal Social Dependency for Recommendation",
+    "abstract": "Social recommender systems exploit users' social relationships to improve the recommendation accuracy. Intuitively, a user tends to trust different subsets of her social friends, regarding with different scenarios. Therefore, the main challenge of social recommendation is to exploit the optimal social dependency between users for a specific recommendation task. In this paper, we propose a novel recommendation method, named probabilistic relational matrix factorization (PRMF), which aims to learn the optimal social dependency between users to improve the recommendation accuracy, with or without users' social relationships. Specifically, in PRMF, the latent features of users are assumed to follow a matrix variate normal (MVN) distribution. The positive and negative dependency between users are modeled by the row precision matrix of the MVN distribution. Moreover, we have also proposed an efficient alternating algorithm to solve the optimization problem of PRMF. The experimental results on real datasets demonstrate that the proposed PRMF method outperforms state-of-the-art social recommendation approaches, in terms of root mean square error (RMSE) and mean absolute error (MAE).",
+    "year": 2016,
+    "authors": [
+      "Yong Liu",
+      "P. Zhao",
+      "Xin Liu",
+      "Min Wu",
+      "X. Li"
+    ],
+    "referenceCount": 28,
+    "citationCount": 11
+  },
+  "references": [
+    {
+      "paperId": "f9970b11a4f527df2e99761d7eacf071de6d1ebe",
+      "title": "A Synthetic Approach for Recommendation: Combining Ratings, Social Relations, and Reviews",
+      "abstract": "Recommender systems (RSs) provide an effective way of alleviating the information overload problem by selecting personalized choices. Online social networks and user-generated content provide diverse sources for recommendation beyond ratings, which present opportunities as well as challenges for traditional RSs. Although social matrix factorization (Social MF) can integrate ratings with social relations and topic matrix factorization can integrate ratings with item reviews, both of them ignore some useful information. In this paper, we investigate the effective data fusion by combining the two approaches, in two steps. First, we extend Social MF to exploit the graph structure of neighbors. Second, we propose a novel framework MR3 to jointly model these three types of information effectively for rating prediction by aligning latent factors and hidden topics. We achieve more accurate rating prediction on two real-life datasets. Furthermore, we measure the contribution of each data source to the proposed framework.",
+      "year": 2015,
+      "authors": [
+        "Guangneng Hu",
+        "Xinyu Dai",
+        "Yunya Song",
+        "Shujian Huang",
+        "Jiajun Chen"
+      ],
+      "referenceCount": 36,
+      "citationCount": 51
+    },
+    {
+      "paperId": "397e76780231da1054d067dc1244e69ec287ac94",
+      "title": "An experimental study on implicit social recommendation",
+      "abstract": "Social recommendation problems have drawn a lot of attention recently due to the prevalence of social networking sites. The experiments in previous literature suggest that social information is very effective in improving traditional recommendation algorithms. However, explicit social information is not always available in most of the recommender systems, which limits the impact of social recommendation techniques. In this paper, we study the following two research problems: (1) In some systems without explicit social information, can we still improve recommender systems using implicit social information? (2) In the systems with explicit social information, can the performance of using implicit social information outperform that of using explicit social information? In order to answer these two questions, we conduct comprehensive experimental analysis on three recommendation datasets. The result indicates that: (1) Implicit user and item social information, including similar and dissimilar relationships, can be employed to improve traditional recommendation methods. (2) When comparing implicit social information with explicit social information, the performance of using implicit information is slightly worse. This study provides additional insights to social recommendation techniques, and also greatly widens the utility and spreads the impact of previous and upcoming social recommendation approaches.",
+      "year": 2013,
+      "authors": [
+        "Hao Ma"
+      ],
+      "referenceCount": 36,
+      "citationCount": 188
+    },
+    {
+      "paperId": "8090ca9679d5c2ab40a090385e545944713031b0",
+      "title": "Recommender systems with social regularization",
+      "abstract": "Although Recommender Systems have been comprehensively analyzed in the past decade, the study of social-based recommender systems just started. In this paper, aiming at providing a general method for improving recommender systems by incorporating social network information, we propose a matrix factorization framework with social regularization. The contributions of this paper are four-fold: (1) We elaborate how social network information can benefit recommender systems; (2) We interpret the differences between social-based recommender systems and trust-aware recommender systems; (3) We coin the term Social Regularization to represent the social constraints on recommender systems, and we systematically illustrate how to design a matrix factorization objective function with social regularization; and (4) The proposed method is quite general, which can be easily extended to incorporate other contextual information, like social tags, etc. The empirical analysis on two large datasets demonstrates that our approaches outperform other state-of-the-art methods.",
+      "year": 2011,
+      "authors": [
+        "Hao Ma",
+        "Dengyong Zhou",
+        "Chao Liu",
+        "Michael R. Lyu",
+        "Irwin King"
+      ],
+      "referenceCount": 42,
+      "citationCount": 1657
+    }
+  ]
+}

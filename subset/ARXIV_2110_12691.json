@@ -1,0 +1,62 @@
+{
+  "main": {
+    "paperId": "127e18c068e058740489ec556fd6dee5018c54a6",
+    "title": "Hybrid Learning of Non-Cartesian K-Space Trajectory and Mr Image Reconstruction Networks",
+    "abstract": "Compressed sensing (CS) in Magnetic resonance Imaging (MRI) essentially involves the optimization of 1) the sampling pattern in k-space under MR hardware constraints and 2) image reconstruction from the undersampled k-space data. Recently, deep learning methods have allowed the community to address both problems simultaneously, especially in the non-Cartesian acquisition setting. This paper aims to contribute to this field by tackling some major concerns in existing approaches. Regarding the learning of the sampling pattern, we perform ablation studies using parameter-free reconstructions like the density compensated (DCp) adjoint operator of the nonuniform fast Fourier transform (NUFFT) to ensure that the learned k-space trajectories actually sample the center of k-space densely. Additionally we optimize these trajectories by embedding a projected gradient descent algorithm over the MR hardware constraints. Later, we introduce a novel hybrid learning (HL) approach that operates across multiple resolutions to jointly optimize the reconstruction network and the k-space trajectory. This HL method presents an improved image reconstruction quality at 20-fold acceleration factor on the fastMRI dataset with SSIM scores of nearly 0.92-0.95 in our retrospective studies as compared to corresponding Cartesian reference. Further, we observe a 3-4 dB gain in PSNR as compared to earlier state-of-the-art methods.",
+    "year": 2021,
+    "authors": [
+      "R. ChaithyaG.",
+      "Zaccharie Ramzi",
+      "P. Ciuciu"
+    ],
+    "referenceCount": 25,
+    "citationCount": 4
+  },
+  "references": [
+    {
+      "paperId": "c288d73ebc8cd88831f94af3d30c22b487c332ad",
+      "title": "NC-PDNet: A Density-Compensated Unrolled Network for 2D and 3D Non-Cartesian MRI Reconstruction",
+      "abstract": "Deep Learning has become a very promising avenue for magnetic resonance image (MRI) reconstruction. In this work, we explore the potential of unrolled networks for non-Cartesian acquisition settings. We design the NC-PDNet (Non-Cartesian Primal Dual Netwok), the first density-compensated (DCp) unrolled neural network, and validate the need for its key components via an ablation study. Moreover, we conduct some generalizability experiments to test this network in out-of-distribution settings, for example training on knee data and validating on brain data. The results show that NC-PDNet outperforms baseline (U-Net, Deep image prior) models both visually and quantitatively in all settings. In particular, in the 2D multi-coil acquisition scenario, the NC-PDNet provides up to a 1.2 dB improvement in peak signal-to-noise ratio (PSNR) over baseline networks, while also allowing a gain of at least 1dB in PSNR in generalization settings. We provide the open-source implementation of NC-PDNet, and in particular the Non-uniform Fourier Transform in TensorFlow, tested on 2D multi-coil and 3D single-coil k-space data.",
+      "year": 2022,
+      "authors": [
+        "Zaccharie Ramzi",
+        "Chaithya G R",
+        "Jean-Luc Starck",
+        "P. Ciuciu"
+      ],
+      "referenceCount": 74,
+      "citationCount": 46
+    },
+    {
+      "paperId": "c33c1dbdbacf9a2757e1e3dd25a62443b7615d70",
+      "title": "B-Spline Parameterized Joint Optimization of Reconstruction and K-Space Trajectories (BJORK) for Accelerated 2D MRI",
+      "abstract": "Optimizing k-space sampling trajectories is a promising yet challenging topic for fast magnetic resonance imaging (MRI). This work proposes to optimize a reconstruction method and sampling trajectories jointly concerning image reconstruction quality in a supervised learning manner. We parameterize trajectories with quadratic B-spline kernels to reduce the number of parameters and apply multi-scale optimization, which may help to avoid sub-optimal local minima. The algorithm includes an efficient non-Cartesian unrolled neural network-based reconstruction and an accurate approximation for backpropagation through the non-uniform fast Fourier transform (NUFFT) operator to accurately reconstruct and back-propagate multi-coil non-Cartesian data. Penalties on slew rate and gradient amplitude enforce hardware constraints. Sampling and reconstruction are trained jointly using large public datasets. To correct for possible eddy-current effects introduced by the curved trajectory, we use a pencil-beam trajectory mapping technique. In both simulations and in- vivo experiments, the learned trajectory demonstrates significantly improved image quality compared to previous model-based and learning-based trajectory optimization methods for $10\\times $ acceleration factors. Though trained with neural network-based reconstruction, the proposed trajectory also leads to improved image quality with compressed sensing-based reconstruction.",
+      "year": 2021,
+      "authors": [
+        "Guanhua Wang",
+        "Tianrui Luo",
+        "J. Nielsen",
+        "D. Noll",
+        "J. Fessler"
+      ],
+      "referenceCount": 66,
+      "citationCount": 62
+    },
+    {
+      "paperId": "1921e7dfb7fd0b5f2b6d59a5d5940d9b6bd148db",
+      "title": "PILOT: Physics-Informed Learned Optimal Trajectories for Accelerated MRI",
+      "abstract": "Magnetic Resonance Imaging (MRI) has long been considered to be among \"the gold standards\" of diagnostic medical imaging. The long acquisition times, however, render MRI prone to motion artifacts, let alone their adverse contribution to the relative high costs of MRI examination. Over the last few decades, multiple studies have focused on the development of both physical and post-processing methods for accelerated acquisition of MRI scans. These two approaches, however, have so far been addressed separately. On the other hand, recent works in optical computational imaging have demonstrated growing success of concurrent learning-based design of data acquisition and image reconstruction schemes. In this work, we propose a novel approach to the learning of optimal schemes for conjoint acquisition and reconstruction of MRI scans, with the optimization carried out simultaneously with respect to the time-efficiency of data acquisition and the quality of resulting reconstructions. To be of a practical value, the schemes are encoded in the form of general k-space trajectories, whose associated magnetic gradients are constrained to obey a set of predefined hardware requirements (as defined in terms of, e.g., peak currents and maximum slew rates of magnetic gradients). With this proviso in mind, we propose a novel algorithm for the end-to-end training of a combined acquisition-reconstruction pipeline using a deep neural network with differentiable forward- and back-propagation operators. We also demonstrate the effectiveness of the proposed solution in application to both image reconstruction and image segmentation, reporting substantial improvements in terms of acceleration factors as well as the quality of these end tasks.",
+      "year": 2019,
+      "authors": [
+        "Tomer Weiss",
+        "O. Senouf",
+        "S. Vedula",
+        "O. Michailovich",
+        "M. Zibulevsky",
+        "A. Bronstein"
+      ],
+      "referenceCount": 35,
+      "citationCount": 77
+    }
+  ]
+}

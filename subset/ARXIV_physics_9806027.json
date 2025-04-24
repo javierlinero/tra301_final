@@ -1,0 +1,27 @@
+{
+  "main": {
+    "paperId": "938edb2b381007d8d885ae3183224867ba6a7924",
+    "title": "A Cubic Micron of Equilibrium Pair Plasma?",
+    "abstract": "Is it possible to create a small volume of equilibrium pair plasma in the laboratory with an intense laser pulse? No. The required power would exceed 1018 W. The number of seed particles required to absorb the laser energy would approach the number of pairs in the desired plasma, and their radiation in a visible laser field would occur at excessively high frequencies.",
+    "year": 1998,
+    "authors": [
+      "J. Katz"
+    ],
+    "referenceCount": 5,
+    "citationCount": 4
+  },
+  "references": [
+    {
+      "paperId": "2d3c042e3a0f43bbc929d764ec4ce380eaddff1b",
+      "title": "On the motion and radiation of charged particles in strong electromagnetic waves. I - Motion in plane and spherical waves",
+      "abstract": "Charge particle motion and radiation in strong plane and spherical electromagnetic waves with nonthermal astrophysical applications",
+      "year": 1971,
+      "authors": [
+        "J. Gunn",
+        "J. Ostriker"
+      ],
+      "referenceCount": 0,
+      "citationCount": 104
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "main": {
+    "paperId": "d96f0743700661f5b7531db929cec5877a112d0d",
+    "title": "On the class numbers of the fields of the $p^n$-torsion points of elliptic curves over $\\mathbb{Q}$",
+    "abstract": "Let $E$ be an elliptic curve over $\\mathbb{Q}$ which has multiplicative reduction at a fixed prime $p$. For each positive integer $n$ we put $K_n:=\\mathbb{Q}(E[p^n])$. The aim of this paper is to extend the author's previous our results concerning with the order of the $p$-Sylow group of the ideal class group of $K_n$ to more general setting. We also modify the previous lower bound of the order and describe the new lower bound in terms of the Mordell-Weil rank of $E(\\mathbb{Q})$ and the ramification related to $E$.",
+    "year": 2016,
+    "authors": [
+      "F. Sairaiji",
+      "Takuya Yamauchi"
+    ],
+    "referenceCount": 19,
+    "citationCount": 4
+  },
+  "references": [
+    {
+      "paperId": "07e1a2a2666c1cca3d76850bfdb36fcd8b658b51",
+      "title": "Elliptic curves with 3-adic Galois representation surjective mod 3 but not mod 9",
+      "abstract": "Let E be an elliptic curve over Q, and rho_l: Gal(Q) --> GL_2(Z_l) its l-adic Galois representation. Serre observed that for l>3 there is no proper closed subgroup of SL_2(Z_l) that maps surjectively onto SL_2(Z/lZ), and concluded that if rho_l is surjective mod l then it is surjective onto GL_2(Z_l). We show that this no longer holds for l=3 by describing a modular curve X of genus 0 parametrizing elliptic curves for which rho_3 is not surjective mod 9 but generically surjective mod 3. The curve X is defined over Q, and the modular cover X --> X(1) has degree 27 so X is rational. We exhibit an explicit rational function of degree 27 that realizes this cover, and use it to exhibit several elliptic curves with nonzero j-invariant that satisfy this condition on rho_3, of which the simplest are the curves Y^2 = X^3 - 27X - 42 and Y^2 + Y = X^3 - 135X - 604 of conductors 1944 = 2^3 3^5 and 6075 = 3^5 5^2 respectively.",
+      "year": 2006,
+      "authors": [
+        "N. Elkies"
+      ],
+      "referenceCount": 8,
+      "citationCount": 39
+    }
+  ]
+}

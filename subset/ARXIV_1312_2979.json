@@ -1,0 +1,76 @@
+{
+  "main": {
+    "paperId": "546bffd06f25021115de92ae6284e284841a1f58",
+    "title": "Spectral Networks and Fenchel–Nielsen Coordinates",
+    "abstract": "It is known that spectral networks naturally induce certain coordinate systems on moduli spaces of flat SL(K)-connections on surfaces, previously studied by Fock and Goncharov. We give a self-contained account of this story in the case K = 2 and explain how it can be extended to incorporate the complexified Fenchel–Nielsen coordinates. As we review, the key ingredient in the story is a procedure for passing between moduli of flat SL(2)-connections on C (equipped with a little extra structure) and moduli of equivariant GL(1)-connections over a covering $${\\Sigma \\to C}$$Σ→C; taking holonomies of the equivariant GL(1)-connections then gives the desired coordinate systems on moduli of SL(2)-connections. There are two special types of spectral network, related to ideal triangulations and pants decompositions of C; these two types of network lead to Fock–Goncharov and complexified Fenchel–Nielsen coordinate systems, respectively.",
+    "year": 2013,
+    "authors": [
+      "Lotte Hollands",
+      "Andrew Neitzke"
+    ],
+    "referenceCount": 33,
+    "citationCount": 65
+  },
+  "references": [
+    {
+      "paperId": "39d7d3a76bc3e9904d7da2a5b5d53ea8bdcd6375",
+      "title": "Spectral Networks and Snakes",
+      "abstract": "We apply and illustrate the techniques of spectral networks in a large collection of AK-1 theories of class S, which we call “lifted A1 theories.” Our construction makes contact with Fock and Goncharov’s work on higher Teichmüller theory. In particular, we show that the Darboux coordinates on moduli spaces of flat connections which come from certain special spectral networks coincide with the Fock–Goncharov coordinates. We show, moreover, how these techniques can be used to study the BPS spectra of lifted A1 theories. In particular, we determine the spectrum generators for all the lifts of a simple superconformal field theory.",
+      "year": 2012,
+      "authors": [
+        "D. Gaiotto",
+        "G. Moore",
+        "Andrew Neitzke"
+      ],
+      "referenceCount": 35,
+      "citationCount": 103
+    },
+    {
+      "paperId": "9b26894cab2d04e5f558610e792ba630e3ee9b80",
+      "title": "Spectral Networks",
+      "abstract": "We introduce new geometric objects called spectral networks. Spectral networks are networks of trajectories on Riemann surfaces obeying certain local rules. Spectral networks arise naturally in four-dimensional \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\mathcal{N} = 2}$$\\end{document} theories coupled to surface defects, particularly the theories of class S. In these theories, spectral networks provide a useful tool for the computation of BPS degeneracies; the network directly determines the degeneracies of solitons living on the surface defect, which in turn determines the degeneracies for particles living in the 4d bulk. Spectral networks also lead to a new map between flat \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${{\\rm GL}(K, \\mathbb{C})}$$\\end{document} connections on a two-dimensional surface C and flat abelian connections on an appropriate branched cover \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${\\Sigma}$$\\end{document} of C. This construction produces natural coordinate systems on moduli spaces of flat \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$${{\\rm GL}(K, \\mathbb{C})}$$\\end{document} connections on C, which we conjecture are cluster coordinate systems.",
+      "year": 2012,
+      "authors": [
+        "D. Gaiotto",
+        "G. Moore",
+        "Andrew Neitzke"
+      ],
+      "referenceCount": 65,
+      "citationCount": 225
+    },
+    {
+      "paperId": "a9ccc535b0244f93b7bcddb37b2494b3cc411614",
+      "title": "Parametrization of PSL(2,C)-representations of surface groups",
+      "abstract": "For an oriented surface of genus g with b boundary components, we construct a rational map from a subset of C^{6g-6+3b} onto an open algebraic subset of the PSL(2,C)-character variety as an analogue of the Fenchel-Nielsen coordinates. After taking the quotient by an action of a finite group, we obtain a parametrization of a subset of the PSL(2,C)-character variety, and similarly for the SL(2,C)-character variety. We can systematically calculate a set of matrix generators by rational functions of the parameters. We give transformation formulae under elementary moves of pants decompositions.",
+      "year": 2011,
+      "authors": [
+        "Y. Kabaya"
+      ],
+      "referenceCount": 18,
+      "citationCount": 16
+    },
+    {
+      "paperId": "5657b180935d96edf8087062168181c796bac4ac",
+      "title": "Quantization of the Hitchin moduli spaces, Liouville theory, and the geometric Langlands correspondence I",
+      "abstract": "We discuss the relation between Liouville theory and the Hitchin integrable system, which can be seen in two ways as a two step process involving quantization and hyperkaehler rotation. The modular duality of Liouville theory and the relation between Liouville theory and the SL(2)-WZNW-model give a new perspective on the geometric Langlands correspondence and on its relation to conformal field theory.",
+      "year": 2010,
+      "authors": [
+        "J. Teschner"
+      ],
+      "referenceCount": 81,
+      "citationCount": 168
+    },
+    {
+      "paperId": "d688855eee5baa93fbf5ef7cc172fc4662c88cc5",
+      "title": "Moduli spaces of local systems and higher Teichmüller theory",
+      "abstract": "Let G be a split semisimple algebraic group over Q with trivial center. Let S be a compact oriented surface, with or without boundary. We define positive representations of the fundamental group of S to G(R), construct explicitly all positive representations, and prove that they are faithful, discrete, and positive hyperbolic; the moduli space of positive representations is a topologically trivial open domain in the space of all representations. When S have holes, we defined two moduli spaces closely related to the moduli spaces of G-local systems on S. We show that they carry a lot of interesting structures. In particular we define a distinguished collection of coordinate systems, equivariant under the action of the mapping class group of S. We prove that their transition functions are subtraction free. Thus we have positive structures on these moduli spaces. Therefore we can take their points with values in any positive semifield. Their positive real points provide the two higher Teichmüller spaces related to G and S, while the points with values in the tropical semifields provide the lamination spaces. We define the motivic avatar of the Weil–Petersson form for one of these spaces. It is related to the motivic dilogarithm.",
+      "year": 2003,
+      "authors": [
+        "V. Fock",
+        "A. Goncharov"
+      ],
+      "referenceCount": 86,
+      "citationCount": 909
+    }
+  ]
+}

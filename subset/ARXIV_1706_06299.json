@@ -1,0 +1,56 @@
+{
+  "main": {
+    "paperId": "c248a8273b4e173656716a9b08d8e5c5f6c1ce7a",
+    "title": "Quantum Spin Liquids in Frustrated Spin-1 Diamond Antiferromagnets.",
+    "abstract": "Motivated by the recent synthesis of the spin-1 A-site spinel NiRh_{2}O_{4}, we investigate the classical to quantum crossover of a frustrated J_{1}-J_{2} Heisenberg model on the diamond lattice upon varying the spin length S. Applying a recently developed pseudospin functional renormalization group approach for arbitrary spin-S magnets, we find that systems with S≥3/2 reside in the classical regime, where the low-temperature physics is dominated by the formation of coplanar spirals and a thermal (order-by-disorder) transition. For smaller local moments S=1 or S=1/2, we find that the system evades a thermal ordering transition and forms a quantum spiral spin liquid where the fluctuations are restricted to characteristic momentum-space surfaces. For the tetragonal phase of NiRh_{2}O_{4}, a modified J_{1}-J_{2}^{-}-J_{2}^{⊥} exchange model is found to favor a conventionally ordered Néel state (for arbitrary spin S), even in the presence of a strong local single-ion spin anisotropy, and it requires additional sources of frustration to explain the experimentally observed absence of a thermal ordering transition.",
+    "year": 2017,
+    "authors": [
+      "F. Buessen",
+      "Max Hering",
+      "J. Reuther",
+      "S. Trebst"
+    ],
+    "referenceCount": 36,
+    "citationCount": 65
+  },
+  "references": [
+    {
+      "paperId": "48379bc9d3c9559fb7cf81ec06e04fa83944cb16",
+      "title": "Spiral spin-liquid and the emergence of a vortex-like state in MnSc2S4",
+      "abstract": "Spirals and helices are common motifs of long-range order in magnetic solids, and they may also be organized into more complex emergent structures such as magnetic skyrmions and vortices. A new type of spiral state, the spiral spin-liquid, in which spins fluctuate collectively as spirals, has recently been predicted to exist. Here, using neutron scattering techniques, we experimentally prove the existence of a spiral spin-liquid in MnSc2S4 by directly observing the ‘spiral surface’—a continuous surface of spiral propagation vectors in reciprocal space. We elucidate the multi-step ordering behaviour of the spiral spin-liquid, and discover a vortex-like triple-q phase on application of a magnetic field. Our results prove the effectiveness of the J1–J2 Hamiltonian on the diamond lattice as a model for the spiral spin-liquid state in MnSc2S4, and also demonstrate a new way to realize a magnetic vortex lattice through frustrated interactions. A detailed and systematic neutron scattering study uncovers a spiral spin-liquid state in the quantum magnet MnSc2S4.",
+      "year": 2016,
+      "authors": [
+        "Shang Gao",
+        "O. Zaharko",
+        "V. Tsurkan",
+        "Yixi Su",
+        "J. White",
+        "G. Tucker",
+        "B. Roessli",
+        "F. Bourdarot",
+        "R. Sibille",
+        "D. Chernyshov",
+        "T. Fennell",
+        "A. Loidl",
+        "C. Rüegg"
+      ],
+      "referenceCount": 49,
+      "citationCount": 108
+    },
+    {
+      "paperId": "76f34cb09f791c435a5cfa9dc23ecc41d15cf656",
+      "title": "Order-by-disorder and spiral spin-liquid in frustrated diamond-lattice antiferromagnets",
+      "abstract": "Frustration refers to competition between different interactions that cannot be simultaneously satisfied—a familiar feature in many magnetic solids. Strong frustration leads to highly degenerate ground states and a large suppression of ordering by fluctuations. Key challenges in frustrated magnetism include the characterization of the fluctuating spin-liquid regime and determination of the mechanism of eventual order at lower temperature. Here, we study a model of a diamond-lattice antiferromagnet appropriate for numerous spinel materials. With sufficiently strong frustration, a massive ground-state degeneracy develops amongst spirals whose propagation wavevectors reside on a continuous two-dimensional ‘spiral surface’ in momentum space. We argue that an important ordering mechanism is entropic splitting of the degenerate ground states, an elusive phenomenon called ‘order by disorder’. A broad spiral spin-liquid regime emerges at higher temperatures, where the underlying spiral surface can be directly revealed through spin correlations. We discuss the agreement between these predictions and the well-characterized spinel MnSc2S4.",
+      "year": 2006,
+      "authors": [
+        "D. Bergman",
+        "J. Alicea",
+        "E. Gull",
+        "S. Trebst",
+        "L. Balents"
+      ],
+      "referenceCount": 38,
+      "citationCount": 218
+    }
+  ]
+}

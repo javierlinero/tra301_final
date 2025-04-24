@@ -1,0 +1,84 @@
+{
+  "main": {
+    "paperId": "1d0c1e8d3cc253e6c02a1b36da1b71bc0d5f227f",
+    "title": "The heterotic string, the tangent bundle and derived categories",
+    "abstract": "We consider the compactification of the E8xE8 heterotic string on a K3 surface with \"the spin connection embedded in the gauge group\" and the dual picture in the type IIA string (or F-theory) on a Calabi-Yau threefold X. It turns out that the same X arises also as dual to a heterotic compactification on 24 point-like instantons. X is necessarily singular, and we see that this singularity allows the Ramond-Ramond moduli on X to split into distinct components, one containing the (dual of the heterotic) tangent bundle, while another component contains the point-like instantons. As a practical application we derive the result that a heterotic string compactified on the tangent bundle of a K3 with ADE singularities acquires nonperturbatively enhanced gauge symmetry in just the same fashion as a type IIA string on a singular K3 surface. On a more philosophical level we discuss how it appears to be natural to say that the heterotic string is compactified using an object in the derived category of coherent sheaves. This is necessary to properly extend the notion of T-duality to the heterotic string on a K3 surface.",
+    "year": 1998,
+    "authors": [
+      "P. Aspinwall",
+      "R. Donagi"
+    ],
+    "referenceCount": 55,
+    "citationCount": 100
+  },
+  "references": [
+    {
+      "paperId": "ef53f2b1f79cd1b53252dff1793aabb492849bae",
+      "title": "Algebraic Geometry",
+      "abstract": "We compute the fundamental group of an algebraic link. To cite this article: O. Neto, P.C. Silva, C. R. Acad. Sci. Paris, Ser. I 340 (2005).  2004 Académie des sciences. Published by Elsevier SAS. All rights reserved. Résumé Le groupe fondamental d’un entrelacs algébrique. On calcule le groupe fondamental d’un entrelacs algébrique. Pour citer cet article :O. Neto, P.C. Silva, C. R. Acad. Sci. Paris, Ser. I 340 (2005).  2004 Académie des sciences. Published by Elsevier SAS. All rights reserved.",
+      "year": 2022,
+      "authors": [
+        "David A. Cox"
+      ],
+      "referenceCount": 163,
+      "citationCount": 10140
+    },
+    {
+      "paperId": "7ca37ecfa02d6a3b41829f69aa0b5fe22c8c688e",
+      "title": "Non-simply-connected gauge groups and rational points on elliptic curves",
+      "abstract": "We consider the F-theory description of non-simply-connected gauge groups appearing in the E8 × E8 heterotic string. The analysis is closely tied to the arithmetic of torsion points on an elliptic curve. The general form of the corresponding elliptic fibration is given for all finite subgroups of E8 which are applicable in this context. We also study the closely-related question of point-like instantons on a K3 surface whose holonomy is a finite group. As an example we consider the case of the heterotic string on a K3 surface having the E8 gauge symmetry broken to SU(9)/3 or (E6 × SU(3))/3 by point-like instantons with 3 holonomy.",
+      "year": 1998,
+      "authors": [
+        "P. Aspinwall",
+        "D. Morrison"
+      ],
+      "referenceCount": 27,
+      "citationCount": 111
+    },
+    {
+      "paperId": "38ddf9f886156f4d5ee973860d675587b8472e36",
+      "title": "Aspects of the hypermultiplet moduli space in string duality",
+      "abstract": "A type IIA string (or F-theory) compactified on a Calabi-Yau threefold is believed to be dual to a heterotic string on a K3 surface times a 2-torus (or on a K3 surface). We consider how the resulting moduli space of hypermultiplets is identified between these two pictures in the case of the E8 × E8 heterotic string. As examples we discuss SU(2)-bundles and G2-bundles on the K3 surface and the case of point-like instantons. We are lead to a rather beautiful identification between the integral cohomology of the Calabi-Yau threefold and some integral structures on the heterotic side somewhat reminiscent of mirror symmetry. We discuss the consequences for probing nonperturbative effects in the both the type IIA string and the heterotic string.",
+      "year": 1998,
+      "authors": [
+        "P. Aspinwall"
+      ],
+      "referenceCount": 42,
+      "citationCount": 61
+    },
+    {
+      "paperId": "b4f42869c7d6f3bd992991bc412fb5620c787a58",
+      "title": "K3 Surfaces and String Duality",
+      "abstract": "The primary purpose of these lecture notes is to explore the moduli space of type IIA, type IIB, and heterotic string compactified on a K3 surface. The main tool which is invoked is that of string duality. K3 surfaces provide a fascinating arena for string compactification as they are not trivial spaces but are sufficiently simple for one to be able to analyze most of their properties in detail. They also make an almost ubiquitous appearance in the common statements concerning string duality. We review the necessary facts concerning the classical geometry of K3 surfaces that will be needed and then we review \"old string theory\" on K3 surfaces in terms of conformal field theory. The type IIA string, the type IIB string, the E8 x E8 heterotic string, and Spin(32)/Z2 heterotic string on a K3 surface are then each analyzed in turn. The discussion is biased in favour of purely geometric notions concerning the K3 surface itself. These are an extended form of the notes from lectures given at TASI 96.",
+      "year": 1996,
+      "authors": [
+        "P. Aspinwall"
+      ],
+      "referenceCount": 170,
+      "citationCount": 405
+    },
+    {
+      "paperId": "b91d3c0ab82ac56189a3d9d58ed82bf9906cdb70",
+      "title": "The Geometry Underlying Mirror Symmetry",
+      "abstract": ". The recent result of Strominger, Yau and Zaslow relating mirror symmetry to the quantum ﬁeld theory notion of T-duality is reinterpreted as providing a way of geometrically characterizing which Calabi–Yau manifolds have mirror partners. The geometric description—that one Calabi–Yau manifold should serve as a compactiﬁed, complexiﬁed moduli space for special Lagrangian tori on the other Calabi–Yau manifold—is rather surprising. We formulate some precise mathematical conjectures concerning how these moduli spaces are to be compactiﬁed and complexiﬁed, as well as a deﬁnition of geometric mirror pairs (in arbitrary dimension) which is independent of those conjectures. We investigate how this new geometric description ought to be related to the mathematical statements which have previously been extracted from mirror symmetry. In particular, we discuss how the moduli spaces of the ‘mirror’ Calabi–Yau manifolds should be related to one another, and how appropriate subspaces of the homology groups of those manifolds could be related. We treat the case of K3 surfaces in some detail.",
+      "year": 1996,
+      "authors": [
+        "D. Morrison"
+      ],
+      "referenceCount": 52,
+      "citationCount": 46
+    },
+    {
+      "paperId": "8686417ddbed41a8c0e18b20b2d4088ce8182674",
+      "title": "String theory on K3 surfaces",
+      "abstract": "The moduli space of N=(4,4) string theories with a K3 target space is determined, establishing in particular that the discrete symmetry group is the full integral orthogonal group of an even unimodular lattice of signature (4,20). The method combines an analysis of the classical theory of K3 moduli spaces with mirror symmetry. A description of the moduli space is also presented from the viewpoint of quantum geometry, and consequences are drawn concerning mirror symmetry for algebraic K3 surfaces.",
+      "year": 1994,
+      "authors": [
+        "P. Aspinwall",
+        "D. Morrison"
+      ],
+      "referenceCount": 48,
+      "citationCount": 237
+    }
+  ]
+}

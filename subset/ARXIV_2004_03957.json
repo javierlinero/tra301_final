@@ -1,0 +1,62 @@
+{
+  "main": {
+    "paperId": "456430b8ead7cddc8ec0b4fe6213d31d575126a8",
+    "title": "Continuum polarization reverberation mapping of AGNs",
+    "abstract": "The determination of the size and geometry of the broad line region (BLR) in active galactic nuclei is one of the major ingredients for determining the mass of the accreting black hole. This can be done by determining the delay between the optical continuum and the flux reprocessed by the BLR, in particular via the emission lines. We propose here that the delay between polarized and unpolarized light can also be used in much the same way to constrain the size of the BLR; we check that meaningful results can be expected from observations using this technique. We use our code STOKES for performing polarized radiative transfer simulations. We determine the response of the central source environment (broad line region, dust torus, polar wind) to fluctuations of the central source that are randomly generated; we then calculate the cross correlation between the simulated polarized flux and the total flux to estimate the time delay that would be provided by observations using the same method. We find that the broad line region is the main contributor to the delay between the polarized flux and the total flux; this delay is independent on the observation wavelength. This validates the use of polarized radiation in the optical/UV band to estimate the geometrical properties of the broad line region in type I AGNs, in which the viewing angle is close to pole-on and the BLR is not obscured by the dust torus.",
+    "year": 2020,
+    "authors": [
+      "P. R. Lobos",
+      "R. Goosmann",
+      "J. Hameury",
+      "F. Marin"
+    ],
+    "referenceCount": 43,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "165b5991bf0e11a8db4e9589f7c00c9388a3584d",
+      "title": "Modeling optical and UV polarization of AGNs. IV. Polarization timing",
+      "abstract": "Context. Optical observations cannot resolve the structure of active galactic nuclei (AGN), and a uniﬁed model for AGN was inferred mostly from indirect methods, such as spectroscopy and variability studies. Optical reverberation mapping allowed us to constrain the spatial dimension of the broad emission line region and thereby to measure the mass of supermassive black holes. Recently, reverberation was also applied to the polarized signal emerging from di ﬀ erent AGN components. In principle, this should allow us to measure the spatial dimensions of the sub-parsec reprocessing media. Aims. We conduct numerical modeling of polarization reverberation and provide theoretical predictions for the polarization time lag induced by di ﬀ erent AGN components. The model parameters are adjusted to the observational appearance of the Seyfert 1 galaxy NGC 4151. Methods. We modeled scattering-induced polarization and tested di ﬀ erent geometries for the circumnuclear dust component. Our tests included the e ﬀ ects of clumpiness and di ﬀ erent dust prescriptions. To further extend the model, we also explored the e ﬀ ects of additional ionized winds stretched along the polar direction, and of an equatorial scattering ring that is responsible for the polarization angle observed in pole-on AGN. The simulations were run using a time-dependent version of the stokes code. Results. Our modeling conﬁrms the previously found polarization characteristics as a function of the observer‘s viewing angle. When the dust adopts a ﬂared-disk geometry, the lags reveal a clear di ﬀ erence between type 1 and type 2 AGN. This distinction is less clear for a torus geometry where the time lag is more sensitive to the geometry and optical depth of the inner surface layers of the funnel. The presence of a scattering equatorial ring and ionized outﬂows increased the recorded polarization time lags, and the polar outﬂows smooths out dependence on viewing angle, especially for the higher optical depth of the wind ( τ = 0.3). Conclusions. Together with other AGN observables, the polarization time lag places new, independent “seismological” constraints on the inner geometry of AGN. If we conduct time-dependent spectropolarimetric observing campaigns of AGN, this method has a high potential for a census of supermassive black holes.",
+      "year": 2018,
+      "authors": [
+        "P. R. Lobos",
+        "R. Goosmann",
+        "F. Marin",
+        "D. Savić"
+      ],
+      "referenceCount": 35,
+      "citationCount": 15
+    },
+    {
+      "paperId": "5fcd91b901545610adab3a819c68d25a460c77a6",
+      "title": "Short time-scale optical variability properties of the largest AGN sample observed with Kepler/K2",
+      "abstract": "We present the first short time-scale (∼hours to days) optical variability study of a large sample of active galactic nuclei (AGNs) observed with the Kepler/K2 mission. The sample contains 252 AGN observed over four campaigns with ∼30  min cadence selected from the Million Quasar Catalogue with R magnitude <19. We performed time series analysis to determine their variability properties by means of the power spectral densities (PSDs) and applied Monte Carlo techniques to find the best model parameters that fit the observed power spectra. A power-law model is sufficient to describe all the PSDs of our sample. A variety of power-law slopes were found indicating that there is not a universal slope for all AGNs. We find that the rest-frame amplitude variability in the frequency range of 6 × 10−6–10−4 Hz varies from 1to10  per cent with an average of 1.7  per cent. We explore correlations between the variability amplitude and key parameters of the AGN, finding a significant correlation of rest-frame short-term variability amplitude with redshift. We attribute this effect to the known ‘bluer when brighter’ variability of quasars combined with the fixed bandpass of Kepler data. This study also enables us to distinguish between Seyferts and blazars and confirm AGN candidates. For our study, we have compared results obtained from light curves extracted using different aperture sizes and with and without detrending. We find that limited detrending of the optimal photometric precision light curve is the best approach, although some systematic effects still remain present.",
+      "year": 2017,
+      "authors": [
+        "E. Aranzana",
+        "E. Körding",
+        "P. Uttley",
+        "S. Scaringi",
+        "S. Bloemen"
+      ],
+      "referenceCount": 51,
+      "citationCount": 24
+    },
+    {
+      "paperId": "ea404b4c1f0fb8c333fa3df1f8970df9edb58475",
+      "title": "DISCOVERY OF POLARIZATION REVERBERATION IN NGC 4151",
+      "abstract": "Observations of the optical polarization of NGC 4151 in 1997–2003 show variations of an order of magnitude in the polarized flux while the polarization position angle remains constant. The amplitude of variability of the polarized flux is comparable to the amplitude of variability of the total U-band flux, except that the polarized flux follows the total flux with a lag of 8 ± 3 days. The time lag and the constancy of the position angle strongly favor a scattering origin for the variable polarization rather than a non-thermal synchrotron origin. The orientation of the position angle of the polarized flux (parallel to the radio axis) and the size of the lag imply that the polarization arises from electron scattering in a flattened region within the low-ionization component of the broad-line region. Polarization from dust scattering in the equatorial torus is ruled out as the source of the lag in polarized flux because it would produce a larger lag and, unless the half-opening angle of the torus is >53°, the polarization would be perpendicular to the radio axis. We note a long-term change in the percentage of polarization at similar total flux levels, and this could be due either to changing non-axisymmetry in the optical continuum emission or a change in the number of scatterers on a timescale of years.",
+      "year": 2007,
+      "authors": [
+        "Martin Gaskell",
+        "R. Goosmann",
+        "N. Merkulova",
+        "N. M. Shakhovskoy",
+        "Masatoshi Shoji"
+      ],
+      "referenceCount": 40,
+      "citationCount": 26
+    }
+  ]
+}

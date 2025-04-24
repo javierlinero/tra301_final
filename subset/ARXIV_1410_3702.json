@@ -1,0 +1,117 @@
+{
+  "main": {
+    "paperId": "00155f2a38a105c519a371bb82633a89bea68543",
+    "title": "Defocused transmission spectroscopy: a potential detection of sodium in the atmosphere of WASP-12b",
+    "abstract": "We report on a pilot study of a novel observing technique, defocused transmission spectroscopy, and its application to the study of exoplanet atmospheres using ground-based platforms. Similar to defocused photometry, defocused transmission spectroscopy has an added advantage over normal spectroscopy in that it reduces systematic errors due to flat-fielding, point spread function variations, slit-jaw imperfections and other effects associated with ground-based observations. For one of the planetary systems studied, WASP-12b, we report a tentative detection of additional Na absorption of 0.12 ± 0.03[+0.03] per cent during transit using a 2 A wavelength mask. After consideration of a systematic that occurs mid-transit, it is likely that the true depth is actually closer to 0.15 per cent. This is a similar level of absorption reported in the atmosphere of HD 209458b (0.135 ± 0.017 per cent; Snellen et al. 2008). Finally, we outline methods that will improve the technique during future observations, based on our findings from this pilot study.",
+    "year": 2014,
+    "authors": [
+      "J. Burton",
+      "J. Burton",
+      "C. Watson",
+      "P. Rodríguez-Gil",
+      "P. Rodríguez-Gil",
+      "I. Skillen",
+      "S. Littlefair",
+      "S. Dhillon",
+      "D. Pollacco"
+    ],
+    "referenceCount": 49,
+    "citationCount": 14
+  },
+  "references": [
+    {
+      "paperId": "f087d55b3809760551871ca23bb1d971c96442fd",
+      "title": "WASP-12b AND HAT-P-8b ARE MEMBERS OF TRIPLE STAR SYSTEMS",
+      "abstract": "We present high spatial resolution images that demonstrate that WASP-12b and HAT-P-8b orbit the primary stars of hierarchical triple star systems. In each case, two distant companions with colors and brightnesses consistent with M dwarfs co-orbit the hot Jupiter planet host as well as one another. Our adaptive optics images spatially resolve the secondary around WASP-12, previously identified by Bergfors et al. and Crossfield et al. into two distinct sources separated by 84.3 ± 0.6 mas (21 ± 3 AU). We find that the secondary to HAT-P-8, also identified by Bergfors et al., is in fact composed of two stars separated by 65.3 ± 0.5 mas (15 ± 1 AU). Our follow-up observations demonstrate physical association through common proper motion. HAT-P-8 C has a particularly low mass, which we estimate to be 0.18 ± 0.02 M☉ using photometry. Due to their hierarchy, WASP-12 BC and HAT-P-8 BC will enable the first dynamical mass determination for hot Jupiter stellar companions. These previously well studied planet hosts now represent higher-order multi-star systems with potentially complex dynamics, underscoring the importance of diffraction-limited imaging and providing additional context for understanding the migrant population of transiting hot Jupiters.",
+      "year": 2013,
+      "authors": [
+        "Eric B. Bechter",
+        "J. Crepp",
+        "H. Ngo",
+        "H. Knutson",
+        "K. Batygin",
+        "S. Hinkley",
+        "P. Muirhead",
+        "J. Johnson",
+        "A. Howard",
+        "B. Montet",
+        "C. Matthews",
+        "T. Morton"
+      ],
+      "referenceCount": 54,
+      "citationCount": 53
+    },
+    {
+      "paperId": "2304f0889cfb8f348b08952fd195c077b7d3a000",
+      "title": "Ground-based detection of sodium in the transmission spectrum of exoplanet HD209458b",
+      "abstract": "Context. The first detection of an atmosphere around an extrasolar planet was presented by Charbonneau and collaborators in 2002. In the optical transmission spectrum of the transiting exoplanet HD 209458b, an absorption signal from sodium was measured at a level of 0.023 ± 0.006%, using the STIS spectrograph on the Hubble Space Telescope. Despite several attempts, so far only upper limits to the Na D  absorption have been obtained using telescopes from the ground, and the HST result has yet to be confirmed. Aims. The aims of this paper are to re-analyse data taken with the High Dispersion Spectrograph on the Subaru telescope, to correct for systematic effects dominating the data quality, and to improve on previous results presented in the literature. Methods. The data reduction process was altered in several places, most importantly allowing for small shifts in the wavelength solution. The relative depth of all lines in the spectra, including the two sodium D lines, are found to correlate strongly with the continuum count level in the spectra. These variations are attributed to non-linearity effects in the CCDs. After removal of this empirical relation the uncertainties in the line depths are only a fraction above that expected from photon statistics. Results. The sodium absorption due to the planet's atmosphere is detected at > 5 σ , at a level of 0.056 ± 0.007% (2 $\\times$ 3.0 A band), 0.070 ± 0.011% (2 $\\times$ 1.5 A band), and 0.135 ± 0.017% (2 $\\times$0.75 Aband). There is no evidence that the planetary absorption signal is shifted with respect to the stellar absorption, as recently claimed for HD 189733b. Conclusions. The STIS/HST measurements are confirmed. The measurements of the Na D absorption in the two most narrow bands indicate that some signal is being resolved. Due to variations in the instrumental resolution and intrinsic variations in the stellar lines due to the Rossiter-McLauglin effect, it will be challenging to probe the planetary absorption on spectral scales smaller than the stellar absorption using conventional transmission spectroscopy.",
+      "year": 2008,
+      "authors": [
+        "I. Snellen",
+        "Albrecht S",
+        "Mooij E J W",
+        "Le Poole"
+      ],
+      "referenceCount": 23,
+      "citationCount": 198
+    },
+    {
+      "paperId": "ffbd840771b7f719e3d2ad104868f72708661a51",
+      "title": "Determining Atmospheric Conditions at the Terminator of the Hot Jupiter HD 209458b",
+      "abstract": "We present a theoretical model fit to the HST STIS optical transit transmission spectrum of HD 209458b. In our fit, we use the sodium absorption line profile along with the Rayleigh scattering by H2 to help determine the average temperature-pressure profile at the planetary terminator and infer the abundances of atomic and molecular species. The observed sodium line profile spans an altitude range of ~3500 km, corresponding to pressures between ~0.001 and 50 mbar in our atmospheric models. We find that the sodium line profile requires either condensation into sodium sulfide or ionization, necessary to deplete atomic sodium only at high altitudes below pressures of ~3 mbar. The depletion of sodium is supported by an observed sudden abundance change, from 2 times solar abundance in the lower atmosphere to 0.2 solar or lower in the upper atmosphere. Our findings also indicate the presence of a hot atmosphere near stratospheric altitudes corresponding to pressures of 33 mbar, consistent with that of the observed dayside temperature inversion. In addition, we find that a separate higher altitude temperature rise is necessary within both the condensation and ionization models, corresponding to pressures below ~0.01 mbar. This hot higher altitude temperature indicates that absorption by atomic sodium can potentially probe the bottom of the thermosphere and is possibly sensitive to the temperature rise linked to atmospheric escape.",
+      "year": 2008,
+      "authors": [
+        "D. Sing",
+        "A. Vidal-Madjar",
+        "A. D. Étangs",
+        "J. Désert",
+        "G. Ballester",
+        "D. Ehrenreich"
+      ],
+      "referenceCount": 41,
+      "citationCount": 83
+    },
+    {
+      "paperId": "1b7026536568e6d0c38155867b78150a33a25b08",
+      "title": "Sodium Absorption from the Exoplanetary Atmosphere of HD 189733b Detected in the Optical Transmission Spectrum",
+      "abstract": "We present the first ground-based detection of sodium absorption in the transmission spectrum of an extrasolar planet. Absorption due to the atmosphere of the extrasolar planet HD 189733b is detected in both lines of the Na I doublet. High spectral resolution observations were taken of 11 transits with the High Resolution Spectrograph (HRS) on the 9.2 m Hobby-Eberly Telescope (HET). The Na I absorption in the transmission spectrum due to HD 189733b is (− 67.2 ± 20.7) × 10−5 deeper in the “narrow” spectral band that encompasses both lines relative to adjacent bands. The 1 σ error includes both random and systematic errors, and the detection is >3 σ. This amount of relative absorption in Na I for HD 189733b is ~3 times larger than that detected for HD 209458b by Charbonneau et al. (2002) and indicates that these two hot Jupiters may have significantly different atmospheric properties.",
+      "year": 2007,
+      "authors": [
+        "S. Redfield",
+        "M. Endl",
+        "W. Cochran",
+        "L. Koesterke"
+      ],
+      "referenceCount": 35,
+      "citationCount": 310
+    },
+    {
+      "paperId": "2ba58ed7c579d7fc1adb63ac0b440160a2678b0e",
+      "title": "A Unified Theory for the Atmospheres of the Hot and Very Hot Jupiters: Two Classes of Irradiated Atmospheres",
+      "abstract": "We highlight the importance of gaseous TiO and VO opacity on the highly irradiated close-in giant planets. The day-side atmospheres of these planets naturally fall into two classes that are somewhat analogous to the M- and L-type dwarfs. Those that are warm enough to have appreciable opacity due to TiO and VO gases we term ``pM class'' planets, and those that are cooler we term ``pL class'' planets. We calculate model atmospheres for these planets, including pressure-temperature profiles, spectra, and characteristic radiative time constants. We show that pM class planets have temperature inversions (hot stratospheres), appear ``anomalously'' bright in the mid-infrared secondary eclipse, and feature molecular bands in emission rather than absorption. From simple physical arguments, we show that they will have large day/night temperature contrasts and negligible phase shifts between orbital phase and thermal emission light curves, because radiative timescales are much shorter than possible dynamical timescales. The pL class planets absorb incident flux deeper in the atmosphere where atmospheric dynamics will more readily redistribute absorbed energy. This will lead to cooler day sides, warmer night sides, and larger phase shifts in thermal emission light curves. The boundary between these classes (~0.04-0.05 AU from a Sun-like primary for solar composition) is particularly dependent on the incident flux from the parent star, and less so on other factors. We apply these results to several planets and note that the eccentric transiting planets HD 147506b and HD 17156b alternate between the classes. Thermal emission in the optical from pM class planets is significant redward of 400 nm, making these planets attractive targets for optical detection. The difference in the observed day/night contrast between υ And b (pM class) and HD 189733b (pL class) is naturally explained in this scenario.",
+      "year": 2007,
+      "authors": [
+        "J. Fortney",
+        "K. Lodders",
+        "M. Marley",
+        "R. Freedman"
+      ],
+      "referenceCount": 104,
+      "citationCount": 654
+    },
+    {
+      "paperId": "2c0e5e991715170e80948db70b3e4e2fdbd57b64",
+      "title": "Detection of an Extrasolar Planet Atmosphere",
+      "abstract": "We report high-precision spectrophotometric observations of four planetary transits of HD 209458, in the region of the sodium resonance doublet at 589.3 nm. We find that the photometric dimming during transit in a bandpass centered on the sodium feature is deeper by (2.32 ± 0.57) × 10-4 relative to simultaneous observations of the transit in adjacent bands. We interpret this additional dimming as absorption from sodium in the planetary atmosphere, as recently predicted from several theoretical modeling efforts. Our model for a cloudless planetary atmosphere with a solar abundance of sodium in atomic form predicts more sodium absorption than we observe. There are several possibilities that may account for this reduced amplitude, including reaction of atomic sodium into molecular gases and/or condensates, photoionization of sodium by the stellar flux, a low primordial abundance of sodium, and the presence of clouds high in the atmosphere.",
+      "year": 2001,
+      "authors": [
+        "D. Charbonneau",
+        "T. Brown",
+        "R. Noyes",
+        "R. Gilliland"
+      ],
+      "referenceCount": 41,
+      "citationCount": 1100
+    }
+  ]
+}

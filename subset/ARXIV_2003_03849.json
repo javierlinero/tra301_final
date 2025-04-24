@@ -1,0 +1,158 @@
+{
+  "main": {
+    "paperId": "092ab6c4b11013ff57c8c2506f7c3aae5dc1538d",
+    "title": "Active Fine-Tuning From gMAD Examples Improves Blind Image Quality Assessment",
+    "abstract": "The research in image quality assessment (IQA) has a long history, and significant progress has been made by leveraging recent advances in deep neural networks (DNNs). Despite high correlation numbers on existing IQA datasets, DNN-based models may be easily falsified in the group maximum differentiation (gMAD) competition. Here we show that gMAD examples can be used to improve blind IQA (BIQA) methods. Specifically, we first pre-train a DNN-based BIQA model using multiple noisy annotators, and fine-tune it on multiple synthetically distorted images, resulting in a “top-performing” baseline model. We then seek pairs of images by comparing the baseline model with a set of full-reference IQA methods in gMAD. The spotted gMAD examples are most likely to reveal the weaknesses of the baseline, and suggest potential ways for refinement. We query human quality annotations for the selected images in a well-controlled laboratory environment, and further fine-tune the baseline on the combination of human-rated images from gMAD and existing databases. This process may be iterated, enabling active fine-tuning from gMAD examples for BIQA. We demonstrate the feasibility of our active learning scheme on a large-scale unlabeled image set, and show that the fine-tuned quality model achieves improved generalizability in gMAD, without destroying performance on previously seen databases.",
+    "year": 2020,
+    "authors": [
+      "Zhihua Wang",
+      "Kede Ma"
+    ],
+    "referenceCount": 62,
+    "citationCount": 33
+  },
+  "references": [
+    {
+      "paperId": "a716f55f14cd24e3078be6a9c2150a409804212a",
+      "title": "Group Maximum Differentiation Competition: Model Comparison with Few Samples",
+      "abstract": "In many science and engineering fields that require computational models to predict certain physical quantities, we are often faced with the selection of the best model under the constraint that only a small sample set can be physically measured. One such example is the prediction of human perception of visual quality, where sample images live in a high dimensional space with enormous content variations. We propose a new methodology for model comparison named group maximum differentiation (gMAD) competition. Given multiple computational models, gMAD maximizes the chances of falsifying a “defender” model using the rest models as “attackers”. It exploits the sample space to find sample pairs that maximally differentiate the attackers while holding the defender fixed. Based on the results of the attacking-defending game, we introduce two measures, aggressiveness and resistance, to summarize the performance of each model at attacking other models and defending attacks from other models, respectively. We demonstrate the gMAD competition using three examples—image quality, image aesthetics, and streaming video quality-of-experience. Although these examples focus on visually discriminable quantities, the gMAD methodology can be extended to many other fields, and is especially useful when the sample space is large, the physical measurement is expensive and the cost of computational prediction is low.",
+      "year": 2020,
+      "authors": [
+        "Kede Ma",
+        "Zhengfang Duanmu",
+        "Zhou Wang",
+        "Q. Wu",
+        "Wentao Liu",
+        "Hongwei Yong",
+        "Hongliang Li",
+        "Lei Zhang"
+      ],
+      "referenceCount": 72,
+      "citationCount": 60
+    },
+    {
+      "paperId": "578124afe3ed6fb33cca42fdb69f4417c73695f5",
+      "title": "Blind Image Quality Assessment by Learning from Multiple Annotators",
+      "abstract": "Models for image quality assessment (IQA) are generally optimized and tested by comparing to human ratings, which are expensive to obtain. Here, we develop a blind IQA (BIQA) model, and a method of training it without human ratings. We first generate a large number of corrupted image pairs, and use a set of existing IQA models to identify which image of each pair has higher quality. We then train a convolutional neural network to estimate perceived image quality along with the uncertainty, optimizing for consistency with the binary labels. The reliability of each IQA annotator is also estimated during training. Experiments demonstrate that our model outperforms state-of-the-art BIQA models in terms of correlation with human ratings in existing databases, as well in group maximum differentiation (gMAD) competition.",
+      "year": 2019,
+      "authors": [
+        "Kede Ma",
+        "Xuelin Liu",
+        "Yuming Fang",
+        "Eero P. Simoncelli"
+      ],
+      "referenceCount": 33,
+      "citationCount": 52
+    },
+    {
+      "paperId": "c637ae764b51e435c944ccc44b57509c181648a3",
+      "title": "Learning To Blindly Assess Image Quality In The Laboratory And Wild",
+      "abstract": "Computational models for blind image quality assessment (BIQA) are typically trained in well-controlled laboratory environments with limited generalizability to realistically distorted images. Similarly, BIQA models optimized for images captured in the wild cannot adequately handle synthetically distorted images. To face the cross-distortion-scenario challenge, we develop a BIQA model and an approach of training it on multiple IQA databases (of different distortion scenarios) simultaneously. A key step in our approach is to create and combine image pairs within individual databases as the training set, which effectively bypasses the issue of perceptual scale realignment. We compute a continuous quality annotation for each pair from the corresponding human opinions, indicating the probability of one image having better perceptual quality. We train a deep neural network for BIQA over the training set of massive image pairs by minimizing the fidelity loss. Experiments on six IQA databases demonstrate that the optimized model by the proposed training strategy is effective in blindly assessing image quality in the laboratory and wild, outperforming previous BIQA methods by a large margin.",
+      "year": 2019,
+      "authors": [
+        "Weixia Zhang",
+        "Kede Ma",
+        "Xiaokang Yang"
+      ],
+      "referenceCount": 36,
+      "citationCount": 57
+    },
+    {
+      "paperId": "beffd42ea6c0adbf437afa989fd0f9924006101b",
+      "title": "KADID-10k: A Large-scale Artificially Distorted IQA Database",
+      "abstract": "Current artificially distorted image quality assessment (IQA) databases are small in size and limited in content. Larger IQA databases that are diverse in content could benefit the development of deep learning for IQA. We create two datasets, the Konstanz Artificially Distorted Image quality Database (KADID-10k) and the Konstanz Artificially Distorted Image quality Set (KADIS-700k). The former contains 81 pristine images, each degraded by 25 distortions in 5 levels. The latter has 140,000 pristine images, with 5 degraded versions each, where the distortions are chosen randomly. We conduct a subjective IQA crowdsourcing study on KADID-10k to yield 30 degradation category ratings (DCRs) per image. We believe that the annotated set KADID-10k, together with the unlabelled set KADIS-700k, can enable the full potential of deep learning based IQA methods by means of weakly-supervised learning.",
+      "year": 2019,
+      "authors": [
+        "Hanhe Lin",
+        "Vlad Hosu",
+        "D. Saupe"
+      ],
+      "referenceCount": 31,
+      "citationCount": 405
+    },
+    {
+      "paperId": "a41175002926ccc7754c0fb3c989ff38846434f1",
+      "title": "PieAPP: Perceptual Image-Error Assessment Through Pairwise Preference",
+      "abstract": "The ability to estimate the perceptual error between images is an important problem in computer vision with many applications. Although it has been studied extensively, however, no method currently exists that can robustly predict visual differences like humans. Some previous approaches used hand-coded models, but they fail to model the complexity of the human visual system. Others used machine learning to train models on human-labeled datasets, but creating large, high-quality datasets is difficult because people are unable to assign consistent error labels to distorted images. In this paper, we present a new learning-based method that is the first to predict perceptual image error like human observers. Since it is much easier for people to compare two given images and identify the one more similar to a reference than to assign quality scores to each, we propose a new, large-scale dataset labeled with the probability that humans will prefer one image over another. We then train a deep-learning model using a novel, pairwise-learning framework to predict the preference of one distorted image over the other. Our key observation is that our trained network can then be used separately with only one distorted image and a reference to predict its perceptual error, without ever being trained on explicit human perceptual-error labels. The perceptual error estimated by our new metric, PieAPP, is well-correlated with human opinion. Furthermore, it significantly outperforms existing algorithms, beating the state-of-the-art by almost 3Ã— on our test set in terms of binary error rate, while also generalizing to new kinds of distortions, unlike previous learning-based methods.",
+      "year": 2018,
+      "authors": [
+        "Ekta Prashnani",
+        "H. Cai",
+        "Yasamin Mostofi",
+        "P. Sen"
+      ],
+      "referenceCount": 64,
+      "citationCount": 268
+    },
+    {
+      "paperId": "fcce2d6be712765ffef7943ab364d1652db2820a",
+      "title": "End-to-End Blind Image Quality Assessment Using Deep Neural Networks",
+      "abstract": "We propose a multi-task end-to-end optimized deep neural network (MEON) for blind image quality assessment (BIQA). MEON consists of two sub-networks—a distortion identification network and a quality prediction network—sharing the early layers. Unlike traditional methods used for training multi-task networks, our training process is performed in two steps. In the first step, we train a distortion type identification sub-network, for which large-scale training samples are readily available. In the second step, starting from the pre-trained early layers and the outputs of the first sub-network, we train a quality prediction sub-network using a variant of the stochastic gradient descent method. Different from most deep neural networks, we choose biologically inspired generalized divisive normalization (GDN) instead of rectified linear unit as the activation function. We empirically demonstrate that GDN is effective at reducing model parameters/layers while achieving similar quality prediction performance. With modest model complexity, the proposed MEON index achieves state-of-the-art performance on four publicly available benchmarks. Moreover, we demonstrate the strong competitiveness of MEON against state-of-the-art BIQA models using the group maximum differentiation competition methodology.",
+      "year": 2018,
+      "authors": [
+        "Kede Ma",
+        "Wentao Liu",
+        "K. Zhang",
+        "Zhengfang Duanmu",
+        "Zhou Wang",
+        "W. Zuo"
+      ],
+      "referenceCount": 56,
+      "citationCount": 462
+    },
+    {
+      "paperId": "798d3e2daba161280da523c856d6a11f655d7200",
+      "title": "Deep Neural Networks for No-Reference and Full-Reference Image Quality Assessment",
+      "abstract": "We present a deep neural network-based approach to image quality assessment (IQA). The network is trained end-to-end and comprises ten convolutional layers and five pooling layers for feature extraction, and two fully connected layers for regression, which makes it significantly deeper than related IQA models. Unique features of the proposed architecture are that: 1) with slight adaptations it can be used in a no-reference (NR) as well as in a full-reference (FR) IQA setting and 2) it allows for joint learning of local quality and local weights, i.e., relative importance of local quality to the global quality estimate, in an unified framework. Our approach is purely data-driven and does not rely on hand-crafted features or other types of prior domain knowledge about the human visual system or image statistics. We evaluate the proposed approach on the LIVE, CISQ, and TID2013 databases as well as the LIVE In the wild image quality challenge database and show superior performance to state-of-the-art NR and FR IQA methods. Finally, cross-database evaluation shows a high ability to generalize between different databases, indicating a high robustness of the learned features.",
+      "year": 2016,
+      "authors": [
+        "S. Bosse",
+        "Dominique Maniry",
+        "K. Müller",
+        "T. Wiegand",
+        "W. Samek"
+      ],
+      "referenceCount": 56,
+      "citationCount": 967
+    },
+    {
+      "paperId": "6a0e2d5af8f14332da4a66359b3d553414d0d939",
+      "title": "Mean Deviation Similarity Index: Efficient and Reliable Full-Reference Image Quality Evaluator",
+      "abstract": "Applications of perceptual image quality assessment (IQA) in image and video processing, such as image acquisition, image compression, image restoration, and multimedia communication, have led to the development of many IQA metrics. In this paper, a reliable full reference IQA model is proposed that utilize gradient similarity (GS), chromaticity similarity (CS), and deviation pooling (DP). By considering the shortcomings of the commonly used GS to model the human visual system (HVS), a new GS is proposed through a fusion technique that is more likely to follow HVS. We propose an efficient and effective formulation to calculate the joint similarity map of two chromatic channels for the purpose of measuring color changes. In comparison with a commonly used formulation in the literature, the proposed CS map is shown to be more efficient and provide comparable or better quality predictions. Motivated by a recent work that utilizes the standard DP, a general formulation of the DP is presented in this paper and used to compute a final score from the proposed GS and CS maps. This proposed formulation of DP benefits from the Minkowski pooling and a proposed power pooling as well. The experimental results on six data sets of natural images, a synthetic data set, and a digitally retouched dataset show that the proposed index provides comparable or better quality predictions than the most recent and competing state-of-the-art IQA metrics in the literature, it is reliable and has low complexity. The MATLAB source code of the proposed metric is available at https://dl.dropboxusercontent.com/u/74505502/MDSI.m.",
+      "year": 2016,
+      "authors": [
+        "Hossein Ziaei Nafchi",
+        "Atena Shahkolaei",
+        "R. Hedjam",
+        "M. Cheriet"
+      ],
+      "referenceCount": 48,
+      "citationCount": 142
+    },
+    {
+      "paperId": "d15c847414e71cdfc945cbd27db53d6b193e093c",
+      "title": "VSI: A Visual Saliency-Induced Index for Perceptual Image Quality Assessment",
+      "abstract": "Perceptual image quality assessment (IQA) aims to use computational models to measure the image quality in consistent with subjective evaluations. Visual saliency (VS) has been widely studied by psychologists, neurobiologists, and computer scientists during the last decade to investigate, which areas of an image will attract the most attention of the human visual system. Intuitively, VS is closely related to IQA in that suprathreshold distortions can largely affect VS maps of images. With this consideration, we propose a simple but very effective full reference IQA method using VS. In our proposed IQA model, the role of VS is twofold. First, VS is used as a feature when computing the local quality map of the distorted image. Second, when pooling the quality score, VS is employed as a weighting function to reflect the importance of a local region. The proposed IQA index is called visual saliency-based index (VSI). Several prominent computational VS models have been investigated in the context of IQA and the best one is chosen for VSI. Extensive experiments performed on four largescale benchmark databases demonstrate that the proposed IQA index VSI works better in terms of the prediction accuracy than all state-of-the-art IQA indices we can find while maintaining a moderate computational complexity. The MATLAB source code of VSI and the evaluation results are publicly available online at http://sse.tongji.edu.cn/linzhang/IQA/VSI/VSI.htm.",
+      "year": 2014,
+      "authors": [
+        "Lin Zhang",
+        "Ying Shen",
+        "Hongyu Li"
+      ],
+      "referenceCount": 53,
+      "citationCount": 864
+    },
+    {
+      "paperId": "49e89d10fb5c5b4eb4beadae1a145567476398ee",
+      "title": "Image information and visual quality",
+      "abstract": "Measurement of visual quality is of fundamental importance to numerous image and video processing applications. The goal of quality assessment (QA) research is to design algorithms that can automatically assess the quality of images or videos in a perceptually consistent manner. Image QA algorithms generally interpret image quality as fidelity or similarity with a \"reference\" or \"perfect\" image in some perceptual space. Such \"full-reference\" QA methods attempt to achieve consistency in quality prediction by modeling salient physiological and psychovisual features of the human visual system (HVS), or by signal fidelity measures. In this paper, we approach the image QA problem as an information fidelity problem. Specifically, we propose to quantify the loss of image information to the distortion process and explore the relationship between image information and visual quality. QA systems are invariably involved with judging the visual quality of \"natural\" images and videos that are meant for \"human consumption.\" Researchers have developed sophisticated models to capture the statistics of such natural signals. Using these models, we previously presented an information fidelity criterion for image QA that related image quality with the amount of information shared between a reference and a distorted image. In this paper, we propose an image information measure that quantifies the information that is present in the reference image and how much of this reference information can be extracted from the distorted image. Combining these two quantities, we propose a visual information fidelity measure for image QA. We validate the performance of our algorithm with an extensive subjective study involving 779 images and show that our method outperforms recent state-of-the-art image QA algorithms by a sizeable margin in our simulations. The code and the data from the subjective study are available at the LIVE website.",
+      "year": 2006,
+      "authors": [
+        "H. Sheikh",
+        "A. Bovik"
+      ],
+      "referenceCount": 41,
+      "citationCount": 3832
+    }
+  ]
+}

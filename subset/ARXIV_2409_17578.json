@@ -1,0 +1,76 @@
+{
+  "main": {
+    "paperId": "df3b4424e02ad0a5d098c52fb6e26c4077595820",
+    "title": "Expanding Perspectives on Data Privacy: Insights from Rural Togo",
+    "abstract": "Passively collected\"big\"data sources are increasingly used to inform critical development policy decisions in low- and middle-income countries. While prior work highlights how such approaches may reveal sensitive information, enable surveillance, and centralize power, less is known about the corresponding privacy concerns, hopes, and fears of the people directly impacted by these policies -- people sometimes referred to as experiential experts. To understand the perspectives of experiential experts, we conducted semi-structured interviews with people living in rural villages in Togo shortly after an entirely digital cash transfer program was launched that used machine learning and mobile phone metadata to determine program eligibility. This paper documents participants' privacy concerns surrounding the introduction of big data approaches in development policy. We find that the privacy concerns of our experiential experts differ from those raised by privacy and development domain experts. To facilitate a more robust and constructive account of privacy, we discuss implications for policies and designs that take seriously the privacy concerns raised by both experiential experts and domain experts.",
+    "year": 2024,
+    "authors": [
+      "Zoe Kahn",
+      "Meyebinesso Farida Carelle Pere",
+      "Emily L. Aiken",
+      "Nitin Kohli",
+      "J. Blumenstock"
+    ],
+    "referenceCount": 115,
+    "citationCount": 1
+  },
+  "references": [
+    {
+      "paperId": "e19b36d54abba906da175997fcc1798138cb6582",
+      "title": "Localised Trust in a Globalised Knot: Designing Information Privacy for Digital-ID",
+      "abstract": "We designed the system that manages, verifies and exchanges identity information for Namibia's national Digital-ID. We applied Grounded Theory methods to five focus groups to understand experiences, expectations and practices in different contexts of legal identity verification and sharing. Local perspectives on privacy aligned with prevalent models for Digital-ID, in which people individually own and trade their personal information, yet they cannot be disentangled from specific social relationships. Thus, our design responds to the ways people establish trust with organisations over time and relate consent for information exchange and privacy control to accountability. We use Situational Analysis to consider how data governance is constructed in a policy-design-adoption ‘knot’ and relates to Namibia's sociotechnical imaginary of ‘unity in diversity’. Unequal telecommunications access and adoption contributes to systems that produce inegalitarian data relations but is not central in Namibia's data protection and privacy discourse, thus our thick analysis prompted designing to strengthen collective voice in governance through Government Gazettes and civil society activism. Our reflections also suggest that although design research of a real-world system in Africa offers important insights about combining individualist and collectivist orientations in data governance, their wider scholarly contribution is impeded by norms imposed by the Global North.",
+      "year": 2023,
+      "authors": [
+        "S. Van Staden",
+        "N. Bidwell"
+      ],
+      "referenceCount": 244,
+      "citationCount": 3
+    },
+    {
+      "paperId": "9dbbc61a1a9f08f2b526064b77f22bf230f82c60",
+      "title": "Machine learning and phone data can improve targeting of humanitarian aid",
+      "abstract": "The COVID-19 pandemic has devastated many low- and middle-income countries, causing widespread food insecurity and a sharp decline in living standards1. In response to this crisis, governments and humanitarian organizations worldwide have distributed social assistance to more than 1.5 billion people2. Targeting is a central challenge in administering these programmes: it remains a difficult task to rapidly identify those with the greatest need given available data3,4. Here we show that data from mobile phone networks can improve the targeting of humanitarian assistance. Our approach uses traditional survey data to train machine-learning algorithms to recognize patterns of poverty in mobile phone data; the trained algorithms can then prioritize aid to the poorest mobile subscribers. We evaluate this approach by studying a flagship emergency cash transfer program in Togo, which used these algorithms to disburse millions of US dollars worth of COVID-19 relief aid. Our analysis compares outcomes—including exclusion errors, total social welfare and measures of fairness—under different targeting regimes. Relative to the geographic targeting options considered by the Government of Togo, the machine-learning approach reduces errors of exclusion by 4–21%. Relative to methods requiring a comprehensive social registry (a hypothetical exercise; no such registry exists in Togo), the machine-learning approach increases exclusion errors by 9–35%. These results highlight the potential for new data sources to complement traditional methods for targeting humanitarian assistance, particularly in crisis settings in which traditional data are missing or out of date. Machine-learning algorithms can take advantage of survey and mobile phone data to help to identify people most in need of aid, complementing traditional methods for targeting humanitarian assistance.",
+      "year": 2022,
+      "authors": [
+        "Emily L. Aiken",
+        "Suzanne Bellue",
+        "Dean S. Karlan",
+        "C. Udry",
+        "J. Blumenstock"
+      ],
+      "referenceCount": 57,
+      "citationCount": 86
+    },
+    {
+      "paperId": "76de95d90ec8d812ff02b9290d4bbd7f6951854c",
+      "title": "Narratives and Counternarratives on Data Sharing in Africa",
+      "abstract": "As machine learning and data science applications grow ever more prevalent, there is an increased focus on data sharing and open data initiatives, particularly in the context of the African continent. Many argue that data sharing can support research and policy design to alleviate poverty, inequality, and derivative effects in Africa. Despite the fact that the datasets in question are often extracted from African communities, conversations around the challenges of accessing and sharing African data are too often driven by non-African stakeholders. These perspectives frequently employ a deficit narratives, often focusing on lack of education, training, and technological resources in the continent as the leading causes of friction in the data ecosystem. We argue that these narratives obfuscate and distort the full complexity of the African data sharing landscape. In particular, we use storytelling via fictional personas built from a series of interviews with African data experts to complicate dominant narratives and to provide counternarratives. Coupling these personas with research on data practices within the continent, we identify recurring barriers to data sharing as well as inequities in the distribution of data sharing benefits. In particular, we discuss issues arising from power imbalances resulting from the legacies of colonialism, ethno-centrism, and slavery, disinvestment in building trust, lack of acknowledgement of historical and present-day extractive practices, and Western-centric policies that are ill-suited to the African context. After outlining these problems, we discuss avenues for addressing them when sharing data generated in the continent.",
+      "year": 2021,
+      "authors": [
+        "Rediet Abebe",
+        "Kehinde D. Aruleba",
+        "Abeba Birhane",
+        "Sara Kingsley",
+        "G. Obaido",
+        "S. Remy",
+        "S. Sadagopan"
+      ],
+      "referenceCount": 133,
+      "citationCount": 83
+    },
+    {
+      "paperId": "97832c04b8238c069ab5d740facbb9ec98f419e2",
+      "title": "Differential Privacy in Practice: Expose your Epsilons!",
+      "abstract": "Differential privacy is at a turning point. Implementations have been successfully leveraged in private industry, the public sector, and academia in a wide variety of applications, allowing scientists, engineers, and researchers the ability to learn about populations of interest without specifically learning about these individuals. Because differential privacy allows us to quantify cumulative privacy loss, these differentially private systems will, for the first time, allow us to measure and compare the total privacy loss due to these personal data-intensive activities. Appropriately leveraged, this could be a watershed moment for privacy. \nLike other technologies and techniques that allow for a range of instantiations, implementation details matter. When meaningfully implemented, differential privacy supports deep data-driven insights with minimal worst-case privacy loss. When not meaningfully implemented, differential privacy delivers privacy mostly in name. Using differential privacy to maximize learning while providing a meaningful degree of privacy requires judicious choices with respect to the privacy parameter epsilon, among other factors. However, there is little understanding of what is the optimal value of epsilon for a given system or classes of systems/purposes/data etc. or how to go about figuring it out. \nTo understand current differential privacy implementations and how organizations make these key choices in practice, we conducted interviews with practitioners to learn from their experiences of implementing differential privacy. We found no clear consensus on how to choose epsilon, nor is there agreement on how to approach this and other key implementation decisions. Given the importance of these implementation details there is a need for shared learning amongst the differential privacy community. To serve these purposes, we propose the creation of the Epsilon Registry—a publicly available communal body of knowledge about differential privacy implementations that can be used by various stakeholders to drive the identification and adoption of judicious differentially private implementations.",
+      "year": 2019,
+      "authors": [
+        "C. Dwork",
+        "Nitin Kohli",
+        "D. Mulligan"
+      ],
+      "referenceCount": 37,
+      "citationCount": 148
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "main": {
+    "paperId": "5f2f0e9cf8b0040e98c6bebdc521c16651c1ae41",
+    "title": "Exotic Branes in String Theory",
+    "abstract": null,
+    "year": 2012,
+    "authors": [
+      "J. Boer",
+      "M. Shigemori"
+    ],
+    "referenceCount": 156,
+    "citationCount": 202
+  },
+  "references": [
+    {
+      "paperId": "1fd4ef45bfcc44e5c9d31b8edeb0cac7e96c146d",
+      "title": "Doubled Field Theory, T-Duality and Courant-Brackets",
+      "abstract": "In these lecture notes we give a simple introduction into double field theory. We show that the presence of momentum and winding excitations in toroidal backgrounds of closed string theory makes it natural to consider double field theories. A tool-kit is developed based on the Courant-bracket and generalized Lie derivatives. We construct a background independent action which represents a T-duality covariantization of the Einstein-Hilbert action for gravity coupled to an antisymmetric tensor field and a dilaton.",
+      "year": 2011,
+      "authors": [
+        "B. Zwiebach"
+      ],
+      "referenceCount": 7,
+      "citationCount": 77
+    },
+    {
+      "paperId": "56806510d29ffaa03e782bf78472b9de2e55b0a2",
+      "title": "Double, double supertube bubble",
+      "abstract": "We argue that there exists a new class of completely smooth $ \\frac{1}{8} $-BPS, three-charge bound state configurations that depend upon arbitrary functions of two variables. These configurations are locally $ \\frac{1}{2} $-BPS objects in that if they form an infinite flat sheet then they preserve 16 supersymmetries but even with arbitrary two-dimensional shape modes they still preserve 4 supersymmetries. They have three electric charges and can be thought of the result of two successive supertube transitions that involve adding two independent dipole moments and giving rise to the arbitrary two-dimensional shape modes. We further argue that in the D1-D5-P duality frame this construction will give rise to smooth, horizonless solutions, or microstate geometries. We expect these solutions to be extremely important in the semi-classical and holographic descriptions of black-hole entropy.",
+      "year": 2011,
+      "authors": [
+        "I. Bena",
+        "J. Boer",
+        "M. Shigemori",
+        "N. Warner"
+      ],
+      "referenceCount": 41,
+      "citationCount": 81
+    },
+    {
+      "paperId": "0229ef6734c767b2d84a32b83603f3782db0daf5",
+      "title": "T-Duality versus Gauge Symmetry",
+      "abstract": "We review the recently constructed `double field theory' which introduces in addition to the conventional coordinates associated to momentum modes coordinates associated to winding modes. Thereby, T-duality becomes a global symmetry of the theory, which can be viewed as an `O(D,D) covariantization' of the low-energy effective space-time action of closed string theory. We discuss its symmetries with a special emphasis on the relation between global duality symmetries and local gauge symmetries.",
+      "year": 2011,
+      "authors": [
+        "O. Hohm"
+      ],
+      "referenceCount": 13,
+      "citationCount": 36
+    },
+    {
+      "paperId": "6a1fe19de1a954a47db23396f725e975ba8ca647",
+      "title": "Two charge system revisited: small black holes or horizonless solutions?",
+      "abstract": "A two charge system in string theory preserving eight supercharges can be described as a small black hole that has zero entropy in the supergravity approximation, but classical higher derivative corrections produce a finite entropy in accordance with the prediction of microstate counting. On the other hand for the same system one can construct smooth horizonless classical solutions whose geometric quantization describes the individual microstates which contribute to the entropy. In this note we point out that there is no duality frame in which the system admits both these classical descriptions. Thus in a given duality frame horizonless classical solutions and small black holes are not alternate descriptions of the same system; their contributions must be added to get a duality invariant result for the macroscopic degeneracy. We discuss the significance of this observation for the macroscopic computation of the degeneracy of BPS states for a general system. We also discuss the relationship between the degeneracy and the index computation and address the puzzle regarding absence of small black holes in toroidally compactified type II string theory.",
+      "year": 2009,
+      "authors": [
+        "A. Sen"
+      ],
+      "referenceCount": 87,
+      "citationCount": 55
+    }
+  ]
+}

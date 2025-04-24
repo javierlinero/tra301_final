@@ -1,0 +1,30 @@
+{
+  "main": {
+    "paperId": "4a559e2fc4cc2dedaa183b1b93a61daea46c9887",
+    "title": "On finiteness conjectures for endomorphism algebras of abelian surfaces",
+    "abstract": "It is conjectured that there exist only finitely many isomorphism classes of endomorphism algebras of abelian varieties of bounded dimension over a number field of bounded degree. We explore this conjecture when restricted to quaternion endomorphism algebras of abelian surfaces of $\\mathrm{GL}_2$-type over $\\mathbb{Q}$ by giving a moduli interpretation which translates the question into the diophantine arithmetic of Shimura curves embedded in Hilbert surfaces. We address the resulting problems on these curves by local and global methods, including Chabauty techniques on explicit equations of Shimura curves.",
+    "year": 2003,
+    "authors": [
+      "Nils Briun",
+      "E. V. Flynn",
+      "Josep González",
+      "V. Rotger"
+    ],
+    "referenceCount": 51,
+    "citationCount": 23
+  },
+  "references": [
+    {
+      "paperId": "b83500b1150506d035c2643f23b5a245598f5de2",
+      "title": "Non-elliptic Shimura curves of genus one",
+      "abstract": "We present explicit models for non-elliptic genus one Shimura curves X0(D, N) with Γ0(N)-level structure arising from an indefinite quaternion algebra of reduced discriminant D, and Atkin-Lehner quotients of them. In addition, we discuss and extend Jordan’s work [10, Ch. III] on points with complex multiplication on Shimura curves.",
+      "year": 2006,
+      "authors": [
+        "Josep González",
+        "V. Rotger"
+      ],
+      "referenceCount": 25,
+      "citationCount": 35
+    }
+  ]
+}

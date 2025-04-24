@@ -1,0 +1,27 @@
+{
+  "main": {
+    "paperId": "25f7bf1e5a8717b87d5353809696c41d4f6a1074",
+    "title": "Infinitely many singular interactions on noncompact manifolds",
+    "abstract": null,
+    "year": 2014,
+    "authors": [
+      "B. Kaynak",
+      "O. T. Turgut"
+    ],
+    "referenceCount": 28,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "95dc0361244bff8fbe0e10b3fa84ac295cceecad",
+      "title": "Heat Kernel and Analysis on Manifolds",
+      "abstract": "Laplace operator and the heat equation in $\\mathbb{R}^n$ Function spaces in $\\mathbb{R}^n$ Laplace operator on a Riemannian manifold Laplace operator and heat equation in $L^{2}(M)$ Weak maximum principle and related topics Regularity theory in $\\mathbb{R}^n$ The heat kernel on a manifold Positive solutions Heat kernel as a fundamental solution Spectral properties Distance function and completeness Gaussian estimates in the integrated form Green function and Green operator Ultracontractive estimates and eigenvalues Pointwise Gaussian estimates I Pointwise Gaussian estimates II Reference material Bibliography Some notation Index",
+      "year": 2012,
+      "authors": [
+        "A. Grigor’yan"
+      ],
+      "referenceCount": 0,
+      "citationCount": 845
+    }
+  ]
+}

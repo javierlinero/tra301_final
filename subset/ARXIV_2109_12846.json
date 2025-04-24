@@ -1,0 +1,105 @@
+{
+  "main": {
+    "paperId": "a08bbf1956eb4137371334b138c6304d61d69771",
+    "title": "HAGEN: Homophily-Aware Graph Convolutional Recurrent Network for Crime Forecasting",
+    "abstract": "The goal of the crime forecasting problem is to predict different types of crimes for each geographical region (like a neighborhood or censor tract) in the near future. Since nearby regions usually have similar socioeconomic characteristics which indicate similar crime patterns, recent state-of-the-art solutions constructed a distance-based region graph and utilized Graph Neural Network (GNN) techniques for crime forecasting, because the GNN techniques could effectively exploit the latent relationships between neighboring region nodes in the graph if the edges reveal high dependency or correlation. However, this distance-based pre-defined graph can not fully capture crime correlation between regions that are far from each other but share similar crime patterns. Hence, to make a more accurate crime prediction, the main challenge is to learn a better graph that reveals the dependencies between regions in crime occurrences and meanwhile captures the temporal patterns from historical crime records. To address these challenges, we propose an end-to-end graph convolutional recurrent network called HAGEN with several novel designs for crime prediction. Specifically, our framework could jointly capture the crime correlation between regions and the temporal crime dynamics by combining an adaptive region graph learning module with the Diffusion Convolution Gated Recurrent Unit (DCGRU). Based on the homophily assumption of GNN (i.e., graph convolution works better where neighboring nodes share the same label), we propose a homophily-aware constraint to regularize the optimization of the region graph so that neighboring region nodes on the learned graph share similar crime patterns, thus fitting the mechanism of diffusion convolution. Empirical experiments and comprehensive analysis on two real-world datasets showcase the effectiveness of HAGEN.",
+    "year": 2021,
+    "authors": [
+      "Chenyu Wang",
+      "Zongyu Lin",
+      "Xiaochen Yang",
+      "Jiao Sun",
+      "Mingxuan Yue",
+      "C. Shahabi"
+    ],
+    "referenceCount": 28,
+    "citationCount": 27
+  },
+  "references": [
+    {
+      "paperId": "75e924bd79d27a23f3f93d9b1ab62a779505c8d2",
+      "title": "Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks",
+      "abstract": "Modeling multivariate time series has long been a subject that has attracted researchers from a diverse range of fields including economics, finance, and traffic. A basic assumption behind multivariate time series forecasting is that its variables depend on one another but, upon looking closely, it is fair to say that existing methods fail to fully exploit latent spatial dependencies between pairs of variables. In recent years, meanwhile, graph neural networks (GNNs) have shown high capability in handling relational dependencies. GNNs require well-defined graph structures for information propagation which means they cannot be applied directly for multivariate time series where the dependencies are not known in advance. In this paper, we propose a general graph neural network framework designed specifically for multivariate time series data. Our approach automatically extracts the uni-directed relations among variables through a graph learning module, into which external knowledge like variable attributes can be easily integrated. A novel mix-hop propagation layer and a dilated inception layer are further proposed to capture the spatial and temporal dependencies within the time series. The graph learning, graph convolution, and temporal convolution modules are jointly learned in an end-to-end framework. Experimental results show that our proposed model outperforms the state-of-the-art baseline methods on 3 of 4 benchmark datasets and achieves on-par performance with other approaches on two traffic datasets which provide extra structural information.",
+      "year": 2020,
+      "authors": [
+        "Zonghan Wu",
+        "Shirui Pan",
+        "Guodong Long",
+        "Jing Jiang",
+        "Xiaojun Chang",
+        "Chengqi Zhang"
+      ],
+      "referenceCount": 26,
+      "citationCount": 1292
+    },
+    {
+      "paperId": "2e8c7933e3362615124f5a326bb2f892892fb585",
+      "title": "MiST: A Multiview and Multimodal Spatial-Temporal Learning Framework for Citywide Abnormal Event Forecasting",
+      "abstract": "Citywide abnormal events, such as crimes and accidents, may result in loss of lives or properties if not handled efficiently. It is important for a wide spectrum of applications, ranging from public order maintaining, disaster control and people's activity modeling, if abnormal events can be automatically predicted before they occur. However, forecasting different categories of citywide abnormal events is very challenging as it is affected by many complex factors from different views: (i) dynamic intra-region temporal correlation; (ii) complex inter-region spatial correlations; (iii) latent cross-categorical correlations. In this paper, we develop a Multi-View and Multi-Modal Spatial-Temporal learning (MiST) framework to address the above challenges by promoting the collaboration of different views (spatial, temporal and semantic) and map the multi-modal units into the same latent space. Specifically, MiST can preserve the underlying structural information of multi-view abnormal event data and automatically learn the importance of view-specific representations, with the integration of a multi-modal pattern fusion module and a hierarchical recurrent framework. Extensive experiments on three real-world datasets, i.e., crime data and urban anomaly data, demonstrate the superior performance of our MiST method over the state-of-the-art baselines across various settings.",
+      "year": 2019,
+      "authors": [
+        "Chao Huang",
+        "Chuxu Zhang",
+        "Jiashu Zhao",
+        "X. Wu",
+        "N. Chawla",
+        "Dawei Yin"
+      ],
+      "referenceCount": 48,
+      "citationCount": 95
+    },
+    {
+      "paperId": "5434ef4c0a383ea2728e7e9481c32d7d08b50f69",
+      "title": "DeepCrime: Attentive Hierarchical Recurrent Networks for Crime Prediction",
+      "abstract": "As urban crimes (e.g., burglary and robbery) negatively impact our everyday life and must be addressed in a timely manner, predicting crime occurrences is of great importance for public safety and urban sustainability. However, existing methods do not fully explore dynamic crime patterns as factors underlying crimes may change over time. In this paper, we develop a new crime prediction framework--DeepCrime, a deep neural network architecture that uncovers dynamic crime patterns and carefully explores the evolving inter-dependencies between crimes and other ubiquitous data in urban space. Furthermore, our DeepCrime framework is capable of automatically capturing the relevance of crime occurrences across different time periods. In particular, our DeepCrime framework enables predicting crime occurrences of different categories in each region of a city by i) jointly embedding all spatial, temporal, and categorical signals into hidden representation vectors, and ii) capturing crime dynamics with an attentive hierarchical recurrent network. Extensive experiments on real-world datasets demonstrate the superiority of our framework over many competitive baselines across various settings.",
+      "year": 2018,
+      "authors": [
+        "Chao Huang",
+        "Junbo Zhang",
+        "Yu Zheng",
+        "N. Chawla"
+      ],
+      "referenceCount": 48,
+      "citationCount": 139
+    },
+    {
+      "paperId": "5e383584ccbc8b920eaf3cfce3869da646ff5550",
+      "title": "Deep Neural Networks for YouTube Recommendations",
+      "abstract": "YouTube represents one of the largest scale and most sophisticated industrial recommendation systems in existence. In this paper, we describe the system at a high level and focus on the dramatic performance improvements brought by deep learning. The paper is split according to the classic two-stage information retrieval dichotomy: first, we detail a deep candidate generation model and then describe a separate deep ranking model. We also provide practical lessons and insights derived from designing, iterating and maintaining a massive recommendation system with enormous user-facing impact.",
+      "year": 2016,
+      "authors": [
+        "Paul Covington",
+        "Jay K. Adams",
+        "Emre Sargin"
+      ],
+      "referenceCount": 27,
+      "citationCount": 3114
+    },
+    {
+      "paperId": "36ee2c8bd605afd48035d15fdc6b8c8842363376",
+      "title": "node2vec: Scalable Feature Learning for Networks",
+      "abstract": "Prediction tasks over nodes and edges in networks require careful effort in engineering features used by learning algorithms. Recent research in the broader field of representation learning has led to significant progress in automating prediction by learning the features themselves. However, present feature learning approaches are not expressive enough to capture the diversity of connectivity patterns observed in networks. Here we propose node2vec, an algorithmic framework for learning continuous feature representations for nodes in networks. In node2vec, we learn a mapping of nodes to a low-dimensional space of features that maximizes the likelihood of preserving network neighborhoods of nodes. We define a flexible notion of a node's network neighborhood and design a biased random walk procedure, which efficiently explores diverse neighborhoods. Our algorithm generalizes prior work which is based on rigid notions of network neighborhoods, and we argue that the added flexibility in exploring neighborhoods is the key to learning richer representations. We demonstrate the efficacy of node2vec over existing state-of-the-art techniques on multi-label classification and link prediction in several real-world networks from diverse domains. Taken together, our work represents a new way for efficiently learning state-of-the-art task-independent representations in complex networks.",
+      "year": 2016,
+      "authors": [
+        "Aditya Grover",
+        "J. Leskovec"
+      ],
+      "referenceCount": 47,
+      "citationCount": 10618
+    },
+    {
+      "paperId": "3d9813300c90dd2c7e4090b72f24569fa5530e65",
+      "title": "ARIMA Models to Predict Next-Day Electricity Prices",
+      "abstract": "Price forecasting is becoming increasingly relevant to producers and consumers in the new competitive electric power markets. Both for spot markets and long-term contracts, price forecasts are necessary to develop bidding strategies or negotiation skills in order to maximize benefit. This paper provides a method to predict next-day electricity prices based on the ARIMA methodology. ARIMA techniques are used to analyze time series and, in the past, have been mainly used for load forecasting due to their accuracy and mathematical soundness. A detailed explanation of the aforementioned ARIMA models and results from mainland Spain and Californian markets are presented.",
+      "year": 2002,
+      "authors": [
+        "J. Contreras",
+        "R. Espínola",
+        "F. Nogales",
+        "A. Conejo"
+      ],
+      "referenceCount": 74,
+      "citationCount": 1628
+    }
+  ]
+}

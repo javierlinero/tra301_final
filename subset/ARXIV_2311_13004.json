@@ -1,0 +1,112 @@
+{
+  "main": {
+    "paperId": "2850480493ae2edae7ce5b3f5b9240ee72d97027",
+    "title": "A Self-Consistent Field Solution for Robust Common Spatial Pattern Analysis",
+    "abstract": "The common spatial pattern analysis (CSP) is a widely used signal processing technique in brain-computer interface (BCI) systems to increase the signal-to-noise ratio in electroencephalogram (EEG) recordings. Despite its popularity, the CSP's performance is often hindered by the nonstationarity and artifacts in EEG signals. The minmax CSP improves the robustness of the CSP by using data-driven covariance matrices to accommodate the uncertainties. We show that by utilizing the optimality conditions, the minmax CSP can be recast as an eigenvector-dependent nonlinear eigenvalue problem (NEPv). We introduce a self-consistent field (SCF) iteration with line search that solves the NEPv of the minmax CSP. Local quadratic convergence of the SCF for solving the NEPv is illustrated using synthetic datasets. More importantly, experiments with real-world EEG datasets show the improved motor imagery classification rates and shorter running time of the proposed SCF-based solver compared to the existing algorithm for the minmax CSP.",
+    "year": 2023,
+    "authors": [
+      "Dong Min Roh",
+      "Zhaojun Bai"
+    ],
+    "referenceCount": 49,
+    "citationCount": 0
+  },
+  "references": [
+    {
+      "paperId": "b7fa8cc34f46323571edbe4228d8974297f64b4a",
+      "title": "Robust Rayleigh Quotient Minimization and Nonlinear Eigenvalue Problems",
+      "abstract": "We study the robust Rayleigh quotient optimization problem where the data matrices of the Rayleigh quotient are subject to uncertainties. We propose to solve such a problem by exploiting its charac...",
+      "year": 2018,
+      "authors": [
+        "Z. Bai",
+        "Ding Lu",
+        "Bart Vandereycken"
+      ],
+      "referenceCount": 37,
+      "citationCount": 22
+    },
+    {
+      "paperId": "a78f491278f6305ebff54bad3dde664de85d210a",
+      "title": "EEG datasets for motor imagery brain–computer interface",
+      "abstract": "Abstract Background: Most investigators of brain–computer interface (BCI) research believe that BCI can be achieved through induced neuronal activity from the cortex, but not by evoked neuronal activity. Motor imagery (MI)–based BCI is one of the standard concepts of BCI, in that the user can generate induced activity by imagining motor movements. However, variations in performance over sessions and subjects are too severe to overcome easily; therefore, a basic understanding and investigation of BCI performance variation is necessary to find critical evidence of performance variation. Here we present not only EEG datasets for MI BCI from 52 subjects, but also the results of a psychological and physiological questionnaire, EMG datasets, the locations of 3D EEG electrodes, and EEGs for non-task-related states. Findings: We validated our EEG datasets by using the percentage of bad trials, event-related desynchronization/synchronization (ERD/ERS) analysis, and classification analysis. After conventional rejection of bad trials, we showed contralateral ERD and ipsilateral ERS in the somatosensory area, which are well-known patterns of MI. Finally, we showed that 73.08% of datasets (38 subjects) included reasonably discriminative information. Conclusions: Our EEG datasets included the information necessary to determine statistical significance; they consisted of well-discriminated datasets (38 subjects) and less-discriminative datasets. These may provide researchers with opportunities to investigate human factors related to MI BCI performance variation, and may also achieve subject-to-subject transfer by using metadata, including a questionnaire, EEG coordinates, and EEGs for non-task-related states.",
+      "year": 2017,
+      "authors": [
+        "Hohyun Cho",
+        "M. Ahn",
+        "Sang-Kyun Ahn",
+        "Moonyoung Kwon",
+        "S. Jun"
+      ],
+      "referenceCount": 22,
+      "citationCount": 247
+    },
+    {
+      "paperId": "f831efd7920e09c80a0324dd4f4e4b5287b7867d",
+      "title": "Wasserstein discriminant analysis",
+      "abstract": "Wasserstein discriminant analysis (WDA) is a new supervised linear dimensionality reduction algorithm. Following the blueprint of classical Fisher Discriminant Analysis, WDA selects the projection matrix that maximizes the ratio of the dispersion of projected points pertaining to different classes and the dispersion of projected points belonging to a same class. To quantify dispersion, WDA uses regularized Wasserstein distances. Thanks to the underlying principles of optimal transport, WDA is able to capture both global (at distribution scale) and local (at samples’ scale) interactions between classes. In addition, we show that WDA leverages a mechanism that induces neighborhood preservation. Regularized Wasserstein distances can be computed using the Sinkhorn matrix scaling algorithm; the optimization problem of WDA can be tackled using automatic differentiation of Sinkhorn’s fixed-point iterations. Numerical experiments show promising results both in terms of prediction and visualization on toy examples and real datasets such as MNIST and on deep features obtained from a subset of the Caltech dataset.",
+      "year": 2016,
+      "authors": [
+        "Rémi Flamary",
+        "Marco Cuturi",
+        "N. Courty",
+        "A. Rakotomamonjy"
+      ],
+      "referenceCount": 42,
+      "citationCount": 99
+    },
+    {
+      "paperId": "1ed0194dd257ec16d49683dffa07eb532faf7ef1",
+      "title": "Robust Common Spatial Filters with a Maxmin Approach",
+      "abstract": "Electroencephalographic signals are known to be nonstationary and easily affected by artifacts; therefore, their analysis requires methods that can deal with noise. In this work, we present a way to robustify the popular common spatial patterns (CSP) algorithm under a maxmin approach. In contrast to standard CSP that maximizes the variance ratio between two conditions based on a single estimate of the class covariance matrices, we propose to robustly compute spatial filters by maximizing the minimum variance ratio within a prefixed set of covariance matrices called the tolerance set. We show that this kind of maxmin optimization makes CSP robust to outliers and reduces its tendency to overfit. We also present a data-driven approach to construct a tolerance set that captures the variability of the covariance matrices over time and shows its ability to reduce the nonstationarity of the extracted features and significantly improve classification accuracy. We test the spatial filters derived with this approach and compare them to standard CSP and a state-of-the-art method on a real-world brain-computer interface (BCI) data set in which we expect substantial fluctuations caused by environmental differences. Finally we investigate the advantages and limitations of the maxmin approach with simulations.",
+      "year": 2014,
+      "authors": [
+        "M. Kawanabe",
+        "W. Samek",
+        "K. Müller",
+        "C. Vidaurre"
+      ],
+      "referenceCount": 51,
+      "citationCount": 36
+    },
+    {
+      "paperId": "40f391bc3860e8cd71d7ea68ec11d80d5e12c02c",
+      "title": "Manopt, a matlab toolbox for optimization on manifolds",
+      "abstract": "Optimization on manifolds is a rapidly developing branch of nonlinear optimization. Its focus is on problems where the smooth geometry of the search space can be leveraged to design efficient numerical algorithms. In particular, optimization on manifolds is well-suited to deal with rank and orthogonality constraints. Such structured constraints appear pervasively in machine learning applications, including low-rank matrix completion, sensor network localization, camera network registration, independent component analysis, metric learning, dimensionality reduction and so on. \n \nThe Manopt toolbox, available at www.manopt.org, is a user-friendly, documented piece of software dedicated to simplify experimenting with state of the art Riemannian optimization algorithms. By dealing internally with most of the differential geometry, the package aims particularly at lowering the entrance barrier.",
+      "year": 2013,
+      "authors": [
+        "Nicolas Boumal",
+        "Bamdev Mishra",
+        "P. Absil",
+        "R. Sepulchre"
+      ],
+      "referenceCount": 25,
+      "citationCount": 1008
+    },
+    {
+      "paperId": "785f6308eae0b2075162c1d3d47ff392f71537db",
+      "title": "The Symmetric Eigenvalue Problem",
+      "abstract": "According to Parlett, 'Vibrations are everywhere, and so too are the eigenvalues associated with them. As mathematical models invade more and more disciplines, we can anticipate a demand for eigenvalue calculations in an ever richer variety of contexts.' Anyone who performs these calculations will welcome the reprinting of Parlett's book (originally published in 1980). In this unabridged, amended version, Parlett covers aspects of the problem that are not easily found elsewhere. The chapter titles convey the scope of the material succinctly. The aim of the book is to present mathematical knowledge that is needed in order to understand the art of computing eigenvalues of real symmetric matrices, either all of them or only a few. The author explains why the selected information really matters and he is not shy about making judgments. The commentary is lively but the proofs are terse.",
+      "year": 1981,
+      "authors": [
+        "B. Parlett"
+      ],
+      "referenceCount": 0,
+      "citationCount": 3917
+    },
+    {
+      "paperId": "8515a302b8f389f8f1008cc2650e5ec0a6913e24",
+      "title": "Optimizing Spatial filters for Robust EEG Single-Trial Analysis",
+      "abstract": "Due to the volume conduction multichannel electroencephalogram (EEG) recordings give a rather blurred image of brain activity. Therefore spatial filters are extremely useful in single-trial analysis in order to improve the signal-to-noise ratio. There are powerful methods from machine learning and signal processing that permit the optimization of spatio-temporal filters for each subject in a data dependent fashion beyond the fixed filters based on the sensor geometry, e.g., Laplacians. Here we elucidate the theoretical background of the common spatial pattern (CSP) algorithm, a popular method in brain-computer interface (BCD research. Apart from reviewing several variants of the basic algorithm, we reveal tricks of the trade for achieving a powerful CSP performance, briefly elaborate on theoretical aspects of CSP, and demonstrate the application of CSP-type preprocessing in our studies of the Berlin BCI (BBCI) project.",
+      "year": 2008,
+      "authors": [
+        "B. Blankertz",
+        "Ryota Tomioka",
+        "S. Lemm",
+        "M. Kawanabe",
+        "K.-R. Muller"
+      ],
+      "referenceCount": 63,
+      "citationCount": 1939
+    }
+  ]
+}

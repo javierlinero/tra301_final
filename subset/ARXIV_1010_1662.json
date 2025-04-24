@@ -1,0 +1,83 @@
+{
+  "main": {
+    "paperId": "f5323bcc65377855cf322c4a58843141fc76b895",
+    "title": "Democratic superstring field theory: gauge fixing",
+    "abstract": "We show that a partial gauge fixing of the NS sector of the democratic-picture superstring field theory leads to the non-polynomial theory. Moreover, by partially gauge fixing the Ramond sector we obtain a non-polynomial fully RNS theory at pictures 0 and $ \\frac{1}{2} $. Within the democratic theory and in the partially gauge fixed theory the equations of motion of both sectors are derived from an action. We also discuss a representation of the non-polynomial theory analogous to a manifestly two-dimensional representation of WZW theory and the action of bosonic pure-gauge solutions.We further demonstrate that one can consistently gauge fix the NS sector of the democratic theory at picture number −1. The resulting theory is new. It is a $ {\\mathbb{Z}_2} $ dual of the modified cubic theory. We construct analytical solutions of this theory and show that they possess the desired properties.",
+    "year": 2010,
+    "authors": [
+      "M. Kroyter"
+    ],
+    "referenceCount": 72,
+    "citationCount": 16
+  },
+  "references": [
+    {
+      "paperId": "83547e188a63dd426df25e05ffc2a5eef1ff80b6",
+      "title": "A simple analytic solution for tachyon condensation",
+      "abstract": "We discuss a new, simple analytic solution for tachyon condensation in open string field theory. In particular, the new solution requires no regularization or “phantom term,” and the proof of Sen’s first conjecture requires only a few lines of calculation.",
+      "year": 2009,
+      "authors": [
+        "Theodore G. Erler",
+        "M. Schnabl"
+      ],
+      "referenceCount": 61,
+      "citationCount": 159
+    },
+    {
+      "paperId": "39945d10b79d363d2801d847d12b35d65303789e",
+      "title": "The Ramond Sector of Open Superstring Field Theory",
+      "abstract": "Although the equations of motion for the Neveu-Schwarz (NS) and Ramond (R) sectors of open superstring field theory can be covariantly expressed in terms of one NS and one R string field, picture-changing problems prevent the construction of an action involving these two string fields. However, a consistent action can be constructed by dividing the NS and R states into three string fields which are real, chiral and antichiral. The open superstring field theory action includes a WZW-like term for the real field and holomorphic Chern-Simons-like terms for the chiral and antichiral fields. Different versions of the action can be constructed with either manifest d = 8 Lorentz covariance or manifest N = 1 d = 4 super-Poincar? covariance. The lack of a manifestly d = 10 Lorentz covariant action is related to the self-dual five-form in the type-IIB R-R sector.",
+      "year": 2001,
+      "authors": [
+        "N. Berkovits"
+      ],
+      "referenceCount": 37,
+      "citationCount": 87
+    },
+    {
+      "paperId": "5065d4d232d3842a13a63681085d9f3a8df00821",
+      "title": "Relating the RNS and Pure Spinor Formalisms for the Superstring",
+      "abstract": "Recently, the superstring was covariantly quantized using the BRST-like operator $Q = \\oint \\lambda^\\alpha d_\\alpha$ where $\\lambda^\\alpha$ is a pure spinor and $d_\\alpha$ are the fermionic Green-Schwarz constraints. By performing a field redefinition and a similarity transformation, this BRST-like operator is mapped to the sum of the Ramond-Neveu-Schwarz BRST operator and $\\eta_0$ ghost. This map is then used to relate physical vertex operators and tree amplitudes in the two formalisms. Furthermore, the map implies the existence of a $b$ ghost in the pure spinor formalism which might be useful for loop amplitude computations.",
+      "year": 2001,
+      "authors": [
+        "N. Berkovits"
+      ],
+      "referenceCount": 18,
+      "citationCount": 105
+    },
+    {
+      "paperId": "b45baecc2344da3d5b137eb8b07946e304429c4c",
+      "title": "The tachyon potential in Witten's superstring field theory",
+      "abstract": "We study the tachyon potential in the NS sector of Witten's cubic superstring field theory. In this theory, the pure tachyon contribution to the potential has no minimum. We find that this remains the case when higher modes up to level two are included.",
+      "year": 2000,
+      "authors": [
+        "P. Smet",
+        "J. Raeymaekers"
+      ],
+      "referenceCount": 19,
+      "citationCount": 48
+    },
+    {
+      "paperId": "95887b980d58fbf0b8e4f69a8f58b97208603a7e",
+      "title": "Universality of the tachyon potential",
+      "abstract": "Using string field theory, we argue that the tachyon potential on a D-brane in bosonic string theory in arbitrary background has a universal form, independent of the boundary conformal field theory describing the brane. This implies that if at an extremum of the tachyon potential the total energy of the brane vanishes in a particular background, then it vanishes in any other background. Similar result holds for the tachyon potential of the D-brane anti-D-brane system and the non-BPS D-brane of type II string theory.",
+      "year": 1999,
+      "authors": [
+        "A. Sen"
+      ],
+      "referenceCount": 37,
+      "citationCount": 480
+    },
+    {
+      "paperId": "faf69c1f9e3b9f1e0479350057cfee9eb2586d4f",
+      "title": "Descent Relations among Bosonic D-Branes",
+      "abstract": "We show that the tachyonic kink solution on a pair of D-p-branes in the bosonic string theory can be identified with the D-(p-1)-brane of the same theory. We also speculate on the possibility of obtaining the D-(p-1)-brane as a tachyonic lump on a single D-p-brane. We suggest a possible reinterpretation of the first result which unifies these two apparently different descriptions of the D-(p-1)-brane.",
+      "year": 1999,
+      "authors": [
+        "A. Sen"
+      ],
+      "referenceCount": 13,
+      "citationCount": 384
+    }
+  ]
+}

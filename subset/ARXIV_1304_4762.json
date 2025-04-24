@@ -1,0 +1,192 @@
+{
+  "main": {
+    "paperId": "22aaea631eded6bedaeb8bb015ba7542bdbfe637",
+    "title": "The formation of systems with closely spaced low-mass planets and the application to Kepler-36",
+    "abstract": "The Kepler-36 system consists of two planets that are spaced unusually close together, near the 7:6 mean motion resonance. While it is known that mean motion resonances can easily form by convergent migration, Kepler-36 is an extreme case due to the close spacing and the relatively high planet masses of 4 and 8 times that of the Earth. In this paper, we investigate whether such a system can be obtained by interactions with the protoplanetary disc. These discs are thought to be turbulent and exhibit density fluctuations which might originate from the magneto-rotational instability. We adopt a realistic description for stochastic forces due to these density fluctuations and perform both long term hydrodynamical and N-body simulations. Our results show that planets in the Kepler-36 mass range can be naturally assembled into a closely spaced planetary system for a wide range of migration parameters in a turbulent disc similar to the minimum mass solar nebula. The final orbits of our formation scenarios tend to be Lagrange stable, even though large parts of the parameter space are chaotic and unstable.",
+    "year": 2013,
+    "authors": [
+      "S. Paardekooper",
+      "H. Rein",
+      "W. Kley"
+    ],
+    "referenceCount": 54,
+    "citationCount": 25
+  },
+  "references": [
+    {
+      "paperId": "fe4942468782f9598ea2390bc7bf532da0d342c8",
+      "title": "RAPID DYNAMICAL CHAOS IN AN EXOPLANETARY SYSTEM",
+      "abstract": "We report on the long-term dynamical evolution of the two-planet Kepler-36 system, which consists of a super-Earth and a sub-Neptune in a tightly packed orbital configuration. The orbits of the planets, which we studied through numerical integrations of initial conditions that are consistent with observations of the system, are chaotic with a Lyapunov time of only ∼10 years. The chaos is a consequence of a particular set of orbital resonances, with the inner planet orbiting 34 times for every 29 orbits of the outer planet. The rapidity of the chaos is due to the interaction of the 29:34 resonance with the nearby first-order 6:7 resonance, in contrast to the usual case in which secular terms in the Hamiltonian play a dominant role. Only one contiguous region of phase space, accounting for ∼4.5% of the sample of initial conditions studied, corresponds to planetary orbits that do not show large-scale orbital instabilities on the timescale of our integrations (∼200 million years). Restricting the orbits to this long-lived region allows a refinement of estimates of the masses and radii of the planets. We find that the long-lived region consists of the initial conditions that satisfy the Hill stability criterion by the largest margin. Any successful theory for the formation of this system will need to account for why its current state is so close to unstable regions of phase space.",
+      "year": 2012,
+      "authors": [
+        "K. Deck",
+        "M. Holman",
+        "E. Agol",
+        "J. Carter",
+        "J. Lissauer",
+        "D. Ragozzine",
+        "J. Winn"
+      ],
+      "referenceCount": 33,
+      "citationCount": 60
+    },
+    {
+      "paperId": "28ff654047c8e01a9db2c37f15e4079c11b2bae3",
+      "title": "Kepler-36: A Pair of Planets with Neighboring Orbits and Dissimilar Densities",
+      "abstract": "So Close and So Different In our solar system, the rocky planets have very distinct orbits from those of the gas giants. Carter et al. (p. 556, published online 21 June) report on a planetary system where this pattern does not apply, posing a challenge to theories of planet formation. Data from the Kepler space telescope reveal two planets with radically different densities orbiting the same star with very similar orbital periods. One planet has a rocky Earth-like composition and the other is akin to Neptune. The Kepler spacecraft detected a super-Earth and a Neptune-like planet in very tightly spaced orbits around the same star. In the solar system, the planets’ compositions vary with orbital distance, with rocky planets in close orbits and lower-density gas giants in wider orbits. The detection of close-in giant planets around other stars was the first clue that this pattern is not universal and that planets’ orbits can change substantially after their formation. Here, we report another violation of the orbit-composition pattern: two planets orbiting the same star with orbital distances differing by only 10% and densities differing by a factor of 8. One planet is likely a rocky “super-Earth,” whereas the other is more akin to Neptune. These planets are 20 times more closely spaced and have a larger density contrast than any adjacent pair of planets in the solar system.",
+      "year": 2012,
+      "authors": [
+        "J. Carter",
+        "E. Agol",
+        "W. Chaplin",
+        "S. Basu",
+        "T. Bedding",
+        "L. Buchhave",
+        "J. Christensen-Dalsgaard",
+        "K. Deck",
+        "Y. Elsworth",
+        "D. Fabrycky",
+        "E. Ford",
+        "J. Fortney",
+        "S. Hale",
+        "R. Handberg",
+        "S. Hekker",
+        "M. Holman",
+        "D. Huber",
+        "C. Karoff",
+        "S. Kawaler",
+        "H. Kjeldsen",
+        "J. Lissauer",
+        "E. Lopez",
+        "M. Lund",
+        "M. Lundkvist",
+        "T. Metcalfe",
+        "A. Miglio",
+        "L. Rogers",
+        "D. Stello",
+        "W. Borucki",
+        "S. Bryson",
+        "J. Christiansen",
+        "W. Cochran",
+        "J. Geary",
+        "R. Gilliland",
+        "M. Haas",
+        "J. Hall",
+        "A. Howard",
+        "J. Jenkins",
+        "T. Klaus",
+        "D. Koch",
+        "D. Latham",
+        "P. Macqueen",
+        "D. Sasselov",
+        "J. Steffen",
+        "J. Twicken",
+        "J. Winn"
+      ],
+      "referenceCount": 104,
+      "citationCount": 319
+    },
+    {
+      "paperId": "8429b206bd8e2efef552408eca01da9bfbfd5507",
+      "title": "Treating gravity in thin-disk simulations",
+      "abstract": "In 2D simulations of thin gaseous disks with embedded planets or self-gravity the gravitational potential needs to be smoothed to avoid singularities in the numerical evaluation of the gravitational potential or force. In order to correctly resemble the realistic case of vertically extended 3D disks the softening prescription used in 2D needs to be adjusted properly. In this paper we analyze the embedded planet and the self-gravity case and provide a method to evaluate the required smoothing in 2D simulations of thin disks. Starting from the averaged hydrodynamic equations and using a vertically isothermal disk model, we calculate the force. We compare our results to the often used Plummer form of the potential which runs as \\propto 1/(r^2+\\epsilon^2)^{1/2}. For that purpose we compute the required smoothing length \\epsilon as a function of distance r to the planet or to a disk element within a self-gravitating disk. We find that for larger distances \\epsilon is determined solely by the vertical disk thickness H. For the planet case we find that outside r\\simH a value of \\epsilon = 0.7H describes the averaged force very well, while in the self-gravitating disk the value needs to be larger, \\epsilon = 1.2H. For smaller distances the smoothing needs to be reduced significantly. Comparing torque densities of 3D and 2D simulations we show that the modification to the vertical density stratification as induced by an embedded planet needs to be taken into account to obtain agreeing results. In disk fragmentation simulations the choice of \\epsilon can determine whether a disk will fragment or not. Because a wrong smoothing length can change even the direction of migration, it is very important to include the effect of the planet on the local scale height in 2D planet-disk simulations. We provide an approximate and fast method for this purpose which gives very good agreement to full 3D simulations.",
+      "year": 2012,
+      "authors": [
+        "T. W. A. Müller",
+        "W. Kley",
+        "F. Meru",
+        "F. Meru"
+      ],
+      "referenceCount": 23,
+      "citationCount": 87
+    },
+    {
+      "paperId": "6f507002835ada5289243bba3c84c78e154e485a",
+      "title": "The dynamical origin of the multi-planetary system HD 45364",
+      "abstract": "The recently discovered planetary system HD 45364, which consists of a Jupiter and Saturn-mass planet, is very likely in a 3:2 mean motion resonance. The standard scenario for forming planetary commensurabilities is convergent migration of two planets embedded in a protoplanetary disc. When the planets are initially separated by a period ratio larger than two, convergent migration will most likely lead to a very stable 2:1 resonance. Rapid type III migration of the outer planet crossing the 2:1 resonance is one possible way around this problem. In this paper, we investigate this idea in detail. We present an estimate of the required convergent migration rate and confirm this with N-body and hydrodynamical simulations. If the dynamical history of the planetary system had a phase of rapid inward migration that forms a resonant configuration, we predict that the orbital parameters of the two planets will always be very similar and thus should show evidence of that. We use the orbital parameters from our simulation to calculate a radial velocity curve and compare it to observations. Our model provides a fit that is as good as the previously reported one. The eccentricities of both planets are considerably smaller and the libration pattern is different. Within a few years, it will be possible to observe the planet-planet interaction directly and thus distinguish between these different dynamical states.",
+      "year": 2009,
+      "authors": [
+        "H. Rein",
+        "J. Papaloizou",
+        "W. Kley"
+      ],
+      "referenceCount": 29,
+      "citationCount": 34
+    },
+    {
+      "paperId": "19f43c8112695b105804c459cfafb99047903e9d",
+      "title": "A torque formula for non-isothermal type I planetary migration – I. Unsaturated horseshoe drag",
+      "abstract": "We study the torque on low-mass planets embedded in protoplanetary discs in the two-dimensional approximation, incorporating non-isothermal eects. We couple linear estimates of the Lindblad (or wave) torque to a simple, but non-linear, model of adiabatic corotation torques (or horseshoe drag), resulting in a simple formula that governs Type I migration in non-isothermal discs. This formula should apply in optically thick regions of the disc, where viscous and thermal diusion act to keep the horseshoe drag unsaturated. We check this formula against numerical hydrodynamical simulations, using three independent numerical methods, and nd good agreement.",
+      "year": 2009,
+      "authors": [
+        "Sijme-Jan Paardekooper",
+        "C. Baruteau",
+        "A. Crida",
+        "A. Crida",
+        "W. Kley"
+      ],
+      "referenceCount": 48,
+      "citationCount": 337
+    },
+    {
+      "paperId": "c4230ef813435f1fee10f990260e347f727b88e7",
+      "title": "On the evolution of mean motion resonances through stochastic forcing: fast and slow libration modes and the origin of HD 128311",
+      "abstract": "Aims. We clarify the response of extrasolar planetary systems in a 2:1 mean motion commensurability with masses ranging from the super Jovian range to the terrestrial range to stochastic forcing that could result from protoplanetary disk turbulence. The behaviour of the different libration modes for a wide range of system parameters and stochastic forcing magnitudes is investigated. The growth of libration amplitudes is parameterized as a function of the relevant physical parameters. The results are applied to provide an explanation of the configuration of the HD 128311 system. Methods. We first develop an analytic model from first principles without making the assumption that both eccentricities are small. We also perform numerical N-body simulations with additional stochastic forcing terms to represent the effects of putative disk turbulence. Results. We isolate two distinct libration modes for the resonant angles. These react to stochastic forcing in a different way and become coupled when the libration amplitudes are large. Systems are quickly destabilized by large magnitudes of stochastic forcing but some stability is imparted should systems undergo a net orbital migration. The slow mode, which mostly corresponds to motion of the angle between the apsidal lines of the two planets, is converted to circulation more readily than the fast mode which is associated with oscillations of the semi-major axes. This mode is also vulnerable to the attainment of small eccentricities which causes oscillations between periods of libration and circulation. Conclusions. Stochastic forcing due to disk turbulence may have played a role in shaping the configurations of observed systems in mean motion resonance. It naturally provides a mechanism for accounting for the HD 128311 system for which the fast mode librates and the slow mode is apparently near the borderline between libration and circulation.",
+      "year": 2008,
+      "authors": [
+        "H. Rein",
+        "J. Papaloizou"
+      ],
+      "referenceCount": 28,
+      "citationCount": 65
+    },
+    {
+      "paperId": "33f253c355e512ebf8bab593ba702f81b55f1ade",
+      "title": "Turbulent Torques on Protoplanets in a Dead Zone",
+      "abstract": "Migration of protoplanets in their gaseous host disks may be largely responsible for the observed orbital distribution of extrasolar planets. Recent simulations have shown that the magnetorotational turbulence thought to drive accretion in protoplanetary disks can affect migration by turning it into an orbital random walk. However, these simulations neglected the disk's ionization structure. Low ionization fraction near the midplane of the disk can decouple the magnetic field from the gas, forming a dead zone with reduced or no turbulence. Here, to understand the effect of dead zones on protoplanetary migration, we perform numerical simulations of a small region of a stratified disk with magnetorotational turbulence confined to thin active layers above and below the midplane. Turbulence in the active layers exerts decreased, but still measurable, gravitational torques on a protoplanet located at the disk midplane. We find a decrease of 2 orders of magnitude in the diffusion coefficient for dead zones with dead-to-active surface density ratios approaching realistic values in protoplanetary disks. This torque arises primarily from density fluctuations within a distance of one scale height of the protoplanet. Turbulent torques have correlation times of only ~0.3 orbital periods and apparently time-stationary distributions. These properties are encouraging signs that stochastic methods can be used to determine the orbital evolution of populations of protoplanets under turbulent migration. Our results indicate that dead zones may be dynamically distinct regions for protoplanetary migration.",
+      "year": 2007,
+      "authors": [
+        "J. Oishi",
+        "M. Mac Low",
+        "K. Menou"
+      ],
+      "referenceCount": 65,
+      "citationCount": 61
+    },
+    {
+      "paperId": "208c787f23280d1f1d0eb9f5fd3cc8257a8062bd",
+      "title": "Is the outer Solar System chaotic",
+      "abstract": "One-sentence summary: Current observational uncertainty in the positions of the Jovian planets precludes deciding whether or not the outer Solar System is chaotic. 100 word technical summary: The existence of chaos in the system of Jovian planets has been in question for the past 15 years. Various investigators have found Lyapunov times ranging from about 5 millions years upwards to infinity, with no clear reason for the discrepancy. In this paper, we resolve the issue. The position of the outer planets is known to only a few parts in 10 million. We show that, within that observational uncertainty, there exist Lyapunov timescales in the full range listed above. Thus, the “true” Lyapunov timescale of the outer Solar System cannot be resolved using current observations. 100 word summary for general public: The orbits of the inner planets (Mercury, Venus, Earth, and Mars) are practically stable in the sense that none of them will collide or be ejected from the Solar System for the next few billion years. However, their orbits are chaotic in the sense that we cannot predict their angular positions within those stable orbits for more than about 20 million years. The picture is less clear for the outer planets (Jupiter, Saturn, Uranus and Neptune). Again their orbits are practically stable, but it is not known for how long we can accurately predict their positions within those orbits.",
+      "year": 2007,
+      "authors": [
+        "W. Hayes"
+      ],
+      "referenceCount": 30,
+      "citationCount": 36
+    },
+    {
+      "paperId": "e3550258846f9a742de4e3f0956a4eb43b2f708f",
+      "title": "On the migration-induced resonances in a system of two planets with masses in the Earth mass range",
+      "abstract": "We investigate orbital resonances expected to arise when a system of two planets, with masses in the range 1–4 M⊕, undergoes convergent migration while embedded in a section of gaseous disc where the flow is laminar. We consider surface densities corresponding to 0.5–4 times that expected for a minimum mass solar nebula at 5.2 au. For the above mass range, the planets undergo type I migration. Using hydrodynamic simulations, we find that, when the configuration is such that convergent migration occurs, the planets can become locked in a first-order commensurability for which the period ratio is (p+ 1)/p with p being an integer and migrate together maintaining it for many orbits. Slow convergent migration results in commensurabilities with small p such as 1 or 2. Instead, when the convergent migration is relatively rapid as tends to occur for disparate masses, higher p commensurabilities are realized such as 4:3, 5:4, 7:6 and 8:7. However, in these cases the dynamics is found to have a stochastic character with some commensurabilities showing long-term instability with the consequence that several can be visited during the course of a simulation. Furthermore, the successful attainment of commensurabilities is also a sensitive function of initial conditions. When the convergent migration is slower, such as occurs in the equal-mass case, lower p commensurabilities such as 3:2 are obtained, which show much greater stability. \n \n \n \nResonant capture leads to a rise in eccentricities that can be predicted using a simple analytic model that assumes the resonance is isolated, constructed in this paper. We find that, once the commensurability has been established, the system with an 8:7 commensurability is fully consistent with this prediction. \n \n \n \nWe find that very similar behaviour is found when the systems are modelled using an N-body code with simple prescriptions for the disc–planet interaction. Comparisons with the hydrodynamic simulations indicate reasonably good agreement with predictions for these prescriptions obtained using the existing semi-analytic theories of type I migration. \n \n \n \nWe have run our hydrodynamic simulations for up to 103–104 orbits of the inner planet. Longer times could only be followed in the simpler N-body approach. Using that, we found that, on the one hand, an 8:7 resonance established in a hydrodynamic simulation could be maintained for more than 105 orbits. On the other hand, other similar cases show instability leading to another resonance and ultimately a close scattering. \n \n \n \nThere is already one known example of a system with nearly equal masses in the range of several Earth masses, namely the two pulsar planets in PSR B1257+12, which are intriguingly, in view of the results obtained here, close to a 3:2 commensurability. This will be considered in a future publication. \n \n \n \nFuture detection of other systems with masses in the Earth mass range that display orbital commensurabilities will give useful information on the role and nature of orbital migration in planet formation.",
+      "year": 2005,
+      "authors": [
+        "J. Papaloizou",
+        "E. Szuszkiewicz"
+      ],
+      "referenceCount": 28,
+      "citationCount": 83
+    },
+    {
+      "paperId": "1312ac97624cde55882bd03e084c2633a0cf7e7b",
+      "title": "The interaction of giant planets with a disc with MHD turbulence – IV. Migration rates of embedded protoplanets",
+      "abstract": "We present the results of global cylindrical disc simulations and local shearing box simulations of protoplanets interacting with a disc undergoing magnetohydrodynamic (MHD) turbulence. The specific emphasis of this paper is to examine and quantify the magnitude of the torque exerted by the disc on the embedded protoplanets as a function of the protoplanet mass, and thus to make a first study of the induced orbital migration of protoplanets resulting from their interaction with magnetic, turbulent discs. This issue is of crucial importance in understanding the formation of gas giant planets through the so-called core instability model, and the subsequent orbital evolution post-formation prior to the dispersal of the protostellar disc. Current estimates of the migration time of protoplanetary cores in the 3–30 Earth mass range in standard disc models are τmig≃ 104–105 yr, which is much shorter than the estimated gas accretion time-scale of Jupiter-type planets. \n \n \n \nThe global simulations were carried out for a disc with constant aspect ratio H/r= 0.07 and protoplanet masses of Mp= 3, 10, 30 Earth masses, and 3 Jupiter masses. The local shearing box simulations were carried out for values of the dimensionless parameter (Mp/M*)/(H/R)3= 0.1, 0.3, 1.0 and 2.0, with M*, R and H being the central mass, the orbital radius and the local disc semithickness, respectively. These allow both embedded and gap-forming protoplanets for which the disc response is non-linear to be investigated. \n \n \n \nIn all cases the instantaneous net torque experienced by a protoplanet showed strong fluctuations on an orbital time-scale, and in the low-mass embedded cases oscillated between negative and positive values. Consequently, in contrast to the laminar disc type I migration scenario, orbital migration would occur as a random walk. Running time averages for embedded protoplanets over typical run times of 20–25 orbital periods indicated that the averaged torques from the inner and outer disc took on values characteristic of type I migration. However, large fluctuations occurring on longer than orbital time-scales remained, preventing convergence of the average torque to well-defined values or even to a well-defined sign for these lower mass cases. \n \n \n \nFluctuations became relatively smaller for larger masses indicating better convergence properties, to the extent that in the 30-M⊕ simulation consistently inward, albeit noisy, migration was indicated. \n \n \n \nBoth the global and local simulations showed this trend with increasing protoplanet mass, which is due to its perturbation on the disc increasing to become comparable to and then dominate the turbulence in its neighbourhood. The turbulence then becomes unable to produce very large long-term fluctuations in the torques acting on the protoplanet. Eventually gap formation occurs and there is a transition to the usual type II migration at a rate determined by the angular momentum transport in the distant parts of the disc. \n \n \n \nThe existence of significant fluctuations occurring in the turbulent discs on long time-scales is an important unexplored issue for the lower mass embedded protoplanets, which are unable to modify the turbulence in their neighbourhood, and which have been studied here. If significant fluctuations occur on the longest disc evolutionary time-scales, convergence of torque running averages for practical purposes will not occur and the migration behaviour of low-mass protoplanets considered as an ensemble will be very different from predictions of type I migration theory for laminar discs. The fact that noise levels were relatively smaller in the local simulations may indicate the presence of long-term global fluctuations, but the issue remains an important one for future investigation.",
+      "year": 2003,
+      "authors": [
+        "R. Nelson",
+        "J. Papaloizou"
+      ],
+      "referenceCount": 42,
+      "citationCount": 217
+    }
+  ]
+}

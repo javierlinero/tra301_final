@@ -1,0 +1,30 @@
+{
+  "main": {
+    "paperId": "f089465216f96c566e2172b6ccfd208e4c039865",
+    "title": "Models for Planning and Simulation in Computer Assisted Orthognatic Surgery",
+    "abstract": "Two aspects required to establish a planning in orthognatic surgery are addressed in this paper. First, a 3D cephalometric analysis, which is clinically essential for the therapeutic decision. Then, an original method to build a biomechanical model of patient face soft tissue, which provides evaluation of the aesthetic outcomes of an intervention. Both points are developed within a clinical application context for computer aided maxillofacial surgery.",
+    "year": 2002,
+    "authors": [
+      "M. Chabanas",
+      "C. Marecaux",
+      "Y. Payan",
+      "F. Boutault"
+    ],
+    "referenceCount": 19,
+    "citationCount": 13
+  },
+  "references": [
+    {
+      "paperId": "63279176a955e17a9a4263cdc3e4bdc6e6282c53",
+      "title": "A 3D Finite Element Model of the Face for Simulation in Plastic and Maxillo-Facial Surgery",
+      "abstract": "This paper introduces a new Finite Element biomechanical model of the human face, which has been developed to be integrated into a simulator for plastic and maxillo-facial surgery. The idea is to be able to predict, from an aesthetic and functional point of view, the deformations of a patient face, resulting from repositioning of the maxillary and mandibular bone structures. This work will complete the simulator for bone-repositioning diagnosis that has been developed by the laboratory. After a description of our research project context, each step of the modeling is precisely described: the continuous and elastic structure of the skin tissues, the orthotropic muscular fibers and their insertions points, and the functional model of force generation. First results of face deformations due to muscles activations are presented. They are qualitatively compared to the functional studies provided by the literature on face muscles roles and actions.",
+      "year": 2000,
+      "authors": [
+        "M. Chabanas",
+        "Y. Payan"
+      ],
+      "referenceCount": 15,
+      "citationCount": 45
+    }
+  ]
+}

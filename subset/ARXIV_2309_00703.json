@@ -1,0 +1,99 @@
+{
+  "main": {
+    "paperId": "e78dc0c69355a413d58f577158d66121b056b57d",
+    "title": "Quark stars with a unified interacting equation of state in regularized 4D Einstein-Gauss-Bonnet gravity",
+    "abstract": "Since the derivation of a well-defined $D\\rightarrow 4$ limit for 4D Einstein Gauss-Bonnet (4DEGB) gravity coupled to a scalar field, there has been interest in testing it as an alternative to Einstein's general theory of relativity. Using the Tolman-Oppenheimer-Volkoff (TOV) equations modified for 4DEGB gravity, we model the stellar structure of quark stars using a novel interacting quark matter equation of state. We find that increasing the Gauss-Bonnet coupling constant $\\alpha$ or the interaction parameter $\\lambda$ both tend to increase the mass-radius profiles of quark stars described by this theory, allowing a given central pressure to support larger quark stars in general. These results logically extend to cases where $\\lambda<0$, in which increasing the magnitude of the interaction effects instead diminishes masses and radii. We also analytically identify a critical central pressure in both regimes, below which no quark star solutions exist due to the pressure function having no roots. Most interestingly, we find that quark stars can exist below the general relativistic Buchdahl bound and Schwarzschild radius $R=2M$, due to the lack of a mass gap between black holes and compact stars in 4DEGB. Even for small $\\alpha$ well within current observational constraints, we find that quark star solutions in this theory can describe Extreme Compact Objects (ECOs), objects whose radii are smaller than what is allowed by general relativity.",
+    "year": 2023,
+    "authors": [
+      "Michael Gammon",
+      "Sarah Rourke",
+      "Robert B. Mann"
+    ],
+    "referenceCount": 58,
+    "citationCount": 3
+  },
+  "references": [
+    {
+      "paperId": "f0787865df6fa0659110a3f74d45ae9940538718",
+      "title": "The 4D Einstein–Gauss–Bonnet theory of gravity: a review",
+      "abstract": "We review the topic of 4D Einstein–Gauss–Bonnet (4DEGB) gravity, which has been the subject of considerable interest over the past two years. Our review begins with a general introduction to Lovelock’s theorem, and the subject of Gauss–Bonnet terms in the action for gravity. These areas are of fundamental importance for understanding modified theories of gravity, and inform our subsequent discussion of recent attempts to include the effects of a Gauss–Bonnet term in four space–time dimensions by re-scaling the appropriate coupling parameter. We discuss the mathematical complexities involved in implementing this idea, and review recent attempts at constructing well-defined, self-consistent theories that enact it. We then move on to consider the gravitational physics that results from these theories, in the context of black holes, cosmology, and weak-field gravity. We show that 4DEGB gravity exhibits a number of interesting phenomena in each of these areas.",
+      "year": 2022,
+      "authors": [
+        "Pedro G. S. Fernandes",
+        "P. Carrilho",
+        "T. Clifton",
+        "D. Mulryne"
+      ],
+      "referenceCount": 294,
+      "citationCount": 116
+    },
+    {
+      "paperId": "02c469b1455fe2139c09275c4e6410b0296f50d2",
+      "title": "Electrically charged quark stars in 4D Einstein–Gauss–Bonnet gravity",
+      "abstract": "In this work we study the properties of compact spheres made of a charged perfect fluid with a MIT bag model EoS for quark matter. Considering static spherically symmetric spacetime we derive the hydrostatic equilibrium equations in the recently formulated four dimensional Einstein–Gauss–Bonnet (4D EGB) gravity theory. In this setting, the modified TOV equations are solved numerically with the aim to investigate the impact of electric charge on the stellar structure. A nice feature of 4D EGB theory is that the Gauss–Bonnet term has a non-vanishing contribution to the gravitational dynamics in 4D spacetime. We therefore analyse the effects of Gauss–Bonnet coupling constant α\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\alpha $$\\end{document} and the charge fraction β\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\beta $$\\end{document} on the mass–radius (M-R\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$M{-}R$$\\end{document}) diagram and also the mass–central density (M-ρc)\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$(M{-}\\rho _c)$$\\end{document} relation of quark stars. Finally, we conclude that depending on the choice of coupling constant one could have larger mass and radius compared with GR and can also be relevant for more massive compact objects due to the effect of the repulsive Coulomb force.",
+      "year": 2021,
+      "authors": [
+        "J. M. Pretel",
+        "A. Banerjee",
+        "A. Pradhan"
+      ],
+      "referenceCount": 69,
+      "citationCount": 30
+    },
+    {
+      "paperId": "1b8db8267ecc709c65a29d29d7a711e478258e80",
+      "title": "Quark Stars in 4D Einstein–Gauss–Bonnet Gravity with an Interacting Quark Equation of State",
+      "abstract": "The detection of gravitational waves (GWs) from a binary neutron star (BNS) has opened a new window on gravitational wave astronomy. With current sensitivities, detectable signals coming from compact objects like neutron stars turn out to be a crucial ingredient for probing their structure, composition, and evolution. Moreover, astronomical observations on pulsars and their mass–radius relations place important constraints on the dense matter equation of state. In this paper, we consider a homogeneous and unpaired charge-neutral three-flavor interacting quark matter with corrections that account for the moderately heavy strange quark instead of the naive MIT bag model. We perform a detailed analysis of strange quark stars in the context of the recently proposed 4D Einstein–Gauss–Bonnet (EGB) theory of gravity. However, this theory does not have standard 4D equations. Thus, we show that the equivalence of the actions in the regularized 4D EGB theory and in the original one is satisfied for a spherically symmetric spacetime. We pay particular attention to the possible existence of neutron stars of mass compatible with . Our findings suggest that the fourth-order correction parameter (a4) of the quantum chromodynamic perturbation and coupling constant α of the GB term play an important role in the mass–radius relation as well as the stability of the quark star. Finally, we compare the results with the well-measured limits of pulsars and their mass and radius extracted from the spectra of several X-ray compact sources.",
+      "year": 2020,
+      "authors": [
+        "A. Banerjee",
+        "Takol Tangphati",
+        "D. Samart",
+        "P. Channuie"
+      ],
+      "referenceCount": 65,
+      "citationCount": 42
+    },
+    {
+      "paperId": "6e525c75df3255c0b07093a5d3156036aec5345d",
+      "title": "Observational constraints on the regularized 4D Einstein-Gauss-Bonnet theory of gravity",
+      "abstract": "In this paper we study the observational constraints that can be imposed on the coupling parameter, $\\hat \\alpha$, of the recently proposed 4-dimensional Einstein-Gauss-Bonnet theory of gravity. We consider the field equations that can be derived from regularization or dimensional reduction, and use them to perform a thorough investigation of the slow-motion and weak-field limit of this theory. We apply our results to observations of a wide array of physical systems that admit such a description, and find that the LAGEOS satellites are the most constraining, requiring $| \\hat \\alpha | \\lesssim 10^{10} \\,{\\rm m}^2$. We then consider constraints that can be imposed on this theory from cosmology, black hole systems, and table-top experiments. It is found that early universe inflation prohibits all but the smallest negative values of $\\hat \\alpha$, while observations of binary black hole systems are likely to offer the tightest constraints on positive values, leading to overall bounds $0 \\lesssim \\hat \\alpha \\lesssim 10^8 \\, {\\rm m}^2$.",
+      "year": 2020,
+      "authors": [
+        "T. Clifton",
+        "P. Carrilho",
+        "Pedro G. S. Fernandes",
+        "D. Mulryne"
+      ],
+      "referenceCount": 146,
+      "citationCount": 43
+    },
+    {
+      "paperId": "0a917a93420115223877dd73c56c9be8aa4c7a5f",
+      "title": "Strange Quark Stars in 4D Einstein–Gauss–Bonnet Gravity",
+      "abstract": "The existence of strange matter in compact stars may give rise to striking outcomes of the various physical phenomena. As an alternative to neutron stars, a new class of compact stars called strange stars should exist if the strange matter hypothesis is true. In this paper, we investigate the possible construction of strange stars in quark matter phases based on the MIT bag model. We consider scenarios in which strange stars have no crusts. Then we apply two types of equations of state to quantify the mass–radius diagram for static strange star models, performing the numerical calculation of the modified Tolman–Oppenheimer–Volkoff equations in the context of 4D Einstein–Gauss–Bonnet (EGB) gravity. It is worth noting that the GB term gives rise to a nontrivial contribution to the gravitational dynamics in the limit D → 4. However, the claim that the resulting theory is one of pure gravity has been cast in doubt on several grounds. Thus, we begin our discussion by showing the regularized 4D EGB theory has an equivalent action as the novel 4D EGB in a spherically symmetric spacetime. We also study the effects of coupling constant α on the physical properties of the constructed strange stars including the compactness and criterion of adiabatic stability. Finally, we compare our results to those obtained from standard general relativity.",
+      "year": 2020,
+      "authors": [
+        "A. Banerjee",
+        "Takol Tangphati",
+        "P. Channuie"
+      ],
+      "referenceCount": 89,
+      "citationCount": 37
+    },
+    {
+      "paperId": "e3295df8537e7e329fba6cc66b7b24417ad99bb3",
+      "title": "On taking the D → 4 limit of Gauss-Bonnet gravity: theory and solutions",
+      "abstract": "We comment on the recently introduced Gauss-Bonnet gravity in four dimensions. We argue that it does not make sense to consider this theory to be defined by a set of D → 4 solutions of the higher-dimensional Gauss-Bonnet gravity. We show that a well-defined D → 4 limit of Gauss-Bonnet Gravity is obtained generalizing a method employed by Mann and Ross to obtain a limit of the Einstein gravity in D = 2 dimensions. This is a scalar-tensor theory of the Horndeski type obtained by dimensional reduction methods. By considering simple spacetimes beyond spherical symmetry (Taub-NUT spaces) we show that the naive limit of the higher-dimensional theory to D = 4 is not well defined and contrast the resultant metrics with the actual solutions of the new theory.",
+      "year": 2020,
+      "authors": [
+        "Robie A. Hennigar",
+        "D. Kubizňák",
+        "R. Mann",
+        "Christopher Pollack"
+      ],
+      "referenceCount": 69,
+      "citationCount": 181
+    }
+  ]
+}
