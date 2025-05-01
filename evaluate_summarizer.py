@@ -147,11 +147,11 @@ def compute_rouge_scores(preds, refs):
     fmt_p = ["\n".join(nltk.sent_tokenize(p.strip())) for p in preds]
     fmt_r = ["\n".join(nltk.sent_tokenize(r.strip())) for r in refs]
     corpus = rouge_metric.compute(predictions=fmt_p, references=fmt_r, use_stemmer=True)
-    corpus = {k: v*100 for k,v in corpus.items()}
+    corpus = {k: v for k,v in corpus.items()}
     per_ex = []
     for p, r in zip(fmt_p, fmt_r):
         ex = rouge_metric.compute(predictions=[p], references=[r], use_stemmer=True)
-        per_ex.append({k: v*100 for k,v in ex.items()})
+        per_ex.append({k: v for k,v in ex.items()})
     return corpus, per_ex
 
 def display_comparison(fnames, ideals, gens, num=5):

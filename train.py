@@ -138,7 +138,7 @@ def compute_metrics(eval_pred):
         references=decoded_labels,
         use_stemmer=True
     )
-    result = {k: v * 100 for k, v in result.items()}
+    result = {k: v for k, v in result.items()}
 
     # you can still compute average length from your sanitized predictions
     lengths = [np.count_nonzero(p != tokenizer.pad_token_id) for p in predictions]

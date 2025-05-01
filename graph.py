@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # File paths
 file_paths = {
-    'Ideal Tagging': 'evaluation_results_csv_filtered.csv',
+    'Ideal Tagging': 'evaluation_results.csv',
     'Automatic Tagging': 'evaluation_results_tagged.csv',
     'Default Output': 'pretrained_bart_results.csv'
 }
