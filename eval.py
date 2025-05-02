@@ -1,56 +1,66 @@
-#!/usr/bin/env python3
-"""
-evaluate_contrib.py
-
-Compute the fraction of gold <CONTRIBUTION> sentences correctly
-predicted by your filter.
-"""
+import re
 from collections import defaultdict
 import pandas as pd
-import re
-import pprint
+import matplotlib.pyplot as plt
+from matplotlib import cm
+from matplotlib.colors import Normalize
 
-gold_pth = r"C:\Users\JL211\Downloads\evaluation_results_tagged.csv"
-pred_pth = r"C:\Users\JL211\Downloads\evaluation_results_csv_filtered.csv"
+gold_pth = r"C:\Users\JL211\Desktop\evaluation_results.csv"
+pred_pth = r"C:\Users\JL211\Desktop\evaluation_results_tagged.csv"
+
+def extract_tags(text):
+    tags = re.findall(r'<BACKGROUND>|<CONTRIBUTION>', text)
+    return [0 if t == '<BACKGROUND>' else 1 for t in tags]
 
 gold = pd.read_csv(gold_pth)
 pred = pd.read_csv(pred_pth)
 
-gold_dict = dict(zip(gold["filename"], gold["input_text"].fillna("")))
-pred_dict = dict(zip(pred["filename"], pred["input_text"].fillna("")))
+gold_dict = dict(zip(gold["FILENAME"], gold["input_text"].fillna("")))
+pred_dict = dict(zip(pred["FILENAME"], pred["input_text"].fillna("")))
 
-converted = defaultdict(list)
-for fn, text in gold_dict.items():
-    for word in text.split():
-        if "<BACKGROUND>" in word:
-            converted[fn].append(0)
-        elif "<CONTRIBUTION>" in word:
-            converted[fn].append(1)
+gold_tags = {fn: extract_tags(txt) for fn, txt in gold_dict.items()}
+pred_tags = {fn: extract_tags(txt) for fn, txt in pred_dict.items()}
 
-converted_filtered = defaultdict(list)
-for fn, text in pred_dict.items():
-    for word in text.split():
-        if "<BACKGROUND>" in word:
-            converted_filtered[fn].append(0)
-        elif "<CONTRIBUTION>" in word:
-            converted_filtered[fn].append(1)
+results = defaultdict(lambda: {'correct': 0, 'total': 0})
+for fn in sorted(gold_tags):
+    gt = gold_tags[fn]
+    pt = pred_tags.get(fn, [])
+    if len(gt) != len(pt):
+        continue
+    correct = sum(g == p for g, p in zip(gt, pt))
+    total = len(gt)
+    results[fn]['correct'] = correct
+    results[fn]['total'] = total
 
-print("\nIDEAL")
-for key, val in sorted(converted.items()):
-    print(f"{len(val)} - {key}: {val}")
+docs = []
+scores = []
+for fn, vals in results.items():
+    docs.append(fn)
+    total = vals['total']
+    correct = vals['correct']
+    score = correct / total if total > 0 else 0
+    scores.append(score)
 
-print("\nGENERATED:")
+norm = Normalize(vmin=0, vmax=1)
+cmap = cm.get_cmap('viridis')
+colors = [cmap(norm(s)) for s in scores]
+fig, ax = plt.subplots(figsize=(12, 6))
+bars = ax.bar(docs, scores, color=colors)
 
-for key, val in sorted(converted_filtered.items()):
-    print(f"{len(val)} - {key}: {val}")
+avg = sum(scores) / len(scores)
+ax.axhline(y=avg, color='red', linestyle='--', linewidth=2,
+           label=f'Average = {avg:.3f}')
+ax.legend()
 
+ax.set_xlabel('Document')
+ax.set_ylabel('Score')
+ax.set_title('Performance Scores by Document')
+ax.set_ylim(0, 1)
+plt.xticks(rotation=90)
+sm = cm.ScalarMappable(cmap=cmap, norm=norm)
+sm.set_array([])
+cbar = plt.colorbar(sm, ax=ax)
+cbar.set_label('Score')
 
-for key in sorted(converted.keys()):
-    score = 0
-    length = len(converted[key])
-    for idx in range(length):
-        if converted[key][idx] == converted_filtered[key][idx]:
-            score += 1
-
-    print(f"Score for {key}: {score / length}")
-
+plt.tight_layout()
+plt.show()
