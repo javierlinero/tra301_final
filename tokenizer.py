@@ -1,9 +1,34 @@
-import json
+#!/usr/bin/env python
+# tag_abstracts.py — same 80/20 split (seed=42) as training/eval scripts
+
 import os
+import json
+import re
 import nltk
 from nltk.tokenize import sent_tokenize
-nltk.download('punkt')
+from sklearn.model_selection import train_test_split
+
+# your utilities
 from utility import identify_novel_sentences_with_structure, filter_contribution_sentences
+
+nltk.download('punkt', quiet=True)
+
+# --- Configurable paths & split ---
+CSV_PATH    = "data.csv"            # your master CSV
+RAW_DIR     = "subset"
+TAGGED_DIR  = "tagged"
+TEST_SIZE   = 0.2
+RANDOM_SEED = 42
+
+
+def clean_tags(text):
+    # same as before, if needed
+    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'/[A-Z]+>', '', text)
+    text = re.sub(r'[A-Z]+>', '', text)
+    text = re.sub(r'/[A-Z]+', '', text)
+    return re.sub(r'\s+', ' ', text).strip()
+
 
 def load_papers(data_path, whitelist):
     """Load only whitelisted papers and return mapping from filename to JSON data."""
@@ -11,13 +36,13 @@ def load_papers(data_path, whitelist):
     for fn in os.listdir(data_path):
         if not fn.endswith('.json') or fn not in whitelist:
             continue
-        path = os.path.join(data_path, fn)
+        full = os.path.join(data_path, fn)
         try:
-            with open(path, 'r', encoding='utf-8') as f:
+            with open(full, 'r', encoding='utf-8') as f:
                 data = json.load(f)
         except UnicodeDecodeError:
             print(f"[WARN] {fn} not UTF-8, falling back to latin-1")
-            with open(path, 'r', encoding='latin-1') as f:
+            with open(full, 'r', encoding='latin-1') as f:
                 data = json.loads(f.read())
         except json.JSONDecodeError as e:
             print(f"[ERROR] Could not parse {fn}: {e}")
@@ -28,91 +53,85 @@ def load_papers(data_path, whitelist):
 
 def tag_abstract(abstract, novel_sentences):
     """Wrap each sentence in <BACKGROUND> or <CONTRIBUTION> tags."""
-    sentences = sent_tokenize(abstract)
     parts = []
-    for s in sentences:
+    for s in sent_tokenize(abstract):
         clean = s.strip()
-        if clean in novel_sentences:
-            parts.append(f"<CONTRIBUTION>{clean}</CONTRIBUTION>")
-        else:
-            parts.append(f"<BACKGROUND>{clean}</BACKGROUND>")
+        tag = "CONTRIBUTION" if clean in novel_sentences else "BACKGROUND"
+        parts.append(f"<{tag}>{clean}</{tag}>")
     return " ".join(parts)
 
 
-def create_tagged_output(pdata):
-    """Generate a single tagged-output string from paper data or None if no contributions."""
+def create_tagged_output(pdata, papers_by_pid):
     abstract = pdata['main'].get('abstract')
     if not abstract:
         return None
-    # Gather predecessor abstracts
-    pred_abstracts = []
+
+    # collect predecessor abstracts
+    preds = []
     for ref in pdata.get('references', []):
-        rid = ref.get('paperId')
-        if rid in papers_map_by_pid:
-            a = papers_map_by_pid[rid]['main'].get('abstract')
+        pid = ref.get('paperId')
+        if pid in papers_by_pid:
+            a = papers_by_pid[pid]['main'].get('abstract')
             if a:
-                pred_abstracts.append(a)
+                preds.append(a)
+    # also any inline abstract field
     for ref in pdata.get('references', []):
         a = ref.get('abstract')
-        if a and a not in pred_abstracts:
-            pred_abstracts.append(a)
-    if not pred_abstracts:
+        if a and a not in preds:
+            preds.append(a)
+
+    if not preds:
         return None
-    
-    novel = identify_novel_sentences_with_structure(abstract, pred_abstracts)
+
+    novel = identify_novel_sentences_with_structure(abstract, preds)
     novel = filter_contribution_sentences(novel)
     if not novel:
         return None
-    
 
-    # CONSTRUCT THE OUTPUT
     tagged = tag_abstract(abstract, novel)
-    output = (
+    return (
         "<TASK> Summarize this abstract for high-school audience while highlight importance of contributions </TASK> "
-        "<ABSTRACT> " + tagged + " </ABSTRACT>"
+        f"<ABSTRACT> {tagged} </ABSTRACT>"
     )
-    return output
+
 
 def main():
-    filenames = [
-        "ARXIV_1411_7798.json",
-        "ARXIV_2103_12820.json",
-        "ARXIV_2004_02020.json",
-        "ARXIV_1811_08536.json",
-        "ARXIV_1506_00902.json",
-        "ARXIV_2110_12691.json",
-        "ARXIV_2003_03849.json",
-        "ARXIV_1010_1662.json",
-        "ARXIV_2403_06647.json",
-        "ARXIV_1805_12212.json",
-        "ARXIV_astro_ph_0205031.json",
-        "ARXIV_2206_06633.json",
-        "ARXIV_physics_9806027.json",
-        "ARXIV_2101_12333.json",
-        "ARXIV_1304_4762.json"
-    ]
+    # 1) load CSV and split filenames
+    import pandas as pd
+    df = pd.read_csv(CSV_PATH, dtype=str)
+    if 'FILENAME' not in df.columns:
+        raise ValueError("data.csv must contain a 'FILENAME' column")
+    df = df.dropna(subset=['FILENAME'])
+    train_df, test_df = train_test_split(
+        df['FILENAME'].tolist(),
+        test_size=TEST_SIZE,
+        random_state=RANDOM_SEED,
+        shuffle=True
+    )
+    whitelist = set(test_df)
+    print(f"Tagging {len(whitelist)} files (test split, seed={RANDOM_SEED})")
 
-    base_dir = os.path.dirname(__file__)
-    data_dir = os.path.join(base_dir, "data", "raw")
-    print(f"Loading papers from {data_dir}…")
-    papers = load_papers(data_dir, whitelist=filenames)
+    # 2) load only those JSONs
+    papers = load_papers(RAW_DIR, whitelist)
+    # build paperId → data map
+    papers_by_pid = {
+        pdata['main']['paperId']: pdata
+        for pdata in papers.values()
+        if pdata['main'].get('paperId')
+    }
 
-    # build a mapping from paperId to data for reference lookups
-    global papers_map_by_pid
-    papers_map_by_pid = {data['main']['paperId']: data for data in papers.values()}
-
+    # 3) tag each
+    os.makedirs(TAGGED_DIR, exist_ok=True)
     for fn, pdata in papers.items():
-        tagged = create_tagged_output(pdata)
-        if not tagged:
-            print(f"Skipping {fn}, no novel contributions detected.")
+        tagged_output = create_tagged_output(pdata, papers_by_pid)
+        if not tagged_output:
+            print(f"Skipping {fn}: no novel contributions found.")
             continue
-        
-        base_name = os.path.splitext(fn)[0]
-        os.makedirs(os.path.join(base_dir, "tagged"), exist_ok=True)
-        out_file = os.path.join(base_dir, "tagged", f"{base_name}_tagged.txt")
-        with open(out_file, 'w', encoding='utf-8') as f:
-            f.write(tagged)
-        print(f"Tagged abstract saved to {out_file}")
+        base = os.path.splitext(fn)[0]
+        out_path = os.path.join(TAGGED_DIR, f"{base}_tagged.txt")
+        with open(out_path, 'w', encoding='utf-8') as f:
+            f.write(tagged_output)
+        print(f"→ {out_path}")
 
 if __name__ == "__main__":
     main()

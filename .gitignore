@@ -2,3 +2,6 @@
 data/
 .env
 data_2/
+summarizer_model/
+logs/
+__pycache__/

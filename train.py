@@ -1,65 +1,55 @@
+import os
+import re
+import random
+
+import numpy as np
 import pandas as pd
 import torch
-from sklearn.model_selection import train_test_split  # Used if not using predefined lists
+from sklearn.model_selection import train_test_split
 from transformers import (
-    BartForConditionalGeneration,  # Changed from T5ForConditionalGeneration
-    BartTokenizerFast,             # Changed from T5TokenizerFast
-    Seq2SeqTrainingArguments,
-    Seq2SeqTrainer,
+    BartForConditionalGeneration,
+    BartTokenizerFast,
     DataCollatorForSeq2Seq,
+    Seq2SeqTrainer,
+    Seq2SeqTrainingArguments,
 )
 from datasets import Dataset, DatasetDict
 import evaluate
 import nltk
-import os
-import numpy as np
-import re
 
 # --- Configuration ---
-CSV_PATH = "data.csv"  # Path to your CSV file
-MODEL_NAME = "facebook/bart-large-cnn"  # Correct HF model name for BART Large CNN
-OUTPUT_DIR = "./summarizer_model"  # Where to save the trained model
-LOGGING_DIR = "./logs"  # Directory for TensorBoard logs
+CSV_PATH = "data.csv"
+MODEL_NAME = "facebook/bart-large-cnn"
+OUTPUT_DIR = "./summarizer_model"
+LOGGING_DIR = "./logs"
 
-# Define train/test split based on filenames
-TRAIN_FILENAMES = [
-    "ARXIV_1411_7798.json", "ARXIV_2103_12820.json", "ARXIV_2004_02020.json",
-    "ARXIV_1811_08536.json", "ARXIV_1506_00902.json", "ARXIV_2110_12691.json",
-    "ARXIV_2003_03849.json", "ARXIV_1010_1662.json", "ARXIV_2403_06647.json",
-    "ARXIV_1805_12212.json"
-]
-TEST_FILENAMES = [
-    "ARXIV_astro_ph_0205031.json", "ARXIV_2206_06633.json",
-    "ARXIV_physics_9806027.json", "ARXIV_2101_12333.json",
-    "ARXIV_1304_4762.json"
-]
+TEST_SIZE = 0.2
+SEED = 42
 
-# Training parameters
-MAX_INPUT_LENGTH = 1024  # Max length for input tokens
-MAX_TARGET_LENGTH = 256   # Max length for output summary tokens
-BATCH_SIZE = 4           # Adjust based on GPU memory
-NUM_EPOCHS = 20          # Number of training epochs (adjust as needed)
-LEARNING_RATE = 5e-5
-WEIGHT_DECAY = 0.01
+MAX_INPUT_LENGTH = 1024
+BATCH_SIZE = 4
+NUM_EPOCHS = 5
+LEARNING_RATE = 2e-5
+WEIGHT_DECAY = 0.05
+MAX_TARGET_LENGTH = 128
 LOGGING_STEPS = 50
-EVAL_STEPS = 100         # Evaluate every N steps
-SAVE_STEPS = 200         # Save checkpoint every N steps
+EVAL_STEPS = 100
+SAVE_STEPS = 200
 
 # For ROUGE computation
 nltk.download('punkt', quiet=True)
 rouge_metric = evaluate.load("rouge")
 
-# --- Helper Functions ---
 
-def clean_tags(text):
-    """Remove all tags from text."""
+# --- Helper Functions ---
+def clean_tags(text: str) -> str:
+    """Remove all XML-style tags from text."""
     text = re.sub(r'<[^>]+>', '', text)
     text = re.sub(r'/[A-Z]+>', '', text)
     text = re.sub(r'[A-Z]+>', '', text)
     text = re.sub(r'/[A-Z]+', '', text)
     return re.sub(r'\s+', ' ', text).strip()
 
-# Extract only the summary block, fallback to stripping tags
 _extract_summary_re = re.compile(r"<SUMMARY>(.*?)</SUMMARY>", re.DOTALL)
 def extract_summary(full: str) -> str:
     """Pull out text inside <SUMMARY>…</SUMMARY>, or strip tags otherwise."""
@@ -68,35 +58,36 @@ def extract_summary(full: str) -> str:
         return m.group(1).strip()
     return clean_tags(full)
 
-# --- Data Loading and Preprocessing ---
-def load_and_split_data(csv_path, train_files, test_files):
-    try:
-        df = pd.read_csv(csv_path)
-    except Exception as e:
-        print(f"Error reading {csv_path}: {e}")
-        exit(1)
 
-    if not all(col in df.columns for col in ['FILENAME', 'IDEAL INPUT', 'OUTPUT']):
-        print("Error: CSV must contain columns 'FILENAME','IDEAL INPUT','OUTPUT'")
-        exit(1)
+def load_and_split_data(csv_path: str, test_size: float, seed: int) -> DatasetDict:
+    df = pd.read_csv(csv_path, dtype=str)
+    required = ['FILENAME', 'IDEAL INPUT', 'OUTPUT']
+    if not all(col in df.columns for col in required):
+        raise ValueError(f"CSV must contain columns: {required}")
 
-    df = df.astype({'FILENAME': str, 'IDEAL INPUT': str, 'OUTPUT': str})
-    df.dropna(subset=['IDEAL INPUT', 'OUTPUT'], inplace=True)
+    df = df.dropna(subset=['IDEAL INPUT', 'OUTPUT'])
+    # reproducible shuffle & split
+    train_df, test_df = train_test_split(
+        df,
+        test_size=test_size,
+        random_state=seed,
+        shuffle=True
+    )
 
-    train_df = df[df['FILENAME'].isin(train_files)].copy()
-    test_df = df[df['FILENAME'].isin(test_files)].copy()
-
-    train_df.rename(columns={'IDEAL INPUT': 'input_text', 'OUTPUT': 'target_text'}, inplace=True)
-    test_df.rename(columns={'IDEAL INPUT': 'input_text', 'OUTPUT': 'target_text'}, inplace=True)
+    # rename cols for our pipeline
+    for split_df in (train_df, test_df):
+        split_df.rename(
+            columns={'IDEAL INPUT': 'input_text', 'OUTPUT': 'target_text'},
+            inplace=True
+        )
 
     return DatasetDict({
-        'train': Dataset.from_pandas(train_df[['input_text', 'target_text']]),
-        'test': Dataset.from_pandas(test_df[['input_text', 'target_text']])
+        'train': Dataset.from_pandas(train_df[['input_text', 'target_text']].reset_index(drop=True)),
+        'test':  Dataset.from_pandas(test_df[['input_text', 'target_text']].reset_index(drop=True)),
     })
 
 
 def preprocess_function(examples, tokenizer):
-    # Input keeps your <TASK> and <ABSTRACT> tags
     inputs = examples['input_text']
     model_inputs = tokenizer(
         inputs,
@@ -105,10 +96,7 @@ def preprocess_function(examples, tokenizer):
         padding='max_length'
     )
 
-    # For BART, we don't need to wrap in a special tag
-    # Directly clean target texts
     cleaned_targets = [clean_tags(t) for t in examples['target_text']]
-    
     labels = tokenizer(
         text_target=cleaned_targets,
         max_length=MAX_TARGET_LENGTH,
@@ -120,17 +108,29 @@ def preprocess_function(examples, tokenizer):
 
 
 def compute_metrics(eval_pred):
+    # unpack
     predictions, labels = eval_pred
+
+    # if somehow we got a tuple (e.g. return_dict_in_generate=True), take the first element
+    if isinstance(predictions, tuple):
+        predictions = predictions[0]
+
+    # replace any label‐padding in the *labels* with the pad_token_id
     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
 
-    decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
-    decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+    # **NEW**: clamp any negative IDs in *predictions* to pad_token_id
+    predictions = np.where(predictions < 0, tokenizer.pad_token_id, predictions)
 
-    # Clean any remaining tags
-    decoded_preds = [clean_tags(x) for x in decoded_preds]
+    # now it’s safe to decode
+    decoded_preds  = tokenizer.batch_decode(predictions, skip_special_tokens=True)
+    decoded_labels = tokenizer.batch_decode(labels,      skip_special_tokens=True)
+
+    # clean up any stray tags
+    decoded_preds  = [clean_tags(x) for x in decoded_preds]
     decoded_labels = [clean_tags(x) for x in decoded_labels]
 
-    decoded_preds = ["\n".join(nltk.sent_tokenize(x)) for x in decoded_preds]
+    # line‐break separate into sentences for ROUGE
+    decoded_preds  = ["\n".join(nltk.sent_tokenize(x)) for x in decoded_preds]
     decoded_labels = ["\n".join(nltk.sent_tokenize(x)) for x in decoded_labels]
 
     result = rouge_metric.compute(
@@ -138,19 +138,32 @@ def compute_metrics(eval_pred):
         references=decoded_labels,
         use_stemmer=True
     )
-    result = {k: v * 100 for k, v in result.items()}
+    result = {k: v for k, v in result.items()}
+
+    # you can still compute average length from your sanitized predictions
     lengths = [np.count_nonzero(p != tokenizer.pad_token_id) for p in predictions]
-    result['gen_len'] = np.mean(lengths)
+    result["gen_len"] = np.mean(lengths)
+
     return {k: round(v, 4) for k, v in result.items()}
 
-# --- Main Training ---
-if __name__ == "__main__":
-    raw_datasets = load_and_split_data(CSV_PATH, TRAIN_FILENAMES, TEST_FILENAMES)
 
-    # Initialize BART tokenizer and model
+# --- Main Training Pipeline ---
+if __name__ == "__main__":
+    # set seeds for reproducibility
+    random.seed(SEED)
+    np.random.seed(SEED)
+    torch.manual_seed(SEED)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(SEED)
+
+    # load & split
+    raw_datasets = load_and_split_data(CSV_PATH, test_size=TEST_SIZE, seed=SEED)
+
+    # tokenizer & model
     tokenizer = BartTokenizerFast.from_pretrained(MODEL_NAME)
     model = BartForConditionalGeneration.from_pretrained(MODEL_NAME)
 
+    # tokenize
     tokenized = raw_datasets.map(
         lambda ex: preprocess_function(ex, tokenizer),
         batched=True,
@@ -160,7 +173,7 @@ if __name__ == "__main__":
     data_collator = DataCollatorForSeq2Seq(
         tokenizer,
         model=model,
-        label_pad_token_id=-100,  # Use -100 for BART label padding
+        label_pad_token_id=-100,
         pad_to_multiple_of=8 if torch.cuda.is_available() else None
     )
 
@@ -200,21 +213,20 @@ if __name__ == "__main__":
 
     print("Starting training...")
     trainer.train()
-    
+
     print("Training finished. Saving model...")
-    trainer.save_model()
+    trainer.save_model(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)
     print(f"Model saved to {OUTPUT_DIR}")
 
     # Evaluate
     print("Evaluating model...")
     eval_results = trainer.evaluate(eval_dataset=tokenized['test'])
-    print("Evaluation Results:")
     for k, v in eval_results.items():
         print(f"  {k}: {v:.4f}")
 
-    # Generate and print a few summaries
-    print("\n--- Generating Summaries for Test Examples ---")
+    # Generate a few summaries
+    print("\n--- Sample Summaries ---")
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     samples = tokenized['test'].select(range(min(3, len(tokenized['test']))))
@@ -225,19 +237,16 @@ if __name__ == "__main__":
         out = model.generate(
             input_ids=input_ids,
             attention_mask=attn,
+            min_length=50,
+            max_new_tokens=150,
             max_length=MAX_TARGET_LENGTH,
-            num_beams=4,
+            num_beams=6,
             early_stopping=True,
             no_repeat_ngram_size=2,
             length_penalty=1.0
         )
         raw_summary = tokenizer.decode(out[0], skip_special_tokens=True)
-        # Clean any remaining tags
         clean_summary = clean_tags(raw_summary)
-        
-        original_input = raw_datasets['test'][i]['input_text']
-        ideal_summary = raw_datasets['test'][i]['target_text']
-        
-        print(f"\nExample {i+1}:")
-        print(f"--- Ideal Summary ---:\n{ideal_summary}")
-        print(f"--- Generated Summary ---:\n{clean_summary}")
+
+        print(f"\nExample {i+1}")
+        print(f"--- Generated Summary ---\n{clean_summary}")
