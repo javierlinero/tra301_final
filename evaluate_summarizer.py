@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# evaluate_summarizer.py - Evaluate summarization model with ROUGE and BERT scores
-
 import pandas as pd
 import torch
 import argparse
@@ -111,7 +108,7 @@ def load_tagged_files(tagged_dir, test_filenames):
     return pd.DataFrame(rows)
 
 def generate_summaries(model, tokenizer, inputs, max_input_length=1024,
-                       max_output_length=256, batch_size=4, beam_size=4):
+                       max_output_length=128, batch_size=4, beam_size=6):
     model.to(device)
     model.eval()
     gen = []

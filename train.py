@@ -28,9 +28,9 @@ SEED = 42
 
 MAX_INPUT_LENGTH = 1024
 BATCH_SIZE = 4
-NUM_EPOCHS = 20
-LEARNING_RATE = 5e-5
-WEIGHT_DECAY = 0.01
+NUM_EPOCHS = 5
+LEARNING_RATE = 2e-5
+WEIGHT_DECAY = 0.05
 MAX_TARGET_LENGTH = 128
 LOGGING_STEPS = 50
 EVAL_STEPS = 100
@@ -240,7 +240,7 @@ if __name__ == "__main__":
             min_length=50,
             max_new_tokens=150,
             max_length=MAX_TARGET_LENGTH,
-            num_beams=4,
+            num_beams=6,
             early_stopping=True,
             no_repeat_ngram_size=2,
             length_penalty=1.0

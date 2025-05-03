@@ -20,6 +20,9 @@ for label, path in file_paths.items():
 
 avg_df = pd.DataFrame(averages, index=metrics)
 
+print("=== Average Metrics per Category ===")
+print(avg_df)
+
 # 2) Plot with custom aesthetics
 x = np.arange(len(metrics))
 width = 0.25

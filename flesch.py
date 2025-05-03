@@ -1,59 +1,72 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib as mpl
 import textstat
+import os
 
-# Load the CSV file
-def analyze_flesch_scores(csv_path):
-    # Read the CSV file
-    df = pd.read_csv(csv_path)
-    
-    # Ensure the OUTPUT column exists
-    if 'OUTPUT' not in df.columns:
-        raise ValueError("CSV file must contain an 'OUTPUT' column")
-    
-    # Calculate Flesch reading score for each entry in the OUTPUT column
-    df['flesch_score'] = df['OUTPUT'].apply(lambda text: textstat.flesch_reading_ease(str(text)))
-    
-    # Create a histogram of the Flesch scores
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['flesch_score'], bins=20, color='skyblue', edgecolor='black')
-    
-    # Add labels and title
-    plt.xlabel('Flesch Reading Ease Score')
-    plt.ylabel('Frequency')
-    plt.title('Distribution of Flesch Reading Ease Scores')
-    
-    # Add grid lines for better readability
-    plt.grid(axis='y', alpha=0.75)
-    
-    # Add a vertical line for the mean score
-    mean_score = df['flesch_score'].mean()
-    plt.axvline(x=mean_score, color='red', linestyle='--', 
-                label=f'Mean Score: {mean_score:.2f}')
-    
-    # Add reference lines for readability levels
-    plt.axvline(x=90, color='green', linestyle=':', label='Very Easy (90+)')
-    plt.axvline(x=70, color='lightgreen', linestyle=':', label='Easy (70-90)')
-    plt.axvline(x=50, color='orange', linestyle=':', label='Fairly Difficult (50-70)')
-    plt.axvline(x=30, color='red', linestyle=':', label='Difficult (30-50)')
-    
-    plt.legend()
-    plt.tight_layout()
-    
-    # Save the histogram
-    plt.savefig('flesch_score_histogram.png')
-    
-    # Show the histogram
-    plt.show()
-    
-    # Return the DataFrame with scores for further analysis if needed
+# Increase all font sizes for better readability when scaled in LaTeX
+mpl.rcParams.update({
+    'font.size': 18,
+    'axes.titlesize': 22,
+    'axes.labelsize': 20,
+    'xtick.labelsize': 18,
+    'ytick.labelsize': 18,
+    'legend.fontsize': 18,
+    'figure.titlesize': 24,
+})
+
+# Function to compute Flesch scores for any DataFrame's specified columns
+def compute_flesch_scores(df, columns):
+    for col in columns:
+        df[f'flesch_score_{col}'] = df[col].astype(str).apply(textstat.flesch_reading_ease)
     return df
 
-# Example usage
-if __name__ == "__main__":
-    results = analyze_flesch_scores('data.csv')
-    
-    # Print some basic statistics
-    print(f"Average Flesch Score: {results['flesch_score'].mean():.2f}")
-    print(f"Minimum Flesch Score: {results['flesch_score'].min():.2f}")
-    print(f"Maximum Flesch Score: {results['flesch_score'].max():.2f}")
+# Function to plot Flesch score histograms
+def plot_flesch_histograms(df, columns, title_prefix, save_prefix):
+    for col in columns:
+        score_col = f'flesch_score_{col}'
+        plt.figure(figsize=(10, 6), dpi=150)
+        plt.hist(df[score_col], bins=20, edgecolor='black')
+
+        mean_score = df[score_col].mean()
+        plt.axvline(x=mean_score, linestyle='--', label=f'Mean Score: {mean_score:.2f}')
+        plt.axvline(x=90, linestyle=':', label='Very Easy (90+)')
+        plt.axvline(x=70, linestyle=':', label='Easy (70-90)')
+        plt.axvline(x=50, linestyle=':', label='Fairly Difficult (50-70)')
+        plt.axvline(x=30, linestyle=':', label='Difficult (30-50)')
+
+        plt.xlabel('Flesch Reading Ease Score')
+        plt.ylabel('Frequency')
+        plt.title(title_prefix)
+        plt.legend()
+        plt.grid(axis='y', alpha=0.75)
+        plt.tight_layout()
+
+        filename = f'{save_prefix}_{col}_histogram.png'
+        plt.savefig(filename)
+        plt.show()
+
+
+# Load evaluation files
+eval1_path = 'evaluation_results.csv'
+eval2_path = 'evaluation_results_tagged.csv'
+eval3_path = 'pretrained_bart_results.csv'
+
+eval1_df = pd.read_csv(eval1_path)
+eval2_df = pd.read_csv(eval2_path)
+eval3_df = pd.read_csv(eval3_path)
+
+# Identify 'generated' columns
+gen_cols_eval1 = [col for col in eval1_df.columns if 'generated' in col]
+gen_cols_eval2 = [col for col in eval2_df.columns if 'generated' in col]
+gen_cols_eval3 = [col for col in eval3_df.columns if 'generated_summary' in col]
+
+# Compute scores and plot
+eval1_df = compute_flesch_scores(eval1_df, gen_cols_eval1)
+plot_flesch_histograms(eval1_df, gen_cols_eval1, 'Generated Summary Flesch Scores on Ideal Tagging', 'eval1')
+
+eval2_df = compute_flesch_scores(eval2_df, gen_cols_eval2)
+plot_flesch_histograms(eval2_df, gen_cols_eval2, 'Generated Summary Flesch Scores on Automatic Tagging', 'eval2')
+
+eval3_df = compute_flesch_scores(eval3_df, gen_cols_eval3)
+plot_flesch_histograms(eval3_df, gen_cols_eval3, 'Generated Summary Flesch Scores on Default Output', 'eval3')
